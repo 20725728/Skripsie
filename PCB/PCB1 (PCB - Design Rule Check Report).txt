@@ -1,0 +1,69 @@
+Design Rule Check Report
+------------------------
+
+Report Written:     Friday, May 06, 2022
+Project Path:       Z:\Class\Skripsie\PCB\test.prj
+Design Path:        Z:\Class\Skripsie\PCB\PCB1.pcb
+Design Title:       
+Created:            06/05/2022 14:41:42
+Last Saved:         06/05/2022 14:45:05
+Editing Time:       7 min
+Units:              thou (precision 0)
+
+
+Results
+=======
+
+This design appears to have internal consistency errors.
+The design Signature is 247 1 10000000 00000000 .
+
+Number of errors found : 1
+
+
+Settings
+========
+
+
+Spacings
+
+=========
+
+Tracks        No
+Pads and Vias No
+Shapes        No
+Text          No
+Board         No
+Drills        No
+Components    No
+
+
+Manufacturing
+
+==============
+
+Drill Breakout                  No
+Drill Backoff                   No
+Silkscreen Overlap              No
+Copper Text In Board            No
+Min Track Width                 No
+Min Annular Ring                No
+Min Paste Size                  No
+Vias In Pads                    No
+Unplated Vias                   No
+Unplated Pads With Inner Tracks No
+
+
+Nets
+
+=====
+
+Net Completion               No
+Dangling Tracks              No
+Net Track Length Differences No
+Nets without Components      No
+Nets on No Connect pins      No
+Nets on No Connect pins      No
+
+
+
+End Of Report.

@@ -1,0 +1,14 @@
+Pour Copper Report
+------------------
+
+Report Written:     Friday, May 06, 2022
+Project Path:       Z:\Class\Skripsie\PCB\test.prj
+Design Path:        Z:\Class\Skripsie\PCB\PCB1.pcb
+Design Title:       
+Created:            06/05/2022 16:23:51
+Last Saved:         06/05/2022 16:44:05
+Editing Time:       23 min
+Units:              mm (precision 3)
+
+
+End Of Report.
