@@ -7,9 +7,6 @@ struct GGA {
   float knots;
   float course;
   int date;
-  float magVar;
-  char mag_e_w;
-  char mode;
 };
 
 GGA pos;
@@ -22,17 +19,16 @@ void setup() {
 
 void loop() {
   receiveGPSdata();
+  printStruct();
   delay(5000);
-}
-
-void clearRXdata(){
-  for(int i =0;i<100;i++){
-    rxData[i] = 0;
-  }
 }
 
 void receiveGPSdata() {
   bool msgReceived = false;
+  char rxData[100];
+  int rxCnt = 0;
+  int rxByte = 0;
+  
   while (!msgReceived) {
 
     while (rxByte != 10) {
@@ -44,9 +40,7 @@ void receiveGPSdata() {
     }
     Serial.write(rxData,rxCnt);
     if (rxData[5] == 'C') {
-      Serial.write(rxData,rxCnt);
-      updateStruct(rxData,rxCnt);
-    }else if (rxData[5] == 'G'){
+      updateStructRMC(rxData,rxCnt);
       msgReceived = true;
     }
     rxCnt = 0;
@@ -74,28 +68,39 @@ float charToDecimals(char data[], int startIndex, int len){
   return output;
 }
 
-void updateStruct(char data[], int cnt) {
+void printStruct(){
+//  String toString = "Struct:\n\tTime (UTC): "+pos.UTC+"\n\tLatitude: "+pos.lat+" "+pos.n_s+"\n\tLongitude: "+pos.longi+" "+pos.e_w+
+//  "\n\tSpeed: "+pos.knots+" knots on bearing: "+pos.course+" degrees\n\tMagnetic Variation: "+pos.magVar+" "+pos.mag_e_w+"\n\tMode: "+pos.mode;
+  Serial.println("Struct:");
+  Serial.print("\tTime (UTC): ");
+  Serial.print(pos.UTC);
+  Serial.print("\n\tDate: ");
+  Serial.print(pos.date);
+  Serial.print("\n\tLatitude: ");
+  Serial.print(pos.lat);
+  Serial.print(" ");
+  Serial.print(pos.n_s);
+  Serial.print("\n\tLongitude: ");
+  Serial.print(pos.longi);
+  Serial.print(" ");
+  Serial.print(pos.e_w);
+  Serial.print("\n\tSpeed: ");
+  Serial.print(pos.knots);
+  Serial.print(" knots on bearing: ");
+  Serial.print(pos.course);
+  Serial.println(" degrees");
+
+}
+
+void updateStructRMC(char data[], int cnt) {
   //assume fixed length variables in the message
   pos.UTC = charToInt(data,7,6);
   pos.lat = charToInt(data,20,4) + charToDecimals(data,25,4);
-  pos.north = data[30];
+  pos.n_s = data[30];
   pos.longi = charToInt(data,32,5) + charToDecimals(data,38,4);
-//  pos.east = data[41];
-//  pos.posFix = charInt
-//  pos.satUsed = data[44] + 48;
-//  pos.HDOP = (data[46] + 48) + (data[48] + 48) / 10 + (data[48] + 48) / 100;
-//  pos.alt = (data[50] + 48) * 10 + (data[51] + 48) + (data[53] + 48) / 10;
-//  pos.altUnit = data[55];
-
-  Serial.println("Struct:");
-  Serial.print(pos.UTC);
-  Serial.print(",");
-  Serial.print(pos.lat);
-  Serial.print(",");
-  Serial.print(pos.north);
-  Serial.print(",");
-  Serial.println(pos.longi);
-//  Serial.print(",");
-//  Serial.print(pos.east);
+  pos.e_w = data[43];
+  pos.knots = charToInt(data,45,1) + charToDecimals(data,47,2);
+  pos.course = charToInt(data,50,3) + charToDecimals(data,54,2);
+  pos.date = charToInt(data,57,6);
 
 }
