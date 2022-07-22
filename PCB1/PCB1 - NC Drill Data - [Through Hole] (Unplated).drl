@@ -1,0 +1,17 @@
+G05
+M48
+;#@! TF.GenerationSoftware,DesignSpark,DesignSpark PCB,10.0.5344
+;#@! TF.CreationDate,2022-06-30T08:06:32--2:00*
+;#@! TF.FileFunction,Unplated,1,2,NPTH
+;FILE_FORMAT=3:5
+;TYPE=NONPLATED
+INCH,TZ
+FMAT,2
+T1C000.03937
+T2C000.04000
+%
+T001
+X5.07750Y3.37750
+T002
+X2.65250Y3.17750
+M30

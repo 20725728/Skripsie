@@ -1,0 +1,10 @@
+\contentsline {chapter}{Declaration}{i}{}%
+\contentsline {chapter}{Contents}{ii}{}%
+\contentsline {chapter}{List of Figures}{iii}{}%
+\contentsline {chapter}{List of Tables}{iv}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{}%
+\contentsline {section}{\numberline {1.1}Background}{1}{}%
+\contentsline {section}{\numberline {1.2}Literature Review}{1}{}%
+\contentsline {subsection}{\numberline {1.2.1}GPS}{1}{}%
+\contentsline {paragraph}{Subsection}{1}{}%
+\contentsline {subsection}{\numberline {1.2.2}Compass}{1}{}%

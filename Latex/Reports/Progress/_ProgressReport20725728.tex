@@ -1,0 +1,118 @@
+%==== Document Setup (usthesis)======================================
+\documentclass[report,                       %... Document type
+               12pt,oneside,openany,a4paper, %... Layout
+               a5block,                      %... A5 type block
+               afrikaans,english            %... English default language
+               ]{usthesis}
+
+%
+% PLEASE read the USthesis documentation for the class options
+% and how to set line and paragraph spacing
+%
+
+%==== Language setup ================================================
+ \usepackage[latin1]{inputenc}%................... Recognizes ê, ë, etc
+ \usepackage{babel}%.............................. Language setup
+
+%==== Math setup ====================================================
+ \usepackage{amsmath}%............................ Advanced math (before fonts)
+ %\usepackage{amssymb}%............................ AMS Symbol fonts
+ \usepackage{siunitx}%............................	SI units
+
+%==== Font setup (default is Computer Modern) =======================
+ \usepackage[T1]{fontenc}%........................ Type 1 fonts
+ \usepackage{textcomp}%........................... Additional text character
+ \usepackage{bm}%................................. Bold math symbols (after fonts)
+
+%==== Ref's, Bib's and Nomencl ======================================
+ \usepackage{usnomencl}%.......................... List of symbols (in usthesis pack)
+ \usepackage{usbib}%.............................. Bibliography    (in usthesis pack)
+    \bibliographystyle{usmeg-a} 
+    \renewcommand\bibfont{\small}
+
+    %% For usmeg-a, the bib is a list of references. If you
+    %% are using usmeg-n comment out the following lines
+    \addto{\captionsafrikaans}{\renewcommand{\bibname}{Lys van Verwysings}}
+    \addto{\captionsenglish}{\renewcommand{\bibname}{List of References}}
+
+%==== Graphics and Color ============================================
+\usepackage{graphicx}%........................... Graphicx loaded in usthesis
+\usepackage{color}%.............................. Color setup
+
+%==== Table editing ============================================
+\usepackage{multirow}
+\usepackage{tabularx}
+
+%==== Additional USthesis packages ==================================
+
+\usepackage{ussummary}%.......................... Mech Eng summary page (in usthesis pack)
+
+%==== Local Defs ====================================================
+\makeatletter
+
+%
+% Please insert user defined commands here
+% and NOT in the document itself!
+%
+
+\makeatother
+%==== Title Page ====================================================
+
+\title{Navigation and Control of an Unmanned Surface Vessel}
+
+\author{S.\ Bekker}
+       {Luke Kingwill\\
+           20725728}
+
+\subject{Mechatronic Project 488}
+
+
+\ReportDescript{Progress Report}
+
+\address{Department Mechanical and Mechatronic Engineering,\\
+	Stellenbosch University,\\
+	Private Box X1, Matieland 7602.}
+
+\studyleader{Prof Jaco \ Versfeld}
+
+\setdate{07}{2022}
+
+%====================================================================%
+%                 T H E   M A I N   D O C U M E N T                  %
+%====================================================================%
+\begin{document}
+
+\frontmatter%========================================================
+
+\TitlePage
+%\CopyrightPage
+\include{declaration}
+\include{summary}
+%\include{abstract}
+\tableofcontents
+\listoffigures
+\listoftables
+%\include{nomenkl}
+
+\mainmatter%=========================================================
+
+\numberwithin{equation}{chapter}%(from amsmath)
+\numberwithin{figure}{chapter}  %
+\numberwithin{table}{chapter}   %
+
+\include{Chp-1}
+\include{Chp-2}
+\include{Chp-3}
+\include{Chp-4}
+
+\appendix%===========================================================
+
+%\include{App-A}
+%\include{App-B}
+%\include{App-C}
+
+\backmatter%=========================================================
+
+\bibliography{USbibsample}
+
+\end{document}

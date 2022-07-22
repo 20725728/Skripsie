@@ -1,0 +1,36 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Plagiarism Declaration}{i}{}%
+\contentsline {chapter}{Executive Summary}{ii}{}%
+\contentsline {chapter}{Contents}{iii}{}%
+\contentsline {chapter}{List of Figures}{v}{}%
+\contentsline {chapter}{List of Tables}{vi}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{}%
+\contentsline {section}{\numberline {1.1}Background}{1}{}%
+\contentsline {section}{\numberline {1.2}Objectives}{1}{}%
+\contentsline {section}{\numberline {1.3}Motivation}{2}{}%
+\contentsline {chapter}{\numberline {2}Literature Review}{3}{}%
+\contentsline {section}{\numberline {2.1}GPS}{3}{}%
+\contentsline {subsection}{\numberline {2.1.1}History of GPS}{3}{}%
+\contentsline {subsection}{\numberline {2.1.2}Modern GPS}{5}{}%
+\contentsline {subsection}{\numberline {2.1.3}How GPS works}{5}{}%
+\contentsline {section}{\numberline {2.2}Digital Compass}{6}{}%
+\contentsline {subsection}{\numberline {2.2.1}What is magnetic north}{7}{}%
+\contentsline {section}{\numberline {2.3}PWM}{7}{}%
+\contentsline {section}{\numberline {2.4}Analogue vs Digital Signals}{9}{}%
+\contentsline {chapter}{\numberline {3}Methodology}{12}{}%
+\contentsline {section}{\numberline {3.1}Software Environment}{12}{}%
+\contentsline {section}{\numberline {3.2}System Description}{12}{}%
+\contentsline {subsection}{\numberline {3.2.1}Vessel}{12}{}%
+\contentsline {subsection}{\numberline {3.2.2}Thrusters and Energy Cells}{13}{}%
+\contentsline {subsection}{\numberline {3.2.3}Control System}{13}{}%
+\contentsline {section}{\numberline {3.3}Control System}{13}{}%
+\contentsline {subsection}{\numberline {3.3.1}PWM Signal}{13}{}%
+\contentsline {subsection}{\numberline {3.3.2}Throttle Input}{15}{}%
+\contentsline {section}{\numberline {3.4}GPS Module}{16}{}%
+\contentsline {chapter}{\numberline {4}Planning}{18}{}%
+\contentsline {section}{\numberline {4.1}PCB}{18}{}%
+\contentsline {section}{\numberline {4.2}Energy Potential}{18}{}%
+\contentsline {section}{\numberline {4.3}Unmanned Control}{19}{}%
+\contentsline {section}{\numberline {4.4}Safety}{19}{}%
+\contentsline {section}{\numberline {4.5}Testing}{20}{}%
+\contentsline {chapter}{List of References}{21}{}%

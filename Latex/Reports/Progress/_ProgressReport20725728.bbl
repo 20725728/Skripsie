@@ -1,0 +1,77 @@
+\begin{thebibliography}{9}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\providecommand{\selectlanguage}[1]{\relax}
+\edef\AFRstr{\string afrikaans}
+\ifx\AFRstr\languagename
+   \input{usbib.afr}%
+ \else
+   \input{usbib.eng}%
+\fi
+\newcommand{\Capitalize}[1]{\uppercase{#1}}
+\newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{His(2011)}]{HistGPSProgram}
+ (2011).
+\newblock {History of the GPS Program}.
+\newline\bblurlpre\url{https://www.aiaa.org/docs/default-source/uploadedfiles/about-aiaa/pres
+  s-room/videos/iaf-60th-anniv-gps-nomination.pdf?sfvrsn=9bc64bfa\_0}
+
+\bibitem[{\citenamefont{{(Advanced Safety
+  Devices)}}(2013)}]{AdvancedSafetyDevices2013}
+\bibnamefont{{(Advanced Safety Devices)}} (2013).
+\newblock {How Does a Digital Compass Work}.
+\newline\bblurlpre\url{https://www.safety-devices.com/how-does-digital-compass-work-a-12.html}
+
+\bibitem[{\citenamefont{Aerospace}(2021)}]{Aerospace2021}
+\bibnamefont{Aerospace} (2021).
+\newblock {A brief History of GPS}.
+\newline\bblurlpre\url{https://aerospace.org/article/brief-history-gps}
+
+\bibitem[{\citenamefont{Christ} \protect\BIBand{}
+  \citenamefont{Wernli}(2014)}]{Christ2014}
+\bibnamefont{Christ}, \bibfnamefont{R.D.} \protect\BIBand{}
+  \bibnamefont{Wernli}, \bibfnamefont{R.L.} (2014).
+\newblock {Power and Telemetry}.
+\newblock \capitalize\bblin{}: \emph{The ROV Manual}, \bblpp{} 141--161.
+  Elsevier.
+
+\bibitem[{\citenamefont{{(Federal Aviation
+  Administration)}}()}]{FederalAviationAdministration}
+\bibnamefont{{(Federal Aviation Administration)}} ().
+\newblock {Satellite Navigation - GPS - How It Works}.
+\newline\bblurlpre\url{https://www.faa.gov/about/office\_org/headquarters\_offices/ato/service\_
+  units/techops/navservices/gnss/gps/howitworks}
+
+\bibitem[{\citenamefont{Ibrahim}(2014)}]{Ibrahim2014}
+\bibnamefont{Ibrahim}, \bibfnamefont{D.} (2014).
+\newblock {Advanced PIC32 Projects}.
+\newblock \capitalize\bblin{}: \emph{Designing Embedded Systems with 32-Bit PIC
+  Microcontrollers and MikroC}, \bblpp{} 359--442. Elsevier.
+
+\bibitem[{\citenamefont{Jones}(2019)}]{Jones2019}
+\bibnamefont{Jones}, \bibfnamefont{E.} (2019).
+\newblock {True North and magnetic north: whats the Difference}.
+\newline\bblurlpre\url{https://www.rmg.co.uk/stories/topics/true-north-magnetic-north-whats-di
+  fference}
+
+\bibitem[{\citenamefont{Mai}(2017)}]{Mai2017}
+\bibnamefont{Mai}, \bibfnamefont{T.} (2017).
+\newblock {Global Positioning History}.
+\newline\bblurlpre\url{https://www.nasa.gov/directorates/heo/scan/communications/policy/GPS\_Hi
+  story.html}
+
+\bibitem[{\citenamefont{(USAF)}(1978)}]{USAF1978}
+\bibnamefont{(USAF)} (1978).
+\newblock {GPS Early User Equipment 2}.
+\newline\bblurlpre\url{https://www.losangeles.spaceforce.mil/News/Photos/igphoto/2000044571/}
+
+\end{thebibliography}
