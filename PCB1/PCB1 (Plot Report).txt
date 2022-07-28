@@ -1,13 +1,13 @@
 Plot Report
 -----------
 
-Report Written:     Thursday, June 30, 2022
+Report Written:     Thursday, July 28, 2022
 Project Path:       Z:\Class\Skripsie\PCB1\test.prj
 Design Path:        Z:\Class\Skripsie\PCB1\PCB1.pcb
 Design Title:       
 Created:            08/05/2022 09:31:45
-Last Saved:         27/06/2022 07:18:03
-Editing Time:       1122 min
+Last Saved:         28/07/2022 10:54:06
+Editing Time:       1137 min
 Units:              mm (precision 3)
 
 
@@ -31,7 +31,7 @@ Drill Settings
 ==============
 
     Excellon Format 2
-    Format 3.5 absolute in mm.
+    Format 3.5 absolute in inches.
     Zero suppression Leading
 
 
@@ -39,21 +39,8 @@ Drill Settings
 Plots Output
 ============
 
+    Plot Job: "Z:\Class\Skripsie\PCB1\PCB1.mop"
 
-Gerber Output
-=============
-
-Z:\Class\Skripsie\PCB1\PCB1 - Top Silkscreen.gbr
-
-    Layers:
-    ------------------
-    Top Silkscreen
-
-    D-Code Shape  (thou)
-    -----------------------
-    D10    Round 5.00
-    D70    Round 3.94
-    D71    Round 4.50
 
 Gerber Output
 =============
@@ -77,22 +64,6 @@ Z:\Class\Skripsie\PCB1\PCB1 - Top Copper.gbr
 Gerber Output
 =============
 
-Z:\Class\Skripsie\PCB1\PCB1 - Top Resist.gbr
-
-    Layers:
-    --------------
-    Top Resist
-
-    D-Code Shape  (thou)
-    -----------------------
-    D20    Round 85.04
-    D21    Round 88.98
-    D22    Round 80.30
-    D23    Round 86.30
-
-Gerber Output
-=============
-
 Z:\Class\Skripsie\PCB1\PCB1 - Bottom Copper.gbr
 
     Layers:
@@ -109,50 +80,6 @@ Z:\Class\Skripsie\PCB1\PCB1 - Bottom Copper.gbr
     D15    Round 74.00
     D16    Round 80.00
 
-Gerber Output
-=============
-
-Z:\Class\Skripsie\PCB1\PCB1 - Bottom Silkscreen.gbr
-
-    Layers:
-    ---------------------
-    Bottom Silkscreen
-
-    D-Code Shape  (thou)
-    -----------------------
-    D24    Round 8.00
-
-Gerber Output
-=============
-
-Z:\Class\Skripsie\PCB1\PCB1 - Bottom Resist.gbr
-
-    Layers:
-    -----------------
-    Bottom Resist
-
-    D-Code Shape  (thou)
-    -----------------------
-    D20    Round 85.04
-    D21    Round 88.98
-    D22    Round 80.30
-    D23    Round 86.30
-
-Gerber Output
-=============
-
-Z:\Class\Skripsie\PCB1\PCB1 - Gerber Drill Data - [Through Hole].gbr
-
-    Layers:
-    ------------------
-    [Through Hole]
-
-    D-Code Shape  (thou)
-    -----------------------
-    D17    Round 39.37
-    D18    Round 41.34
-    D19    Round 40.00
-
 NC Drill Output
 ===============
 
@@ -167,9 +94,9 @@ Z:\Class\Skripsie\PCB1\PCB1 - NC Drill Data - [Through Hole].drl
     --------------------------------------
     T001  0.03937 inches 13    A
     T002  0.04000 inches 17    D
-    T003  0.04134 inches 9     B
+    T003  0.04134 inches 12    B
     --------------------------------------
-    Total                39
+    Total                42
     --------------------------------------
 
 Z:\Class\Skripsie\PCB1\PCB1 - NC Drill Data - [Through Hole] (Unplated).drl
@@ -187,32 +114,6 @@ Z:\Class\Skripsie\PCB1\PCB1 - NC Drill Data - [Through Hole] (Unplated).drl
     Total                2
     --------------------------------------
 
-
-Gerber Output
-=============
-
-Z:\Class\Skripsie\PCB1\PCB1 - Drill Ident Drawing - [Through Hole].gbr
-
-    Layers:
-    ------------------
-    [Through Hole]
-
-
-Drill Ident Drawing
-===================
-
-    Drill Plated Size Shape ID
-    -----------------------------------
-    39    Y      100  Round A
-    41    Y      100  Round B
-    40    Y      100  Round D
-    40           100  Round E
-    39           100  Round F
-
-    D-Code Shape  (thou)
-    -----------------------
-    D10    Round 5.00
-    D25    Round 100.00
 
 Gerber Output
 =============
