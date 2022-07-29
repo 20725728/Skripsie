@@ -1,13 +1,13 @@
 Plot Report
 -----------
 
-Report Written:     Thursday, July 28, 2022
+Report Written:     Friday, July 29, 2022
 Project Path:       Z:\Class\Skripsie\PCB1\test.prj
 Design Path:        Z:\Class\Skripsie\PCB1\PCB1.pcb
 Design Title:       
 Created:            08/05/2022 09:31:45
-Last Saved:         28/07/2022 10:54:06
-Editing Time:       1137 min
+Last Saved:         29/07/2022 08:33:48
+Editing Time:       2222 min
 Units:              mm (precision 3)
 
 
@@ -54,12 +54,9 @@ Z:\Class\Skripsie\PCB1\PCB1 - Top Copper.gbr
     D-Code Shape  (thou)
     -----------------------
     D10    Round 5.00
-    D11    Round 10.00
-    D12    Round 17.72
     D13    Round 78.74
     D14    Round 82.68
-    D15    Round 74.00
-    D16    Round 80.00
+    D26    Round 25.59
 
 Gerber Output
 =============
@@ -73,12 +70,10 @@ Z:\Class\Skripsie\PCB1\PCB1 - Bottom Copper.gbr
     D-Code Shape  (thou)
     -----------------------
     D10    Round 5.00
-    D11    Round 10.00
-    D12    Round 17.72
     D13    Round 78.74
     D14    Round 82.68
-    D15    Round 74.00
-    D16    Round 80.00
+    D26    Round 25.59
+    D27    Round 39.37
 
 NC Drill Output
 ===============
@@ -92,11 +87,11 @@ Z:\Class\Skripsie\PCB1\PCB1 - NC Drill Data - [Through Hole].drl
 
     Tool  Size           Count   ID
     --------------------------------------
-    T001  0.03937 inches 13    A
-    T002  0.04000 inches 17    D
-    T003  0.04134 inches 12    B
+    T001  0.03937 inches 10    A
+    T002  0.04000 inches 145   D
+    T003  0.04134 inches 2     B
     --------------------------------------
-    Total                42
+    Total                157
     --------------------------------------
 
 Z:\Class\Skripsie\PCB1\PCB1 - NC Drill Data - [Through Hole] (Unplated).drl
@@ -108,10 +103,9 @@ Z:\Class\Skripsie\PCB1\PCB1 - NC Drill Data - [Through Hole] (Unplated).drl
 
     Tool  Size           Count   ID
     --------------------------------------
-    T001  0.03937 inches 1     F
-    T002  0.04000 inches 1     E
+    T001  0.04000 inches 1     E
     --------------------------------------
-    Total                2
+    Total                1
     --------------------------------------
 
 
