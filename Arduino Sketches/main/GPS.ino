@@ -1,4 +1,4 @@
-ddstruct GPS {
+struct GPS {
   int UTC;
   int lat;
   int latDecimal;

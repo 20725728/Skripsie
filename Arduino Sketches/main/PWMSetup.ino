@@ -3,24 +3,18 @@ int POT_LH_input = A0;
 int POT_RH_input = A1;
 
 struct PWMControl {
-  int ADCRange = 1022;
-  float PWMRange = 0.06;
-  float reversePoint = 0.06;
-  float analog;
-  float timer;
+  int analog = 505;             //the middle for both of the POTs
+  float duty_Cycle = 0.75;      //75% is neutral.
 };
 
 PWMControl rightSide;
 PWMControl leftSide;
 
 void updatePWM() {
-  leftSide.analog = analogRead(POT_LH_input);
-  rightSide.analog = analogRead(POT_RH_input);
-//  leftSide.timer = ((((leftSide.analogDuty / leftSide.ADCRange) * leftSide.PWMRange) + leftSide.reversePoint) * RC);
-//  rightSide.timer = ((((leftSide.analogDuty / rightSide.ADCRange) * rightSide.PWMRange) + rightSide.reversePoint) * RC);
-  //TC2->TC_CHANNEL[1].TC_RA = leftSide.timer;
-  //TC2->TC_CHANNEL[2].TC_RA = rightSide.timer;
-readAnalogPins();
+  RightControl();
+  LeftControl();
+  TC2->TC_CHANNEL[1].TC_RA = RC*rightSide.duty_Cycle;
+  TC2->TC_CHANNEL[2].TC_RA = RC*leftSide.duty_Cycle;
 }
 /**
    left                 * right
@@ -30,32 +24,29 @@ readAnalogPins();
    490 - 530 stop       * 500 - 540 stop
 
 */
-void readAnalogPins() {
+void RightControl(){
   rightSide.analog = analogRead(POT_RH_input);
-  Serial.write("Right Input: ");
-  Serial.print(rightSide.analog);
-  if(rightSide.analog < 500){
-    rightSide.timer = 63000 - (((520 - rightSide.analog)/(520 - 340)) * (63000-42000));
-    Serial.write("\tRight Timer: ");
-    Serial.println(rightSide.timer);
-  }else if(rightSide.analog > 540){
-    rightSide.timer = 84000 - (((700 - rightSide.analog)/(700 - 520)) * (84000-63000));
-    Serial.write("\tRight Timer: ");
-    Serial.println(rightSide.timer);
-  }else{
-    Serial.write("Right Timer: 63000 \tNeutral\n");
-    rightSide.timer = 63000;
+  if(rightSide.analog >540){               //Forward
+    rightSide.duty_Cycle = 100 - (100 - 75)*((700 - rightSide.analog)/(700-540));
+}else if(rightSide.analog < 500){         //Reverse
+    rightSide.duty_Cycle = 75 - (75 - 50)*((500 - rightSide.analog)/(500-340));
+  }else{                                 //Neutral
+    rightSide.duty_Cycle = 0.75;
   }
-  TC2->TC_CHANNEL[1].TC_RA = rightSide.timer;
+}
+
+void LeftControl(){
+  leftSide.analog = analogRead(POT_LH_input);
+  if(leftSide.analog >540){//Forward
+    leftSide.duty_Cycle = 100 - (100 - 75)*((700 - leftSide.analog)/(700-540));
+  }else if(leftSide.analog < 500){//Reverse
+    leftSide.duty_Cycle = 75 - (75 - 50)*((500 - leftSide.analog)/(500-340));
+  }else{
+    leftSide.duty_Cycle = 0.75;
+  }
 }
 
 void pwmPin3() {
-  //frequency is 60Hz
-  //resolution 8 bits
-  //1 cycle = 16.667ms
-  //reverse 6%
-  //Stop 9%
-  //forward 12%
   PMC->PMC_PCER1 |= PMC_PCER1_PID34;                     // TC7 power ON - Timer Counter 2 channel 1 IS TC7 - See page 38
 
   PIOC->PIO_PDR |= PIO_PDR_P28;                          // The pin is no more driven by GPIO
@@ -67,7 +58,7 @@ void pwmPin3() {
                               | TC_CMR_ACPA_CLEAR          // Clear TIOA7 on RA compare match  -- See page 883
                               | TC_CMR_ACPC_SET;           // Set TIOA7 on RC compare match
   /// Mck = 84 MHz
-  TC2->TC_CHANNEL[1].TC_RC = RC;  //<*********************  Frequency = (Mck/2)/TC_RC  Hz = 60 KHz
+  TC2->TC_CHANNEL[1].TC_RC = RC;  //<*********************  Frequency = (Mck/2)/TC_RC  Hz = 500 Hz
   TC2->TC_CHANNEL[1].TC_RA = 63000; //<********************   Duty cycle = (TC_RA/TC_RC) * 100
 
   TC2->TC_CHANNEL[1].TC_IER = TC_IER_CPCS;                 // Interrupt on RC compare match
@@ -118,7 +109,7 @@ void pwmPin5() {
                               | TC_CMR_ACPA_CLEAR          // Clear TIOA6 on RA compare match  -- See page 883
                               | TC_CMR_ACPC_SET;           // Set TIOA6 on RC compare match
   /// Mck = 84 MHz
-  TC2->TC_CHANNEL[2].TC_RC = RC;  //<*********************  Frequency = (Mck/2)/TC_RC  Hz = 60 KHz
+  TC2->TC_CHANNEL[2].TC_RC = RC;  //<*********************  Frequency = (Mck/2)/TC_RC  Hz = 500Hz
   TC2->TC_CHANNEL[2].TC_RA = 63000; //<********************   Duty cycle = (TC_RA/TC_RC) * 100
 
   TC2->TC_CHANNEL[2].TC_IER = TC_IER_CPCS;                 // Interrupt on RC compare match
