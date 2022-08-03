@@ -15,6 +15,17 @@ void updatePWM() {
   LeftControl();
   TC2->TC_CHANNEL[1].TC_RA = RC*rightSide.duty_Cycle;
   TC2->TC_CHANNEL[2].TC_RA = RC*leftSide.duty_Cycle;
+  Serial.write("LEFT: ");
+  Serial.print(leftSide.analog);
+  Serial.write("    RIGHT: ");
+  Serial.print(rightSide.analog);
+  Serial.println();
+  Serial.write("LEFT: ");
+  Serial.print(leftSide.duty_Cycle);
+  Serial.write("    RIGHT: ");
+  Serial.print(rightSide.duty_Cycle);
+  Serial.println();
+  
 }
 /**
    left                 * right
@@ -27,7 +38,7 @@ void updatePWM() {
 void RightControl(){
   rightSide.analog = analogRead(POT_RH_input);
   if(rightSide.analog >540){               //Forward
-    rightSide.duty_Cycle = 100 - (100 - 75)*((700 - rightSide.analog)/(700-540));
+    rightSide.duty_Cycle = (float)100 - (float)(100 - 75)*(float)((float)(700 - rightSide.analog)/(float)(700-540));
 }else if(rightSide.analog < 500){         //Reverse
     rightSide.duty_Cycle = 75 - (75 - 50)*((500 - rightSide.analog)/(500-340));
   }else{                                 //Neutral
