@@ -58,24 +58,24 @@ void LeftControl(){
 }
 
 void pwmPin3() {
-  PMC->PMC_PCER1 |= PMC_PCER1_PID34;                     // TC7 power ON - Timer Counter 2 channel 1 IS TC7 - See page 38
+  PMC->PMC_PCER1 |= PMC_PCER1_PID34;                        // TC7 power ON - Timer Counter 2 channel 1 IS TC7 - See page 38
 
-  PIOC->PIO_PDR |= PIO_PDR_P28;                          // The pin is no more driven by GPIO
-  PIOC->PIO_ABSR |= PIO_PC28B_TIOA7;                     // Periperal type B  - See page 859
+  PIOC->PIO_PDR |= PIO_PDR_P28;                             // The pin is no more driven by GPIO
+  PIOC->PIO_ABSR |= PIO_PC28B_TIOA7;                        // Periperal type B  - See page 859
 
-  TC2->TC_CHANNEL[1].TC_CMR = TC_CMR_TCCLKS_TIMER_CLOCK1  // MCK/2, clk on rising edge
-                              | TC_CMR_WAVE               // Waveform mode
-                              | TC_CMR_WAVSEL_UP_RC        // UP mode with automatic trigger on RC Compare
-                              | TC_CMR_ACPA_CLEAR          // Clear TIOA7 on RA compare match  -- See page 883
-                              | TC_CMR_ACPC_SET;           // Set TIOA7 on RC compare match
+  TC2->TC_CHANNEL[1].TC_CMR = TC_CMR_TCCLKS_TIMER_CLOCK1    // MCK/2, clk on rising edge
+                              | TC_CMR_WAVE                 // Waveform mode
+                              | TC_CMR_WAVSEL_UP_RC         // UP mode with automatic trigger on RC Compare
+                              | TC_CMR_ACPA_CLEAR           // Clear TIOA7 on RA compare match  -- See page 883
+                              | TC_CMR_ACPC_SET;            // Set TIOA7 on RC compare match
   /// Mck = 84 MHz
   TC2->TC_CHANNEL[1].TC_RC = RC;  //<*********************  Frequency = (Mck/2)/TC_RC  Hz = 500 Hz
   TC2->TC_CHANNEL[1].TC_RA = 63000; //<********************   Duty cycle = (TC_RA/TC_RC) * 100
 
-  TC2->TC_CHANNEL[1].TC_IER = TC_IER_CPCS;                 // Interrupt on RC compare match
+  TC2->TC_CHANNEL[1].TC_IER = TC_IER_CPCS;                  // Interrupt on RC compare match
   NVIC_EnableIRQ(TC7_IRQn);
 
-  TC2->TC_CHANNEL[1].TC_CCR = TC_CCR_SWTRG | TC_CCR_CLKEN; // Software trigger TC7 counter and enable
+  TC2->TC_CHANNEL[1].TC_CCR = TC_CCR_SWTRG | TC_CCR_CLKEN;  // Software trigger TC7 counter and enable
 }
 
 void pwmPin5() {
