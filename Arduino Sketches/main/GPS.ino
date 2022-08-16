@@ -18,7 +18,6 @@ void receiveGPSdata() {
   char rxData[100];
   int rxCnt = 0;
   int rxByte = 0;
-  
   while (!msgReceived) {
 
     while (rxByte != 10) {
@@ -36,6 +35,8 @@ void receiveGPSdata() {
     rxCnt = 0;
     rxByte = 0;
   }
+  //saveGPSPoints();
+  printStruct();
 }
 
 int charToInt(char data[], int startIndex, int endIndex){
@@ -102,11 +103,13 @@ void updateStructRMC(char data[], int cnt) {
   //hhmmss  ddmm.mmmm     N     dddmm.mmmm    E       x.xx    xxx.xx    ddmmyy 
   int commas[12];
   int points[6];
+  
   findAllInstancesOf(commas,data,',',cnt);
   findAllInstancesOf(points,data,'.',cnt);
   pos.UTC = charToInt(data,commas[0],points[0]);
   pos.lat = charToInt(data,commas[2],points[2]); 
   pos.latDecimal = charToInt(data,points[2],commas[3]);
+  
   pos.n_s = data[commas[3]+1];
   pos.longi = charToInt(data,commas[4],points[2]);
   pos.longDecimal = charToInt(data,points[2],commas[5]);
@@ -114,5 +117,5 @@ void updateStructRMC(char data[], int cnt) {
   pos.knots = charToInt(data,commas[6],points[3]) + charToDecimals(data, points[3],commas[7]);
   pos.course = charToInt(data,commas[8],points[4]) + charToDecimals(data,points[4],commas[9]);
   pos.date = charToInt(data,commas[9],commas[10]);
-
+  Serial.write("Point");
 }

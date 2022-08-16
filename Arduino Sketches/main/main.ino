@@ -1,12 +1,13 @@
 //20725728
 
-int Manual_Control = 1;//manual Control enabled;
+int Manual_Control = 0;//manual Control enabled;
 
 void setup(){
   pwmPin3();
   pwmPin5();
   Serial.begin(9600);
   Serial1.begin(9600);
+  initialize_SD();
 }
 
 
@@ -16,7 +17,6 @@ void loop() {
     updatePWM();
   }else{
     receiveGPSdata();
-    //printStruct();
   }
 }
 
