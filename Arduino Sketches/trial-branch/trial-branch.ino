@@ -18,9 +18,13 @@ void setup() {
 }
 
 void loop() {
-  receiveGPSdata();
-  printStruct();
-  delay(5000);
+  int rx = Serial1.read();
+  if(rx!=-1){
+    Serial.write(rx);
+  }
+//  receiveGPSdata();
+//  printStruct();
+//  delay(5000);
 }
 
 void receiveGPSdata() {
@@ -39,12 +43,12 @@ void receiveGPSdata() {
       }
     }
     Serial.write(rxData,rxCnt);
-    if (rxData[5] == 'C') {
-      updateStructRMC(rxData,rxCnt);
-      msgReceived = true;
-    }
-    rxCnt = 0;
-    rxByte = 0;
+//    if (rxData[5] == 'C') {
+//      updateStructRMC(rxData,rxCnt);
+//      msgReceived = true;
+//    }
+//    rxCnt = 0;
+//    rxByte = 0;
   }
 }
 

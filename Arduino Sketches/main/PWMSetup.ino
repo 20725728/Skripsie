@@ -1,20 +1,6 @@
-float RC = 84000;
-int POT_LH_input = A0;
-int POT_RH_input = A1;
-
-struct PWMControl {
-  int analog = 505;             //the middle for both of the POTs
-  float duty_Cycle = 0.75;      //75% is neutral.
-};
-
-PWMControl rightSide;
-PWMControl leftSide;
-
 void updatePWM() {
-  RightControl();
-  LeftControl();
-  TC2->TC_CHANNEL[1].TC_RA = RC*rightSide.duty_Cycle;
-  TC2->TC_CHANNEL[2].TC_RA = RC*leftSide.duty_Cycle;
+  Right_Throttle();
+  Left_Throttle();
   Serial.write("LEFT: ");
   Serial.print(leftSide.analog);
   Serial.write("    RIGHT: ");
@@ -27,34 +13,58 @@ void updatePWM() {
   Serial.println();
   
 }
+
 /**
    left                 * right
-   max ~677             * max ~700
-   min ~321             * min ~340
-   mid~510              * mid ~520
-   490 - 530 stop       * 500 - 540 stop
-
+   max ~670             * max ~705
+   min ~285             * min ~352
+   mid~480              * mid ~538
+   440 - 505 stop       * 485 - 572 stop
 */
-void RightControl(){
+
+
+void Right_Throttle(){
+  float analog_Ratio = 0;
+  float difference = 0;
   rightSide.analog = analogRead(POT_RH_input);
-  if(rightSide.analog >540){               //Forward
-    rightSide.duty_Cycle = (float)100 - (float)(100 - 75)*(float)((float)(700 - rightSide.analog)/(float)(700-540));
-}else if(rightSide.analog < 500){         //Reverse
-    rightSide.duty_Cycle = 75 - (75 - 50)*((500 - rightSide.analog)/(500-340));
+  if(rightSide.analog > 705){                    // Full Forward
+    rightSide.duty_Cycle = 100;
+  }else  if(rightSide.analog >565){               //Forward
+    analog_Ratio = (float)(705 - rightSide.analog)/(float)(705 - 565);
+    difference = (float)(100 - 75) * analog_Ratio;
+    rightSide.duty_Cycle = 100 - difference;
+  }else if(rightSide.analog < 355){             // Full Reverse
+    rightSide.duty_Cycle = 50;
+  }else if(rightSide.analog < 500){         //Reverse
+    analog_Ratio = (float)(500 - rightSide.analog)/(float)(500-355);
+    difference = (float)(75-50) * analog_Ratio;
+    rightSide.duty_Cycle = 75 - difference;
   }else{                                 //Neutral
-    rightSide.duty_Cycle = 0.75;
+    rightSide.duty_Cycle = 75;
   }
+  TC2->TC_CHANNEL[1].TC_RA = (RC*rightSide.duty_Cycle)/100;
 }
 
-void LeftControl(){
+void Left_Throttle(){
+  float analog_Ratio = 0;
+  float difference = 0;
   leftSide.analog = analogRead(POT_LH_input);
-  if(leftSide.analog >540){//Forward
-    leftSide.duty_Cycle = 100 - (100 - 75)*((700 - leftSide.analog)/(700-540));
-  }else if(leftSide.analog < 500){//Reverse
-    leftSide.duty_Cycle = 75 - (75 - 50)*((500 - leftSide.analog)/(500-340));
-  }else{
-    leftSide.duty_Cycle = 0.75;
+  if(leftSide.analog > 665){                    // Full Forward
+    leftSide.duty_Cycle = 100;
+  }else  if(leftSide.analog >505){               //Forward
+    analog_Ratio = (float)(665 - leftSide.analog)/(float)(665 - 505);
+    difference = (float)(100 - 75) * analog_Ratio;
+    leftSide.duty_Cycle = 100 - difference;
+  }else if(leftSide.analog < 285){             // Full Reverse
+    leftSide.duty_Cycle = 50;
+  }else if(leftSide.analog < 440){         //Reverse
+    analog_Ratio = (float)(440 - leftSide.analog)/(float)(440-285);
+    difference = (float)(75-50) * analog_Ratio;
+    leftSide.duty_Cycle = 75 - difference;
+  }else{                                 //Neutral
+    leftSide.duty_Cycle = 75;
   }
+  TC2->TC_CHANNEL[0].TC_RA = (RC*leftSide.duty_Cycle)/100;
 }
 
 void pwmPin3() {
@@ -114,19 +124,19 @@ void pwmPin5() {
    * TC_CCR_SWTRG - A software trigger is performed: the counter is reset and the clock is started.
    * TC_CCR_CLKEN - enable clock
    */
-  TC2->TC_CHANNEL[2].TC_CMR = TC_CMR_TCCLKS_TIMER_CLOCK1  // MCK/2, clk on rising edge
+  TC2->TC_CHANNEL[0].TC_CMR = TC_CMR_TCCLKS_TIMER_CLOCK1  // MCK/2, clk on rising edge
                               | TC_CMR_WAVE               // Waveform mode
                               | TC_CMR_WAVSEL_UP_RC        // UP mode with automatic trigger on RC Compare
                               | TC_CMR_ACPA_CLEAR          // Clear TIOA6 on RA compare match  -- See page 883
                               | TC_CMR_ACPC_SET;           // Set TIOA6 on RC compare match
   /// Mck = 84 MHz
-  TC2->TC_CHANNEL[2].TC_RC = RC;  //<*********************  Frequency = (Mck/2)/TC_RC  Hz = 500Hz
-  TC2->TC_CHANNEL[2].TC_RA = 63000; //<********************   Duty cycle = (TC_RA/TC_RC) * 100
+  TC2->TC_CHANNEL[0].TC_RC = RC;  //<*********************  Frequency = (Mck/2)/TC_RC  Hz = 500Hz
+  TC2->TC_CHANNEL[0].TC_RA = 63000; //<********************   Duty cycle = (TC_RA/TC_RC) * 100
 
-  TC2->TC_CHANNEL[2].TC_IER = TC_IER_CPCS;                 // Interrupt on RC compare match
+  TC2->TC_CHANNEL[0].TC_IER = TC_IER_CPCS;                 // Interrupt on RC compare match
   NVIC_EnableIRQ(TC6_IRQn);
 
-  TC2->TC_CHANNEL[2].TC_CCR = TC_CCR_SWTRG | TC_CCR_CLKEN; // Software trigger TC6 counter and enable
+  TC2->TC_CHANNEL[0].TC_CCR = TC_CCR_SWTRG | TC_CCR_CLKEN; // Software trigger TC6 counter and enable
 }
 
 void  TC6_Handler() {
@@ -134,7 +144,7 @@ void  TC6_Handler() {
   * TC_SR - Status Register                                         Pg - 892        
   * Read the status registe to clear the RC compare and RA compare match flags.
    */
-  TC2->TC_CHANNEL[2].TC_SR;
+  TC2->TC_CHANNEL[0].TC_SR;
 }
 
 

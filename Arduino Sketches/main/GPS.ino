@@ -1,18 +1,3 @@
-struct GPS {
-  int UTC;
-  int lat;
-  int latDecimal;
-  char n_s;
-  int longi;
-  int longDecimal;
-  char  e_w;
-  float knots;
-  float course;
-  int date;
-};
-
-GPS pos;
-
 void receiveGPSdata() {
   bool msgReceived = false;
   char rxData[100];
@@ -35,8 +20,8 @@ void receiveGPSdata() {
     rxCnt = 0;
     rxByte = 0;
   }
-  //saveGPSPoints();
-  printStruct();
+  saveGPSPoints();
+  //printStruct();
 }
 
 int charToInt(char data[], int startIndex, int endIndex){
@@ -68,17 +53,9 @@ void printStruct(){
   Serial.print("\n\tDate: ");
   Serial.print(pos.date);
   Serial.print("\n\tLatitude: ");
-  Serial.print(pos.lat);
-  Serial.print(".");
-  Serial.print(pos.latDecimal);
-  Serial.print(" ");
-  Serial.print(pos.n_s);
+  Serial.print(pos.latitude);
   Serial.print("\n\tLongitude: ");
-  Serial.print(pos.longi);
-  Serial.print(".");
-  Serial.print(pos.longDecimal);
-  Serial.print(" ");
-  Serial.print(pos.e_w);
+  Serial.print(pos.longitude);
   Serial.print("\n\tSpeed: ");
   Serial.print(pos.knots);
   Serial.print(" knots on bearing: ");
@@ -107,15 +84,29 @@ void updateStructRMC(char data[], int cnt) {
   findAllInstancesOf(commas,data,',',cnt);
   findAllInstancesOf(points,data,'.',cnt);
   pos.UTC = charToInt(data,commas[0],points[0]);
-  pos.lat = charToInt(data,commas[2],points[2]); 
-  pos.latDecimal = charToInt(data,points[2],commas[3]);
-  
-  pos.n_s = data[commas[3]+1];
-  pos.longi = charToInt(data,commas[4],points[2]);
-  pos.longDecimal = charToInt(data,points[2],commas[5]);
-  pos.e_w = data[commas[5]+1];
-  pos.knots = charToInt(data,commas[6],points[3]) + charToDecimals(data, points[3],commas[7]);
-  pos.course = charToInt(data,commas[8],points[4]) + charToDecimals(data,points[4],commas[9]);
-  pos.date = charToInt(data,commas[9],commas[10]);
-  Serial.write("Point");
+  validGPS = data[commas[1]+1];
+  if(validGPS == 'A'){
+    
+    pos.latitude = charToInt(data,commas[2],points[1])*10000 + charToInt(data,points[1],commas[3]);
+    pos.latitudeDecimalDegrees = (long)(pos.latitude/1000000)*100000 + (long)(((long)(pos.latitude%1000000)/10000)*10000)/6 + (long)((pos.latitude%10000)/3.6);
+    if(data[commas[3]+1] == 'S'){
+      pos.latitudeDecimalDegrees *= -1;
+    }
+    pos.longitude = charToInt(data,commas[4],points[2])*10000 + charToInt(data,points[2],commas[5]);
+    pos.longitudeDecimalDegrees = (long)(pos.longitude/1000000)*100000 + (long)(((long)(pos.longitude%1000000)/10000)*10000)/6 + (long)((pos.longitude%10000)/3.6);
+    if(data[commas[5]+1] == 'W'){
+      pos.longitude *= -1;
+    }
+    pos.knots = charToInt(data,commas[6],points[3]) + charToDecimals(data, points[3],commas[7]);
+    pos.course = charToInt(data,commas[7],points[4]) + charToDecimals(data,points[4],commas[8]);
+    pos.date = charToInt(data,commas[8],commas[9]);
+    if(!GPS_connected){
+      GPS_connected = true;
+      //fileName = String(pos.date)+"_"+String(pos.UTC)+".txt";
+      writeHeader();      
+    }
+    //printStruct();
+  }else{
+    Serial.write("No Satellite Connection\n");
+  }
 }
