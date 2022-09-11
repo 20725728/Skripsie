@@ -14,6 +14,11 @@ void updatePWM() {
   
 }
 
+void power_thrusters(){
+  TC2->TC_CHANNEL[1].TC_RA = (RC*rightSide.duty_Cycle)/100;
+  TC2->TC_CHANNEL[0].TC_RA = (RC*leftSide.duty_Cycle)/100;
+}
+
 /**
    left                 * right
    max ~670             * max ~705
@@ -27,12 +32,12 @@ void Right_Throttle(){
   float analog_Ratio = 0;
   float difference = 0;
   rightSide.analog = analogRead(POT_RH_input);
-  if(rightSide.analog > 705){                    // Full Forward
-    rightSide.duty_Cycle = 100;
+  if(rightSide.analog > 695){                    // Full Forward
+    rightSide.duty_Cycle = 95;
   }else  if(rightSide.analog >565){               //Forward
-    analog_Ratio = (float)(705 - rightSide.analog)/(float)(705 - 565);
-    difference = (float)(100 - 75) * analog_Ratio;
-    rightSide.duty_Cycle = 100 - difference;
+    analog_Ratio = (float)(695 - rightSide.analog)/(float)(695 - 565);
+    difference = (float)(95 - 75) * analog_Ratio;
+    rightSide.duty_Cycle = 95 - difference;
   }else if(rightSide.analog < 355){             // Full Reverse
     rightSide.duty_Cycle = 50;
   }else if(rightSide.analog < 500){         //Reverse
@@ -49,12 +54,12 @@ void Left_Throttle(){
   float analog_Ratio = 0;
   float difference = 0;
   leftSide.analog = analogRead(POT_LH_input);
-  if(leftSide.analog > 665){                    // Full Forward
-    leftSide.duty_Cycle = 100;
+  if(leftSide.analog > 655){                    // Full Forward
+    leftSide.duty_Cycle = 95;
   }else  if(leftSide.analog >505){               //Forward
-    analog_Ratio = (float)(665 - leftSide.analog)/(float)(665 - 505);
-    difference = (float)(100 - 75) * analog_Ratio;
-    leftSide.duty_Cycle = 100 - difference;
+    analog_Ratio = (float)(655 - leftSide.analog)/(float)(665 - 505);
+    difference = (float)(95 - 75) * analog_Ratio;
+    leftSide.duty_Cycle = 95 - difference;
   }else if(leftSide.analog < 285){             // Full Reverse
     leftSide.duty_Cycle = 50;
   }else if(leftSide.analog < 440){         //Reverse

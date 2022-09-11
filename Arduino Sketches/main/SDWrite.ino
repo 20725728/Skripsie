@@ -1,8 +1,8 @@
   void saveGPSPoints(){
   if(validGPS == 'A'){
-    String output = "<Time>"+String(pos.date)+" "+String(pos.UTC)+"</Time><Lat>"+String((long)(pos.latitudeDecimalDegrees/100000))+"."+String((long)abs((pos.latitudeDecimalDegrees%100000)))+"</Lat><Long>"+
-    String((long)(pos.longitudeDecimalDegrees/100000))+"."+String((long)abs((pos.longitudeDecimalDegrees%100000)))+
-    "</Long><Speed>"+String(pos.knots)+"</Speed><Bearing>"+String(pos.course)+"</Beariing>\n";
+    String output = "Time#"+String(pos.date)+" "+String(pos.UTC)+"#DD#Lat>"+String(pos.latitudeDecimalDegrees,8)+"#Long#"+
+    String(pos.longitudeDecimalDegrees,8)+
+    "#DMS#Lat#"+String((long)pos.latitude)+"#Long#"+String((long)pos.longitude)+"#Speed#"+String(pos.knots)+"#Bearing#"+String(pos.course);
     File dataFile = SD.open(fileName, FILE_WRITE);
     if (dataFile) {
       dataFile.println(output);
@@ -45,4 +45,17 @@ void writeThrottle(){
   }else{
     Serial.println("Error opening throttle file.");
   }
+}
+
+void writeNavigation(double dist, double bearing_error, double target_bearing){
+  String navigationErrors ="Target\nLat#"+String(points[targetIndex].latitudeDecimalDegrees,8)+"#Long#"+String(points[targetIndex].longitudeDecimalDegrees,8)+"#Bearing#"+String(target_bearing,6)+
+    "\nCurrent:\nLat#"+String(pos.latitudeDecimalDegrees,8)+"#Long#"+String(pos.longitudeDecimalDegrees,8)+"#Bearing#"+String(pos.course,6)+
+    "\nErrors:\nDist#"+String(dist,6)+"#Bearing_Error#"+String(bearing_error,6)+
+    "\nMotors:\nThrottle%#"+String(throttle_percentage,5)+"#Steering%#"+String(steering_percentage,5)+"#Left_DC#"+String(leftSide.duty_Cycle,5)+"#Right_DC#"+String(rightSide.duty_Cycle,5)+"\n\n\n";
+    File dataFile = SD.open("nav.txt",FILE_WRITE);
+    if(dataFile){
+      dataFile.println(navigationErrors);
+    }else{
+      Serial.println("Error opening nav error file");
+    }
 }

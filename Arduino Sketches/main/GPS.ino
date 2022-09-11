@@ -13,15 +13,17 @@ void receiveGPSdata() {
       }
     }
     Serial.write(rxData,rxCnt);
-    if (rxData[5] == 'C') {
+    if (rxData[3]=='R' && rxData[4] == 'M' && rxData[5] == 'C') {
       updateStructRMC(rxData,rxCnt);
+      //printStruct();
+      if(Debug != 1){
+        saveGPSPoints();
+      }
       msgReceived = true;
     }
     rxCnt = 0;
     rxByte = 0;
   }
-  saveGPSPoints();
-  //printStruct();
 }
 
 int charToInt(char data[], int startIndex, int endIndex){
@@ -45,23 +47,24 @@ float charToDecimals(char data[], int startIndex, int endIndex){
 }
 
 void printStruct(){
+  long latPos = -3393849;
+  long longPos = 1847265;
+  
 //  String toString = "Struct:\n\tTime (UTC): "+pos.UTC+"\n\tLatitude: "+pos.lat+" "+pos.n_s+"\n\tLongitude: "+pos.longi+" "+pos.e_w+
 //  "\n\tSpeed: "+pos.knots+" knots on bearing: "+pos.course+" degrees\n\tMagnetic Variation: "+pos.magVar+" "+pos.mag_e_w+"\n\tMode: "+pos.mode;
   Serial.println("Struct:");
-  Serial.print("\tTime (UTC): ");
-  Serial.print(pos.UTC);
-  Serial.print("\n\tDate: ");
-  Serial.print(pos.date);
-  Serial.print("\n\tLatitude: ");
-  Serial.print(pos.latitude);
-  Serial.print("\n\tLongitude: ");
-  Serial.print(pos.longitude);
-  Serial.print("\n\tSpeed: ");
-  Serial.print(pos.knots);
-  Serial.print(" knots on bearing: ");
-  Serial.print(pos.course);
-  Serial.println(" degrees");
+  Serial.println("\tTime (UTC): "+String(pos.UTC)+"\tDate: "+String(pos.date));
+  Serial.println("DM.M:");
+  Serial.println("\tLatitude: "+String(pos.latitude)+"\tLongitude: "+String(pos.longitude));
+  Serial.println("Decimal Degrees:");
+  Serial.println("\tLatitude: "+String(pos.latitudeDecimalDegrees)+"\tLongitude: "+String(pos.longitudeDecimalDegrees));
 
+  long errorDeg = GetDistance(latPos,longPos, pos.latitudeDecimalDegrees, pos.longitudeDecimalDegrees);
+  float bearingError = GetBearing(latPos,longPos, pos.latitudeDecimalDegrees, pos.longitudeDecimalDegrees);
+  float errorMetre = (float)((float)errorDeg/100000)*(111139);
+  Serial.println("\tError(Deg):\t"+String(errorDeg)+"\tAngle: "+String(bearingError));
+  Serial.println("\tError(m):\t"+String(errorMetre));
+  Serial.println("\tSpeed: "+String(pos.knots)+"\tBearing: "+String(pos.course)+"\n\n\n");
 }
 
 void findAllInstancesOf(int* fill, char data[], char toFind, int arraySize){
@@ -88,12 +91,12 @@ void updateStructRMC(char data[], int cnt) {
   if(validGPS == 'A'){
     
     pos.latitude = charToInt(data,commas[2],points[1])*10000 + charToInt(data,points[1],commas[3]);
-    pos.latitudeDecimalDegrees = (long)(pos.latitude/1000000)*100000 + (long)(((long)(pos.latitude%1000000)/10000)*10000)/6 + (long)((pos.latitude%10000)/3.6);
+    pos.latitudeDecimalDegrees = (long)(pos.latitude/1000000) + (double)(pos.latitude%1000000)/600000;
     if(data[commas[3]+1] == 'S'){
       pos.latitudeDecimalDegrees *= -1;
     }
     pos.longitude = charToInt(data,commas[4],points[2])*10000 + charToInt(data,points[2],commas[5]);
-    pos.longitudeDecimalDegrees = (long)(pos.longitude/1000000)*100000 + (long)(((long)(pos.longitude%1000000)/10000)*10000)/6 + (long)((pos.longitude%10000)/3.6);
+    pos.longitudeDecimalDegrees = (long)(pos.longitude/1000000) + (double)(pos.longitude%1000000)/600000;
     if(data[commas[5]+1] == 'W'){
       pos.longitude *= -1;
     }
