@@ -6,7 +6,7 @@ double GetBearing(double latitude1, double longitude1, double latitude2, double 
   double delta_lambda = (longitude2 - longitude1) * (PI/180);
   double theta = (double)atan2( sin(delta_lambda)*cos(phi2), cos(phi1)*sin(phi2) - sin(phi1)*cos(phi2)*cos(delta_lambda));
   
-  double bearing = ((theta * 180/PI)+360);
+  double bearing = ((theta * 180/PI));
   if(bearing<0){
     return bearing+360;
   }

@@ -10,10 +10,10 @@
 //<Global Variables>
   int state = 1; //1-wait for GPS; 2-Navigate; 3-Standyby
   int Manual_Control = 0; // 1=manual Control enabled;
-  int Debug = 1;
+  int Debug = 0;
 
   //Navigation ----------------------------------
-  long throttle_down_distance = 10; //(m) distance at which the vessel reduces below full throttle speed.
+  int throttle_down_distance = 10; //(m) distance at which the vessel reduces below full throttle speed.
   int full_steer_angle = 20;//(degrees) the angle beyond which the vessel will use full steering.
   int throttle_percentage = 100; //percentage full throttle applied (full throttle doesnt seem to work)
   int steering_percentage = 100; //percentage steering lock applied.

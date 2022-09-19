@@ -33,7 +33,8 @@ void navigate(){
   if(Debug == 1){
     writeError(distance, bearing_error, target_bearing);  
   }else{
-    writeNavigation(distance, bearing_error, target_bearing); 
+    writeNavigation(distance, bearing_error, target_bearing);
+    writeError(distance, bearing_error, target_bearing);   
   }
 }
 

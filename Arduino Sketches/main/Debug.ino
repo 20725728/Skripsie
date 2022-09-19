@@ -2,7 +2,7 @@ void writeError(double dist, float bearing_error, float target_bearing){
   String navigationErrors ="Target\nLat#"+String(points[targetIndex].latitudeDecimalDegrees,8)+"#Long#"+String(points[targetIndex].longitudeDecimalDegrees,8)+"#Bearing#"+String(target_bearing,6)+
     "\nCurrent:\nLat#"+String(pos.latitudeDecimalDegrees,8)+"#Long#"+String(pos.longitudeDecimalDegrees,8)+"#Bearing#"+String(pos.course,6)+
     "\nErrors:\nDist#"+String(dist,6)+"#Bearing_Error#"+String(bearing_error,6)+
-    "\nMotors:\nThrottle%#"+String(throttle_percentage,5)+"#Steering%#"+String(steering_percentage,5)+"#Left_DC#"+String(leftSide.duty_Cycle,5)+"#Right_DC#"+String(rightSide.duty_Cycle,5)+"\n\n\n";
+    "\nMotors:\nThrottle%#"+String(throttle_percentage)+"#Steering%#"+String(steering_percentage)+"#Left_DC#"+String(leftSide.duty_Cycle,5)+"#Right_DC#"+String(rightSide.duty_Cycle,5)+"\n\n\n";
   Serial.print(navigationErrors);
 }
 

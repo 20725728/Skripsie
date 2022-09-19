@@ -55,6 +55,7 @@ void writeNavigation(double dist, double bearing_error, double target_bearing){
     File dataFile = SD.open("nav.txt",FILE_WRITE);
     if(dataFile){
       dataFile.println(navigationErrors);
+      dataFile.close();
     }else{
       Serial.println("Error opening nav error file");
     }
