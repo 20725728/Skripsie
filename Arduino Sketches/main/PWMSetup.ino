@@ -21,7 +21,7 @@ void power_thrusters(){
 
 /**
    left                 * right
-   max ~670             * max ~705
+   max ~655             * max ~720
    min ~285             * min ~352
    mid~480              * mid ~538
    440 - 505 stop       * 485 - 572 stop
@@ -32,10 +32,10 @@ void Right_Throttle(){
   float analog_Ratio = 0;
   float difference = 0;
   rightSide.analog = analogRead(POT_RH_input);
-  if(rightSide.analog > 695){                    // Full Forward
+  if(rightSide.analog > 720){                    // Full Forward
     rightSide.duty_Cycle = 95;
   }else  if(rightSide.analog >565){               //Forward
-    analog_Ratio = (float)(695 - rightSide.analog)/(float)(695 - 565);
+    analog_Ratio = (float)(720 - rightSide.analog)/(float)(720 - 565);
     difference = (float)(95 - 75) * analog_Ratio;
     rightSide.duty_Cycle = 95 - difference;
   }else if(rightSide.analog < 355){             // Full Reverse
