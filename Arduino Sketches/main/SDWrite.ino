@@ -30,10 +30,47 @@ void writeHeader(){
   }
   if(dataFile){
     dataFile.println(header);
-    dataFile.close();
   }else{
     Serial.println("Error opening datalog for header");
   }
+  dataFile.close();
+  //Throttle Header
+  header = "Throttle_data "+String(pos.date)+"_"+String(pos.UTC)+".txt";
+  fileName = "throttle.txt";
+  Serial.print(fileName);
+  dataFile = SD.open(fileName, FILE_WRITE);
+  dataFile.close();
+ if(SD.exists(fileName)){
+    Serial.write("File Does exists\n");
+    dataFile = SD.open(fileName, FILE_WRITE);
+  }else{
+    Serial.write("File Does NOT exist\n");
+  }
+  if(dataFile){
+    dataFile.println(header);
+  }else{
+    Serial.println("Error opening datalog for throttle header");
+  }
+  dataFile.close();
+  //Nav Header
+  header = "Nav_data "+String(pos.date)+"_"+String(pos.UTC)+".txt";
+  fileName ="nav.txt";
+
+  Serial.print(fileName);
+  dataFile = SD.open(fileName, FILE_WRITE);
+  dataFile.close();
+  if(SD.exists(fileName)){
+    Serial.write("File Does exists\n");
+    dataFile = SD.open(fileName, FILE_WRITE);
+  }else{
+    Serial.write("File Does NOT exist\n");
+  }
+  if(dataFile){
+    dataFile.println(header);
+  }else{
+    Serial.println("Error opening datalog for nav header");
+  }
+  dataFile.close();
 }
 
 void writeThrottle(){
@@ -45,6 +82,7 @@ void writeThrottle(){
   }else{
     Serial.println("Error opening throttle file.");
   }
+  dataFile.close();
 }
 
 void writeNavigation(double dist, double bearing_error, double target_bearing){
@@ -55,8 +93,9 @@ void writeNavigation(double dist, double bearing_error, double target_bearing){
     File dataFile = SD.open("nav.txt",FILE_WRITE);
     if(dataFile){
       dataFile.println(navigationErrors);
-      dataFile.close();
+
     }else{
       Serial.println("Error opening nav error file");
     }
+    dataFile.close();
 }

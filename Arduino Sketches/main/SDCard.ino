@@ -6,9 +6,9 @@ void initialize_SD(){
     return;
   }
   Serial.println("card initialized."); //SD card communication success, serial output card information initialized.
-  root = SD.open("/");
+  //root = SD.open("/");
   //printDirectory(root, 0);
-  //writeHeader();
+  writeHeader();
 }
 
 void printDirectory(File dir, int numTabs) {

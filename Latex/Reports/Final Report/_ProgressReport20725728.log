@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.7.20)  19 SEP 2022 20:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.7.20)  24 SEP 2022 11:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -575,24 +575,54 @@ File: figures/throttle.jpg Graphic file (type jpg)
 <use figures/throttle.jpg>
 Package pdftex.def Info: figures/throttle.jpg  used on input line 34.
 (pdftex.def)             Requested size: 232.10129pt x 174.07275pt.
- [15 <./figures/throttle.jpg>] [16]
-<figures/POT.jpg, id=114, 606.265pt x 730.73pt>
+<figures/DUE.jpg, id=108, 144.54pt x 144.54pt>
+File: figures/DUE.jpg Graphic file (type jpg)
+<use figures/DUE.jpg>
+Package pdftex.def Info: figures/DUE.jpg  used on input line 48.
+(pdftex.def)             Requested size: 232.10129pt x 232.11339pt.
+ [15 <./figures/throttle.jpg>] [16 <./figures/DUE.jpg>]
+
+LaTeX Warning: Reference `fig:3:wiring' on page 17 undefined on input line 66.
+
+! Undefined control sequence.
+<argument> \amp 
+                
+l.75 ...aximum constant currennt of \SI{100}{\amp}
+                                                   and in this project the i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \amp 
+                
+l.75 ...aximum constant currennt of \SI{100}{\amp}
+                                                   and in this project the i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[17] [18]
+<figures/POT.jpg, id=122, 606.265pt x 730.73pt>
 File: figures/POT.jpg Graphic file (type jpg)
 <use figures/POT.jpg>
-Package pdftex.def Info: figures/POT.jpg  used on input line 89.
+Package pdftex.def Info: figures/POT.jpg  used on input line 119.
 (pdftex.def)             Requested size: 126.60129pt x 152.58812pt.
- [17]
-[18 <./figures/POT.jpg>]
-Overfull \hbox (48.84915pt too wide) in paragraph at lines 131--134
+ [19] [20 <./figures/POT.jpg>]
+Overfull \hbox (48.84915pt too wide) in paragraph at lines 159--162
  [] 
  []
 
-) [19] [20]
+[21]) [22]
 \openout2 = `"Chp-4 Testing.aux"'.
 
  (Chp-4 Testing.tex
 Chapter 4.
-) [21
+) [23
 
 
 
@@ -640,7 +670,7 @@ Overfull \hbox (42.48422pt too wide) in paragraph at lines 73--76
 force.mil/News/Photos/igphoto/2000044571/ 
  []
 
-) [22
+) [24
 
 
 
@@ -653,10 +683,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 9373 strings out of 478338
- 209032 string characters out of 2836228
- 490857 words of memory out of 3000000
- 27573 multiletter control sequences out of 15000+600000
+ 9383 strings out of 478338
+ 209188 string characters out of 2836228
+ 491868 words of memory out of 3000000
+ 27582 multiletter control sequences out of 15000+600000
  498240 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,16n,77p,1439b,747s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -688,9 +718,9 @@ Users/Gurkin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12
 /cm/cmr8.pfb><C:/Users/Gurkin/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmsy10.pfb><C:/Users/Gurkin/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmsy8.pfb>
-Output written on _ProgressReport20725728.pdf (29 pages, 1438295 bytes).
+Output written on _ProgressReport20725728.pdf (31 pages, 1738048 bytes).
 PDF statistics:
- 765 PDF objects out of 1000 (max. 8388607)
+ 773 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

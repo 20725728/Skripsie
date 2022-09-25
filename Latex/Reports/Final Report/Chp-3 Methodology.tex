@@ -43,7 +43,37 @@ This section will give a broad overview of the system as a whole and describe th
 		\par
 	\subsection{Electronics}\par
 		\subsubsection{Arduino Due}\par
-		\subsubsection{ESC}\par
+		\begin{figure}[!ht]
+			\begin{center}
+				\includegraphics[width = 0.55\textwidth]{figures/DUE.jpg}
+				\caption{The microcontroller used, an Arduino DUE}
+				\label{fig:3:due}
+			\end{center}
+		\end{figure}
+		The microcontroller was selected by considering the initial design and possible peripherals that would be used in the system. The minimum requirements for the microcontroller to be used with the peripherals of the GPS, SD card modules and the ESC and POTs as well as several inputs and outputs were as follows:
+		\begin{enumerate}
+			\item 2 PWM pins.
+			\item Voltage regulators of \SI{3}{\volt} and \SI{5}{\volt}.
+			\item 5 digital IO pins.
+			\item 4 analogue input pins.
+			\item 1 SPI connection.
+			\item 1 UART connection.
+			\item \SI{256}{\kilo\byte} programmable flash memory.		
+		\end{enumerate}
+		Based on these requirements, the Arduino Uno was considered. It is the standard Arduino board used in projects and meets most of the requirements. However, the Arduino Uno has only one UART connection and although this does meet the minimum requirements it does not allow for any possible design alterations that might need a second UART connection. Finally, the Arduino only has \SI{32}{\kilo\byte} of programmable flash memory which does not meet the requirements.\par 
+		The next consideration was the Arduino DUE. This has 4 UART connections and plenty of digital IO pins and several analogue inputs. This offers a range of versatility to any design progression or alterations that might occur. Furthermore, the DUE has \SI{512}{\kilo\byte} of programmable flash memory which is double that of the minimum requirement. The one flaw with the Arduino DUE is that its IO pins operate a \SI{3.3}{\volt} as opposed to the generally standard \SI{5}{\volt}. However, this was easily overcome by implementing a logic level converter to shift the required signals to \SI{5}{\volt} while keeping the signals shape. Keeping the signals shape is particularly important for the PWM signal controlling the ESCs. The final microcontroller selected was the Arduino DUE.
+		\subsubsection{SD Card Module}
+		The SD card is used as an external storage device. Data can then be written to the SD card during operation and the data can be downloaded for analysis. The SD card module is a standard SD card module that is attached to the microcontroller as shown in the wiring diagram figure \ref{fig:3:wiring}. The SD card uses SPI communication and there are built in libraries that are available for use.
+		\subsubsection{GPS Module}
+		%Item \ref{BOM:GPS} in appendix \ref{BOM} is the GPS module used. It
+		The GPS module used is a PmodGPS and it
+		%remove comments when the BOM is correctly added.
+		Initially a PmodGPS was used as the GPS module. However the PmodGPS has a built in antenna and there were signal strength issues. The GPS was slow at acquiring a GPS fix when the control box was closed. Therefore an alternate GPS module was sourced that has an external antenna that can be fed out of the control box and placed in a position where a strong signal can be received. Both GPS modules use UART to communicate the data to the microcontroller. The GPS modules send a string of characters along the UART connection and the microcontroller must then decode the the characters. The GPS module is used to return the current longitude, latitude, date and time, speed and heading. The UART is set-up to use a baud rate of 9600, 8 data bits, no parity and 1 stop bit.   
+		has two connectors J1, which has 6 pins and J2 which has 2 pins. J1 is used to power the GPS module as well as connect to the MCU using UART communication with a baud rate of 9600, 8 data bits, no parity and 1 stop bit. 
+		
+		\subsubsection{ESC}
+		There are two ESC, one for each thruster and are submersible and therefore they are attached to the thrusters. The ESC has two inputs, the control input and the power input. Th power input can range between DC\SI{12}{\volt} and DC\SI{50}{\volt} and a maximum constant currennt of \SI{100}{\amp} and in this project the input is \SI{24}{\volt} supplied by the battery cells. The control input is a 5V signal that is used to control the speed of the thrusters. This is a PWM signal whose duty cycle determines the thrusters speed and direction. 
+		
 		\subsubsection{PWM Signal}
 		The thrusters are each controlled by a \SI{5}{\volt} PWM signal. There is limited information on the datasheet for the ESC and the signal boundaries, full forward, full reverse and neutral positions are described in the unconventional terms of the time that the signal is high. The values are shown in table \ref{tab:3:PWM}. Initially it was thought that the ESC operated at \SI{50}{\hertz}, however there was no response from the thruster at any duty cycle.\par
 		\begin{table}[!ht]
@@ -120,56 +150,52 @@ This section will give a broad overview of the system as a whole and describe th
 			Duty Cycle_{Reverse} = 75 - (75-50)(\frac{POT_{Neutral} - POT_{Input}}{POT_{Neutral} - POT_{MIN}})
 			\label{eq:3:dutyR}
 		\end{equation}
-		\subsubsection{GPS Module}
-		%Item \ref{BOM:GPS} in appendix \ref{BOM} is the GPS module used. It
-		The GPS module used is a PmodGPS and it
-		%remove comments when the BOM is correctly added.
-		has two connectors J1, which has 6 pins and J2 which has 2 pins. J1 is used to power the GPS module as well as connect to the MCU using UART communication with a baud rate of 9600, 8 data bits, no parity and 1 stop bit. The GPS module transmits a series of 5 sentences containing various information. Each sentence begins with a '\$GP' and then the specific message ID. The data is then sent through comma separated and finally ends with a checksum and the end of line characters <CR><LF>. For this project the 'RMC' sentence is the only sentence of interest as it contains all the necessary information, longitude, latitude, speed over ground in knots and course over ground in degrees. An example of the 'RMC' sentence is shown below.\par
-		\vspace{0.2cm}
-		\par
+	\subsection{Software}
+	\subsubsection{GPS}
+	 The GPS module transmits a series of 5 sentences containing various information. Each sentence begins with a '\$GP' and then the specific message ID. The data is then sent through comma separated and finally ends with a checksum and the end of line characters <CR><LF>. For this project the 'RMC' sentence is the only sentence of interest as it contains all the necessary information, longitude, latitude, speed over ground in knots and course over ground in degrees. An example of the 'RMC' sentence is shown below.\par
+	\vspace{0.2cm}
+	\par
+	\begin{center}
+		\begin{tabular}{c}
+			\small{\$GPRMC,064951.000,A,2307.1256,N,12016.4438,E,0.03,165.48,260406,3.05,W,A*55<CR><LF>}\\
+		\end{tabular}
+	\end{center}
+	\vspace{0.4cm}
+	The entire sentence is read by the MCU before it starts to pick out the specific data out of the string using the commas and full stops as the guide to what array position is what data. Each piece of data is then added to an instance of a GPS structure that can then be easily parsed to the navigation algorithm and easily analysed. The variables within the GPS structure are shown in table \ref{tab:3:GPSstruct}.
+	\begin{table}[!hb]
 		\begin{center}
-			\begin{tabular}{c}
-				\small{\$GPRMC,064951.000,A,2307.1256,N,12016.4438,E,0.03,165.48,260406,3.05,W,A*55<CR><LF>}\\
+			\caption{Variables and their types within the GPS structure.}
+			\label{tab:3:GPSstruct}
+			\begin{tabular}{|l|l|l|}
+				\hline
+				\textbf{Name} & \textbf{Type} & \textbf{Description} \\
+				\hline
+				UTC & int & Coordinated Universal Time in the format (hhmmss). \\
+				\hline
+				lat & int & The whole number portion of the latitude. \\
+				\hline
+				latDecimal & int & The decimal portion of the latitude. \\
+				\hline
+				n\_s & char & A character indicating North or South. \\
+				\hline
+				longi & int & The whole number portion of the longitude. \\
+				\hline 
+				longiDecimal & int & The decimal portion of the longitude. \\
+				\hline 
+				e\_w & char & A character indication East or West. \\
+				\hline
+				knots & float & The speed over ground in knots. \\
+				\hline
+				course & float & The course over ground in degrees. \\
+				\hline
+				date & int & The date in the format (ddmmyy). \\
+				\hline
 			\end{tabular}
 		\end{center}
-		\vspace{0.4cm}
-		The entire sentence is read by the MCU before it starts to pick out the specific data out of the string using the commas and full stops as the guide to what array position is what data. Each piece of data is then added to an instance of a GPS structure that can then be easily parsed to the navigation algorithm and easily analysed. The variables within the GPS structure are shown in table \ref{tab:3:GPSstruct}.
-		\begin{table}[!hb]
-			\begin{center}
-				\caption{Variables and their types within the GPS structure.}
-				\label{tab:3:GPSstruct}
-				\begin{tabular}{|l|l|l|}
-					\hline
-					\textbf{Name} & \textbf{Type} & \textbf{Description} \\
-					\hline
-					UTC & int & Coordinated Universal Time in the format (hhmmss). \\
-					\hline
-					lat & int & The whole number portion of the latitude. \\
-					\hline
-					latDecimal & int & The decimal portion of the latitude. \\
-					\hline
-					n\_s & char & A character indicating North or South. \\
-					\hline
-					longi & int & The whole number portion of the longitude. \\
-					\hline 
-					longiDecimal & int & The decimal portion of the longitude. \\
-					\hline 
-					e\_w & char & A character indication East or West. \\
-					\hline
-					knots & float & The speed over ground in knots. \\
-					\hline
-					course & float & The course over ground in degrees. \\
-					\hline
-					date & int & The date in the format (ddmmyy). \\
-					\hline
-				\end{tabular}
-			\end{center}
-		\end{table}
-	\subsection{Software}
+	\end{table}
 
-
-\subsection{Control System}
-The control system is the intended scope of the project and consists of a manual and automated control. For manual control, there is a two lever throttle system that is used to control the thrusters. In automated control, the control system uses a GPS and digital compass to navigate to prescribed points. At the centre of this control system is the PCB motherboard containing the MCU, GPS and connections to both the throttle and the thrusters. 
+	\subsection{Control System}
+	The control system is the intended scope of the project and consists of a manual and automated control. For manual control, there is a two lever throttle system that is used to control the thrusters. In automated control, the control system uses a GPS and digital compass to navigate to prescribed points. At the centre of this control system is the PCB motherboard containing the MCU, GPS and connections to both the throttle and the thrusters. 
 \section{Control System}
 The control logic of the control system is all implemented through the software on the Arduino MCU. This section will go into detail on logic and how that logic is carried out in software as well as the electronics that are used. 
 %The source code that will be discussed can be seen in Appendix \ref{Code}

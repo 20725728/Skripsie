@@ -1,6 +1,7 @@
 //20725728
 //<Includes>
   #include <SD.h>
+  #include <SPI.h>
   #include <Time.h>
   #include <math.h>
   #include "MyStructures.h"
@@ -11,6 +12,25 @@
   int state = 1; //1-wait for GPS; 2-Navigate; 3-Standyby
   int Manual_Control = 0; // 1=manual Control enabled;
   int Debug = 0;
+  bool runProgram = true;
+
+  /* D13 - S2 (manual/auto)
+   * D8 - S3 (green)
+   * D4 - S1 (Power)
+   * D12 - led on
+   * D11 - led active
+   * D9 - led M
+   * D7 - led GPs
+   * D6 - led A
+  */
+  int manualS = 13;
+  int greenS = 8;
+  int powerS = 4;
+  int LED_ON = 12;
+  int LED_ACTIVE = 11;
+  int LED_MAN = 9;
+  int LED_GPS = 7;
+  int LED_AUTO = 6;
 
   //Navigation ----------------------------------
   int throttle_down_distance = 10; //(m) distance at which the vessel reduces below full throttle speed.
@@ -51,37 +71,39 @@ void setup(){
   Serial.begin(9600);
   Serial1.begin(9600);
   initialize_SD();
-  receiveAllGPSPoints();
+  SetupIOs();
+  readGPSPoints();
+  //receiveAllGPSPoints();
 }
 
 
 void loop() {
   // put your main code here, to run repeatedly: 
-  if(Manual_Control == 1){
-    updatePWM();
-    writeThrottle();
-  }else{
-    switch(state){
-      case 1:
-          receiveGPSdata();
-          if(GPS_connected){
-            state = 2;
-          }
-        break;
-      case 2:
-          receiveGPSdata();
-          navigate();
-          delay(2000);
-        break;
-      case 3:
-          delay(1000);
-        break;
+  SwitchesAndLEDs();
+  if(runProgram){
+    if(Manual_Control == 1){
+      updatePWM();
+      writeThrottle();
+    }else{
+      switch(state){
+        case 1:
+            receiveGPSdata();
+            if(GPS_connected){
+              state = 2;
+            }
+          break;
+        case 2:
+            receiveGPSdata();
+            navigate();
+            delay(1000);
+          break;
+        case 3:
+            delay(500);
+          break;
+      }
     }
   }
-//  int rx = Serial1.read();
-//  if(rx!=-1){
-//    Serial.write(rx);
-//  }
+  delay(1000);
 }
 
 void Listen(){
@@ -96,4 +118,57 @@ void Listen(){
           break;
       }
     }
+}
+
+void SetupIOs(){
+  
+  pinMode(manualS, INPUT);
+  pinMode(powerS, INPUT);
+  pinMode(greenS, INPUT);
+  pinMode(LED_ON, OUTPUT);
+  pinMode(LED_ACTIVE, OUTPUT);
+  pinMode(LED_MAN, OUTPUT);
+  pinMode(LED_GPS, OUTPUT);
+  pinMode(LED_AUTO, OUTPUT);
+  /* D13 - S2 (manual/auto)
+   * D8 - S3 (green)
+   * D4 - S1 (Power)
+   * D12 - led on
+   * D11 - led active
+   * D9 - led M
+   * D7 - led GPs
+   * D6 - led A
+  */
+}
+
+void SwitchesAndLEDs(){
+  if(digitalRead(powerS)){
+    digitalWrite(LED_ON, HIGH);
+    runProgram = true;
+  }else{//stop the main loop running and set the motors to neutral
+    digitalWrite(LED_ON, LOW);
+    runProgram = false;
+    leftSide.duty_Cycle = 75;
+    rightSide.duty_Cycle = 75;
+    power_thrusters();
+  }
+  if(digitalRead(manualS)){
+    digitalWrite(LED_MAN, HIGH);
+    digitalWrite(LED_AUTO, LOW);
+    Manual_Control = 1;
+  }else{
+    digitalWrite(LED_MAN, LOW);
+    digitalWrite(LED_AUTO, HIGH);
+    Manual_Control = 0;
+  }
+  if(digitalRead(LED_ACTIVE)){
+    digitalWrite(LED_ACTIVE, LOW);
+  }else{
+    digitalWrite(LED_ACTIVE, HIGH);
+  }
+  if(GPS_connected){
+    digitalWrite(LED_GPS,HIGH);
+  }else{
+    digitalWrite(LED_GPS,LOW);
+  }
 }

@@ -1,0 +1,3208 @@
+GPS data
+<Time>0 72234</Time><Lat>2142085475.0 S</Lat><Long>1828.3320 E</Long><Speed>0.11</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72235</Time><Lat>2142085475.0 S</Lat><Long>1828.3331 E</Long><Speed>0.18</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72236</Time><Lat>2142085475.0 S</Lat><Long>1828.3339 E</Long><Speed>0.18</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72236</Time><Lat>2142085475.0 S</Lat><Long>1828.3347 E</Long><Speed>0.22</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72238</Time><Lat>2142085475.0 S</Lat><Long>1828.3354 E</Long><Speed>0.15</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72239</Time><Lat>2142085475.0 S</Lat><Long>1828.3363 E</Long><Speed>0.26</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72240</Time><Lat>2142085475.0 S</Lat><Long>1828.3372 E</Long><Speed>0.32</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72241</Time><Lat>2142085475.0 S</Lat><Long>1828.3385 E</Long><Speed>0.47</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72242</Time><Lat>2142085475.0 S</Lat><Long>1828.3393 E</Long><Speed>0.41</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72242</Time><Lat>2142085475.0 S</Lat><Long>1828.3398 E</Long><Speed>0.41</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72244</Time><Lat>2142085475.0 S</Lat><Long>1828.3412 E</Long><Speed>0.41</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72245</Time><Lat>2142085475.0 S</Lat><Long>1828.3419 E</Long><Speed>0.51</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72246</Time><Lat>2142085475.0 S</Lat><Long>1828.3422 E</Long><Speed>0.33</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72247</Time><Lat>2142085475.0 S</Lat><Long>1828.3425 E</Long><Speed>0.23</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72248</Time><Lat>2142085475.0 S</Lat><Long>1828.3430 E</Long><Speed>0.35</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72248</Time><Lat>2142085475.0 S</Lat><Long>1828.3433 E</Long><Speed>0.42</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72250</Time><Lat>2142085475.0 S</Lat><Long>1828.3439 E</Long><Speed>0.42</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72251</Time><Lat>2142085475.0 S</Lat><Long>1828.3443 E</Long><Speed>0.44</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72252</Time><Lat>2142085475.0 S</Lat><Long>1828.3446 E</Long><Speed>0.34</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72253</Time><Lat>2142085475.0 S</Lat><Long>1828.3446 E</Long><Speed>0.22</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72254</Time><Lat>2142085475.0 S</Lat><Long>1828.3445 E</Long><Speed>0.09</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72254</Time><Lat>2142085475.0 S</Lat><Long>1828.3444 E</Long><Speed>0.05</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72256</Time><Lat>2142085475.0 S</Lat><Long>1828.3446 E</Long><Speed>0.16</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72257</Time><Lat>2142085475.0 S</Lat><Long>1828.3450 E</Long><Speed>0.24</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72258</Time><Lat>2142085475.0 S</Lat><Long>1828.3452 E</Long><Speed>0.29</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72259</Time><Lat>2142085475.0 S</Lat><Long>1828.3453 E</Long><Speed>0.22</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72300</Time><Lat>2142085475.0 S</Lat><Long>1828.3450 E</Long><Speed>0.07</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72300</Time><Lat>2142085475.0 S</Lat><Long>1828.3481 E</Long><Speed>0.36</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72302</Time><Lat>2142085475.0 S</Lat><Long>1828.3498 E</Long><Speed>0.39</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72303</Time><Lat>2142085475.0 S</Lat><Long>1828.3503 E</Long><Speed>0.38</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72304</Time><Lat>2142085475.0 S</Lat><Long>1828.3513 E</Long><Speed>0.38</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72305</Time><Lat>2142085475.0 S</Lat><Long>1828.3518 E</Long><Speed>0.37</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72306</Time><Lat>2142085475.0 S</Lat><Long>1828.3527 E</Long><Speed>0.37</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72307</Time><Lat>2142085475.0 S</Lat><Long>1828.3531 E</Long><Speed>0.34</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72308</Time><Lat>2142085475.0 S</Lat><Long>1828.3537 E</Long><Speed>0.32</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72309</Time><Lat>2142085475.0 S</Lat><Long>1828.3539 E</Long><Speed>0.34</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72310</Time><Lat>2142085475.0 S</Lat><Long>1828.3539 E</Long><Speed>0.36</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72311</Time><Lat>2142085475.0 S</Lat><Long>1828.3541 E</Long><Speed>0.35</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72312</Time><Lat>2142085475.0 S</Lat><Long>1828.3543 E</Long><Speed>0.37</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72313</Time><Lat>2142085475.0 S</Lat><Long>1828.3545 E</Long><Speed>0.36</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72314</Time><Lat>2142085475.0 S</Lat><Long>1828.3546 E</Long><Speed>0.36</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72315</Time><Lat>2142085475.0 S</Lat><Long>1828.3547 E</Long><Speed>0.36</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72316</Time><Lat>2142085475.0 S</Lat><Long>1828.3547 E</Long><Speed>0.38</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72317</Time><Lat>2142085475.0 S</Lat><Long>1828.3547 E</Long><Speed>0.37</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72318</Time><Lat>2142085475.0 S</Lat><Long>1828.3547 E</Long><Speed>0.37</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72319</Time><Lat>2142085475.0 S</Lat><Long>1828.3546 E</Long><Speed>0.35</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72320</Time><Lat>2142085475.0 S</Lat><Long>1828.3547 E</Long><Speed>0.33</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72321</Time><Lat>2142085475.0 S</Lat><Long>1828.3546 E</Long><Speed>0.30</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72322</Time><Lat>2142085475.0 S</Lat><Long>1828.3549 E</Long><Speed>0.29</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72323</Time><Lat>2142085475.0 S</Lat><Long>1828.3547 E</Long><Speed>0.24</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72324</Time><Lat>2142085475.0 S</Lat><Long>1828.3544 E</Long><Speed>0.19</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72325</Time><Lat>2142085475.0 S</Lat><Long>1828.3544 E</Long><Speed>0.16</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72326</Time><Lat>2142085475.0 S</Lat><Long>1828.3544 E</Long><Speed>0.17</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72327</Time><Lat>2142085475.0 S</Lat><Long>1828.3547 E</Long><Speed>0.20</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72328</Time><Lat>2142085475.0 S</Lat><Long>1828.3549 E</Long><Speed>0.24</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72329</Time><Lat>2142085475.0 S</Lat><Long>1828.3550 E</Long><Speed>0.24</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72330</Time><Lat>2142085475.0 S</Lat><Long>1828.3552 E</Long><Speed>0.23</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72331</Time><Lat>2142085475.0 S</Lat><Long>1828.3553 E</Long><Speed>0.21</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72332</Time><Lat>2142085475.0 S</Lat><Long>1828.3555 E</Long><Speed>0.20</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72333</Time><Lat>2142085475.0 S</Lat><Long>1828.3556 E</Long><Speed>0.24</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72334</Time><Lat>2142085475.0 S</Lat><Long>1828.3557 E</Long><Speed>0.12</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72335</Time><Lat>2142085475.0 S</Lat><Long>1828.3557 E</Long><Speed>0.14</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72336</Time><Lat>2142085475.0 S</Lat><Long>1828.3557 E</Long><Speed>0.25</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72337</Time><Lat>2142085475.0 S</Lat><Long>1828.3558 E</Long><Speed>0.28</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72338</Time><Lat>2142085475.0 S</Lat><Long>1828.3559 E</Long><Speed>0.30</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72339</Time><Lat>2142085475.0 S</Lat><Long>1828.3559 E</Long><Speed>0.31</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72340</Time><Lat>2142085475.0 S</Lat><Long>1828.3560 E</Long><Speed>0.37</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72341</Time><Lat>2142085475.0 S</Lat><Long>1828.3561 E</Long><Speed>0.39</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72342</Time><Lat>2142085475.0 S</Lat><Long>1828.3562 E</Long><Speed>0.21</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72343</Time><Lat>2142085475.0 S</Lat><Long>1828.3563 E</Long><Speed>0.20</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72344</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.16</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72345</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.08</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72346</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.09</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72347</Time><Lat>2142085475.0 S</Lat><Long>1828.3565 E</Long><Speed>0.09</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72348</Time><Lat>2142085475.0 S</Lat><Long>1828.3565 E</Long><Speed>0.05</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72349</Time><Lat>2142085475.0 S</Lat><Long>1828.3565 E</Long><Speed>0.13</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72350</Time><Lat>2142085475.0 S</Lat><Long>1828.3565 E</Long><Speed>0.14</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72351</Time><Lat>2142085475.0 S</Lat><Long>1828.3566 E</Long><Speed>0.11</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72352</Time><Lat>2142085475.0 S</Lat><Long>1828.3566 E</Long><Speed>0.15</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72353</Time><Lat>2142085475.0 S</Lat><Long>1828.3566 E</Long><Speed>0.15</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72354</Time><Lat>2142085475.0 S</Lat><Long>1828.3567 E</Long><Speed>0.19</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72355</Time><Lat>2142085475.0 S</Lat><Long>1828.3567 E</Long><Speed>0.19</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72356</Time><Lat>2142085475.0 S</Lat><Long>1828.3568 E</Long><Speed>0.11</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72357</Time><Lat>2142085475.0 S</Lat><Long>1828.3568 E</Long><Speed>0.20</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72358</Time><Lat>2142085475.0 S</Lat><Long>1828.3568 E</Long><Speed>0.16</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72359</Time><Lat>2142085475.0 S</Lat><Long>1828.3567 E</Long><Speed>0.13</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72400</Time><Lat>2142085475.0 S</Lat><Long>1828.3567 E</Long><Speed>0.04</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72401</Time><Lat>2142085475.0 S</Lat><Long>1828.3567 E</Long><Speed>0.11</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72402</Time><Lat>2142085475.0 S</Lat><Long>1828.3567 E</Long><Speed>0.11</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72403</Time><Lat>2142085475.0 S</Lat><Long>1828.3566 E</Long><Speed>0.10</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72404</Time><Lat>2142085475.0 S</Lat><Long>1828.3566 E</Long><Speed>0.15</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72405</Time><Lat>2142085475.0 S</Lat><Long>1828.3566 E</Long><Speed>0.17</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72406</Time><Lat>2142085475.0 S</Lat><Long>1828.3565 E</Long><Speed>0.21</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72407</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.09</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72408</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.22</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72409</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.02</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72410</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.12</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72411</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.12</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72412</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.17</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72413</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.21</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72414</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.25</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72415</Time><Lat>2142085475.0 S</Lat><Long>1828.3563 E</Long><Speed>0.35</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72416</Time><Lat>2142085475.0 S</Lat><Long>1828.3563 E</Long><Speed>0.40</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72417</Time><Lat>2142085475.0 S</Lat><Long>1828.3563 E</Long><Speed>0.26</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72418</Time><Lat>2142085475.0 S</Lat><Long>1828.3563 E</Long><Speed>0.15</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72419</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.09</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72420</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.16</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72421</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.08</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72422</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.01</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72423</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.16</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72424</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.22</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72425</Time><Lat>2142085475.0 S</Lat><Long>1828.3565 E</Long><Speed>0.21</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72426</Time><Lat>2142085475.0 S</Lat><Long>1828.3566 E</Long><Speed>0.18</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72427</Time><Lat>2142085475.0 S</Lat><Long>1828.3566 E</Long><Speed>0.16</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72428</Time><Lat>2142085475.0 S</Lat><Long>1828.3567 E</Long><Speed>0.28</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72429</Time><Lat>2142085475.0 S</Lat><Long>1828.3568 E</Long><Speed>0.38</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72430</Time><Lat>2142085475.0 S</Lat><Long>1828.3569 E</Long><Speed>0.42</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72431</Time><Lat>2142085475.0 S</Lat><Long>1828.3570 E</Long><Speed>0.38</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72432</Time><Lat>2142085475.0 S</Lat><Long>1828.3572 E</Long><Speed>0.17</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72433</Time><Lat>2142085475.0 S</Lat><Long>1828.3572 E</Long><Speed>0.23</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72434</Time><Lat>2142085475.0 S</Lat><Long>1828.3573 E</Long><Speed>0.17</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72435</Time><Lat>2142085475.0 S</Lat><Long>1828.3573 E</Long><Speed>0.26</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72436</Time><Lat>2142085475.0 S</Lat><Long>1828.3574 E</Long><Speed>0.22</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72437</Time><Lat>2142085475.0 S</Lat><Long>1828.3575 E</Long><Speed>0.27</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72438</Time><Lat>2142085475.0 S</Lat><Long>1828.3576 E</Long><Speed>0.32</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72439</Time><Lat>2142085475.0 S</Lat><Long>1828.3576 E</Long><Speed>0.27</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72440</Time><Lat>2142085475.0 S</Lat><Long>1828.3577 E</Long><Speed>0.25</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72441</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.14</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72442</Time><Lat>2142085475.0 S</Lat><Long>1828.3579 E</Long><Speed>0.06</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72443</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.08</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72444</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.10</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72445</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.08</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72446</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.03</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72447</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.03</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72448</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.05</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72449</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.06</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72450</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.12</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72451</Time><Lat>2142085475.0 S</Lat><Long>1828.3579 E</Long><Speed>0.20</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72452</Time><Lat>2142085475.0 S</Lat><Long>1828.3579 E</Long><Speed>0.28</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72453</Time><Lat>2142085475.0 S</Lat><Long>1828.3580 E</Long><Speed>0.29</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72454</Time><Lat>2142085475.0 S</Lat><Long>1828.3581 E</Long><Speed>0.28</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72455</Time><Lat>2142085475.0 S</Lat><Long>1828.3582 E</Long><Speed>0.36</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 72456</Time><Lat>2142085475.0 S</Lat><Long>1828.3583 E</Long><Speed>0.59</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72457</Time><Lat>2142085475.0 S</Lat><Long>1828.3584 E</Long><Speed>0.55</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72458</Time><Lat>2142085475.0 S</Lat><Long>1828.3585 E</Long><Speed>0.51</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72459</Time><Lat>2142085475.0 S</Lat><Long>1828.3583 E</Long><Speed>0.25</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72500</Time><Lat>2142085475.0 S</Lat><Long>1828.3583 E</Long><Speed>0.26</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72501</Time><Lat>2142085475.0 S</Lat><Long>1828.3583 E</Long><Speed>0.25</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72502</Time><Lat>2142085475.0 S</Lat><Long>1828.3582 E</Long><Speed>0.16</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72503</Time><Lat>2142085475.0 S</Lat><Long>1828.3582 E</Long><Speed>0.13</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72504</Time><Lat>2142085475.0 S</Lat><Long>1828.3582 E</Long><Speed>0.36</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72505</Time><Lat>2142085475.0 S</Lat><Long>1828.3583 E</Long><Speed>0.43</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72506</Time><Lat>2142085475.0 S</Lat><Long>1828.3583 E</Long><Speed>0.52</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72507</Time><Lat>2142085475.0 S</Lat><Long>1828.3584 E</Long><Speed>0.52</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72508</Time><Lat>2142085475.0 S</Lat><Long>1828.3586 E</Long><Speed>0.43</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72509</Time><Lat>2142085475.0 S</Lat><Long>1828.3587 E</Long><Speed>0.44</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72510</Time><Lat>2142085475.0 S</Lat><Long>1828.3588 E</Long><Speed>0.40</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72511</Time><Lat>2142085475.0 S</Lat><Long>1828.3588 E</Long><Speed>0.32</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72512</Time><Lat>2142085475.0 S</Lat><Long>1828.3590 E</Long><Speed>0.46</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72513</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.46</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72514</Time><Lat>2142085475.0 S</Lat><Long>1828.3592 E</Long><Speed>0.42</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72515</Time><Lat>2142085475.0 S</Lat><Long>1828.3594 E</Long><Speed>0.28</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72516</Time><Lat>2142085475.0 S</Lat><Long>1828.3594 E</Long><Speed>0.26</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72517</Time><Lat>2142085475.0 S</Lat><Long>1828.3594 E</Long><Speed>0.22</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72518</Time><Lat>2142085475.0 S</Lat><Long>1828.3593 E</Long><Speed>0.28</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72519</Time><Lat>2142085475.0 S</Lat><Long>1828.3593 E</Long><Speed>0.12</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72520</Time><Lat>2142085475.0 S</Lat><Long>1828.3592 E</Long><Speed>0.10</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72521</Time><Lat>2142085475.0 S</Lat><Long>1828.3592 E</Long><Speed>0.07</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72522</Time><Lat>2142085475.0 S</Lat><Long>1828.3592 E</Long><Speed>0.16</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72523</Time><Lat>2142085475.0 S</Lat><Long>1828.3592 E</Long><Speed>0.21</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72524</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.28</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72525</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.30</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72526</Time><Lat>2142085475.0 S</Lat><Long>1828.3590 E</Long><Speed>0.30</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72527</Time><Lat>2142085475.0 S</Lat><Long>1828.3589 E</Long><Speed>0.33</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72528</Time><Lat>2142085475.0 S</Lat><Long>1828.3588 E</Long><Speed>0.38</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72529</Time><Lat>2142085475.0 S</Lat><Long>1828.3587 E</Long><Speed>0.36</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72530</Time><Lat>2142085475.0 S</Lat><Long>1828.3586 E</Long><Speed>0.27</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72531</Time><Lat>2142085475.0 S</Lat><Long>1828.3585 E</Long><Speed>0.24</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72532</Time><Lat>2142085475.0 S</Lat><Long>1828.3584 E</Long><Speed>0.23</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72533</Time><Lat>2142085475.0 S</Lat><Long>1828.3583 E</Long><Speed>0.35</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72534</Time><Lat>2142085475.0 S</Lat><Long>1828.3582 E</Long><Speed>0.41</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72535</Time><Lat>2142085475.0 S</Lat><Long>1828.3581 E</Long><Speed>0.35</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72536</Time><Lat>2142085475.0 S</Lat><Long>1828.3580 E</Long><Speed>0.27</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72537</Time><Lat>2142085475.0 S</Lat><Long>1828.3579 E</Long><Speed>0.12</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72538</Time><Lat>2142085475.0 S</Lat><Long>1828.3579 E</Long><Speed>0.07</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72539</Time><Lat>2142085475.0 S</Lat><Long>1828.3579 E</Long><Speed>0.12</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72540</Time><Lat>2142085475.0 S</Lat><Long>1828.3579 E</Long><Speed>0.22</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72541</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.08</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72542</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.07</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72543</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.14</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72544</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.13</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72545</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.19</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72546</Time><Lat>2142085475.0 S</Lat><Long>1828.3579 E</Long><Speed>0.26</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72547</Time><Lat>2142085475.0 S</Lat><Long>1828.3580 E</Long><Speed>0.28</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72548</Time><Lat>2142085475.0 S</Lat><Long>1828.3580 E</Long><Speed>0.36</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72549</Time><Lat>2142085475.0 S</Lat><Long>1828.3581 E</Long><Speed>0.35</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72550</Time><Lat>2142085475.0 S</Lat><Long>1828.3582 E</Long><Speed>0.32</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72551</Time><Lat>2142085475.0 S</Lat><Long>1828.3583 E</Long><Speed>0.26</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72552</Time><Lat>2142085475.0 S</Lat><Long>1828.3584 E</Long><Speed>0.25</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72553</Time><Lat>2142085475.0 S</Lat><Long>1828.3584 E</Long><Speed>0.16</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72554</Time><Lat>2142085475.0 S</Lat><Long>1828.3585 E</Long><Speed>0.16</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72555</Time><Lat>2142085475.0 S</Lat><Long>1828.3585 E</Long><Speed>0.22</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72556</Time><Lat>2142085475.0 S</Lat><Long>1828.3586 E</Long><Speed>0.18</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72557</Time><Lat>2142085475.0 S</Lat><Long>1828.3587 E</Long><Speed>0.14</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72558</Time><Lat>2142085475.0 S</Lat><Long>1828.3587 E</Long><Speed>0.24</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72559</Time><Lat>2142085475.0 S</Lat><Long>1828.3587 E</Long><Speed>0.18</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72600</Time><Lat>2142085475.0 S</Lat><Long>1828.3587 E</Long><Speed>0.09</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72601</Time><Lat>2142085475.0 S</Lat><Long>1828.3587 E</Long><Speed>0.14</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72602</Time><Lat>2142085475.0 S</Lat><Long>1828.3588 E</Long><Speed>0.18</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72603</Time><Lat>2142085475.0 S</Lat><Long>1828.3589 E</Long><Speed>0.10</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72604</Time><Lat>2142085475.0 S</Lat><Long>1828.3589 E</Long><Speed>0.18</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72605</Time><Lat>2142085475.0 S</Lat><Long>1828.3589 E</Long><Speed>0.23</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72606</Time><Lat>2142085475.0 S</Lat><Long>1828.3590 E</Long><Speed>0.07</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72607</Time><Lat>2142085475.0 S</Lat><Long>1828.3590 E</Long><Speed>0.14</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72608</Time><Lat>2142085475.0 S</Lat><Long>1828.3590 E</Long><Speed>0.29</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72609</Time><Lat>2142085475.0 S</Lat><Long>1828.3589 E</Long><Speed>0.46</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72610</Time><Lat>2142085475.0 S</Lat><Long>1828.3588 E</Long><Speed>0.45</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72611</Time><Lat>2142085475.0 S</Lat><Long>1828.3587 E</Long><Speed>0.43</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72612</Time><Lat>2142085475.0 S</Lat><Long>1828.3586 E</Long><Speed>0.51</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72613</Time><Lat>2142085475.0 S</Lat><Long>1828.3585 E</Long><Speed>0.45</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72614</Time><Lat>2142085475.0 S</Lat><Long>1828.3584 E</Long><Speed>0.47</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72615</Time><Lat>2142085475.0 S</Lat><Long>1828.3583 E</Long><Speed>0.41</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72616</Time><Lat>2142085475.0 S</Lat><Long>1828.3582 E</Long><Speed>0.51</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72617</Time><Lat>2142085475.0 S</Lat><Long>1828.3581 E</Long><Speed>0.39</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72618</Time><Lat>2142085475.0 S</Lat><Long>1828.3580 E</Long><Speed>0.50</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72619</Time><Lat>2142085475.0 S</Lat><Long>1828.3579 E</Long><Speed>0.49</Speed><Bearing>0.26</Beariing>
+
+<Time>0 72620</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.66</Speed><Bearing>0.35</Beariing>
+
+<Time>0 72621</Time><Lat>2142085475.0 S</Lat><Long>1828.3576 E</Long><Speed>0.69</Speed><Bearing>0.69</Beariing>
+
+<Time>0 72622</Time><Lat>2142085475.0 S</Lat><Long>1828.3576 E</Long><Speed>0.73</Speed><Bearing>0.08</Beariing>
+
+<Time>0 72623</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.72</Speed><Bearing>0.38</Beariing>
+
+<Time>0 72624</Time><Lat>2142085475.0 S</Lat><Long>1828.3577 E</Long><Speed>0.69</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72625</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.62</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72626</Time><Lat>2142085475.0 S</Lat><Long>1828.3579 E</Long><Speed>0.40</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72627</Time><Lat>2142085475.0 S</Lat><Long>1828.3577 E</Long><Speed>0.43</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72628</Time><Lat>2142085475.0 S</Lat><Long>1828.3576 E</Long><Speed>0.41</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72629</Time><Lat>2142085475.0 S</Lat><Long>1828.3575 E</Long><Speed>0.31</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72630</Time><Lat>2142085475.0 S</Lat><Long>1828.3574 E</Long><Speed>0.24</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72631</Time><Lat>2142085475.0 S</Lat><Long>1828.3573 E</Long><Speed>0.15</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72632</Time><Lat>2142085475.0 S</Lat><Long>1828.3573 E</Long><Speed>0.11</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72633</Time><Lat>2142085475.0 S</Lat><Long>1828.3573 E</Long><Speed>0.08</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72634</Time><Lat>2142085475.0 S</Lat><Long>1828.3573 E</Long><Speed>0.05</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72635</Time><Lat>2142085475.0 S</Lat><Long>1828.3573 E</Long><Speed>0.09</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72636</Time><Lat>2142085475.0 S</Lat><Long>1828.3572 E</Long><Speed>0.06</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72637</Time><Lat>2142085475.0 S</Lat><Long>1828.3572 E</Long><Speed>0.04</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72638</Time><Lat>2142085475.0 S</Lat><Long>1828.3572 E</Long><Speed>0.13</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72639</Time><Lat>2142085475.0 S</Lat><Long>1828.3573 E</Long><Speed>0.29</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72640</Time><Lat>2142085475.0 S</Lat><Long>1828.3574 E</Long><Speed>0.39</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72641</Time><Lat>2142085475.0 S</Lat><Long>1828.3575 E</Long><Speed>0.44</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72642</Time><Lat>2142085475.0 S</Lat><Long>1828.3576 E</Long><Speed>0.37</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72643</Time><Lat>2142085475.0 S</Lat><Long>1828.3577 E</Long><Speed>0.33</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72644</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.21</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72645</Time><Lat>2142085475.0 S</Lat><Long>1828.3579 E</Long><Speed>0.29</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72646</Time><Lat>2142085475.0 S</Lat><Long>1828.3579 E</Long><Speed>0.33</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72647</Time><Lat>2142085475.0 S</Lat><Long>1828.3580 E</Long><Speed>0.33</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72648</Time><Lat>2142085475.0 S</Lat><Long>1828.3581 E</Long><Speed>0.28</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72649</Time><Lat>2142085475.0 S</Lat><Long>1828.3582 E</Long><Speed>0.21</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72650</Time><Lat>2142085475.0 S</Lat><Long>1828.3582 E</Long><Speed>0.22</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72651</Time><Lat>2142085475.0 S</Lat><Long>1828.3583 E</Long><Speed>0.17</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72652</Time><Lat>2142085475.0 S</Lat><Long>1828.3583 E</Long><Speed>0.17</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72653</Time><Lat>2142085475.0 S</Lat><Long>1828.3583 E</Long><Speed>0.23</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72654</Time><Lat>2142085475.0 S</Lat><Long>1828.3584 E</Long><Speed>0.24</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72655</Time><Lat>2142085475.0 S</Lat><Long>1828.3585 E</Long><Speed>0.27</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72656</Time><Lat>2142085475.0 S</Lat><Long>1828.3586 E</Long><Speed>0.31</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72657</Time><Lat>2142085475.0 S</Lat><Long>1828.3586 E</Long><Speed>0.38</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72658</Time><Lat>2142085475.0 S</Lat><Long>1828.3588 E</Long><Speed>0.40</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72659</Time><Lat>2142085475.0 S</Lat><Long>1828.3589 E</Long><Speed>0.38</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72700</Time><Lat>2142085475.0 S</Lat><Long>1828.3590 E</Long><Speed>0.38</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72701</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.37</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72702</Time><Lat>2142085475.0 S</Lat><Long>1828.3592 E</Long><Speed>0.27</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72703</Time><Lat>2142085475.0 S</Lat><Long>1828.3593 E</Long><Speed>0.25</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72704</Time><Lat>2142085475.0 S</Lat><Long>1828.3594 E</Long><Speed>0.30</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72705</Time><Lat>2142085475.0 S</Lat><Long>1828.3595 E</Long><Speed>0.31</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72706</Time><Lat>2142085475.0 S</Lat><Long>1828.3596 E</Long><Speed>0.35</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72707</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.40</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72708</Time><Lat>2142085475.0 S</Lat><Long>1828.3598 E</Long><Speed>0.27</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72709</Time><Lat>2142085475.0 S</Lat><Long>1828.3599 E</Long><Speed>0.17</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72710</Time><Lat>2142085475.0 S</Lat><Long>1828.3599 E</Long><Speed>0.28</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72711</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.12</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72712</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.17</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72713</Time><Lat>2142085475.0 S</Lat><Long>1828.3601 E</Long><Speed>0.14</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72714</Time><Lat>2142085475.0 S</Lat><Long>1828.3601 E</Long><Speed>0.09</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72715</Time><Lat>2142085475.0 S</Lat><Long>1828.3601 E</Long><Speed>0.05</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72716</Time><Lat>2142085475.0 S</Lat><Long>1828.3601 E</Long><Speed>0.12</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72717</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.06</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72718</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.10</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72719</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.08</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72720</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.16</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72721</Time><Lat>2142085475.0 S</Lat><Long>1828.3599 E</Long><Speed>0.29</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72722</Time><Lat>2142085475.0 S</Lat><Long>1828.3598 E</Long><Speed>0.31</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72723</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.29</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72724</Time><Lat>2142085475.0 S</Lat><Long>1828.3596 E</Long><Speed>0.25</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72725</Time><Lat>2142085475.0 S</Lat><Long>1828.3595 E</Long><Speed>0.25</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72726</Time><Lat>2142085475.0 S</Lat><Long>1828.3595 E</Long><Speed>0.23</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72727</Time><Lat>2142085475.0 S</Lat><Long>1828.3594 E</Long><Speed>0.25</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72728</Time><Lat>2142085475.0 S</Lat><Long>1828.3594 E</Long><Speed>0.22</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72729</Time><Lat>2142085475.0 S</Lat><Long>1828.3594 E</Long><Speed>0.20</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72730</Time><Lat>2142085475.0 S</Lat><Long>1828.3593 E</Long><Speed>0.13</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72731</Time><Lat>2142085475.0 S</Lat><Long>1828.3593 E</Long><Speed>0.11</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72732</Time><Lat>2142085475.0 S</Lat><Long>1828.3592 E</Long><Speed>0.12</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72733</Time><Lat>2142085475.0 S</Lat><Long>1828.3592 E</Long><Speed>0.10</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72734</Time><Lat>2142085475.0 S</Lat><Long>1828.3592 E</Long><Speed>0.14</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72735</Time><Lat>2142085475.0 S</Lat><Long>1828.3592 E</Long><Speed>0.06</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72736</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.05</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72737</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.09</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72738</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.17</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72739</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.17</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72740</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.17</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72741</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.18</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72742</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.17</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72743</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.29</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72744</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.37</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72745</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.34</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72746</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.36</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72747</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.19</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72748</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.30</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72749</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.26</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72750</Time><Lat>2142085475.0 S</Lat><Long>1828.3590 E</Long><Speed>0.12</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72751</Time><Lat>2142085475.0 S</Lat><Long>1828.3590 E</Long><Speed>0.18</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72752</Time><Lat>2142085475.0 S</Lat><Long>1828.3589 E</Long><Speed>0.20</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72753</Time><Lat>2142085475.0 S</Lat><Long>1828.3588 E</Long><Speed>0.18</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72754</Time><Lat>2142085475.0 S</Lat><Long>1828.3588 E</Long><Speed>0.19</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72755</Time><Lat>2142085475.0 S</Lat><Long>1828.3587 E</Long><Speed>0.16</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72756</Time><Lat>2142085475.0 S</Lat><Long>1828.3587 E</Long><Speed>0.20</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72757</Time><Lat>2142085475.0 S</Lat><Long>1828.3586 E</Long><Speed>0.30</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72758</Time><Lat>2142085475.0 S</Lat><Long>1828.3585 E</Long><Speed>0.29</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72759</Time><Lat>2142085475.0 S</Lat><Long>1828.3585 E</Long><Speed>0.33</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72800</Time><Lat>2142085475.0 S</Lat><Long>1828.3584 E</Long><Speed>0.30</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72801</Time><Lat>2142085475.0 S</Lat><Long>1828.3583 E</Long><Speed>0.24</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72802</Time><Lat>2142085475.0 S</Lat><Long>1828.3582 E</Long><Speed>0.32</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72803</Time><Lat>2142085475.0 S</Lat><Long>1828.3581 E</Long><Speed>0.41</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72804</Time><Lat>2142085475.0 S</Lat><Long>1828.3580 E</Long><Speed>0.46</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72805</Time><Lat>2142085475.0 S</Lat><Long>1828.3579 E</Long><Speed>0.39</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72806</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.38</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72807</Time><Lat>2142085475.0 S</Lat><Long>1828.3577 E</Long><Speed>0.27</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72808</Time><Lat>2142085475.0 S</Lat><Long>1828.3577 E</Long><Speed>0.31</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72809</Time><Lat>2142085475.0 S</Lat><Long>1828.3576 E</Long><Speed>0.27</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72810</Time><Lat>2142085475.0 S</Lat><Long>1828.3575 E</Long><Speed>0.11</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72811</Time><Lat>2142085475.0 S</Lat><Long>1828.3575 E</Long><Speed>0.11</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72812</Time><Lat>2142085475.0 S</Lat><Long>1828.3576 E</Long><Speed>0.19</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72813</Time><Lat>2142085475.0 S</Lat><Long>1828.3576 E</Long><Speed>0.30</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72814</Time><Lat>2142085475.0 S</Lat><Long>1828.3577 E</Long><Speed>0.29</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72815</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.27</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72816</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.19</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72817</Time><Lat>2142085475.0 S</Lat><Long>1828.3579 E</Long><Speed>0.27</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72818</Time><Lat>2142085475.0 S</Lat><Long>1828.3580 E</Long><Speed>0.29</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72819</Time><Lat>2142085475.0 S</Lat><Long>1828.3581 E</Long><Speed>0.27</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72820</Time><Lat>2142085475.0 S</Lat><Long>1828.3581 E</Long><Speed>0.27</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72821</Time><Lat>2142085475.0 S</Lat><Long>1828.3582 E</Long><Speed>0.34</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72822</Time><Lat>2142085475.0 S</Lat><Long>1828.3583 E</Long><Speed>0.32</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72823</Time><Lat>2142085475.0 S</Lat><Long>1828.3584 E</Long><Speed>0.39</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72824</Time><Lat>2142085475.0 S</Lat><Long>1828.3585 E</Long><Speed>0.37</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72825</Time><Lat>2142085475.0 S</Lat><Long>1828.3586 E</Long><Speed>0.39</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72826</Time><Lat>2142085475.0 S</Lat><Long>1828.3588 E</Long><Speed>0.45</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72827</Time><Lat>2142085475.0 S</Lat><Long>1828.3589 E</Long><Speed>0.52</Speed><Bearing>0.36</Beariing>
+
+<Time>0 72828</Time><Lat>2142085475.0 S</Lat><Long>1828.3590 E</Long><Speed>0.64</Speed><Bearing>0.59</Beariing>
+
+<Time>0 72829</Time><Lat>2142085475.0 S</Lat><Long>1828.3590 E</Long><Speed>0.63</Speed><Bearing>0.41</Beariing>
+
+<Time>0 72830</Time><Lat>2142085475.0 S</Lat><Long>1828.3588 E</Long><Speed>0.60</Speed><Bearing>0.41</Beariing>
+
+<Time>0 72831</Time><Lat>2142085475.0 S</Lat><Long>1828.3588 E</Long><Speed>0.59</Speed><Bearing>0.41</Beariing>
+
+<Time>0 72832</Time><Lat>2142085475.0 S</Lat><Long>1828.3587 E</Long><Speed>0.55</Speed><Bearing>0.41</Beariing>
+
+<Time>0 72833</Time><Lat>2142085475.0 S</Lat><Long>1828.3589 E</Long><Speed>0.54</Speed><Bearing>0.41</Beariing>
+
+<Time>0 72834</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.59</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72835</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.56</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72836</Time><Lat>2142085475.0 S</Lat><Long>1828.3590 E</Long><Speed>0.55</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72837</Time><Lat>2142085475.0 S</Lat><Long>1828.3594 E</Long><Speed>0.55</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72838</Time><Lat>2142085475.0 S</Lat><Long>1828.3594 E</Long><Speed>0.50</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72839</Time><Lat>2142085475.0 S</Lat><Long>1828.3596 E</Long><Speed>0.43</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72840</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.38</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72841</Time><Lat>2142085475.0 S</Lat><Long>1828.3598 E</Long><Speed>0.44</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72842</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.48</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72843</Time><Lat>2142085475.0 S</Lat><Long>1828.3601 E</Long><Speed>0.51</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72844</Time><Lat>2142085475.0 S</Lat><Long>1828.3603 E</Long><Speed>0.48</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72845</Time><Lat>2142085475.0 S</Lat><Long>1828.3604 E</Long><Speed>0.50</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72846</Time><Lat>2142085475.0 S</Lat><Long>1828.3606 E</Long><Speed>0.48</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72847</Time><Lat>2142085475.0 S</Lat><Long>1828.3607 E</Long><Speed>0.52</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72848</Time><Lat>2142085475.0 S</Lat><Long>1828.3608 E</Long><Speed>0.51</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72849</Time><Lat>2142085475.0 S</Lat><Long>1828.3609 E</Long><Speed>0.51</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72850</Time><Lat>2142085475.0 S</Lat><Long>1828.3610 E</Long><Speed>0.51</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72851</Time><Lat>2142085475.0 S</Lat><Long>1828.3611 E</Long><Speed>0.49</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72852</Time><Lat>2142085475.0 S</Lat><Long>1828.3612 E</Long><Speed>0.51</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72853</Time><Lat>2142085475.0 S</Lat><Long>1828.3614 E</Long><Speed>0.52</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72854</Time><Lat>2142085475.0 S</Lat><Long>1828.3615 E</Long><Speed>0.50</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72855</Time><Lat>2142085475.0 S</Lat><Long>1828.3617 E</Long><Speed>0.49</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72856</Time><Lat>2142085475.0 S</Lat><Long>1828.3618 E</Long><Speed>0.57</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72857</Time><Lat>2142085475.0 S</Lat><Long>1828.3620 E</Long><Speed>0.57</Speed><Bearing>0.79</Beariing>
+
+<Time>0 72858</Time><Lat>2142085475.0 S</Lat><Long>1828.3622 E</Long><Speed>0.62</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72859</Time><Lat>2142085475.0 S</Lat><Long>1828.3617 E</Long><Speed>0.55</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72900</Time><Lat>2142085475.0 S</Lat><Long>1828.3612 E</Long><Speed>0.37</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72901</Time><Lat>2142085475.0 S</Lat><Long>1828.3607 E</Long><Speed>0.19</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72902</Time><Lat>2142085475.0 S</Lat><Long>1828.3607 E</Long><Speed>0.18</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72903</Time><Lat>2142085475.0 S</Lat><Long>1828.3608 E</Long><Speed>0.21</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72904</Time><Lat>2142085475.0 S</Lat><Long>1828.3608 E</Long><Speed>0.22</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72905</Time><Lat>2142085475.0 S</Lat><Long>1828.3609 E</Long><Speed>0.24</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72906</Time><Lat>2142085475.0 S</Lat><Long>1828.3610 E</Long><Speed>0.37</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72907</Time><Lat>2142085475.0 S</Lat><Long>1828.3611 E</Long><Speed>0.42</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72908</Time><Lat>2142085475.0 S</Lat><Long>1828.3612 E</Long><Speed>0.32</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72909</Time><Lat>2142085475.0 S</Lat><Long>1828.3613 E</Long><Speed>0.32</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72910</Time><Lat>2142085475.0 S</Lat><Long>1828.3613 E</Long><Speed>0.38</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72911</Time><Lat>2142085475.0 S</Lat><Long>1828.3614 E</Long><Speed>0.35</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72912</Time><Lat>2142085475.0 S</Lat><Long>1828.3615 E</Long><Speed>0.26</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72913</Time><Lat>2142085475.0 S</Lat><Long>1828.3615 E</Long><Speed>0.21</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72914</Time><Lat>2142085475.0 S</Lat><Long>1828.3616 E</Long><Speed>0.25</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72915</Time><Lat>2142085475.0 S</Lat><Long>1828.3616 E</Long><Speed>0.27</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72916</Time><Lat>2142085475.0 S</Lat><Long>1828.3617 E</Long><Speed>0.33</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72917</Time><Lat>2142085475.0 S</Lat><Long>1828.3618 E</Long><Speed>0.31</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72918</Time><Lat>2142085475.0 S</Lat><Long>1828.3619 E</Long><Speed>0.33</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72919</Time><Lat>2142085475.0 S</Lat><Long>1828.3620 E</Long><Speed>0.33</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72920</Time><Lat>2142085475.0 S</Lat><Long>1828.3621 E</Long><Speed>0.34</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72921</Time><Lat>2142085475.0 S</Lat><Long>1828.3622 E</Long><Speed>0.36</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72922</Time><Lat>2142085475.0 S</Lat><Long>1828.3624 E</Long><Speed>0.31</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72923</Time><Lat>2142085475.0 S</Lat><Long>1828.3625 E</Long><Speed>0.26</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72924</Time><Lat>2142085475.0 S</Lat><Long>1828.3625 E</Long><Speed>0.28</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72925</Time><Lat>2142085475.0 S</Lat><Long>1828.3626 E</Long><Speed>0.24</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72926</Time><Lat>2142085475.0 S</Lat><Long>1828.3627 E</Long><Speed>0.18</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72927</Time><Lat>2142085475.0 S</Lat><Long>1828.3627 E</Long><Speed>0.15</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72928</Time><Lat>2142085475.0 S</Lat><Long>1828.3624 E</Long><Speed>0.16</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72929</Time><Lat>2142085475.0 S</Lat><Long>1828.3622 E</Long><Speed>0.16</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72930</Time><Lat>2142085475.0 S</Lat><Long>1828.3618 E</Long><Speed>0.19</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72931</Time><Lat>2142085475.0 S</Lat><Long>1828.3613 E</Long><Speed>0.18</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72932</Time><Lat>2142085475.0 S</Lat><Long>1828.3607 E</Long><Speed>0.18</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72933</Time><Lat>2142085475.0 S</Lat><Long>1828.3603 E</Long><Speed>0.22</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72934</Time><Lat>2142085475.0 S</Lat><Long>1828.3598 E</Long><Speed>0.26</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72935</Time><Lat>2142085475.0 S</Lat><Long>1828.3593 E</Long><Speed>0.43</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72936</Time><Lat>2142085475.0 S</Lat><Long>1828.3598 E</Long><Speed>0.36</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72937</Time><Lat>2142085475.0 S</Lat><Long>1828.3594 E</Long><Speed>0.33</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72938</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.31</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72939</Time><Lat>2142085475.0 S</Lat><Long>1828.3588 E</Long><Speed>0.31</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72940</Time><Lat>2142085475.0 S</Lat><Long>1828.3584 E</Long><Speed>0.35</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72941</Time><Lat>2142085475.0 S</Lat><Long>1828.3580 E</Long><Speed>0.36</Speed><Bearing>0.58</Beariing>
+
+<Time>0 72942</Time><Lat>2142085475.0 S</Lat><Long>1828.3572 E</Long><Speed>0.59</Speed><Bearing>0.46</Beariing>
+
+<Time>0 72943</Time><Lat>2142085475.0 S</Lat><Long>1828.3575 E</Long><Speed>0.54</Speed><Bearing>0.46</Beariing>
+
+<Time>0 72944</Time><Lat>2142085475.0 S</Lat><Long>1828.3576 E</Long><Speed>0.35</Speed><Bearing>0.46</Beariing>
+
+<Time>0 72945</Time><Lat>2142085475.0 S</Lat><Long>1828.3576 E</Long><Speed>0.31</Speed><Bearing>0.46</Beariing>
+
+<Time>0 72946</Time><Lat>2142085475.0 S</Lat><Long>1828.3580 E</Long><Speed>0.25</Speed><Bearing>0.46</Beariing>
+
+<Time>0 72947</Time><Lat>2142085475.0 S</Lat><Long>1828.3582 E</Long><Speed>0.08</Speed><Bearing>0.46</Beariing>
+
+<Time>0 72948</Time><Lat>2142085475.0 S</Lat><Long>1828.3580 E</Long><Speed>0.10</Speed><Bearing>0.46</Beariing>
+
+<Time>0 72949</Time><Lat>2142085475.0 S</Lat><Long>1828.3581 E</Long><Speed>0.12</Speed><Bearing>0.46</Beariing>
+
+<Time>0 72950</Time><Lat>2142085475.0 S</Lat><Long>1828.3584 E</Long><Speed>0.12</Speed><Bearing>0.46</Beariing>
+
+<Time>0 72951</Time><Lat>2142085475.0 S</Lat><Long>1828.3583 E</Long><Speed>0.11</Speed><Bearing>0.46</Beariing>
+
+<Time>0 72952</Time><Lat>2142085475.0 S</Lat><Long>1828.3581 E</Long><Speed>0.13</Speed><Bearing>0.46</Beariing>
+
+<Time>0 72953</Time><Lat>2142085475.0 S</Lat><Long>1828.3581 E</Long><Speed>0.12</Speed><Bearing>0.46</Beariing>
+
+<Time>0 72954</Time><Lat>2142085475.0 S</Lat><Long>1828.3581 E</Long><Speed>0.12</Speed><Bearing>0.46</Beariing>
+
+<Time>0 72955</Time><Lat>2142085475.0 S</Lat><Long>1828.3579 E</Long><Speed>0.12</Speed><Bearing>0.46</Beariing>
+
+<Time>0 72956</Time><Lat>2142085475.0 S</Lat><Long>1828.3576 E</Long><Speed>0.11</Speed><Bearing>0.46</Beariing>
+
+<Time>0 72957</Time><Lat>2142085475.0 S</Lat><Long>1828.3573 E</Long><Speed>0.12</Speed><Bearing>0.46</Beariing>
+
+<Time>0 72958</Time><Lat>2142085475.0 S</Lat><Long>1828.3573 E</Long><Speed>0.11</Speed><Bearing>0.46</Beariing>
+
+<Time>0 72959</Time><Lat>2142085475.0 S</Lat><Long>1828.3573 E</Long><Speed>0.15</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73000</Time><Lat>2142085475.0 S</Lat><Long>1828.3572 E</Long><Speed>0.32</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73001</Time><Lat>2142085475.0 S</Lat><Long>1828.3572 E</Long><Speed>0.30</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73002</Time><Lat>2142085475.0 S</Lat><Long>1828.3574 E</Long><Speed>0.29</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73003</Time><Lat>2142085475.0 S</Lat><Long>1828.3577 E</Long><Speed>0.12</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73004</Time><Lat>2142085475.0 S</Lat><Long>1828.3582 E</Long><Speed>0.15</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73005</Time><Lat>2142085475.0 S</Lat><Long>1828.3590 E</Long><Speed>0.31</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73006</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.32</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73007</Time><Lat>2142085475.0 S</Lat><Long>1828.3593 E</Long><Speed>0.37</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73008</Time><Lat>2142085475.0 S</Lat><Long>1828.3590 E</Long><Speed>0.37</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73009</Time><Lat>2142085475.0 S</Lat><Long>1828.3588 E</Long><Speed>0.39</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73010</Time><Lat>2142085475.0 S</Lat><Long>1828.3589 E</Long><Speed>0.38</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73011</Time><Lat>2142085475.0 S</Lat><Long>1828.3589 E</Long><Speed>0.41</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73012</Time><Lat>2142085475.0 S</Lat><Long>1828.3589 E</Long><Speed>0.27</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73013</Time><Lat>2142085475.0 S</Lat><Long>1828.3589 E</Long><Speed>0.23</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73014</Time><Lat>2142085475.0 S</Lat><Long>1828.3589 E</Long><Speed>0.10</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73015</Time><Lat>2142085475.0 S</Lat><Long>1828.3590 E</Long><Speed>0.14</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73016</Time><Lat>2142085475.0 S</Lat><Long>1828.3590 E</Long><Speed>0.22</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73017</Time><Lat>2142085475.0 S</Lat><Long>1828.3590 E</Long><Speed>0.23</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73018</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.17</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73019</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.14</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73020</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.22</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73021</Time><Lat>2142085475.0 S</Lat><Long>1828.3592 E</Long><Speed>0.26</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73022</Time><Lat>2142085475.0 S</Lat><Long>1828.3592 E</Long><Speed>0.24</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73023</Time><Lat>2142085475.0 S</Lat><Long>1828.3593 E</Long><Speed>0.19</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73024</Time><Lat>2142085475.0 S</Lat><Long>1828.3593 E</Long><Speed>0.11</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73025</Time><Lat>2142085475.0 S</Lat><Long>1828.3593 E</Long><Speed>0.10</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73026</Time><Lat>2142085475.0 S</Lat><Long>1828.3593 E</Long><Speed>0.06</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73027</Time><Lat>2142085475.0 S</Lat><Long>1828.3594 E</Long><Speed>0.17</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73028</Time><Lat>2142085475.0 S</Lat><Long>1828.3594 E</Long><Speed>0.18</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73029</Time><Lat>2142085475.0 S</Lat><Long>1828.3595 E</Long><Speed>0.20</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73030</Time><Lat>2142085475.0 S</Lat><Long>1828.3595 E</Long><Speed>0.16</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73031</Time><Lat>2142085475.0 S</Lat><Long>1828.3596 E</Long><Speed>0.18</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73032</Time><Lat>2142085475.0 S</Lat><Long>1828.3596 E</Long><Speed>0.14</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73033</Time><Lat>2142085475.0 S</Lat><Long>1828.3596 E</Long><Speed>0.25</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73034</Time><Lat>2142085475.0 S</Lat><Long>1828.3596 E</Long><Speed>0.23</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73035</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.26</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73036</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.33</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73037</Time><Lat>2142085475.0 S</Lat><Long>1828.3598 E</Long><Speed>0.30</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73038</Time><Lat>2142085475.0 S</Lat><Long>1828.3598 E</Long><Speed>0.38</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73039</Time><Lat>2142085475.0 S</Lat><Long>1828.3599 E</Long><Speed>0.36</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73040</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.31</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73041</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.25</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73042</Time><Lat>2142085475.0 S</Lat><Long>1828.3601 E</Long><Speed>0.18</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73043</Time><Lat>2142085475.0 S</Lat><Long>1828.3601 E</Long><Speed>0.17</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73044</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.16</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73045</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.07</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73046</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.05</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73047</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.14</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73048</Time><Lat>2142085475.0 S</Lat><Long>1828.3599 E</Long><Speed>0.21</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73049</Time><Lat>2142085475.0 S</Lat><Long>1828.3598 E</Long><Speed>0.20</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73050</Time><Lat>2142085475.0 S</Lat><Long>1828.3598 E</Long><Speed>0.15</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73051</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.17</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73052</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.22</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73053</Time><Lat>2142085475.0 S</Lat><Long>1828.3596 E</Long><Speed>0.17</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73054</Time><Lat>2142085475.0 S</Lat><Long>1828.3596 E</Long><Speed>0.14</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73055</Time><Lat>2142085475.0 S</Lat><Long>1828.3595 E</Long><Speed>0.10</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73056</Time><Lat>2142085475.0 S</Lat><Long>1828.3595 E</Long><Speed>0.15</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73057</Time><Lat>2142085475.0 S</Lat><Long>1828.3595 E</Long><Speed>0.13</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73058</Time><Lat>2142085475.0 S</Lat><Long>1828.3595 E</Long><Speed>0.07</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73059</Time><Lat>2142085475.0 S</Lat><Long>1828.3595 E</Long><Speed>0.38</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73100</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.35</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73101</Time><Lat>2142085475.0 S</Lat><Long>1828.3598 E</Long><Speed>0.27</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73102</Time><Lat>2142085475.0 S</Lat><Long>1828.3599 E</Long><Speed>0.37</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73103</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.30</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73104</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.30</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73105</Time><Lat>2142085475.0 S</Lat><Long>1828.3601 E</Long><Speed>0.32</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73106</Time><Lat>2142085475.0 S</Lat><Long>1828.3602 E</Long><Speed>0.35</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73107</Time><Lat>2142085475.0 S</Lat><Long>1828.3604 E</Long><Speed>0.39</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73108</Time><Lat>2142085475.0 S</Lat><Long>1828.3605 E</Long><Speed>0.40</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73109</Time><Lat>2142085475.0 S</Lat><Long>1828.3607 E</Long><Speed>0.41</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73110</Time><Lat>2142085475.0 S</Lat><Long>1828.3608 E</Long><Speed>0.38</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73111</Time><Lat>2142085475.0 S</Lat><Long>1828.3607 E</Long><Speed>0.36</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73112</Time><Lat>2142085475.0 S</Lat><Long>1828.3606 E</Long><Speed>0.35</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73113</Time><Lat>2142085475.0 S</Lat><Long>1828.3607 E</Long><Speed>0.33</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73114</Time><Lat>2142085475.0 S</Lat><Long>1828.3606 E</Long><Speed>0.35</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73115</Time><Lat>2142085475.0 S</Lat><Long>1828.3607 E</Long><Speed>0.56</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73116</Time><Lat>2142085475.0 S</Lat><Long>1828.3603 E</Long><Speed>0.52</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73117</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.28</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73118</Time><Lat>2142085475.0 S</Lat><Long>1828.3596 E</Long><Speed>0.24</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73119</Time><Lat>2142085475.0 S</Lat><Long>1828.3596 E</Long><Speed>0.23</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73120</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.20</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73121</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.09</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73122</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.04</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73123</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.11</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73124</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.07</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73125</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.10</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73126</Time><Lat>2142085475.0 S</Lat><Long>1828.3598 E</Long><Speed>0.17</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73127</Time><Lat>2142085475.0 S</Lat><Long>1828.3598 E</Long><Speed>0.28</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73128</Time><Lat>2142085475.0 S</Lat><Long>1828.3599 E</Long><Speed>0.26</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73129</Time><Lat>2142085475.0 S</Lat><Long>1828.3599 E</Long><Speed>0.23</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73130</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.25</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73131</Time><Lat>2142085475.0 S</Lat><Long>1828.3601 E</Long><Speed>0.19</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73132</Time><Lat>2142085475.0 S</Lat><Long>1828.3601 E</Long><Speed>0.10</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73133</Time><Lat>2142085475.0 S</Lat><Long>1828.3601 E</Long><Speed>0.10</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73134</Time><Lat>2142085475.0 S</Lat><Long>1828.3601 E</Long><Speed>0.15</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73135</Time><Lat>2142085475.0 S</Lat><Long>1828.3602 E</Long><Speed>0.10</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73136</Time><Lat>2142085475.0 S</Lat><Long>1828.3602 E</Long><Speed>0.10</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73137</Time><Lat>2142085475.0 S</Lat><Long>1828.3602 E</Long><Speed>0.06</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73138</Time><Lat>2142085475.0 S</Lat><Long>1828.3602 E</Long><Speed>0.11</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73139</Time><Lat>2142085475.0 S</Lat><Long>1828.3602 E</Long><Speed>0.10</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73140</Time><Lat>2142085475.0 S</Lat><Long>1828.3603 E</Long><Speed>0.07</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73141</Time><Lat>2142085475.0 S</Lat><Long>1828.3603 E</Long><Speed>0.13</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73142</Time><Lat>2142085475.0 S</Lat><Long>1828.3603 E</Long><Speed>0.10</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73143</Time><Lat>2142085475.0 S</Lat><Long>1828.3603 E</Long><Speed>0.11</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73144</Time><Lat>2142085475.0 S</Lat><Long>1828.3603 E</Long><Speed>0.08</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73145</Time><Lat>2142085475.0 S</Lat><Long>1828.3603 E</Long><Speed>0.14</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73146</Time><Lat>2142085475.0 S</Lat><Long>1828.3603 E</Long><Speed>0.07</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73147</Time><Lat>2142085475.0 S</Lat><Long>1828.3604 E</Long><Speed>0.07</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73148</Time><Lat>2142085475.0 S</Lat><Long>1828.3604 E</Long><Speed>0.03</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73149</Time><Lat>2142085475.0 S</Lat><Long>1828.3604 E</Long><Speed>0.10</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73150</Time><Lat>2142085475.0 S</Lat><Long>1828.3604 E</Long><Speed>0.15</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73151</Time><Lat>2142085475.0 S</Lat><Long>1828.3604 E</Long><Speed>0.15</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73152</Time><Lat>2142085475.0 S</Lat><Long>1828.3604 E</Long><Speed>0.16</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73153</Time><Lat>2142085475.0 S</Lat><Long>1828.3605 E</Long><Speed>0.22</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73154</Time><Lat>2142085475.0 S</Lat><Long>1828.3605 E</Long><Speed>0.23</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73155</Time><Lat>2142085475.0 S</Lat><Long>1828.3605 E</Long><Speed>0.29</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73156</Time><Lat>2142085475.0 S</Lat><Long>1828.3605 E</Long><Speed>0.31</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73157</Time><Lat>2142085475.0 S</Lat><Long>1828.3605 E</Long><Speed>0.19</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73158</Time><Lat>2142085475.0 S</Lat><Long>1828.3604 E</Long><Speed>0.29</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73159</Time><Lat>2142085475.0 S</Lat><Long>1828.3604 E</Long><Speed>0.20</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73200</Time><Lat>2142085475.0 S</Lat><Long>1828.3605 E</Long><Speed>0.18</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73201</Time><Lat>2142085475.0 S</Lat><Long>1828.3605 E</Long><Speed>0.26</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73202</Time><Lat>2142085475.0 S</Lat><Long>1828.3606 E</Long><Speed>0.20</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73203</Time><Lat>2142085475.0 S</Lat><Long>1828.3606 E</Long><Speed>0.22</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73204</Time><Lat>2142085475.0 S</Lat><Long>1828.3607 E</Long><Speed>0.27</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73205</Time><Lat>2142085475.0 S</Lat><Long>1828.3607 E</Long><Speed>0.24</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73206</Time><Lat>2142085475.0 S</Lat><Long>1828.3608 E</Long><Speed>0.21</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73207</Time><Lat>2142085475.0 S</Lat><Long>1828.3609 E</Long><Speed>0.19</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73208</Time><Lat>2142085475.0 S</Lat><Long>1828.3609 E</Long><Speed>0.15</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73209</Time><Lat>2142085475.0 S</Lat><Long>1828.3609 E</Long><Speed>0.10</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73210</Time><Lat>2142085475.0 S</Lat><Long>1828.3609 E</Long><Speed>0.25</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73211</Time><Lat>2142085475.0 S</Lat><Long>1828.3610 E</Long><Speed>0.27</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73212</Time><Lat>2142085475.0 S</Lat><Long>1828.3611 E</Long><Speed>0.26</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73213</Time><Lat>2142085475.0 S</Lat><Long>1828.3612 E</Long><Speed>0.09</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73214</Time><Lat>2142085475.0 S</Lat><Long>1828.3612 E</Long><Speed>0.22</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73215</Time><Lat>2142085475.0 S</Lat><Long>1828.3613 E</Long><Speed>0.29</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73216</Time><Lat>2142085475.0 S</Lat><Long>1828.3614 E</Long><Speed>0.34</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73217</Time><Lat>2142085475.0 S</Lat><Long>1828.3615 E</Long><Speed>0.37</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73218</Time><Lat>2142085475.0 S</Lat><Long>1828.3616 E</Long><Speed>0.28</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73219</Time><Lat>2142085475.0 S</Lat><Long>1828.3617 E</Long><Speed>0.26</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73220</Time><Lat>2142085475.0 S</Lat><Long>1828.3618 E</Long><Speed>0.24</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73221</Time><Lat>2142085475.0 S</Lat><Long>1828.3619 E</Long><Speed>0.19</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73222</Time><Lat>2142085475.0 S</Lat><Long>1828.3619 E</Long><Speed>0.18</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73223</Time><Lat>2142085475.0 S</Lat><Long>1828.3620 E</Long><Speed>0.20</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73224</Time><Lat>2142085475.0 S</Lat><Long>1828.3620 E</Long><Speed>0.11</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73225</Time><Lat>2142085475.0 S</Lat><Long>1828.3620 E</Long><Speed>0.10</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73226</Time><Lat>2142085475.0 S</Lat><Long>1828.3620 E</Long><Speed>0.14</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73227</Time><Lat>2142085475.0 S</Lat><Long>1828.3620 E</Long><Speed>0.09</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73228</Time><Lat>2142085475.0 S</Lat><Long>1828.3620 E</Long><Speed>0.06</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73229</Time><Lat>2142085475.0 S</Lat><Long>1828.3620 E</Long><Speed>0.09</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73230</Time><Lat>2142085475.0 S</Lat><Long>1828.3621 E</Long><Speed>0.02</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73231</Time><Lat>2142085475.0 S</Lat><Long>1828.3621 E</Long><Speed>0.04</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73232</Time><Lat>2142085475.0 S</Lat><Long>1828.3621 E</Long><Speed>0.04</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73233</Time><Lat>2142085475.0 S</Lat><Long>1828.3621 E</Long><Speed>0.03</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73234</Time><Lat>2142085475.0 S</Lat><Long>1828.3621 E</Long><Speed>0.03</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73235</Time><Lat>2142085475.0 S</Lat><Long>1828.3621 E</Long><Speed>0.06</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73236</Time><Lat>2142085475.0 S</Lat><Long>1828.3620 E</Long><Speed>0.13</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73237</Time><Lat>2142085475.0 S</Lat><Long>1828.3620 E</Long><Speed>0.09</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73238</Time><Lat>2142085475.0 S</Lat><Long>1828.3621 E</Long><Speed>0.28</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73239</Time><Lat>2142085475.0 S</Lat><Long>1828.3621 E</Long><Speed>0.24</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73240</Time><Lat>2142085475.0 S</Lat><Long>1828.3622 E</Long><Speed>0.13</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73241</Time><Lat>2142085475.0 S</Lat><Long>1828.3622 E</Long><Speed>0.04</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73242</Time><Lat>2142085475.0 S</Lat><Long>1828.3621 E</Long><Speed>0.03</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73243</Time><Lat>2142085475.0 S</Lat><Long>1828.3621 E</Long><Speed>0.04</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73244</Time><Lat>2142085475.0 S</Lat><Long>1828.3621 E</Long><Speed>0.08</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73245</Time><Lat>2142085475.0 S</Lat><Long>1828.3621 E</Long><Speed>0.13</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73246</Time><Lat>2142085475.0 S</Lat><Long>1828.3620 E</Long><Speed>0.24</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73247</Time><Lat>2142085475.0 S</Lat><Long>1828.3620 E</Long><Speed>0.24</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73248</Time><Lat>2142085475.0 S</Lat><Long>1828.3619 E</Long><Speed>0.21</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73249</Time><Lat>2142085475.0 S</Lat><Long>1828.3619 E</Long><Speed>0.14</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73250</Time><Lat>2142085475.0 S</Lat><Long>1828.3619 E</Long><Speed>0.12</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73251</Time><Lat>2142085475.0 S</Lat><Long>1828.3619 E</Long><Speed>0.21</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73252</Time><Lat>2142085475.0 S</Lat><Long>1828.3618 E</Long><Speed>0.24</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73253</Time><Lat>2142085475.0 S</Lat><Long>1828.3618 E</Long><Speed>0.20</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73254</Time><Lat>2142085475.0 S</Lat><Long>1828.3617 E</Long><Speed>0.16</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73255</Time><Lat>2142085475.0 S</Lat><Long>1828.3617 E</Long><Speed>0.24</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73256</Time><Lat>2142085475.0 S</Lat><Long>1828.3616 E</Long><Speed>0.10</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73257</Time><Lat>2142085475.0 S</Lat><Long>1828.3616 E</Long><Speed>0.10</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73258</Time><Lat>2142085475.0 S</Lat><Long>1828.3616 E</Long><Speed>0.05</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73259</Time><Lat>2142085475.0 S</Lat><Long>1828.3616 E</Long><Speed>0.08</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73300</Time><Lat>2142085475.0 S</Lat><Long>1828.3616 E</Long><Speed>0.12</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73301</Time><Lat>2142085475.0 S</Lat><Long>1828.3616 E</Long><Speed>0.13</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73302</Time><Lat>2142085475.0 S</Lat><Long>1828.3616 E</Long><Speed>0.04</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73303</Time><Lat>2142085475.0 S</Lat><Long>1828.3616 E</Long><Speed>0.12</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73304</Time><Lat>2142085475.0 S</Lat><Long>1828.3615 E</Long><Speed>0.13</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73305</Time><Lat>2142085475.0 S</Lat><Long>1828.3615 E</Long><Speed>0.27</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73306</Time><Lat>2142085475.0 S</Lat><Long>1828.3615 E</Long><Speed>0.17</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73307</Time><Lat>2142085475.0 S</Lat><Long>1828.3615 E</Long><Speed>0.10</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73308</Time><Lat>2142085475.0 S</Lat><Long>1828.3615 E</Long><Speed>0.11</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73309</Time><Lat>2142085475.0 S</Lat><Long>1828.3614 E</Long><Speed>0.14</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73310</Time><Lat>2142085475.0 S</Lat><Long>1828.3614 E</Long><Speed>0.24</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73311</Time><Lat>2142085475.0 S</Lat><Long>1828.3613 E</Long><Speed>0.18</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73312</Time><Lat>2142085475.0 S</Lat><Long>1828.3613 E</Long><Speed>0.11</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73313</Time><Lat>2142085475.0 S</Lat><Long>1828.3612 E</Long><Speed>0.27</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73314</Time><Lat>2142085475.0 S</Lat><Long>1828.3611 E</Long><Speed>0.36</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73315</Time><Lat>2142085475.0 S</Lat><Long>1828.3611 E</Long><Speed>0.31</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73316</Time><Lat>2142085475.0 S</Lat><Long>1828.3610 E</Long><Speed>0.15</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73317</Time><Lat>2142085475.0 S</Lat><Long>1828.3609 E</Long><Speed>0.26</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73318</Time><Lat>2142085475.0 S</Lat><Long>1828.3609 E</Long><Speed>0.30</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73319</Time><Lat>2142085475.0 S</Lat><Long>1828.3608 E</Long><Speed>0.25</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73320</Time><Lat>2142085475.0 S</Lat><Long>1828.3607 E</Long><Speed>0.27</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73321</Time><Lat>2142085475.0 S</Lat><Long>1828.3607 E</Long><Speed>0.33</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73322</Time><Lat>2142085475.0 S</Lat><Long>1828.3608 E</Long><Speed>0.22</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73323</Time><Lat>2142085475.0 S</Lat><Long>1828.3607 E</Long><Speed>0.24</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73324</Time><Lat>2142085475.0 S</Lat><Long>1828.3607 E</Long><Speed>0.18</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73325</Time><Lat>2142085475.0 S</Lat><Long>1828.3607 E</Long><Speed>0.19</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73326</Time><Lat>2142085475.0 S</Lat><Long>1828.3607 E</Long><Speed>0.16</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73327</Time><Lat>2142085475.0 S</Lat><Long>1828.3606 E</Long><Speed>0.08</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73328</Time><Lat>2142085475.0 S</Lat><Long>1828.3606 E</Long><Speed>0.12</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73329</Time><Lat>2142085475.0 S</Lat><Long>1828.3606 E</Long><Speed>0.08</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73330</Time><Lat>2142085475.0 S</Lat><Long>1828.3606 E</Long><Speed>0.12</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73331</Time><Lat>2142085475.0 S</Lat><Long>1828.3606 E</Long><Speed>0.16</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73332</Time><Lat>2142085475.0 S</Lat><Long>1828.3605 E</Long><Speed>0.22</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73333</Time><Lat>2142085475.0 S</Lat><Long>1828.3605 E</Long><Speed>0.22</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73334</Time><Lat>2142085475.0 S</Lat><Long>1828.3604 E</Long><Speed>0.16</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73335</Time><Lat>2142085475.0 S</Lat><Long>1828.3603 E</Long><Speed>0.12</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73336</Time><Lat>2142085475.0 S</Lat><Long>1828.3603 E</Long><Speed>0.47</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73337</Time><Lat>2142085475.0 S</Lat><Long>1828.3604 E</Long><Speed>0.27</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73338</Time><Lat>2142085475.0 S</Lat><Long>1828.3603 E</Long><Speed>0.71</Speed><Bearing>0.84</Beariing>
+
+<Time>0 73339</Time><Lat>2142085475.0 S</Lat><Long>1828.3591 E</Long><Speed>0.91</Speed><Bearing>0.15</Beariing>
+
+<Time>0 73340</Time><Lat>2142085475.0 S</Lat><Long>1828.3583 E</Long><Speed>0.94</Speed><Bearing>0.43</Beariing>
+
+<Time>0 73341</Time><Lat>2142085475.0 S</Lat><Long>1828.3580 E</Long><Speed>0.90</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73342</Time><Lat>2142085475.0 S</Lat><Long>1828.3584 E</Long><Speed>0.49</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73343</Time><Lat>2142085475.0 S</Lat><Long>1828.3587 E</Long><Speed>0.43</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73344</Time><Lat>2142085475.0 S</Lat><Long>1828.3583 E</Long><Speed>0.40</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73345</Time><Lat>2142085475.0 S</Lat><Long>1828.3581 E</Long><Speed>0.36</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73346</Time><Lat>2142085475.0 S</Lat><Long>1828.3580 E</Long><Speed>0.34</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73347</Time><Lat>2142085475.0 S</Lat><Long>1828.3579 E</Long><Speed>0.32</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73348</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.36</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73349</Time><Lat>2142085475.0 S</Lat><Long>1828.3577 E</Long><Speed>0.52</Speed><Bearing>0.46</Beariing>
+
+<Time>0 73350</Time><Lat>2142085475.0 S</Lat><Long>1828.3576 E</Long><Speed>0.63</Speed><Bearing>0.12</Beariing>
+
+<Time>0 73351</Time><Lat>2142085475.0 S</Lat><Long>1828.3577 E</Long><Speed>0.65</Speed><Bearing>0.57</Beariing>
+
+<Time>0 73352</Time><Lat>2142085475.0 S</Lat><Long>1828.3576 E</Long><Speed>0.68</Speed><Bearing>0.32</Beariing>
+
+<Time>0 73353</Time><Lat>2142085475.0 S</Lat><Long>1828.3574 E</Long><Speed>0.45</Speed><Bearing>0.32</Beariing>
+
+<Time>0 73354</Time><Lat>2142085475.0 S</Lat><Long>1828.3571 E</Long><Speed>0.23</Speed><Bearing>0.32</Beariing>
+
+<Time>0 73355</Time><Lat>2142085475.0 S</Lat><Long>1828.3574 E</Long><Speed>0.20</Speed><Bearing>0.32</Beariing>
+
+<Time>0 73356</Time><Lat>2142085475.0 S</Lat><Long>1828.3574 E</Long><Speed>0.17</Speed><Bearing>0.32</Beariing>
+
+<Time>0 73357</Time><Lat>2142085475.0 S</Lat><Long>1828.3573 E</Long><Speed>0.17</Speed><Bearing>0.32</Beariing>
+
+<Time>0 73358</Time><Lat>2142085475.0 S</Lat><Long>1828.3574 E</Long><Speed>1.78</Speed><Bearing>0.88</Beariing>
+
+<Time>0 73359</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>1.81</Speed><Bearing>0.35</Beariing>
+
+<Time>0 73400</Time><Lat>2142085475.0 S</Lat><Long>1828.3577 E</Long><Speed>1.10</Speed><Bearing>0.27</Beariing>
+
+<Time>0 73401</Time><Lat>2142085475.0 S</Lat><Long>1828.3576 E</Long><Speed>0.57</Speed><Bearing>0.27</Beariing>
+
+<Time>0 73402</Time><Lat>2142085475.0 S</Lat><Long>1828.3575 E</Long><Speed>0.35</Speed><Bearing>0.27</Beariing>
+
+<Time>0 73403</Time><Lat>2142085475.0 S</Lat><Long>1828.3573 E</Long><Speed>0.18</Speed><Bearing>0.27</Beariing>
+
+<Time>0 73404</Time><Lat>2142085475.0 S</Lat><Long>1828.3575 E</Long><Speed>0.40</Speed><Bearing>0.27</Beariing>
+
+<Time>0 73405</Time><Lat>2142085475.0 S</Lat><Long>1828.3576 E</Long><Speed>0.31</Speed><Bearing>0.27</Beariing>
+
+<Time>0 73406</Time><Lat>2142085475.0 S</Lat><Long>1828.3577 E</Long><Speed>0.11</Speed><Bearing>0.27</Beariing>
+
+<Time>0 73407</Time><Lat>2142085475.0 S</Lat><Long>1828.3577 E</Long><Speed>0.14</Speed><Bearing>0.27</Beariing>
+
+<Time>0 73408</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.32</Speed><Bearing>0.27</Beariing>
+
+<Time>0 73409</Time><Lat>2142085475.0 S</Lat><Long>1828.3579 E</Long><Speed>0.64</Speed><Bearing>0.04</Beariing>
+
+<Time>0 73410</Time><Lat>2142085475.0 S</Lat><Long>1828.3589 E</Long><Speed>0.94</Speed><Bearing>0.17</Beariing>
+
+<Time>0 73411</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.92</Speed><Bearing>0.89</Beariing>
+
+<Time>0 73412</Time><Lat>2142085475.0 S</Lat><Long>1828.3601 E</Long><Speed>0.71</Speed><Bearing>0.95</Beariing>
+
+<Time>0 73413</Time><Lat>2142085475.0 S</Lat><Long>1828.3603 E</Long><Speed>0.64</Speed><Bearing>0.95</Beariing>
+
+<Time>0 73414</Time><Lat>2142085475.0 S</Lat><Long>1828.3606 E</Long><Speed>0.44</Speed><Bearing>0.95</Beariing>
+
+<Time>0 73415</Time><Lat>2142085475.0 S</Lat><Long>1828.3607 E</Long><Speed>0.44</Speed><Bearing>0.95</Beariing>
+
+<Time>0 73416</Time><Lat>2142085475.0 S</Lat><Long>1828.3608 E</Long><Speed>0.43</Speed><Bearing>0.95</Beariing>
+
+<Time>0 73417</Time><Lat>2142085475.0 S</Lat><Long>1828.3609 E</Long><Speed>0.42</Speed><Bearing>0.95</Beariing>
+
+<Time>0 73418</Time><Lat>2142085475.0 S</Lat><Long>1828.3610 E</Long><Speed>0.43</Speed><Bearing>0.95</Beariing>
+
+<Time>0 73419</Time><Lat>2142085475.0 S</Lat><Long>1828.3611 E</Long><Speed>0.47</Speed><Bearing>0.95</Beariing>
+
+<Time>0 73420</Time><Lat>2142085475.0 S</Lat><Long>1828.3612 E</Long><Speed>0.53</Speed><Bearing>0.95</Beariing>
+
+<Time>0 73421</Time><Lat>2142085475.0 S</Lat><Long>1828.3613 E</Long><Speed>0.51</Speed><Bearing>0.95</Beariing>
+
+<Time>0 73422</Time><Lat>2142085475.0 S</Lat><Long>1828.3613 E</Long><Speed>0.51</Speed><Bearing>0.95</Beariing>
+
+<Time>0 73423</Time><Lat>2142085475.0 S</Lat><Long>1828.3615 E</Long><Speed>0.51</Speed><Bearing>0.95</Beariing>
+
+<Time>0 73424</Time><Lat>2142085475.0 S</Lat><Long>1828.3616 E</Long><Speed>0.52</Speed><Bearing>0.95</Beariing>
+
+<Time>0 73425</Time><Lat>2142085475.0 S</Lat><Long>1828.3617 E</Long><Speed>0.54</Speed><Bearing>0.95</Beariing>
+
+<Time>0 73426</Time><Lat>2142085475.0 S</Lat><Long>1828.3618 E</Long><Speed>0.54</Speed><Bearing>0.95</Beariing>
+
+<Time>0 73427</Time><Lat>2142085475.0 S</Lat><Long>1828.3620 E</Long><Speed>0.51</Speed><Bearing>0.95</Beariing>
+
+<Time>0 73428</Time><Lat>2142085475.0 S</Lat><Long>1828.3621 E</Long><Speed>0.53</Speed><Bearing>0.95</Beariing>
+
+<Time>0 73429</Time><Lat>2142085475.0 S</Lat><Long>1828.3622 E</Long><Speed>0.58</Speed><Bearing>0.95</Beariing>
+
+<Time>0 73430</Time><Lat>2142085475.0 S</Lat><Long>1828.3624 E</Long><Speed>0.64</Speed><Bearing>0.19</Beariing>
+
+<Time>0 73431</Time><Lat>2142085475.0 S</Lat><Long>1828.3628 E</Long><Speed>0.67</Speed><Bearing>0.89</Beariing>
+
+<Time>0 73432</Time><Lat>2142085475.0 S</Lat><Long>1828.3632 E</Long><Speed>0.69</Speed><Bearing>0.60</Beariing>
+
+<Time>0 73433</Time><Lat>2142085475.0 S</Lat><Long>1828.3635 E</Long><Speed>0.70</Speed><Bearing>0.49</Beariing>
+
+<Time>0 73434</Time><Lat>2142085475.0 S</Lat><Long>1828.3639 E</Long><Speed>0.71</Speed><Bearing>0.30</Beariing>
+
+<Time>0 73435</Time><Lat>2142085475.0 S</Lat><Long>1828.3643 E</Long><Speed>0.72</Speed><Bearing>0.97</Beariing>
+
+<Time>0 73436</Time><Lat>2142085475.0 S</Lat><Long>1828.3644 E</Long><Speed>0.73</Speed><Bearing>0.06</Beariing>
+
+<Time>0 73437</Time><Lat>2142085475.0 S</Lat><Long>1828.3645 E</Long><Speed>0.72</Speed><Bearing>0.86</Beariing>
+
+<Time>0 73438</Time><Lat>2142085475.0 S</Lat><Long>1828.3648 E</Long><Speed>0.72</Speed><Bearing>0.37</Beariing>
+
+<Time>0 73439</Time><Lat>2142085475.0 S</Lat><Long>1828.3648 E</Long><Speed>0.71</Speed><Bearing>0.70</Beariing>
+
+<Time>0 73440</Time><Lat>2142085475.0 S</Lat><Long>1828.3647 E</Long><Speed>0.70</Speed><Bearing>0.84</Beariing>
+
+<Time>0 73441</Time><Lat>2142085475.0 S</Lat><Long>1828.3645 E</Long><Speed>0.67</Speed><Bearing>0.84</Beariing>
+
+<Time>0 73442</Time><Lat>2142085475.0 S</Lat><Long>1828.3642 E</Long><Speed>0.43</Speed><Bearing>0.84</Beariing>
+
+<Time>0 73443</Time><Lat>2142085475.0 S</Lat><Long>1828.3641 E</Long><Speed>0.42</Speed><Bearing>0.84</Beariing>
+
+<Time>0 73444</Time><Lat>2142085475.0 S</Lat><Long>1828.3637 E</Long><Speed>0.26</Speed><Bearing>0.84</Beariing>
+
+<Time>0 73445</Time><Lat>2142085475.0 S</Lat><Long>1828.3638 E</Long><Speed>0.13</Speed><Bearing>0.84</Beariing>
+
+GPS data
+<Time>0 73447</Time><Lat>2142085475.0 S</Lat><Long>1828.3637 E</Long><Speed>0.17</Speed><Bearing>0.84</Beariing>
+
+<Time>0 73448</Time><Lat>2142085475.0 S</Lat><Long>1828.3637 E</Long><Speed>0.27</Speed><Bearing>0.84</Beariing>
+
+<Time>0 73449</Time><Lat>2142085475.0 S</Lat><Long>1828.3636 E</Long><Speed>0.38</Speed><Bearing>0.84</Beariing>
+
+GPS data
+<Time>0 73450</Time><Lat>2142085475.0 S</Lat><Long>1828.3634 E</Long><Speed>0.48</Speed><Bearing>0.84</Beariing>
+
+GPS data
+GPS data
+GPS data
+<Time>0 91628</Time><Lat>2142085475.0 S</Lat><Long>1828.3609 E</Long><Speed>1.34</Speed><Bearing>0.69</Beariing>
+
+<Time>0 91629</Time><Lat>2142085475.0 S</Lat><Long>1828.3640 E</Long><Speed>2.26</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 91630</Time><Lat>2142085475.0 S</Lat><Long>1828.3651 E</Long><Speed>0.98</Speed><Bearing>0.42</Beariing>
+
+<Time>0 91631</Time><Lat>2142085475.0 S</Lat><Long>1828.3639 E</Long><Speed>0.39</Speed><Bearing>0.42</Beariing>
+
+<Time>0 91632</Time><Lat>2142085475.0 S</Lat><Long>1828.3651 E</Long><Speed>2.32</Speed><Bearing>0.95</Beariing>
+
+<Time>0 91633</Time><Lat>2142085475.0 S</Lat><Long>1828.3642 E</Long><Speed>0.39</Speed><Bearing>0.95</Beariing>
+
+<Time>0 91634</Time><Lat>2142085475.0 S</Lat><Long>1828.3642 E</Long><Speed>2.63</Speed><Bearing>0.14</Beariing>
+
+<Time>0 91635</Time><Lat>2142085475.0 S</Lat><Long>1828.3716 E</Long><Speed>1.42</Speed><Bearing>0.47</Beariing>
+
+<Time>0 91636</Time><Lat>2142085475.0 S</Lat><Long>1828.3705 E</Long><Speed>3.57</Speed><Bearing>0.05</Beariing>
+
+<Time>0 91637</Time><Lat>2142085475.0 S</Lat><Long>1828.3718 E</Long><Speed>3.13</Speed><Bearing>0.86</Beariing>
+
+<Time>0 91638</Time><Lat>2142085475.0 S</Lat><Long>1828.3655 E</Long><Speed>2.36</Speed><Bearing>0.82</Beariing>
+
+<Time>0 91639</Time><Lat>2142085475.0 S</Lat><Long>1828.3649 E</Long><Speed>2.50</Speed><Bearing>0.94</Beariing>
+
+<Time>0 91640</Time><Lat>2142085475.0 S</Lat><Long>1828.3588 E</Long><Speed>0.59</Speed><Bearing>0.29</Beariing>
+
+<Time>0 91641</Time><Lat>2142085475.0 S</Lat><Long>1828.3671 E</Long><Speed>1.76</Speed><Bearing>0.14</Beariing>
+
+<Time>0 91642</Time><Lat>2142085475.0 S</Lat><Long>1828.3622 E</Long><Speed>1.07</Speed><Bearing>0.62</Beariing>
+
+<Time>0 91643</Time><Lat>2142085475.0 S</Lat><Long>1828.3636 E</Long><Speed>3.37</Speed><Bearing>0.74</Beariing>
+
+<Time>0 91644</Time><Lat>2142085475.0 S</Lat><Long>1828.3636 E</Long><Speed>2.75</Speed><Bearing>0.99</Beariing>
+
+<Time>0 91645</Time><Lat>2142085475.0 S</Lat><Long>1828.3632 E</Long><Speed>1.15</Speed><Bearing>0.83</Beariing>
+
+<Time>0 91646</Time><Lat>2142085475.0 S</Lat><Long>1828.3632 E</Long><Speed>0.90</Speed><Bearing>0.36</Beariing>
+
+<Time>0 91647</Time><Lat>2142085475.0 S</Lat><Long>1828.3634 E</Long><Speed>1.10</Speed><Bearing>0.96</Beariing>
+
+<Time>0 91648</Time><Lat>2142085475.0 S</Lat><Long>1828.3618 E</Long><Speed>1.02</Speed><Bearing>0.94</Beariing>
+
+<Time>0 91649</Time><Lat>2142085475.0 S</Lat><Long>1828.3604 E</Long><Speed>2.26</Speed><Bearing>0.10</Beariing>
+
+<Time>0 91650</Time><Lat>2142085475.0 S</Lat><Long>1828.3603 E</Long><Speed>1.22</Speed><Bearing>0.62</Beariing>
+
+<Time>0 91651</Time><Lat>2142085475.0 S</Lat><Long>1828.3613 E</Long><Speed>0.65</Speed><Bearing>0.16</Beariing>
+
+<Time>0 91652</Time><Lat>2142085475.0 S</Lat><Long>1828.3607 E</Long><Speed>2.46</Speed><Bearing>0.34</Beariing>
+
+<Time>0 91653</Time><Lat>2142085475.0 S</Lat><Long>1828.3602 E</Long><Speed>0.73</Speed><Bearing>0.93</Beariing>
+
+<Time>0 91654</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.38</Speed><Bearing>0.93</Beariing>
+
+<Time>0 91655</Time><Lat>2142085475.0 S</Lat><Long>1828.3590 E</Long><Speed>0.65</Speed><Bearing>0.18</Beariing>
+
+<Time>0 91656</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.79</Speed><Bearing>0.69</Beariing>
+
+<Time>0 91657</Time><Lat>2142085475.0 S</Lat><Long>1828.3596 E</Long><Speed>0.98</Speed><Bearing>0.73</Beariing>
+
+<Time>0 91658</Time><Lat>2142085475.0 S</Lat><Long>1828.3595 E</Long><Speed>1.16</Speed><Bearing>0.86</Beariing>
+
+<Time>0 91659</Time><Lat>2142085475.0 S</Lat><Long>1828.3595 E</Long><Speed>1.13</Speed><Bearing>0.49</Beariing>
+
+<Time>0 91700</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>1.08</Speed><Bearing>0.99</Beariing>
+
+<Time>0 91701</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>1.12</Speed><Bearing>0.94</Beariing>
+
+<Time>0 91702</Time><Lat>2142085475.0 S</Lat><Long>1828.3605 E</Long><Speed>1.68</Speed><Bearing>0.91</Beariing>
+
+<Time>0 91703</Time><Lat>2142085475.0 S</Lat><Long>1828.3609 E</Long><Speed>1.72</Speed><Bearing>0.43</Beariing>
+
+<Time>0 91704</Time><Lat>2142085475.0 S</Lat><Long>1828.3610 E</Long><Speed>1.74</Speed><Bearing>0.61</Beariing>
+
+<Time>0 91705</Time><Lat>2142085475.0 S</Lat><Long>1828.3611 E</Long><Speed>1.81</Speed><Bearing>0.22</Beariing>
+
+<Time>0 91706</Time><Lat>2142085475.0 S</Lat><Long>1828.3613 E</Long><Speed>2.32</Speed><Bearing>0.04</Beariing>
+
+<Time>0 91707</Time><Lat>2142085475.0 S</Lat><Long>1828.3612 E</Long><Speed>1.87</Speed><Bearing>0.14</Beariing>
+
+<Time>0 91708</Time><Lat>2142085475.0 S</Lat><Long>1828.3611 E</Long><Speed>1.89</Speed><Bearing>0.83</Beariing>
+
+<Time>0 91709</Time><Lat>2142085475.0 S</Lat><Long>1828.3612 E</Long><Speed>1.92</Speed><Bearing>0.92</Beariing>
+
+<Time>0 91710</Time><Lat>2142085475.0 S</Lat><Long>1828.3611 E</Long><Speed>0.91</Speed><Bearing>0.44</Beariing>
+
+<Time>0 91711</Time><Lat>2142085475.0 S</Lat><Long>1828.3610 E</Long><Speed>0.84</Speed><Bearing>0.14</Beariing>
+
+<Time>0 91712</Time><Lat>2142085475.0 S</Lat><Long>1828.3608 E</Long><Speed>0.79</Speed><Bearing>0.10</Beariing>
+
+<Time>0 91713</Time><Lat>2142085475.0 S</Lat><Long>1828.3604 E</Long><Speed>0.53</Speed><Bearing>0.10</Beariing>
+
+<Time>0 91714</Time><Lat>2142085475.0 S</Lat><Long>1828.3605 E</Long><Speed>0.58</Speed><Bearing>0.13</Beariing>
+
+<Time>0 91715</Time><Lat>2142085475.0 S</Lat><Long>1828.3605 E</Long><Speed>0.64</Speed><Bearing>0.71</Beariing>
+
+<Time>0 91716</Time><Lat>2142085475.0 S</Lat><Long>1828.3602 E</Long><Speed>0.82</Speed><Bearing>0.42</Beariing>
+
+<Time>0 91717</Time><Lat>2142085475.0 S</Lat><Long>1828.3598 E</Long><Speed>1.33</Speed><Bearing>0.95</Beariing>
+
+<Time>0 91718</Time><Lat>2142085475.0 S</Lat><Long>1828.3595 E</Long><Speed>0.83</Speed><Bearing>0.90</Beariing>
+
+<Time>0 91719</Time><Lat>2142085475.0 S</Lat><Long>1828.3594 E</Long><Speed>0.40</Speed><Bearing>0.90</Beariing>
+
+<Time>0 91720</Time><Lat>2142085475.0 S</Lat><Long>1828.3594 E</Long><Speed>0.60</Speed><Bearing>0.50</Beariing>
+
+<Time>0 91721</Time><Lat>2142085475.0 S</Lat><Long>1828.3595 E</Long><Speed>0.64</Speed><Bearing>0.98</Beariing>
+
+<Time>0 91722</Time><Lat>2142085475.0 S</Lat><Long>1828.3595 E</Long><Speed>0.63</Speed><Bearing>0.95</Beariing>
+
+<Time>0 91723</Time><Lat>2142085475.0 S</Lat><Long>1828.3596 E</Long><Speed>0.69</Speed><Bearing>0.03</Beariing>
+
+<Time>0 91724</Time><Lat>2142085475.0 S</Lat><Long>1828.3594 E</Long><Speed>0.91</Speed><Bearing>0.93</Beariing>
+
+<Time>0 91725</Time><Lat>2142085475.0 S</Lat><Long>1828.3595 E</Long><Speed>0.63</Speed><Bearing>0.96</Beariing>
+
+<Time>0 91726</Time><Lat>2142085475.0 S</Lat><Long>1828.3595 E</Long><Speed>0.57</Speed><Bearing>0.96</Beariing>
+
+<Time>0 91727</Time><Lat>2142085475.0 S</Lat><Long>1828.3596 E</Long><Speed>0.22</Speed><Bearing>0.96</Beariing>
+
+<Time>0 91728</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.26</Speed><Bearing>0.96</Beariing>
+
+<Time>0 91729</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.80</Speed><Bearing>0.81</Beariing>
+
+<Time>0 91730</Time><Lat>2142085475.0 S</Lat><Long>1828.3601 E</Long><Speed>0.79</Speed><Bearing>0.92</Beariing>
+
+<Time>0 91731</Time><Lat>2142085475.0 S</Lat><Long>1828.3603 E</Long><Speed>0.75</Speed><Bearing>0.87</Beariing>
+
+<Time>0 91732</Time><Lat>2142085475.0 S</Lat><Long>1828.3602 E</Long><Speed>0.50</Speed><Bearing>0.87</Beariing>
+
+<Time>0 91733</Time><Lat>2142085475.0 S</Lat><Long>1828.3602 E</Long><Speed>0.11</Speed><Bearing>0.87</Beariing>
+
+<Time>0 91734</Time><Lat>2142085475.0 S</Lat><Long>1828.3602 E</Long><Speed>0.41</Speed><Bearing>0.87</Beariing>
+
+<Time>0 91735</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.43</Speed><Bearing>0.87</Beariing>
+
+<Time>0 91736</Time><Lat>2142085475.0 S</Lat><Long>1828.3599 E</Long><Speed>0.78</Speed><Bearing>0.57</Beariing>
+
+<Time>0 91737</Time><Lat>2142085475.0 S</Lat><Long>1828.3599 E</Long><Speed>0.41</Speed><Bearing>0.57</Beariing>
+
+<Time>0 91738</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.47</Speed><Bearing>0.57</Beariing>
+
+<Time>0 91739</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.42</Speed><Bearing>0.57</Beariing>
+
+<Time>0 91740</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.42</Speed><Bearing>0.57</Beariing>
+
+<Time>0 91741</Time><Lat>2142085475.0 S</Lat><Long>1828.3599 E</Long><Speed>0.47</Speed><Bearing>0.57</Beariing>
+
+<Time>0 91742</Time><Lat>2142085475.0 S</Lat><Long>1828.3598 E</Long><Speed>0.11</Speed><Bearing>0.57</Beariing>
+
+<Time>0 91743</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.32</Speed><Bearing>0.57</Beariing>
+
+<Time>0 91744</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.23</Speed><Bearing>0.57</Beariing>
+
+<Time>0 91745</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.58</Speed><Bearing>0.57</Beariing>
+
+<Time>0 91746</Time><Lat>2142085475.0 S</Lat><Long>1828.3596 E</Long><Speed>0.71</Speed><Bearing>0.82</Beariing>
+
+<Time>0 91747</Time><Lat>2142085475.0 S</Lat><Long>1828.3593 E</Long><Speed>0.69</Speed><Bearing>0.20</Beariing>
+
+<Time>0 91748</Time><Lat>2142085475.0 S</Lat><Long>1828.3590 E</Long><Speed>0.69</Speed><Bearing>0.63</Beariing>
+
+<Time>0 91749</Time><Lat>2142085475.0 S</Lat><Long>1828.3586 E</Long><Speed>0.89</Speed><Bearing>0.55</Beariing>
+
+<Time>0 91750</Time><Lat>2142085475.0 S</Lat><Long>1828.3583 E</Long><Speed>0.88</Speed><Bearing>0.18</Beariing>
+
+<Time>0 91751</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.95</Speed><Bearing>0.58</Beariing>
+
+<Time>0 91752</Time><Lat>2142085475.0 S</Lat><Long>1828.3574 E</Long><Speed>1.11</Speed><Bearing>0.83</Beariing>
+
+<Time>0 91753</Time><Lat>2142085475.0 S</Lat><Long>1828.3572 E</Long><Speed>1.07</Speed><Bearing>0.82</Beariing>
+
+<Time>0 91754</Time><Lat>2142085475.0 S</Lat><Long>1828.3569 E</Long><Speed>1.11</Speed><Bearing>0.51</Beariing>
+
+<Time>0 91755</Time><Lat>2142085475.0 S</Lat><Long>1828.3565 E</Long><Speed>1.34</Speed><Bearing>0.51</Beariing>
+
+<Time>0 91756</Time><Lat>2142085475.0 S</Lat><Long>1828.3561 E</Long><Speed>1.81</Speed><Bearing>0.44</Beariing>
+
+<Time>0 91757</Time><Lat>2142085475.0 S</Lat><Long>1828.3560 E</Long><Speed>1.77</Speed><Bearing>0.11</Beariing>
+
+<Time>0 91758</Time><Lat>2142085475.0 S</Lat><Long>1828.3560 E</Long><Speed>1.25</Speed><Bearing>0.20</Beariing>
+
+<Time>0 91759</Time><Lat>2142085475.0 S</Lat><Long>1828.3557 E</Long><Speed>0.99</Speed><Bearing>0.69</Beariing>
+
+<Time>0 91800</Time><Lat>2142085475.0 S</Lat><Long>1828.3557 E</Long><Speed>0.75</Speed><Bearing>0.52</Beariing>
+
+<Time>0 91801</Time><Lat>2142085475.0 S</Lat><Long>1828.3557 E</Long><Speed>0.42</Speed><Bearing>0.52</Beariing>
+
+<Time>0 91802</Time><Lat>2142085475.0 S</Lat><Long>1828.3557 E</Long><Speed>0.41</Speed><Bearing>0.52</Beariing>
+
+<Time>0 91803</Time><Lat>2142085475.0 S</Lat><Long>1828.3555 E</Long><Speed>0.45</Speed><Bearing>0.52</Beariing>
+
+<Time>0 91804</Time><Lat>2142085475.0 S</Lat><Long>1828.3556 E</Long><Speed>0.38</Speed><Bearing>0.52</Beariing>
+
+<Time>0 91805</Time><Lat>2142085475.0 S</Lat><Long>1828.3555 E</Long><Speed>0.43</Speed><Bearing>0.52</Beariing>
+
+<Time>0 91806</Time><Lat>2142085475.0 S</Lat><Long>1828.3555 E</Long><Speed>0.34</Speed><Bearing>0.52</Beariing>
+
+<Time>0 91807</Time><Lat>2142085475.0 S</Lat><Long>1828.3556 E</Long><Speed>0.23</Speed><Bearing>0.52</Beariing>
+
+<Time>0 91808</Time><Lat>2142085475.0 S</Lat><Long>1828.3555 E</Long><Speed>0.25</Speed><Bearing>0.52</Beariing>
+
+<Time>0 91809</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.62</Speed><Bearing>0.97</Beariing>
+
+<Time>0 91810</Time><Lat>2142085475.0 S</Lat><Long>1828.3555 E</Long><Speed>0.60</Speed><Bearing>0.97</Beariing>
+
+<Time>0 91811</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.67</Speed><Bearing>0.61</Beariing>
+
+<Time>0 91812</Time><Lat>2142085475.0 S</Lat><Long>1828.3553 E</Long><Speed>0.45</Speed><Bearing>0.61</Beariing>
+
+<Time>0 91813</Time><Lat>2142085475.0 S</Lat><Long>1828.3552 E</Long><Speed>0.43</Speed><Bearing>0.61</Beariing>
+
+<Time>0 91814</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>0.12</Speed><Bearing>0.61</Beariing>
+
+<Time>0 91815</Time><Lat>2142085475.0 S</Lat><Long>1828.3553 E</Long><Speed>0.53</Speed><Bearing>0.61</Beariing>
+
+<Time>0 91816</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.17</Speed><Bearing>0.61</Beariing>
+
+<Time>0 91817</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.21</Speed><Bearing>0.61</Beariing>
+
+<Time>0 91818</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.67</Speed><Bearing>0.61</Beariing>
+
+<Time>0 91819</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.29</Speed><Bearing>0.61</Beariing>
+
+<Time>0 91820</Time><Lat>2142085475.0 S</Lat><Long>1828.3555 E</Long><Speed>0.56</Speed><Bearing>0.61</Beariing>
+
+<Time>0 91821</Time><Lat>2142085475.0 S</Lat><Long>1828.3555 E</Long><Speed>0.30</Speed><Bearing>0.61</Beariing>
+
+<Time>0 91822</Time><Lat>2142085475.0 S</Lat><Long>1828.3555 E</Long><Speed>0.36</Speed><Bearing>0.61</Beariing>
+
+<Time>0 91823</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.42</Speed><Bearing>0.61</Beariing>
+
+<Time>0 91824</Time><Lat>2142085475.0 S</Lat><Long>1828.3553 E</Long><Speed>0.51</Speed><Bearing>0.61</Beariing>
+
+<Time>0 91825</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.95</Speed><Bearing>0.71</Beariing>
+
+<Time>0 91826</Time><Lat>2142085475.0 S</Lat><Long>1828.3553 E</Long><Speed>0.55</Speed><Bearing>0.71</Beariing>
+
+<Time>0 91827</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.12</Speed><Bearing>0.71</Beariing>
+
+<Time>0 91828</Time><Lat>2142085475.0 S</Lat><Long>1828.3557 E</Long><Speed>0.37</Speed><Bearing>0.71</Beariing>
+
+<Time>0 91829</Time><Lat>2142085475.0 S</Lat><Long>1828.3558 E</Long><Speed>0.40</Speed><Bearing>0.71</Beariing>
+
+<Time>0 91830</Time><Lat>2142085475.0 S</Lat><Long>1828.3557 E</Long><Speed>0.56</Speed><Bearing>0.71</Beariing>
+
+<Time>0 91831</Time><Lat>2142085475.0 S</Lat><Long>1828.3557 E</Long><Speed>0.43</Speed><Bearing>0.71</Beariing>
+
+<Time>0 91832</Time><Lat>2142085475.0 S</Lat><Long>1828.3557 E</Long><Speed>0.30</Speed><Bearing>0.71</Beariing>
+
+<Time>0 91833</Time><Lat>2142085475.0 S</Lat><Long>1828.3558 E</Long><Speed>0.43</Speed><Bearing>0.71</Beariing>
+
+<Time>0 91834</Time><Lat>2142085475.0 S</Lat><Long>1828.3560 E</Long><Speed>0.67</Speed><Bearing>0.34</Beariing>
+
+<Time>0 91835</Time><Lat>2142085475.0 S</Lat><Long>1828.3561 E</Long><Speed>0.46</Speed><Bearing>0.34</Beariing>
+
+<Time>0 91836</Time><Lat>2142085475.0 S</Lat><Long>1828.3559 E</Long><Speed>0.49</Speed><Bearing>0.34</Beariing>
+
+<Time>0 91837</Time><Lat>2142085475.0 S</Lat><Long>1828.3557 E</Long><Speed>0.50</Speed><Bearing>0.34</Beariing>
+
+<Time>0 91838</Time><Lat>2142085475.0 S</Lat><Long>1828.3555 E</Long><Speed>0.48</Speed><Bearing>0.34</Beariing>
+
+<Time>0 91839</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.63</Speed><Bearing>0.64</Beariing>
+
+<Time>0 91840</Time><Lat>2142085475.0 S</Lat><Long>1828.3552 E</Long><Speed>0.62</Speed><Bearing>0.25</Beariing>
+
+<Time>0 91841</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>0.60</Speed><Bearing>0.25</Beariing>
+
+<Time>0 91842</Time><Lat>2142085475.0 S</Lat><Long>1828.3550 E</Long><Speed>0.58</Speed><Bearing>0.25</Beariing>
+
+<Time>0 91843</Time><Lat>2142085475.0 S</Lat><Long>1828.3550 E</Long><Speed>0.83</Speed><Bearing>0.23</Beariing>
+
+<Time>0 91844</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>1.20</Speed><Bearing>0.87</Beariing>
+
+<Time>0 91845</Time><Lat>2142085475.0 S</Lat><Long>1828.3549 E</Long><Speed>0.61</Speed><Bearing>0.14</Beariing>
+
+<Time>0 91846</Time><Lat>2142085475.0 S</Lat><Long>1828.3549 E</Long><Speed>0.55</Speed><Bearing>0.14</Beariing>
+
+<Time>0 91847</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>0.53</Speed><Bearing>0.14</Beariing>
+
+<Time>0 91848</Time><Lat>2142085475.0 S</Lat><Long>1828.3547 E</Long><Speed>0.85</Speed><Bearing>0.11</Beariing>
+
+<Time>0 91849</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>0.84</Speed><Bearing>0.28</Beariing>
+
+<Time>0 91850</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>0.91</Speed><Bearing>0.22</Beariing>
+
+<Time>0 91851</Time><Lat>2142085475.0 S</Lat><Long>1828.3549 E</Long><Speed>0.86</Speed><Bearing>0.88</Beariing>
+
+<Time>0 91852</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>0.52</Speed><Bearing>0.88</Beariing>
+
+<Time>0 91853</Time><Lat>2142085475.0 S</Lat><Long>1828.3552 E</Long><Speed>0.50</Speed><Bearing>0.88</Beariing>
+
+<Time>0 91854</Time><Lat>2142085475.0 S</Lat><Long>1828.3552 E</Long><Speed>0.69</Speed><Bearing>0.89</Beariing>
+
+<Time>0 91855</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>0.97</Speed><Bearing>0.52</Beariing>
+
+<Time>0 91856</Time><Lat>2142085475.0 S</Lat><Long>1828.3552 E</Long><Speed>0.59</Speed><Bearing>0.67</Beariing>
+
+<Time>0 91857</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>1.08</Speed><Bearing>0.03</Beariing>
+
+<Time>0 91858</Time><Lat>2142085475.0 S</Lat><Long>1828.3550 E</Long><Speed>0.67</Speed><Bearing>0.82</Beariing>
+
+<Time>0 91859</Time><Lat>2142085475.0 S</Lat><Long>1828.3550 E</Long><Speed>1.40</Speed><Bearing>0.16</Beariing>
+
+<Time>0 91900</Time><Lat>2142085475.0 S</Lat><Long>1828.3550 E</Long><Speed>0.98</Speed><Bearing>0.27</Beariing>
+
+<Time>0 91901</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>0.15</Speed><Bearing>0.27</Beariing>
+
+<Time>0 91902</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>0.64</Speed><Bearing>0.87</Beariing>
+
+<Time>0 91903</Time><Lat>2142085475.0 S</Lat><Long>1828.3550 E</Long><Speed>0.89</Speed><Bearing>0.44</Beariing>
+
+<Time>0 91904</Time><Lat>2142085475.0 S</Lat><Long>1828.3549 E</Long><Speed>0.86</Speed><Bearing>0.66</Beariing>
+
+<Time>0 91905</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>1.02</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 91906</Time><Lat>2142085475.0 S</Lat><Long>1828.3546 E</Long><Speed>1.19</Speed><Bearing>0.73</Beariing>
+
+<Time>0 91907</Time><Lat>2142085475.0 S</Lat><Long>1828.3543 E</Long><Speed>1.38</Speed><Bearing>0.06</Beariing>
+
+<Time>0 91908</Time><Lat>2142085475.0 S</Lat><Long>1828.3540 E</Long><Speed>1.12</Speed><Bearing>0.44</Beariing>
+
+<Time>0 91909</Time><Lat>2142085475.0 S</Lat><Long>1828.3537 E</Long><Speed>1.09</Speed><Bearing>0.99</Beariing>
+
+<Time>0 91910</Time><Lat>2142085475.0 S</Lat><Long>1828.3536 E</Long><Speed>0.74</Speed><Bearing>0.85</Beariing>
+
+<Time>0 91911</Time><Lat>2142085475.0 S</Lat><Long>1828.3537 E</Long><Speed>0.53</Speed><Bearing>0.85</Beariing>
+
+<Time>0 91912</Time><Lat>2142085475.0 S</Lat><Long>1828.3538 E</Long><Speed>0.58</Speed><Bearing>0.44</Beariing>
+
+<Time>0 91913</Time><Lat>2142085475.0 S</Lat><Long>1828.3538 E</Long><Speed>0.58</Speed><Bearing>0.44</Beariing>
+
+<Time>0 91914</Time><Lat>2142085475.0 S</Lat><Long>1828.3536 E</Long><Speed>1.13</Speed><Bearing>0.97</Beariing>
+
+<Time>0 91915</Time><Lat>2142085475.0 S</Lat><Long>1828.3534 E</Long><Speed>0.92</Speed><Bearing>0.49</Beariing>
+
+<Time>0 91916</Time><Lat>2142085475.0 S</Lat><Long>1828.3532 E</Long><Speed>0.37</Speed><Bearing>0.49</Beariing>
+
+<Time>0 91917</Time><Lat>2142085475.0 S</Lat><Long>1828.3531 E</Long><Speed>0.43</Speed><Bearing>0.49</Beariing>
+
+<Time>0 91918</Time><Lat>2142085475.0 S</Lat><Long>1828.3531 E</Long><Speed>0.48</Speed><Bearing>0.49</Beariing>
+
+<Time>0 91919</Time><Lat>2142085475.0 S</Lat><Long>1828.3530 E</Long><Speed>1.21</Speed><Bearing>0.19</Beariing>
+
+<Time>0 91920</Time><Lat>2142085475.0 S</Lat><Long>1828.3530 E</Long><Speed>0.42</Speed><Bearing>0.19</Beariing>
+
+<Time>0 91921</Time><Lat>2142085475.0 S</Lat><Long>1828.3531 E</Long><Speed>0.46</Speed><Bearing>0.19</Beariing>
+
+<Time>0 91922</Time><Lat>2142085475.0 S</Lat><Long>1828.3530 E</Long><Speed>0.68</Speed><Bearing>0.65</Beariing>
+
+<Time>0 91923</Time><Lat>2142085475.0 S</Lat><Long>1828.3529 E</Long><Speed>0.68</Speed><Bearing>0.94</Beariing>
+
+<Time>0 91924</Time><Lat>2142085475.0 S</Lat><Long>1828.3527 E</Long><Speed>0.73</Speed><Bearing>0.63</Beariing>
+
+<Time>0 91925</Time><Lat>2142085475.0 S</Lat><Long>1828.3526 E</Long><Speed>0.35</Speed><Bearing>0.63</Beariing>
+
+<Time>0 91926</Time><Lat>2142085475.0 S</Lat><Long>1828.3527 E</Long><Speed>0.82</Speed><Bearing>0.46</Beariing>
+
+<Time>0 91927</Time><Lat>2142085475.0 S</Lat><Long>1828.3527 E</Long><Speed>0.83</Speed><Bearing>0.86</Beariing>
+
+<Time>0 91928</Time><Lat>2142085475.0 S</Lat><Long>1828.3528 E</Long><Speed>0.12</Speed><Bearing>0.86</Beariing>
+
+<Time>0 91929</Time><Lat>2142085475.0 S</Lat><Long>1828.3530 E</Long><Speed>0.14</Speed><Bearing>0.86</Beariing>
+
+<Time>0 91930</Time><Lat>2142085475.0 S</Lat><Long>1828.3531 E</Long><Speed>0.39</Speed><Bearing>0.86</Beariing>
+
+<Time>0 91931</Time><Lat>2142085475.0 S</Lat><Long>1828.3534 E</Long><Speed>0.38</Speed><Bearing>0.86</Beariing>
+
+<Time>0 91932</Time><Lat>2142085475.0 S</Lat><Long>1828.3534 E</Long><Speed>0.19</Speed><Bearing>0.86</Beariing>
+
+<Time>0 91933</Time><Lat>2142085475.0 S</Lat><Long>1828.3534 E</Long><Speed>0.33</Speed><Bearing>0.86</Beariing>
+
+<Time>0 91934</Time><Lat>2142085475.0 S</Lat><Long>1828.3533 E</Long><Speed>0.54</Speed><Bearing>0.86</Beariing>
+
+<Time>0 91935</Time><Lat>2142085475.0 S</Lat><Long>1828.3532 E</Long><Speed>0.42</Speed><Bearing>0.86</Beariing>
+
+<Time>0 91936</Time><Lat>2142085475.0 S</Lat><Long>1828.3531 E</Long><Speed>0.91</Speed><Bearing>0.64</Beariing>
+
+<Time>0 91937</Time><Lat>2142085475.0 S</Lat><Long>1828.3532 E</Long><Speed>0.66</Speed><Bearing>0.30</Beariing>
+
+<Time>0 91938</Time><Lat>2142085475.0 S</Lat><Long>1828.3533 E</Long><Speed>0.09</Speed><Bearing>0.30</Beariing>
+
+<Time>0 91939</Time><Lat>2142085475.0 S</Lat><Long>1828.3534 E</Long><Speed>0.43</Speed><Bearing>0.30</Beariing>
+
+<Time>0 91940</Time><Lat>2142085475.0 S</Lat><Long>1828.3535 E</Long><Speed>0.25</Speed><Bearing>0.30</Beariing>
+
+<Time>0 91941</Time><Lat>2142085475.0 S</Lat><Long>1828.3537 E</Long><Speed>0.41</Speed><Bearing>0.30</Beariing>
+
+<Time>0 91942</Time><Lat>2142085475.0 S</Lat><Long>1828.3537 E</Long><Speed>0.10</Speed><Bearing>0.30</Beariing>
+
+<Time>0 91943</Time><Lat>2142085475.0 S</Lat><Long>1828.3537 E</Long><Speed>0.23</Speed><Bearing>0.30</Beariing>
+
+<Time>0 91944</Time><Lat>2142085475.0 S</Lat><Long>1828.3536 E</Long><Speed>0.06</Speed><Bearing>0.30</Beariing>
+
+<Time>0 91945</Time><Lat>2142085475.0 S</Lat><Long>1828.3537 E</Long><Speed>0.22</Speed><Bearing>0.30</Beariing>
+
+<Time>0 91946</Time><Lat>2142085475.0 S</Lat><Long>1828.3537 E</Long><Speed>0.26</Speed><Bearing>0.30</Beariing>
+
+<Time>0 91947</Time><Lat>2142085475.0 S</Lat><Long>1828.3538 E</Long><Speed>0.45</Speed><Bearing>0.30</Beariing>
+
+<Time>0 91948</Time><Lat>2142085475.0 S</Lat><Long>1828.3539 E</Long><Speed>0.05</Speed><Bearing>0.30</Beariing>
+
+<Time>0 91949</Time><Lat>2142085475.0 S</Lat><Long>1828.3539 E</Long><Speed>0.41</Speed><Bearing>0.30</Beariing>
+
+<Time>0 91950</Time><Lat>2142085475.0 S</Lat><Long>1828.3539 E</Long><Speed>0.89</Speed><Bearing>0.53</Beariing>
+
+<Time>0 91951</Time><Lat>2142085475.0 S</Lat><Long>1828.3543 E</Long><Speed>0.42</Speed><Bearing>0.53</Beariing>
+
+<Time>0 91952</Time><Lat>2142085475.0 S</Lat><Long>1828.3544 E</Long><Speed>0.45</Speed><Bearing>0.53</Beariing>
+
+<Time>0 91953</Time><Lat>2142085475.0 S</Lat><Long>1828.3546 E</Long><Speed>0.80</Speed><Bearing>0.55</Beariing>
+
+<Time>0 91954</Time><Lat>2142085475.0 S</Lat><Long>1828.3546 E</Long><Speed>0.11</Speed><Bearing>0.55</Beariing>
+
+<Time>0 91955</Time><Lat>2142085475.0 S</Lat><Long>1828.3545 E</Long><Speed>0.49</Speed><Bearing>0.55</Beariing>
+
+<Time>0 91956</Time><Lat>2142085475.0 S</Lat><Long>1828.3543 E</Long><Speed>0.80</Speed><Bearing>0.77</Beariing>
+
+<Time>0 91957</Time><Lat>2142085475.0 S</Lat><Long>1828.3544 E</Long><Speed>0.21</Speed><Bearing>0.77</Beariing>
+
+<Time>0 91958</Time><Lat>2142085475.0 S</Lat><Long>1828.3544 E</Long><Speed>0.44</Speed><Bearing>0.77</Beariing>
+
+<Time>0 91959</Time><Lat>2142085475.0 S</Lat><Long>1828.3545 E</Long><Speed>0.09</Speed><Bearing>0.77</Beariing>
+
+<Time>0 92000</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>0.24</Speed><Bearing>0.77</Beariing>
+
+<Time>0 92001</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>0.52</Speed><Bearing>0.77</Beariing>
+
+<Time>0 92002</Time><Lat>2142085475.0 S</Lat><Long>1828.3547 E</Long><Speed>0.15</Speed><Bearing>0.77</Beariing>
+
+<Time>0 92003</Time><Lat>2142085475.0 S</Lat><Long>1828.3547 E</Long><Speed>0.13</Speed><Bearing>0.77</Beariing>
+
+<Time>0 92004</Time><Lat>2142085475.0 S</Lat><Long>1828.3547 E</Long><Speed>0.18</Speed><Bearing>0.77</Beariing>
+
+<Time>0 92005</Time><Lat>2142085475.0 S</Lat><Long>1828.3546 E</Long><Speed>0.60</Speed><Bearing>0.23</Beariing>
+
+<Time>0 92006</Time><Lat>2142085475.0 S</Lat><Long>1828.3546 E</Long><Speed>0.58</Speed><Bearing>0.23</Beariing>
+
+<Time>0 92007</Time><Lat>2142085475.0 S</Lat><Long>1828.3544 E</Long><Speed>0.59</Speed><Bearing>0.92</Beariing>
+
+<Time>0 92008</Time><Lat>2142085475.0 S</Lat><Long>1828.3542 E</Long><Speed>0.55</Speed><Bearing>0.92</Beariing>
+
+<Time>0 92009</Time><Lat>2142085475.0 S</Lat><Long>1828.3542 E</Long><Speed>0.50</Speed><Bearing>0.92</Beariing>
+
+<Time>0 92010</Time><Lat>2142085475.0 S</Lat><Long>1828.3542 E</Long><Speed>0.72</Speed><Bearing>0.63</Beariing>
+
+<Time>0 92011</Time><Lat>2142085475.0 S</Lat><Long>1828.3542 E</Long><Speed>0.24</Speed><Bearing>0.63</Beariing>
+
+<Time>0 92012</Time><Lat>2142085475.0 S</Lat><Long>1828.3542 E</Long><Speed>0.23</Speed><Bearing>0.63</Beariing>
+
+<Time>0 92013</Time><Lat>2142085475.0 S</Lat><Long>1828.3544 E</Long><Speed>0.24</Speed><Bearing>0.63</Beariing>
+
+<Time>0 92014</Time><Lat>2142085475.0 S</Lat><Long>1828.3546 E</Long><Speed>0.46</Speed><Bearing>0.63</Beariing>
+
+<Time>0 92015</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>0.57</Speed><Bearing>0.63</Beariing>
+
+<Time>0 92016</Time><Lat>2142085475.0 S</Lat><Long>1828.3549 E</Long><Speed>0.60</Speed><Bearing>0.87</Beariing>
+
+<Time>0 92017</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>0.31</Speed><Bearing>0.87</Beariing>
+
+<Time>0 92018</Time><Lat>2142085475.0 S</Lat><Long>1828.3547 E</Long><Speed>0.59</Speed><Bearing>0.95</Beariing>
+
+<Time>0 92019</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>0.61</Speed><Bearing>0.01</Beariing>
+
+<Time>0 92020</Time><Lat>2142085475.0 S</Lat><Long>1828.3552 E</Long><Speed>0.64</Speed><Bearing>0.65</Beariing>
+
+<Time>0 92021</Time><Lat>2142085475.0 S</Lat><Long>1828.3553 E</Long><Speed>0.71</Speed><Bearing>0.26</Beariing>
+
+<Time>0 92022</Time><Lat>2142085475.0 S</Lat><Long>1828.3553 E</Long><Speed>0.64</Speed><Bearing>0.26</Beariing>
+
+<Time>0 92023</Time><Lat>2142085475.0 S</Lat><Long>1828.3552 E</Long><Speed>0.64</Speed><Bearing>0.34</Beariing>
+
+<Time>0 92024</Time><Lat>2142085475.0 S</Lat><Long>1828.3553 E</Long><Speed>0.63</Speed><Bearing>0.34</Beariing>
+
+<Time>0 92025</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.32</Speed><Bearing>0.34</Beariing>
+
+<Time>0 92026</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.32</Speed><Bearing>0.34</Beariing>
+
+<Time>0 92027</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.03</Speed><Bearing>0.34</Beariing>
+
+<Time>0 92028</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.23</Speed><Bearing>0.34</Beariing>
+
+<Time>0 92029</Time><Lat>2142085475.0 S</Lat><Long>1828.3553 E</Long><Speed>0.19</Speed><Bearing>0.34</Beariing>
+
+<Time>0 92030</Time><Lat>2142085475.0 S</Lat><Long>1828.3553 E</Long><Speed>0.56</Speed><Bearing>0.34</Beariing>
+
+<Time>0 92031</Time><Lat>2142085475.0 S</Lat><Long>1828.3553 E</Long><Speed>0.40</Speed><Bearing>0.34</Beariing>
+
+<Time>0 92032</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.24</Speed><Bearing>0.34</Beariing>
+
+<Time>0 92033</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.31</Speed><Bearing>0.34</Beariing>
+
+<Time>0 92034</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.22</Speed><Bearing>0.34</Beariing>
+
+<Time>0 92035</Time><Lat>2142085475.0 S</Lat><Long>1828.3553 E</Long><Speed>0.31</Speed><Bearing>0.34</Beariing>
+
+<Time>0 92036</Time><Lat>2142085475.0 S</Lat><Long>1828.3553 E</Long><Speed>0.60</Speed><Bearing>0.76</Beariing>
+
+<Time>0 92037</Time><Lat>2142085475.0 S</Lat><Long>1828.3553 E</Long><Speed>0.59</Speed><Bearing>0.76</Beariing>
+
+<Time>0 92038</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.34</Speed><Bearing>0.76</Beariing>
+
+<Time>0 92039</Time><Lat>2142085475.0 S</Lat><Long>1828.3555 E</Long><Speed>0.61</Speed><Bearing>0.94</Beariing>
+
+<Time>0 92040</Time><Lat>2142085475.0 S</Lat><Long>1828.3555 E</Long><Speed>0.81</Speed><Bearing>0.24</Beariing>
+
+<Time>0 92041</Time><Lat>2142085475.0 S</Lat><Long>1828.3556 E</Long><Speed>0.29</Speed><Bearing>0.24</Beariing>
+
+<Time>0 92042</Time><Lat>2142085475.0 S</Lat><Long>1828.3556 E</Long><Speed>0.94</Speed><Bearing>0.31</Beariing>
+
+<Time>0 92043</Time><Lat>2142085475.0 S</Lat><Long>1828.3556 E</Long><Speed>0.86</Speed><Bearing>0.29</Beariing>
+
+<Time>0 92044</Time><Lat>2142085475.0 S</Lat><Long>1828.3556 E</Long><Speed>0.60</Speed><Bearing>0.79</Beariing>
+
+<Time>0 92045</Time><Lat>2142085475.0 S</Lat><Long>1828.3555 E</Long><Speed>0.97</Speed><Bearing>0.28</Beariing>
+
+<Time>0 92046</Time><Lat>2142085475.0 S</Lat><Long>1828.3553 E</Long><Speed>0.96</Speed><Bearing>0.61</Beariing>
+
+<Time>0 92047</Time><Lat>2142085475.0 S</Lat><Long>1828.3552 E</Long><Speed>0.72</Speed><Bearing>0.82</Beariing>
+
+<Time>0 92048</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>0.33</Speed><Bearing>0.82</Beariing>
+
+<Time>0 92049</Time><Lat>2142085475.0 S</Lat><Long>1828.3550 E</Long><Speed>0.87</Speed><Bearing>0.55</Beariing>
+
+<Time>0 92050</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>0.70</Speed><Bearing>0.82</Beariing>
+
+<Time>0 92051</Time><Lat>2142085475.0 S</Lat><Long>1828.3546 E</Long><Speed>0.51</Speed><Bearing>0.82</Beariing>
+
+<Time>0 92052</Time><Lat>2142085475.0 S</Lat><Long>1828.3546 E</Long><Speed>0.22</Speed><Bearing>0.82</Beariing>
+
+<Time>0 92053</Time><Lat>2142085475.0 S</Lat><Long>1828.3546 E</Long><Speed>0.51</Speed><Bearing>0.82</Beariing>
+
+<Time>0 92054</Time><Lat>2142085475.0 S</Lat><Long>1828.3545 E</Long><Speed>0.74</Speed><Bearing>0.27</Beariing>
+
+<Time>0 92055</Time><Lat>2142085475.0 S</Lat><Long>1828.3545 E</Long><Speed>0.78</Speed><Bearing>0.75</Beariing>
+
+<Time>0 92056</Time><Lat>2142085475.0 S</Lat><Long>1828.3547 E</Long><Speed>0.36</Speed><Bearing>0.75</Beariing>
+
+<Time>0 92057</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>0.82</Speed><Bearing>0.91</Beariing>
+
+<Time>0 92058</Time><Lat>2142085475.0 S</Lat><Long>1828.3549 E</Long><Speed>1.25</Speed><Bearing>0.48</Beariing>
+
+<Time>0 92059</Time><Lat>2142085475.0 S</Lat><Long>1828.3549 E</Long><Speed>1.04</Speed><Bearing>0.44</Beariing>
+
+<Time>0 92100</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>0.37</Speed><Bearing>0.44</Beariing>
+
+<Time>0 92101</Time><Lat>2142085475.0 S</Lat><Long>1828.3552 E</Long><Speed>0.38</Speed><Bearing>0.44</Beariing>
+
+<Time>0 92102</Time><Lat>2142085475.0 S</Lat><Long>1828.3553 E</Long><Speed>0.36</Speed><Bearing>0.44</Beariing>
+
+<Time>0 92103</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.28</Speed><Bearing>0.44</Beariing>
+
+<Time>0 92104</Time><Lat>2142085475.0 S</Lat><Long>1828.3555 E</Long><Speed>0.48</Speed><Bearing>0.44</Beariing>
+
+<Time>0 92105</Time><Lat>2142085475.0 S</Lat><Long>1828.3553 E</Long><Speed>1.29</Speed><Bearing>0.37</Beariing>
+
+<Time>0 92106</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>0.91</Speed><Bearing>0.96</Beariing>
+
+<Time>0 92107</Time><Lat>2142085475.0 S</Lat><Long>1828.3550 E</Long><Speed>1.14</Speed><Bearing>0.89</Beariing>
+
+<Time>0 92108</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>0.36</Speed><Bearing>0.89</Beariing>
+
+<Time>0 92109</Time><Lat>2142085475.0 S</Lat><Long>1828.3552 E</Long><Speed>0.29</Speed><Bearing>0.89</Beariing>
+
+<Time>0 92110</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.26</Speed><Bearing>0.89</Beariing>
+
+<Time>0 92111</Time><Lat>2142085475.0 S</Lat><Long>1828.3557 E</Long><Speed>0.23</Speed><Bearing>0.89</Beariing>
+
+<Time>0 92112</Time><Lat>2142085475.0 S</Lat><Long>1828.3557 E</Long><Speed>0.11</Speed><Bearing>0.89</Beariing>
+
+<Time>0 92113</Time><Lat>2142085475.0 S</Lat><Long>1828.3557 E</Long><Speed>0.14</Speed><Bearing>0.89</Beariing>
+
+<Time>0 92114</Time><Lat>2142085475.0 S</Lat><Long>1828.3556 E</Long><Speed>0.26</Speed><Bearing>0.89</Beariing>
+
+<Time>0 92115</Time><Lat>2142085475.0 S</Lat><Long>1828.3557 E</Long><Speed>0.16</Speed><Bearing>0.89</Beariing>
+
+<Time>0 92116</Time><Lat>2142085475.0 S</Lat><Long>1828.3557 E</Long><Speed>0.37</Speed><Bearing>0.89</Beariing>
+
+<Time>0 92117</Time><Lat>2142085475.0 S</Lat><Long>1828.3556 E</Long><Speed>0.26</Speed><Bearing>0.89</Beariing>
+
+<Time>0 92118</Time><Lat>2142085475.0 S</Lat><Long>1828.3557 E</Long><Speed>0.69</Speed><Bearing>0.03</Beariing>
+
+<Time>0 92119</Time><Lat>2142085475.0 S</Lat><Long>1828.3558 E</Long><Speed>0.42</Speed><Bearing>0.03</Beariing>
+
+<Time>0 92120</Time><Lat>2142085475.0 S</Lat><Long>1828.3559 E</Long><Speed>0.09</Speed><Bearing>0.03</Beariing>
+
+<Time>0 92121</Time><Lat>2142085475.0 S</Lat><Long>1828.3560 E</Long><Speed>0.14</Speed><Bearing>0.03</Beariing>
+
+<Time>0 92122</Time><Lat>2142085475.0 S</Lat><Long>1828.3561 E</Long><Speed>0.34</Speed><Bearing>0.03</Beariing>
+
+<Time>0 92123</Time><Lat>2142085475.0 S</Lat><Long>1828.3562 E</Long><Speed>0.49</Speed><Bearing>0.03</Beariing>
+
+<Time>0 92124</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.63</Speed><Bearing>0.17</Beariing>
+
+<Time>0 92125</Time><Lat>2142085475.0 S</Lat><Long>1828.3566 E</Long><Speed>0.61</Speed><Bearing>0.01</Beariing>
+
+<Time>0 92126</Time><Lat>2142085475.0 S</Lat><Long>1828.3568 E</Long><Speed>0.57</Speed><Bearing>0.01</Beariing>
+
+<Time>0 92127</Time><Lat>2142085475.0 S</Lat><Long>1828.3567 E</Long><Speed>0.56</Speed><Bearing>0.01</Beariing>
+
+<Time>0 92128</Time><Lat>2142085475.0 S</Lat><Long>1828.3567 E</Long><Speed>0.33</Speed><Bearing>0.01</Beariing>
+
+<Time>0 92129</Time><Lat>2142085475.0 S</Lat><Long>1828.3566 E</Long><Speed>0.55</Speed><Bearing>0.01</Beariing>
+
+<Time>0 92130</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.45</Speed><Bearing>0.01</Beariing>
+
+<Time>0 92131</Time><Lat>2142085475.0 S</Lat><Long>1828.3563 E</Long><Speed>0.45</Speed><Bearing>0.01</Beariing>
+
+<Time>0 92132</Time><Lat>2142085475.0 S</Lat><Long>1828.3561 E</Long><Speed>0.33</Speed><Bearing>0.01</Beariing>
+
+<Time>0 92133</Time><Lat>2142085475.0 S</Lat><Long>1828.3561 E</Long><Speed>0.10</Speed><Bearing>0.01</Beariing>
+
+<Time>0 92134</Time><Lat>2142085475.0 S</Lat><Long>1828.3561 E</Long><Speed>0.09</Speed><Bearing>0.01</Beariing>
+
+<Time>0 92135</Time><Lat>2142085475.0 S</Lat><Long>1828.3561 E</Long><Speed>0.25</Speed><Bearing>0.01</Beariing>
+
+<Time>0 92136</Time><Lat>2142085475.0 S</Lat><Long>1828.3562 E</Long><Speed>0.48</Speed><Bearing>0.01</Beariing>
+
+<Time>0 92137</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.75</Speed><Bearing>0.47</Beariing>
+
+<Time>0 92138</Time><Lat>2142085475.0 S</Lat><Long>1828.3568 E</Long><Speed>0.52</Speed><Bearing>0.47</Beariing>
+
+<Time>0 92139</Time><Lat>2142085475.0 S</Lat><Long>1828.3570 E</Long><Speed>0.31</Speed><Bearing>0.47</Beariing>
+
+<Time>0 92140</Time><Lat>2142085475.0 S</Lat><Long>1828.3572 E</Long><Speed>0.13</Speed><Bearing>0.47</Beariing>
+
+<Time>0 92141</Time><Lat>2142085475.0 S</Lat><Long>1828.3574 E</Long><Speed>0.16</Speed><Bearing>0.47</Beariing>
+
+<Time>0 92142</Time><Lat>2142085475.0 S</Lat><Long>1828.3574 E</Long><Speed>0.71</Speed><Bearing>0.48</Beariing>
+
+<Time>0 92143</Time><Lat>2142085475.0 S</Lat><Long>1828.3577 E</Long><Speed>0.33</Speed><Bearing>0.48</Beariing>
+
+<Time>0 92144</Time><Lat>2142085475.0 S</Lat><Long>1828.3578 E</Long><Speed>0.37</Speed><Bearing>0.48</Beariing>
+
+<Time>0 92145</Time><Lat>2142085475.0 S</Lat><Long>1828.3580 E</Long><Speed>0.53</Speed><Bearing>0.48</Beariing>
+
+<Time>0 92146</Time><Lat>2142085475.0 S</Lat><Long>1828.3583 E</Long><Speed>0.82</Speed><Bearing>0.89</Beariing>
+
+<Time>0 92147</Time><Lat>2142085475.0 S</Lat><Long>1828.3586 E</Long><Speed>0.79</Speed><Bearing>0.41</Beariing>
+
+<Time>0 92148</Time><Lat>2142085475.0 S</Lat><Long>1828.3588 E</Long><Speed>0.30</Speed><Bearing>0.41</Beariing>
+
+<Time>0 92149</Time><Lat>2142085475.0 S</Lat><Long>1828.3590 E</Long><Speed>0.34</Speed><Bearing>0.41</Beariing>
+
+<Time>0 92150</Time><Lat>2142085475.0 S</Lat><Long>1828.3592 E</Long><Speed>0.87</Speed><Bearing>0.10</Beariing>
+
+<Time>0 92151</Time><Lat>2142085475.0 S</Lat><Long>1828.3593 E</Long><Speed>0.52</Speed><Bearing>0.10</Beariing>
+
+<Time>0 92152</Time><Lat>2142085475.0 S</Lat><Long>1828.3593 E</Long><Speed>0.08</Speed><Bearing>0.10</Beariing>
+
+<Time>0 92153</Time><Lat>2142085475.0 S</Lat><Long>1828.3594 E</Long><Speed>0.71</Speed><Bearing>0.95</Beariing>
+
+<Time>0 92154</Time><Lat>2142085475.0 S</Lat><Long>1828.3594 E</Long><Speed>0.42</Speed><Bearing>0.95</Beariing>
+
+<Time>0 92155</Time><Lat>2142085475.0 S</Lat><Long>1828.3596 E</Long><Speed>0.48</Speed><Bearing>0.95</Beariing>
+
+<Time>0 92156</Time><Lat>2142085475.0 S</Lat><Long>1828.3600 E</Long><Speed>0.65</Speed><Bearing>0.03</Beariing>
+
+<Time>0 92157</Time><Lat>2142085475.0 S</Lat><Long>1828.3602 E</Long><Speed>0.41</Speed><Bearing>0.03</Beariing>
+
+<Time>0 92158</Time><Lat>2142085475.0 S</Lat><Long>1828.3604 E</Long><Speed>0.82</Speed><Bearing>0.47</Beariing>
+
+<Time>0 92159</Time><Lat>2142085475.0 S</Lat><Long>1828.3608 E</Long><Speed>0.86</Speed><Bearing>0.47</Beariing>
+
+<Time>0 92200</Time><Lat>2142085475.0 S</Lat><Long>1828.3612 E</Long><Speed>1.13</Speed><Bearing>0.15</Beariing>
+
+<Time>0 92201</Time><Lat>2142085475.0 S</Lat><Long>1828.3613 E</Long><Speed>0.74</Speed><Bearing>0.07</Beariing>
+
+<Time>0 92202</Time><Lat>2142085475.0 S</Lat><Long>1828.3613 E</Long><Speed>0.26</Speed><Bearing>0.07</Beariing>
+
+<Time>0 92203</Time><Lat>2142085475.0 S</Lat><Long>1828.3614 E</Long><Speed>0.52</Speed><Bearing>0.07</Beariing>
+
+<Time>0 92204</Time><Lat>2142085475.0 S</Lat><Long>1828.3614 E</Long><Speed>0.50</Speed><Bearing>0.07</Beariing>
+
+<Time>0 92205</Time><Lat>2142085475.0 S</Lat><Long>1828.3615 E</Long><Speed>0.54</Speed><Bearing>0.89</Beariing>
+
+<Time>0 92206</Time><Lat>2142085475.0 S</Lat><Long>1828.3616 E</Long><Speed>0.55</Speed><Bearing>0.89</Beariing>
+
+<Time>0 92207</Time><Lat>2142085475.0 S</Lat><Long>1828.3618 E</Long><Speed>0.59</Speed><Bearing>0.24</Beariing>
+
+<Time>0 92208</Time><Lat>2142085475.0 S</Lat><Long>1828.3618 E</Long><Speed>0.37</Speed><Bearing>0.24</Beariing>
+
+<Time>0 92209</Time><Lat>2142085475.0 S</Lat><Long>1828.3619 E</Long><Speed>0.59</Speed><Bearing>0.88</Beariing>
+
+<Time>0 92210</Time><Lat>2142085475.0 S</Lat><Long>1828.3620 E</Long><Speed>0.15</Speed><Bearing>0.88</Beariing>
+
+<Time>0 92211</Time><Lat>2142085475.0 S</Lat><Long>1828.3621 E</Long><Speed>0.22</Speed><Bearing>0.88</Beariing>
+
+<Time>0 92212</Time><Lat>2142085475.0 S</Lat><Long>1828.3621 E</Long><Speed>0.17</Speed><Bearing>0.88</Beariing>
+
+<Time>0 92213</Time><Lat>2142085475.0 S</Lat><Long>1828.3623 E</Long><Speed>0.59</Speed><Bearing>0.94</Beariing>
+
+<Time>0 92214</Time><Lat>2142085475.0 S</Lat><Long>1828.3624 E</Long><Speed>0.16</Speed><Bearing>0.94</Beariing>
+
+<Time>0 92215</Time><Lat>2142085475.0 S</Lat><Long>1828.3623 E</Long><Speed>0.22</Speed><Bearing>0.94</Beariing>
+
+<Time>0 92216</Time><Lat>2142085475.0 S</Lat><Long>1828.3621 E</Long><Speed>0.53</Speed><Bearing>0.94</Beariing>
+
+<Time>0 92217</Time><Lat>2142085475.0 S</Lat><Long>1828.3619 E</Long><Speed>0.48</Speed><Bearing>0.94</Beariing>
+
+<Time>0 92218</Time><Lat>2142085475.0 S</Lat><Long>1828.3617 E</Long><Speed>0.22</Speed><Bearing>0.94</Beariing>
+
+<Time>0 92219</Time><Lat>2142085475.0 S</Lat><Long>1828.3615 E</Long><Speed>0.24</Speed><Bearing>0.94</Beariing>
+
+<Time>0 92220</Time><Lat>2142085475.0 S</Lat><Long>1828.3613 E</Long><Speed>0.18</Speed><Bearing>0.94</Beariing>
+
+<Time>0 92221</Time><Lat>2142085475.0 S</Lat><Long>1828.3612 E</Long><Speed>0.41</Speed><Bearing>0.94</Beariing>
+
+<Time>0 92222</Time><Lat>2142085475.0 S</Lat><Long>1828.3610 E</Long><Speed>0.39</Speed><Bearing>0.94</Beariing>
+
+<Time>0 92223</Time><Lat>2142085475.0 S</Lat><Long>1828.3609 E</Long><Speed>0.61</Speed><Bearing>0.24</Beariing>
+
+<Time>0 92224</Time><Lat>2142085475.0 S</Lat><Long>1828.3611 E</Long><Speed>0.78</Speed><Bearing>0.96</Beariing>
+
+<Time>0 92225</Time><Lat>2142085475.0 S</Lat><Long>1828.3614 E</Long><Speed>0.83</Speed><Bearing>0.61</Beariing>
+
+<Time>0 92226</Time><Lat>2142085475.0 S</Lat><Long>1828.3614 E</Long><Speed>0.50</Speed><Bearing>0.61</Beariing>
+
+<Time>0 92227</Time><Lat>2142085475.0 S</Lat><Long>1828.3614 E</Long><Speed>0.23</Speed><Bearing>0.61</Beariing>
+
+<Time>0 92228</Time><Lat>2142085475.0 S</Lat><Long>1828.3612 E</Long><Speed>0.19</Speed><Bearing>0.61</Beariing>
+
+<Time>0 92229</Time><Lat>2142085475.0 S</Lat><Long>1828.3610 E</Long><Speed>0.02</Speed><Bearing>0.61</Beariing>
+
+<Time>0 92230</Time><Lat>2142085475.0 S</Lat><Long>1828.3607 E</Long><Speed>0.77</Speed><Bearing>0.03</Beariing>
+
+<Time>0 92231</Time><Lat>2142085475.0 S</Lat><Long>1828.3604 E</Long><Speed>0.55</Speed><Bearing>0.03</Beariing>
+
+<Time>0 92232</Time><Lat>2142085475.0 S</Lat><Long>1828.3602 E</Long><Speed>0.59</Speed><Bearing>0.98</Beariing>
+
+<Time>0 92233</Time><Lat>2142085475.0 S</Lat><Long>1828.3599 E</Long><Speed>0.58</Speed><Bearing>0.98</Beariing>
+
+<Time>0 92234</Time><Lat>2142085475.0 S</Lat><Long>1828.3597 E</Long><Speed>0.28</Speed><Bearing>0.98</Beariing>
+
+<Time>0 92235</Time><Lat>2142085475.0 S</Lat><Long>1828.3593 E</Long><Speed>0.33</Speed><Bearing>0.98</Beariing>
+
+<Time>0 92236</Time><Lat>2142085475.0 S</Lat><Long>1828.3590 E</Long><Speed>0.35</Speed><Bearing>0.98</Beariing>
+
+<Time>0 92237</Time><Lat>2142085475.0 S</Lat><Long>1828.3586 E</Long><Speed>0.41</Speed><Bearing>0.98</Beariing>
+
+<Time>0 92238</Time><Lat>2142085475.0 S</Lat><Long>1828.3584 E</Long><Speed>0.25</Speed><Bearing>0.98</Beariing>
+
+<Time>0 92239</Time><Lat>2142085475.0 S</Lat><Long>1828.3580 E</Long><Speed>0.25</Speed><Bearing>0.98</Beariing>
+
+<Time>0 92240</Time><Lat>2142085475.0 S</Lat><Long>1828.3577 E</Long><Speed>0.23</Speed><Bearing>0.98</Beariing>
+
+<Time>0 92241</Time><Lat>2142085475.0 S</Lat><Long>1828.3573 E</Long><Speed>0.52</Speed><Bearing>0.98</Beariing>
+
+<Time>0 92242</Time><Lat>2142085475.0 S</Lat><Long>1828.3572 E</Long><Speed>0.25</Speed><Bearing>0.98</Beariing>
+
+<Time>0 92243</Time><Lat>2142085475.0 S</Lat><Long>1828.3571 E</Long><Speed>0.29</Speed><Bearing>0.98</Beariing>
+
+<Time>0 92244</Time><Lat>2142085475.0 S</Lat><Long>1828.3570 E</Long><Speed>0.75</Speed><Bearing>0.74</Beariing>
+
+<Time>0 92245</Time><Lat>2142085475.0 S</Lat><Long>1828.3568 E</Long><Speed>0.73</Speed><Bearing>0.31</Beariing>
+
+<Time>0 92246</Time><Lat>2142085475.0 S</Lat><Long>1828.3569 E</Long><Speed>0.17</Speed><Bearing>0.31</Beariing>
+
+<Time>0 92247</Time><Lat>2142085475.0 S</Lat><Long>1828.3569 E</Long><Speed>0.36</Speed><Bearing>0.31</Beariing>
+
+<Time>0 92248</Time><Lat>2142085475.0 S</Lat><Long>1828.3569 E</Long><Speed>0.04</Speed><Bearing>0.31</Beariing>
+
+<Time>0 92249</Time><Lat>2142085475.0 S</Lat><Long>1828.3569 E</Long><Speed>0.33</Speed><Bearing>0.31</Beariing>
+
+<Time>0 92250</Time><Lat>2142085475.0 S</Lat><Long>1828.3568 E</Long><Speed>0.15</Speed><Bearing>0.31</Beariing>
+
+<Time>0 92251</Time><Lat>2142085475.0 S</Lat><Long>1828.3568 E</Long><Speed>0.18</Speed><Bearing>0.31</Beariing>
+
+<Time>0 92252</Time><Lat>2142085475.0 S</Lat><Long>1828.3568 E</Long><Speed>0.18</Speed><Bearing>0.31</Beariing>
+
+<Time>0 92253</Time><Lat>2142085475.0 S</Lat><Long>1828.3568 E</Long><Speed>0.30</Speed><Bearing>0.31</Beariing>
+
+<Time>0 92254</Time><Lat>2142085475.0 S</Lat><Long>1828.3567 E</Long><Speed>0.88</Speed><Bearing>0.61</Beariing>
+
+<Time>0 92255</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.87</Speed><Bearing>0.54</Beariing>
+
+<Time>0 92256</Time><Lat>2142085475.0 S</Lat><Long>1828.3562 E</Long><Speed>0.85</Speed><Bearing>0.59</Beariing>
+
+<Time>0 92257</Time><Lat>2142085475.0 S</Lat><Long>1828.3560 E</Long><Speed>0.82</Speed><Bearing>0.71</Beariing>
+
+<Time>0 92258</Time><Lat>2142085475.0 S</Lat><Long>1828.3561 E</Long><Speed>0.24</Speed><Bearing>0.71</Beariing>
+
+<Time>0 92259</Time><Lat>2142085475.0 S</Lat><Long>1828.3561 E</Long><Speed>0.29</Speed><Bearing>0.71</Beariing>
+
+<Time>0 92300</Time><Lat>2142085475.0 S</Lat><Long>1828.3563 E</Long><Speed>0.29</Speed><Bearing>0.71</Beariing>
+
+<Time>0 92301</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.04</Speed><Bearing>0.71</Beariing>
+
+<Time>0 92302</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.12</Speed><Bearing>0.71</Beariing>
+
+<Time>0 92303</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.34</Speed><Bearing>0.71</Beariing>
+
+<Time>0 92304</Time><Lat>2142085475.0 S</Lat><Long>1828.3565 E</Long><Speed>0.61</Speed><Bearing>0.39</Beariing>
+
+<Time>0 92305</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.66</Speed><Bearing>0.48</Beariing>
+
+<Time>0 92306</Time><Lat>2142085475.0 S</Lat><Long>1828.3563 E</Long><Speed>1.09</Speed><Bearing>0.44</Beariing>
+
+<Time>0 92307</Time><Lat>2142085475.0 S</Lat><Long>1828.3558 E</Long><Speed>1.94</Speed><Bearing>0.11</Beariing>
+
+<Time>0 92308</Time><Lat>2142085475.0 S</Lat><Long>1828.3556 E</Long><Speed>1.68</Speed><Bearing>0.41</Beariing>
+
+<Time>0 92309</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>1.68</Speed><Bearing>0.13</Beariing>
+
+<Time>0 92310</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>1.36</Speed><Bearing>0.93</Beariing>
+
+<Time>0 92311</Time><Lat>2142085475.0 S</Lat><Long>1828.3550 E</Long><Speed>1.07</Speed><Bearing>0.91</Beariing>
+
+<Time>0 92312</Time><Lat>2142085475.0 S</Lat><Long>1828.3546 E</Long><Speed>1.33</Speed><Bearing>0.89</Beariing>
+
+<Time>0 92313</Time><Lat>2142085475.0 S</Lat><Long>1828.3546 E</Long><Speed>1.01</Speed><Bearing>0.19</Beariing>
+
+<Time>0 92314</Time><Lat>2142085475.0 S</Lat><Long>1828.3545 E</Long><Speed>1.21</Speed><Bearing>0.22</Beariing>
+
+<Time>0 92315</Time><Lat>2142085475.0 S</Lat><Long>1828.3542 E</Long><Speed>1.56</Speed><Bearing>0.88</Beariing>
+
+<Time>0 92316</Time><Lat>2142085475.0 S</Lat><Long>1828.3540 E</Long><Speed>1.53</Speed><Bearing>0.48</Beariing>
+
+<Time>0 92317</Time><Lat>2142085475.0 S</Lat><Long>1828.3539 E</Long><Speed>1.53</Speed><Bearing>0.47</Beariing>
+
+<Time>0 92318</Time><Lat>2142085475.0 S</Lat><Long>1828.3537 E</Long><Speed>1.58</Speed><Bearing>0.95</Beariing>
+
+<Time>0 92319</Time><Lat>2142085475.0 S</Lat><Long>1828.3535 E</Long><Speed>1.58</Speed><Bearing>0.88</Beariing>
+
+<Time>0 92320</Time><Lat>2142085475.0 S</Lat><Long>1828.3536 E</Long><Speed>1.13</Speed><Bearing>0.83</Beariing>
+
+<Time>0 92321</Time><Lat>2142085475.0 S</Lat><Long>1828.3537 E</Long><Speed>0.96</Speed><Bearing>0.70</Beariing>
+
+<Time>0 92322</Time><Lat>2142085475.0 S</Lat><Long>1828.3537 E</Long><Speed>0.93</Speed><Bearing>0.98</Beariing>
+
+<Time>0 92323</Time><Lat>2142085475.0 S</Lat><Long>1828.3537 E</Long><Speed>0.88</Speed><Bearing>0.50</Beariing>
+
+<Time>0 92324</Time><Lat>2142085475.0 S</Lat><Long>1828.3537 E</Long><Speed>0.90</Speed><Bearing>0.07</Beariing>
+
+<Time>0 92325</Time><Lat>2142085475.0 S</Lat><Long>1828.3536 E</Long><Speed>1.35</Speed><Bearing>0.18</Beariing>
+
+<Time>0 92326</Time><Lat>2142085475.0 S</Lat><Long>1828.3538 E</Long><Speed>1.30</Speed><Bearing>0.87</Beariing>
+
+<Time>0 92327</Time><Lat>2142085475.0 S</Lat><Long>1828.3537 E</Long><Speed>1.36</Speed><Bearing>0.26</Beariing>
+
+<Time>0 92328</Time><Lat>2142085475.0 S</Lat><Long>1828.3537 E</Long><Speed>1.40</Speed><Bearing>0.52</Beariing>
+
+<Time>0 92329</Time><Lat>2142085475.0 S</Lat><Long>1828.3537 E</Long><Speed>1.37</Speed><Bearing>0.91</Beariing>
+
+<Time>0 92330</Time><Lat>2142085475.0 S</Lat><Long>1828.3535 E</Long><Speed>1.35</Speed><Bearing>0.62</Beariing>
+
+<Time>0 92331</Time><Lat>2142085475.0 S</Lat><Long>1828.3535 E</Long><Speed>1.35</Speed><Bearing>0.27</Beariing>
+
+<Time>0 92332</Time><Lat>2142085475.0 S</Lat><Long>1828.3535 E</Long><Speed>1.09</Speed><Bearing>0.32</Beariing>
+
+<Time>0 92333</Time><Lat>2142085475.0 S</Lat><Long>1828.3535 E</Long><Speed>1.09</Speed><Bearing>0.32</Beariing>
+
+<Time>0 92334</Time><Lat>2142085475.0 S</Lat><Long>1828.3534 E</Long><Speed>1.12</Speed><Bearing>0.59</Beariing>
+
+<Time>0 92335</Time><Lat>2142085475.0 S</Lat><Long>1828.3532 E</Long><Speed>1.18</Speed><Bearing>0.34</Beariing>
+
+<Time>0 92336</Time><Lat>2142085475.0 S</Lat><Long>1828.3530 E</Long><Speed>1.54</Speed><Bearing>0.26</Beariing>
+
+<Time>0 92337</Time><Lat>2142085475.0 S</Lat><Long>1828.3528 E</Long><Speed>1.34</Speed><Bearing>0.95</Beariing>
+
+<Time>0 92338</Time><Lat>2142085475.0 S</Lat><Long>1828.3529 E</Long><Speed>0.92</Speed><Bearing>0.80</Beariing>
+
+<Time>0 92339</Time><Lat>2142085475.0 S</Lat><Long>1828.3528 E</Long><Speed>0.98</Speed><Bearing>0.08</Beariing>
+
+<Time>0 92340</Time><Lat>2142085475.0 S</Lat><Long>1828.3527 E</Long><Speed>1.36</Speed><Bearing>0.67</Beariing>
+
+<Time>0 92341</Time><Lat>2142085475.0 S</Lat><Long>1828.3525 E</Long><Speed>1.63</Speed><Bearing>0.71</Beariing>
+
+<Time>0 92342</Time><Lat>2142085475.0 S</Lat><Long>1828.3524 E</Long><Speed>1.41</Speed><Bearing>0.37</Beariing>
+
+<Time>0 92343</Time><Lat>2142085475.0 S</Lat><Long>1828.3524 E</Long><Speed>1.22</Speed><Bearing>0.69</Beariing>
+
+<Time>0 92344</Time><Lat>2142085475.0 S</Lat><Long>1828.3524 E</Long><Speed>1.24</Speed><Bearing>0.47</Beariing>
+
+<Time>0 92345</Time><Lat>2142085475.0 S</Lat><Long>1828.3524 E</Long><Speed>1.17</Speed><Bearing>0.89</Beariing>
+
+<Time>0 92346</Time><Lat>2142085475.0 S</Lat><Long>1828.3524 E</Long><Speed>0.97</Speed><Bearing>0.23</Beariing>
+
+<Time>0 92347</Time><Lat>2142085475.0 S</Lat><Long>1828.3520 E</Long><Speed>1.15</Speed><Bearing>0.10</Beariing>
+
+<Time>0 92348</Time><Lat>2142085475.0 S</Lat><Long>1828.3518 E</Long><Speed>1.15</Speed><Bearing>0.67</Beariing>
+
+<Time>0 92349</Time><Lat>2142085475.0 S</Lat><Long>1828.3520 E</Long><Speed>0.51</Speed><Bearing>0.67</Beariing>
+
+<Time>0 92350</Time><Lat>2142085475.0 S</Lat><Long>1828.3519 E</Long><Speed>0.53</Speed><Bearing>0.67</Beariing>
+
+<Time>0 92351</Time><Lat>2142085475.0 S</Lat><Long>1828.3517 E</Long><Speed>0.74</Speed><Bearing>0.10</Beariing>
+
+<Time>0 92352</Time><Lat>2142085475.0 S</Lat><Long>1828.3518 E</Long><Speed>0.44</Speed><Bearing>0.10</Beariing>
+
+<Time>0 92353</Time><Lat>2142085475.0 S</Lat><Long>1828.3518 E</Long><Speed>0.50</Speed><Bearing>0.10</Beariing>
+
+<Time>0 92354</Time><Lat>2142085475.0 S</Lat><Long>1828.3518 E</Long><Speed>0.75</Speed><Bearing>0.10</Beariing>
+
+<Time>0 92355</Time><Lat>2142085475.0 S</Lat><Long>1828.3519 E</Long><Speed>0.70</Speed><Bearing>0.30</Beariing>
+
+<Time>0 92356</Time><Lat>2142085475.0 S</Lat><Long>1828.3517 E</Long><Speed>0.98</Speed><Bearing>0.84</Beariing>
+
+<Time>0 92357</Time><Lat>2142085475.0 S</Lat><Long>1828.3517 E</Long><Speed>0.70</Speed><Bearing>0.75</Beariing>
+
+<Time>0 92358</Time><Lat>2142085475.0 S</Lat><Long>1828.3515 E</Long><Speed>0.71</Speed><Bearing>0.38</Beariing>
+
+<Time>0 92359</Time><Lat>2142085475.0 S</Lat><Long>1828.3518 E</Long><Speed>0.18</Speed><Bearing>0.38</Beariing>
+
+<Time>0 92400</Time><Lat>2142085475.0 S</Lat><Long>1828.3517 E</Long><Speed>0.55</Speed><Bearing>0.38</Beariing>
+
+<Time>0 92401</Time><Lat>2142085475.0 S</Lat><Long>1828.3517 E</Long><Speed>0.50</Speed><Bearing>0.38</Beariing>
+
+<Time>0 92402</Time><Lat>2142085475.0 S</Lat><Long>1828.3518 E</Long><Speed>0.06</Speed><Bearing>0.38</Beariing>
+
+<Time>0 92403</Time><Lat>2142085475.0 S</Lat><Long>1828.3517 E</Long><Speed>0.54</Speed><Bearing>0.38</Beariing>
+
+<Time>0 92404</Time><Lat>2142085475.0 S</Lat><Long>1828.3518 E</Long><Speed>0.38</Speed><Bearing>0.38</Beariing>
+
+<Time>0 92405</Time><Lat>2142085475.0 S</Lat><Long>1828.3517 E</Long><Speed>0.26</Speed><Bearing>0.38</Beariing>
+
+<Time>0 92406</Time><Lat>2142085475.0 S</Lat><Long>1828.3517 E</Long><Speed>0.38</Speed><Bearing>0.38</Beariing>
+
+<Time>0 92407</Time><Lat>2142085475.0 S</Lat><Long>1828.3519 E</Long><Speed>0.62</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 92408</Time><Lat>2142085475.0 S</Lat><Long>1828.3523 E</Long><Speed>0.86</Speed><Bearing>0.34</Beariing>
+
+<Time>0 92409</Time><Lat>2142085475.0 S</Lat><Long>1828.3525 E</Long><Speed>0.68</Speed><Bearing>0.20</Beariing>
+
+<Time>0 92410</Time><Lat>2142085475.0 S</Lat><Long>1828.3526 E</Long><Speed>0.61</Speed><Bearing>0.20</Beariing>
+
+<Time>0 92411</Time><Lat>2142085475.0 S</Lat><Long>1828.3525 E</Long><Speed>0.37</Speed><Bearing>0.20</Beariing>
+
+<Time>0 92412</Time><Lat>2142085475.0 S</Lat><Long>1828.3526 E</Long><Speed>0.31</Speed><Bearing>0.20</Beariing>
+
+<Time>0 92413</Time><Lat>2142085475.0 S</Lat><Long>1828.3524 E</Long><Speed>0.27</Speed><Bearing>0.20</Beariing>
+
+<Time>0 92414</Time><Lat>2142085475.0 S</Lat><Long>1828.3523 E</Long><Speed>0.37</Speed><Bearing>0.20</Beariing>
+
+<Time>0 92415</Time><Lat>2142085475.0 S</Lat><Long>1828.3524 E</Long><Speed>0.66</Speed><Bearing>0.64</Beariing>
+
+<Time>0 92416</Time><Lat>2142085475.0 S</Lat><Long>1828.3526 E</Long><Speed>0.38</Speed><Bearing>0.64</Beariing>
+
+<Time>0 92417</Time><Lat>2142085475.0 S</Lat><Long>1828.3529 E</Long><Speed>0.39</Speed><Bearing>0.64</Beariing>
+
+<Time>0 92418</Time><Lat>2142085475.0 S</Lat><Long>1828.3529 E</Long><Speed>0.06</Speed><Bearing>0.64</Beariing>
+
+<Time>0 92419</Time><Lat>2142085475.0 S</Lat><Long>1828.3529 E</Long><Speed>0.34</Speed><Bearing>0.64</Beariing>
+
+<Time>0 92420</Time><Lat>2142085475.0 S</Lat><Long>1828.3528 E</Long><Speed>0.06</Speed><Bearing>0.64</Beariing>
+
+<Time>0 92421</Time><Lat>2142085475.0 S</Lat><Long>1828.3528 E</Long><Speed>0.36</Speed><Bearing>0.64</Beariing>
+
+<Time>0 92422</Time><Lat>2142085475.0 S</Lat><Long>1828.3529 E</Long><Speed>0.57</Speed><Bearing>0.64</Beariing>
+
+<Time>0 92423</Time><Lat>2142085475.0 S</Lat><Long>1828.3530 E</Long><Speed>0.60</Speed><Bearing>0.11</Beariing>
+
+<Time>0 92424</Time><Lat>2142085475.0 S</Lat><Long>1828.3531 E</Long><Speed>0.35</Speed><Bearing>0.11</Beariing>
+
+<Time>0 92425</Time><Lat>2142085475.0 S</Lat><Long>1828.3534 E</Long><Speed>0.33</Speed><Bearing>0.11</Beariing>
+
+<Time>0 92426</Time><Lat>2142085475.0 S</Lat><Long>1828.3536 E</Long><Speed>0.35</Speed><Bearing>0.11</Beariing>
+
+<Time>0 92427</Time><Lat>2142085475.0 S</Lat><Long>1828.3538 E</Long><Speed>0.62</Speed><Bearing>0.13</Beariing>
+
+<Time>0 92428</Time><Lat>2142085475.0 S</Lat><Long>1828.3544 E</Long><Speed>0.41</Speed><Bearing>0.13</Beariing>
+
+<Time>0 92429</Time><Lat>2142085475.0 S</Lat><Long>1828.3547 E</Long><Speed>0.44</Speed><Bearing>0.13</Beariing>
+
+<Time>0 92430</Time><Lat>2142085475.0 S</Lat><Long>1828.3546 E</Long><Speed>0.68</Speed><Bearing>0.07</Beariing>
+
+<Time>0 92431</Time><Lat>2142085475.0 S</Lat><Long>1828.3545 E</Long><Speed>0.85</Speed><Bearing>0.50</Beariing>
+
+<Time>0 92432</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>0.30</Speed><Bearing>0.50</Beariing>
+
+<Time>0 92433</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>0.38</Speed><Bearing>0.50</Beariing>
+
+<Time>0 92434</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>0.19</Speed><Bearing>0.50</Beariing>
+
+<Time>0 92435</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>0.17</Speed><Bearing>0.50</Beariing>
+
+<Time>0 92436</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>0.25</Speed><Bearing>0.50</Beariing>
+
+<Time>0 92437</Time><Lat>2142085475.0 S</Lat><Long>1828.3552 E</Long><Speed>0.37</Speed><Bearing>0.50</Beariing>
+
+<Time>0 92438</Time><Lat>2142085475.0 S</Lat><Long>1828.3553 E</Long><Speed>0.37</Speed><Bearing>0.50</Beariing>
+
+<Time>0 92439</Time><Lat>2142085475.0 S</Lat><Long>1828.3553 E</Long><Speed>0.29</Speed><Bearing>0.50</Beariing>
+
+<Time>0 92440</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.50</Speed><Bearing>0.50</Beariing>
+
+<Time>0 92441</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.14</Speed><Bearing>0.50</Beariing>
+
+<Time>0 92442</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.08</Speed><Bearing>0.50</Beariing>
+
+<Time>0 92443</Time><Lat>2142085475.0 S</Lat><Long>1828.3554 E</Long><Speed>0.59</Speed><Bearing>0.96</Beariing>
+
+<Time>0 92444</Time><Lat>2142085475.0 S</Lat><Long>1828.3555 E</Long><Speed>0.41</Speed><Bearing>0.96</Beariing>
+
+<Time>0 92445</Time><Lat>2142085475.0 S</Lat><Long>1828.3553 E</Long><Speed>0.44</Speed><Bearing>0.96</Beariing>
+
+<Time>0 92446</Time><Lat>2142085475.0 S</Lat><Long>1828.3552 E</Long><Speed>0.37</Speed><Bearing>0.96</Beariing>
+
+<Time>0 92447</Time><Lat>2142085475.0 S</Lat><Long>1828.3550 E</Long><Speed>0.41</Speed><Bearing>0.96</Beariing>
+
+<Time>0 92448</Time><Lat>2142085475.0 S</Lat><Long>1828.3549 E</Long><Speed>0.85</Speed><Bearing>0.77</Beariing>
+
+<Time>0 92449</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>0.57</Speed><Bearing>0.77</Beariing>
+
+<Time>0 92450</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>0.49</Speed><Bearing>0.77</Beariing>
+
+<Time>0 92451</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>0.43</Speed><Bearing>0.77</Beariing>
+
+<Time>0 92452</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>0.45</Speed><Bearing>0.77</Beariing>
+
+<Time>0 92453</Time><Lat>2142085475.0 S</Lat><Long>1828.3553 E</Long><Speed>0.67</Speed><Bearing>0.80</Beariing>
+
+<Time>0 92454</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>0.39</Speed><Bearing>0.80</Beariing>
+
+<Time>0 92455</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>0.85</Speed><Bearing>0.83</Beariing>
+
+<Time>0 92456</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>0.47</Speed><Bearing>0.83</Beariing>
+
+<Time>0 92457</Time><Lat>2142085475.0 S</Lat><Long>1828.3549 E</Long><Speed>0.11</Speed><Bearing>0.83</Beariing>
+
+<Time>0 92458</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>0.14</Speed><Bearing>0.83</Beariing>
+
+<Time>0 92459</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>0.19</Speed><Bearing>0.83</Beariing>
+
+<Time>0 92500</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>0.10</Speed><Bearing>0.83</Beariing>
+
+<Time>0 92501</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>0.51</Speed><Bearing>0.83</Beariing>
+
+<Time>0 92502</Time><Lat>2142085475.0 S</Lat><Long>1828.3549 E</Long><Speed>1.01</Speed><Bearing>0.92</Beariing>
+
+<Time>0 92503</Time><Lat>2142085475.0 S</Lat><Long>1828.3550 E</Long><Speed>0.12</Speed><Bearing>0.92</Beariing>
+
+<Time>0 92504</Time><Lat>2142085475.0 S</Lat><Long>1828.3551 E</Long><Speed>0.17</Speed><Bearing>0.92</Beariing>
+
+<Time>0 92505</Time><Lat>2142085475.0 S</Lat><Long>1828.3552 E</Long><Speed>0.36</Speed><Bearing>0.92</Beariing>
+
+<Time>0 92506</Time><Lat>2142085475.0 S</Lat><Long>1828.3550 E</Long><Speed>0.44</Speed><Bearing>0.92</Beariing>
+
+<Time>0 92507</Time><Lat>2142085475.0 S</Lat><Long>1828.3549 E</Long><Speed>0.26</Speed><Bearing>0.92</Beariing>
+
+<Time>0 92508</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>0.22</Speed><Bearing>0.92</Beariing>
+
+<Time>0 92509</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>0.85</Speed><Bearing>0.42</Beariing>
+
+<Time>0 92510</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>0.86</Speed><Bearing>0.83</Beariing>
+
+<Time>0 92511</Time><Lat>2142085475.0 S</Lat><Long>1828.3547 E</Long><Speed>0.85</Speed><Bearing>0.28</Beariing>
+
+<Time>0 92512</Time><Lat>2142085475.0 S</Lat><Long>1828.3548 E</Long><Speed>0.58</Speed><Bearing>0.28</Beariing>
+
+<Time>0 92513</Time><Lat>2142085475.0 S</Lat><Long>1828.3555 E</Long><Speed>0.31</Speed><Bearing>0.28</Beariing>
+
+<Time>0 92514</Time><Lat>2142085475.0 S</Lat><Long>1828.3558 E</Long><Speed>0.10</Speed><Bearing>0.28</Beariing>
+
+<Time>0 92515</Time><Lat>2142085475.0 S</Lat><Long>1828.3564 E</Long><Speed>0.62</Speed><Bearing>0.01</Beariing>
+
+<Time>0 92516</Time><Lat>2142085475.0 S</Lat><Long>1828.3568 E</Long><Speed>0.55</Speed><Bearing>0.01</Beariing>
+
+GPS data
+GPS data
+GPS data
+GPS data
+<Time>0 135649</Time><Lat>2142085497.0 S</Lat><Long>1850.1256 E</Long><Speed>0.77</Speed><Bearing>0.14</Beariing>
+
+<Time>0 135650</Time><Lat>2142085497.0 S</Lat><Long>1850.1255 E</Long><Speed>0.79</Speed><Bearing>0.66</Beariing>
+
+<Time>0 135651</Time><Lat>2142085497.0 S</Lat><Long>1850.1254 E</Long><Speed>0.82</Speed><Bearing>0.46</Beariing>
+
+<Time>0 135652</Time><Lat>2142085497.0 S</Lat><Long>1850.1252 E</Long><Speed>0.87</Speed><Bearing>0.57</Beariing>
+
+<Time>0 135653</Time><Lat>2142085497.0 S</Lat><Long>1850.1252 E</Long><Speed>0.86</Speed><Bearing>0.18</Beariing>
+
+<Time>0 135654</Time><Lat>2142085497.0 S</Lat><Long>1850.1250 E</Long><Speed>0.83</Speed><Bearing>0.33</Beariing>
+
+<Time>0 135655</Time><Lat>2142085497.0 S</Lat><Long>1850.1249 E</Long><Speed>0.80</Speed><Bearing>0.24</Beariing>
+
+<Time>0 135656</Time><Lat>2142085497.0 S</Lat><Long>1850.1250 E</Long><Speed>0.54</Speed><Bearing>0.24</Beariing>
+
+<Time>0 135657</Time><Lat>2142085497.0 S</Lat><Long>1850.1252 E</Long><Speed>0.49</Speed><Bearing>0.24</Beariing>
+
+<Time>0 135658</Time><Lat>2142085497.0 S</Lat><Long>1850.1252 E</Long><Speed>0.52</Speed><Bearing>0.24</Beariing>
+
+<Time>0 135659</Time><Lat>2142085497.0 S</Lat><Long>1850.1253 E</Long><Speed>0.56</Speed><Bearing>0.25</Beariing>
+
+<Time>0 135700</Time><Lat>2142085497.0 S</Lat><Long>1850.1256 E</Long><Speed>0.59</Speed><Bearing>0.57</Beariing>
+
+<Time>0 135701</Time><Lat>2142085497.0 S</Lat><Long>1850.1258 E</Long><Speed>0.85</Speed><Bearing>0.82</Beariing>
+
+<Time>0 135702</Time><Lat>2142085497.0 S</Lat><Long>1850.1260 E</Long><Speed>1.32</Speed><Bearing>0.65</Beariing>
+
+<Time>0 135703</Time><Lat>2142085497.0 S</Lat><Long>1850.1264 E</Long><Speed>0.94</Speed><Bearing>0.64</Beariing>
+
+<Time>0 135704</Time><Lat>2142085497.0 S</Lat><Long>1850.1267 E</Long><Speed>0.68</Speed><Bearing>0.27</Beariing>
+
+<Time>0 135705</Time><Lat>2142085497.0 S</Lat><Long>1850.1270 E</Long><Speed>0.86</Speed><Bearing>0.58</Beariing>
+
+<Time>0 135706</Time><Lat>2142085497.0 S</Lat><Long>1850.1272 E</Long><Speed>0.86</Speed><Bearing>0.49</Beariing>
+
+<Time>0 135707</Time><Lat>2142085497.0 S</Lat><Long>1850.1273 E</Long><Speed>0.38</Speed><Bearing>0.49</Beariing>
+
+<Time>0 135708</Time><Lat>2142085497.0 S</Lat><Long>1850.1276 E</Long><Speed>1.11</Speed><Bearing>0.51</Beariing>
+
+<Time>0 135709</Time><Lat>2142085497.0 S</Lat><Long>1850.1277 E</Long><Speed>1.08</Speed><Bearing>0.97</Beariing>
+
+<Time>0 135710</Time><Lat>2142085497.0 S</Lat><Long>1850.1279 E</Long><Speed>1.38</Speed><Bearing>0.23</Beariing>
+
+<Time>0 135711</Time><Lat>2142085497.0 S</Lat><Long>1850.1282 E</Long><Speed>1.81</Speed><Bearing>0.06</Beariing>
+
+<Time>0 135712</Time><Lat>2142085497.0 S</Lat><Long>1850.1282 E</Long><Speed>1.23</Speed><Bearing>0.52</Beariing>
+
+<Time>0 135713</Time><Lat>2142085497.0 S</Lat><Long>1850.1281 E</Long><Speed>0.86</Speed><Bearing>0.89</Beariing>
+
+<Time>0 135714</Time><Lat>2142085497.0 S</Lat><Long>1850.1281 E</Long><Speed>0.49</Speed><Bearing>0.89</Beariing>
+
+<Time>0 135715</Time><Lat>2142085497.0 S</Lat><Long>1850.1282 E</Long><Speed>0.25</Speed><Bearing>0.89</Beariing>
+
+<Time>0 135716</Time><Lat>2142085497.0 S</Lat><Long>1850.1282 E</Long><Speed>0.23</Speed><Bearing>0.89</Beariing>
+
+<Time>0 135717</Time><Lat>2142085497.0 S</Lat><Long>1850.1284 E</Long><Speed>0.20</Speed><Bearing>0.89</Beariing>
+
+<Time>0 135718</Time><Lat>2142085497.0 S</Lat><Long>1850.1284 E</Long><Speed>0.24</Speed><Bearing>0.89</Beariing>
+
+<Time>0 135719</Time><Lat>2142085497.0 S</Lat><Long>1850.1284 E</Long><Speed>0.67</Speed><Bearing>0.52</Beariing>
+
+<Time>0 135720</Time><Lat>2142085497.0 S</Lat><Long>1850.1281 E</Long><Speed>0.62</Speed><Bearing>0.52</Beariing>
+
+<Time>0 135721</Time><Lat>2142085497.0 S</Lat><Long>1850.1280 E</Long><Speed>0.27</Speed><Bearing>0.52</Beariing>
+
+<Time>0 135722</Time><Lat>2142085497.0 S</Lat><Long>1850.1280 E</Long><Speed>0.24</Speed><Bearing>0.52</Beariing>
+
+<Time>0 135723</Time><Lat>2142085497.0 S</Lat><Long>1850.1281 E</Long><Speed>0.16</Speed><Bearing>0.52</Beariing>
+
+<Time>0 135724</Time><Lat>2142085497.0 S</Lat><Long>1850.1280 E</Long><Speed>0.19</Speed><Bearing>0.52</Beariing>
+
+<Time>0 135725</Time><Lat>2142085497.0 S</Lat><Long>1850.1280 E</Long><Speed>0.51</Speed><Bearing>0.52</Beariing>
+
+<Time>0 135726</Time><Lat>2142085497.0 S</Lat><Long>1850.1280 E</Long><Speed>0.59</Speed><Bearing>0.41</Beariing>
+
+<Time>0 135727</Time><Lat>2142085497.0 S</Lat><Long>1850.1280 E</Long><Speed>0.84</Speed><Bearing>0.98</Beariing>
+
+<Time>0 135728</Time><Lat>2142085497.0 S</Lat><Long>1850.1282 E</Long><Speed>1.03</Speed><Bearing>0.27</Beariing>
+
+<Time>0 135729</Time><Lat>2142085497.0 S</Lat><Long>1850.1284 E</Long><Speed>0.81</Speed><Bearing>0.42</Beariing>
+
+<Time>0 135730</Time><Lat>2142085497.0 S</Lat><Long>1850.1287 E</Long><Speed>0.99</Speed><Bearing>0.37</Beariing>
+
+<Time>0 135731</Time><Lat>2142085497.0 S</Lat><Long>1850.1288 E</Long><Speed>0.63</Speed><Bearing>0.11</Beariing>
+
+<Time>0 135732</Time><Lat>2142085497.0 S</Lat><Long>1850.1290 E</Long><Speed>0.35</Speed><Bearing>0.11</Beariing>
+
+<Time>0 135733</Time><Lat>2142085497.0 S</Lat><Long>1850.1291 E</Long><Speed>0.28</Speed><Bearing>0.11</Beariing>
+
+<Time>0 135734</Time><Lat>2142085497.0 S</Lat><Long>1850.1291 E</Long><Speed>0.46</Speed><Bearing>0.11</Beariing>
+
+<Time>0 135735</Time><Lat>2142085497.0 S</Lat><Long>1850.1289 E</Long><Speed>0.51</Speed><Bearing>0.11</Beariing>
+
+<Time>0 135736</Time><Lat>2142085497.0 S</Lat><Long>1850.1287 E</Long><Speed>0.70</Speed><Bearing>0.18</Beariing>
+
+<Time>0 135737</Time><Lat>2142085497.0 S</Lat><Long>1850.1290 E</Long><Speed>0.77</Speed><Bearing>0.23</Beariing>
+
+<Time>0 135738</Time><Lat>2142085497.0 S</Lat><Long>1850.1291 E</Long><Speed>0.74</Speed><Bearing>0.49</Beariing>
+
+<Time>0 135739</Time><Lat>2142085497.0 S</Lat><Long>1850.1294 E</Long><Speed>1.10</Speed><Bearing>0.90</Beariing>
+
+<Time>0 135740</Time><Lat>2142085497.0 S</Lat><Long>1850.1294 E</Long><Speed>1.03</Speed><Bearing>0.37</Beariing>
+
+<Time>0 135741</Time><Lat>2142085497.0 S</Lat><Long>1850.1295 E</Long><Speed>1.00</Speed><Bearing>0.46</Beariing>
+
+<Time>0 135742</Time><Lat>2142085497.0 S</Lat><Long>1850.1295 E</Long><Speed>0.52</Speed><Bearing>0.46</Beariing>
+
+<Time>0 135743</Time><Lat>2142085497.0 S</Lat><Long>1850.1294 E</Long><Speed>0.59</Speed><Bearing>0.21</Beariing>
+
+<Time>0 135744</Time><Lat>2142085497.0 S</Lat><Long>1850.1296 E</Long><Speed>1.18</Speed><Bearing>0.28</Beariing>
+
+<Time>0 135745</Time><Lat>2142085497.0 S</Lat><Long>1850.1299 E</Long><Speed>1.21</Speed><Bearing>0.68</Beariing>
+
+<Time>0 135746</Time><Lat>2142085497.0 S</Lat><Long>1850.1300 E</Long><Speed>1.26</Speed><Bearing>0.87</Beariing>
+
+<Time>0 135747</Time><Lat>2142085497.0 S</Lat><Long>1850.1301 E</Long><Speed>1.28</Speed><Bearing>0.19</Beariing>
+
+<Time>0 135748</Time><Lat>2142085497.0 S</Lat><Long>1850.1303 E</Long><Speed>1.33</Speed><Bearing>0.48</Beariing>
+
+<Time>0 135749</Time><Lat>2142085497.0 S</Lat><Long>1850.1302 E</Long><Speed>1.16</Speed><Bearing>0.94</Beariing>
+
+<Time>0 135750</Time><Lat>2142085497.0 S</Lat><Long>1850.1302 E</Long><Speed>1.15</Speed><Bearing>0.26</Beariing>
+
+<Time>0 135751</Time><Lat>2142085497.0 S</Lat><Long>1850.1302 E</Long><Speed>1.56</Speed><Bearing>0.48</Beariing>
+
+<Time>0 135752</Time><Lat>2142085497.0 S</Lat><Long>1850.1307 E</Long><Speed>2.11</Speed><Bearing>0.65</Beariing>
+
+<Time>0 135753</Time><Lat>2142085497.0 S</Lat><Long>1850.1308 E</Long><Speed>1.85</Speed><Bearing>0.29</Beariing>
+
+<Time>0 135754</Time><Lat>2142085497.0 S</Lat><Long>1850.1312 E</Long><Speed>1.82</Speed><Bearing>0.63</Beariing>
+
+<Time>0 135755</Time><Lat>2142085497.0 S</Lat><Long>1850.1315 E</Long><Speed>1.63</Speed><Bearing>0.85</Beariing>
+
+<Time>0 135756</Time><Lat>2142085497.0 S</Lat><Long>1850.1318 E</Long><Speed>1.92</Speed><Bearing>0.25</Beariing>
+
+<Time>0 135757</Time><Lat>2142085497.0 S</Lat><Long>1850.1321 E</Long><Speed>2.10</Speed><Bearing>0.30</Beariing>
+
+<Time>0 135758</Time><Lat>2142085497.0 S</Lat><Long>1850.1323 E</Long><Speed>2.16</Speed><Bearing>0.24</Beariing>
+
+<Time>0 135759</Time><Lat>2142085497.0 S</Lat><Long>1850.1325 E</Long><Speed>2.23</Speed><Bearing>0.57</Beariing>
+
+<Time>0 135800</Time><Lat>2142085497.0 S</Lat><Long>1850.1327 E</Long><Speed>2.74</Speed><Bearing>0.07</Beariing>
+
+<Time>0 135801</Time><Lat>2142085497.0 S</Lat><Long>1850.1328 E</Long><Speed>2.76</Speed><Bearing>0.25</Beariing>
+
+<Time>0 135802</Time><Lat>2142085497.0 S</Lat><Long>1850.1329 E</Long><Speed>2.28</Speed><Bearing>0.43</Beariing>
+
+<Time>0 135803</Time><Lat>2142085497.0 S</Lat><Long>1850.1333 E</Long><Speed>2.34</Speed><Bearing>0.41</Beariing>
+
+<Time>0 135804</Time><Lat>2142085497.0 S</Lat><Long>1850.1334 E</Long><Speed>1.79</Speed><Bearing>0.41</Beariing>
+
+<Time>0 135805</Time><Lat>2142085497.0 S</Lat><Long>1850.1335 E</Long><Speed>1.73</Speed><Bearing>0.45</Beariing>
+
+<Time>0 135806</Time><Lat>2142085497.0 S</Lat><Long>1850.1334 E</Long><Speed>1.76</Speed><Bearing>0.09</Beariing>
+
+<Time>0 135807</Time><Lat>2142085497.0 S</Lat><Long>1850.1332 E</Long><Speed>1.84</Speed><Bearing>0.55</Beariing>
+
+<Time>0 135808</Time><Lat>2142085497.0 S</Lat><Long>1850.1332 E</Long><Speed>1.76</Speed><Bearing>0.82</Beariing>
+
+<Time>0 135809</Time><Lat>2142085497.0 S</Lat><Long>1850.1332 E</Long><Speed>1.23</Speed><Bearing>0.49</Beariing>
+
+<Time>0 135810</Time><Lat>2142085497.0 S</Lat><Long>1850.1331 E</Long><Speed>1.51</Speed><Bearing>0.22</Beariing>
+
+<Time>0 135811</Time><Lat>2142085497.0 S</Lat><Long>1850.1331 E</Long><Speed>1.28</Speed><Bearing>0.14</Beariing>
+
+<Time>0 135812</Time><Lat>2142085497.0 S</Lat><Long>1850.1334 E</Long><Speed>1.27</Speed><Bearing>0.23</Beariing>
+
+<Time>0 135813</Time><Lat>2142085497.0 S</Lat><Long>1850.1332 E</Long><Speed>1.42</Speed><Bearing>0.57</Beariing>
+
+<Time>0 135814</Time><Lat>2142085497.0 S</Lat><Long>1850.1334 E</Long><Speed>0.93</Speed><Bearing>0.41</Beariing>
+
+<Time>0 135815</Time><Lat>2142085497.0 S</Lat><Long>1850.1336 E</Long><Speed>0.92</Speed><Bearing>0.11</Beariing>
+
+<Time>0 135816</Time><Lat>2142085497.0 S</Lat><Long>1850.1339 E</Long><Speed>0.64</Speed><Bearing>0.58</Beariing>
+
+<Time>0 135817</Time><Lat>2142085497.0 S</Lat><Long>1850.1340 E</Long><Speed>0.58</Speed><Bearing>0.58</Beariing>
+
+<Time>0 135818</Time><Lat>2142085497.0 S</Lat><Long>1850.1341 E</Long><Speed>0.79</Speed><Bearing>0.53</Beariing>
+
+<Time>0 135819</Time><Lat>2142085497.0 S</Lat><Long>1850.1344 E</Long><Speed>0.78</Speed><Bearing>0.54</Beariing>
+
+<Time>0 135820</Time><Lat>2142085497.0 S</Lat><Long>1850.1344 E</Long><Speed>0.59</Speed><Bearing>0.32</Beariing>
+
+<Time>0 135821</Time><Lat>2142085497.0 S</Lat><Long>1850.1345 E</Long><Speed>0.57</Speed><Bearing>0.32</Beariing>
+
+<Time>0 135822</Time><Lat>2142085497.0 S</Lat><Long>1850.1344 E</Long><Speed>0.62</Speed><Bearing>0.81</Beariing>
+
+<Time>0 135823</Time><Lat>2142085497.0 S</Lat><Long>1850.1344 E</Long><Speed>0.62</Speed><Bearing>0.38</Beariing>
+
+<Time>0 135824</Time><Lat>2142085497.0 S</Lat><Long>1850.1342 E</Long><Speed>0.67</Speed><Bearing>0.99</Beariing>
+
+<Time>0 135825</Time><Lat>2142085497.0 S</Lat><Long>1850.1342 E</Long><Speed>0.33</Speed><Bearing>0.99</Beariing>
+
+<Time>0 135826</Time><Lat>2142085497.0 S</Lat><Long>1850.1340 E</Long><Speed>0.28</Speed><Bearing>0.99</Beariing>
+
+<Time>0 135827</Time><Lat>2142085497.0 S</Lat><Long>1850.1338 E</Long><Speed>0.26</Speed><Bearing>0.99</Beariing>
+
+<Time>0 135828</Time><Lat>2142085497.0 S</Lat><Long>1850.1337 E</Long><Speed>0.22</Speed><Bearing>0.99</Beariing>
+
+<Time>0 135829</Time><Lat>2142085497.0 S</Lat><Long>1850.1337 E</Long><Speed>0.43</Speed><Bearing>0.99</Beariing>
+
+<Time>0 135830</Time><Lat>2142085497.0 S</Lat><Long>1850.1337 E</Long><Speed>0.41</Speed><Bearing>0.99</Beariing>
+
+<Time>0 135831</Time><Lat>2142085497.0 S</Lat><Long>1850.1336 E</Long><Speed>0.74</Speed><Bearing>0.52</Beariing>
+
+<Time>0 135832</Time><Lat>2142085497.0 S</Lat><Long>1850.1329 E</Long><Speed>1.16</Speed><Bearing>0.57</Beariing>
+
+<Time>0 135833</Time><Lat>2142085497.0 S</Lat><Long>1850.1324 E</Long><Speed>1.15</Speed><Bearing>0.04</Beariing>
+
+<Time>0 135834</Time><Lat>2142085497.0 S</Lat><Long>1850.1320 E</Long><Speed>0.79</Speed><Bearing>0.53</Beariing>
+
+<Time>0 135835</Time><Lat>2142085497.0 S</Lat><Long>1850.1319 E</Long><Speed>0.27</Speed><Bearing>0.53</Beariing>
+
+<Time>0 135836</Time><Lat>2142085497.0 S</Lat><Long>1850.1315 E</Long><Speed>0.74</Speed><Bearing>0.97</Beariing>
+
+<Time>0 135837</Time><Lat>2142085497.0 S</Lat><Long>1850.1311 E</Long><Speed>0.71</Speed><Bearing>0.61</Beariing>
+
+<Time>0 135838</Time><Lat>2142085497.0 S</Lat><Long>1850.1310 E</Long><Speed>0.21</Speed><Bearing>0.61</Beariing>
+
+<Time>0 135839</Time><Lat>2142085497.0 S</Lat><Long>1850.1308 E</Long><Speed>0.29</Speed><Bearing>0.61</Beariing>
+
+<Time>0 135840</Time><Lat>2142085497.0 S</Lat><Long>1850.1305 E</Long><Speed>0.11</Speed><Bearing>0.61</Beariing>
+
+<Time>0 135841</Time><Lat>2142085497.0 S</Lat><Long>1850.1303 E</Long><Speed>0.53</Speed><Bearing>0.61</Beariing>
+
+<Time>0 135842</Time><Lat>2142085497.0 S</Lat><Long>1850.1301 E</Long><Speed>0.62</Speed><Bearing>0.08</Beariing>
+
+<Time>0 135843</Time><Lat>2142085497.0 S</Lat><Long>1850.1299 E</Long><Speed>0.59</Speed><Bearing>0.08</Beariing>
+
+<Time>0 135844</Time><Lat>2142085497.0 S</Lat><Long>1850.1298 E</Long><Speed>0.53</Speed><Bearing>0.08</Beariing>
+
+<Time>0 135845</Time><Lat>2142085497.0 S</Lat><Long>1850.1298 E</Long><Speed>0.52</Speed><Bearing>0.08</Beariing>
+
+<Time>0 135846</Time><Lat>2142085497.0 S</Lat><Long>1850.1299 E</Long><Speed>0.56</Speed><Bearing>0.62</Beariing>
+
+<Time>0 135847</Time><Lat>2142085497.0 S</Lat><Long>1850.1301 E</Long><Speed>0.16</Speed><Bearing>0.62</Beariing>
+
+<Time>0 135848</Time><Lat>2142085497.0 S</Lat><Long>1850.1303 E</Long><Speed>0.18</Speed><Bearing>0.62</Beariing>
+
+<Time>0 135849</Time><Lat>2142085497.0 S</Lat><Long>1850.1303 E</Long><Speed>0.98</Speed><Bearing>0.98</Beariing>
+
+<Time>0 135850</Time><Lat>2142085497.0 S</Lat><Long>1850.1302 E</Long><Speed>0.97</Speed><Bearing>0.49</Beariing>
+
+<Time>0 135851</Time><Lat>2142085497.0 S</Lat><Long>1850.1302 E</Long><Speed>0.79</Speed><Bearing>0.51</Beariing>
+
+<Time>0 135852</Time><Lat>2142085497.0 S</Lat><Long>1850.1303 E</Long><Speed>0.30</Speed><Bearing>0.51</Beariing>
+
+<Time>0 135853</Time><Lat>2142085497.0 S</Lat><Long>1850.1304 E</Long><Speed>0.30</Speed><Bearing>0.51</Beariing>
+
+<Time>0 135854</Time><Lat>2142085497.0 S</Lat><Long>1850.1302 E</Long><Speed>0.69</Speed><Bearing>0.46</Beariing>
+
+<Time>0 135855</Time><Lat>2142085497.0 S</Lat><Long>1850.1300 E</Long><Speed>0.64</Speed><Bearing>0.79</Beariing>
+
+<Time>0 135856</Time><Lat>2142085497.0 S</Lat><Long>1850.1298 E</Long><Speed>0.83</Speed><Bearing>0.46</Beariing>
+
+<Time>0 135857</Time><Lat>2142085497.0 S</Lat><Long>1850.1298 E</Long><Speed>0.87</Speed><Bearing>0.27</Beariing>
+
+<Time>0 135858</Time><Lat>2142085497.0 S</Lat><Long>1850.1297 E</Long><Speed>0.93</Speed><Bearing>0.84</Beariing>
+
+<Time>0 135859</Time><Lat>2142085497.0 S</Lat><Long>1850.1297 E</Long><Speed>0.92</Speed><Bearing>0.90</Beariing>
+
+<Time>0 135900</Time><Lat>2142085497.0 S</Lat><Long>1850.1292 E</Long><Speed>0.98</Speed><Bearing>0.11</Beariing>
+
+<Time>0 135901</Time><Lat>2142085497.0 S</Lat><Long>1850.1287 E</Long><Speed>1.27</Speed><Bearing>0.53</Beariing>
+
+<Time>0 135902</Time><Lat>2142085497.0 S</Lat><Long>1850.1285 E</Long><Speed>1.26</Speed><Bearing>0.89</Beariing>
+
+<Time>0 135903</Time><Lat>2142085497.0 S</Lat><Long>1850.1289 E</Long><Speed>1.30</Speed><Bearing>0.91</Beariing>
+
+<Time>0 135904</Time><Lat>2142085497.0 S</Lat><Long>1850.1291 E</Long><Speed>1.28</Speed><Bearing>0.46</Beariing>
+
+<Time>0 135905</Time><Lat>2142085497.0 S</Lat><Long>1850.1292 E</Long><Speed>1.21</Speed><Bearing>0.39</Beariing>
+
+<Time>0 135906</Time><Lat>2142085497.0 S</Lat><Long>1850.1294 E</Long><Speed>0.55</Speed><Bearing>0.39</Beariing>
+
+<Time>0 135907</Time><Lat>2142085497.0 S</Lat><Long>1850.1295 E</Long><Speed>0.87</Speed><Bearing>0.85</Beariing>
+
+<Time>0 135908</Time><Lat>2142085497.0 S</Lat><Long>1850.1295 E</Long><Speed>1.11</Speed><Bearing>0.36</Beariing>
+
+<Time>0 135909</Time><Lat>2142085497.0 S</Lat><Long>1850.1294 E</Long><Speed>1.56</Speed><Bearing>0.35</Beariing>
+
+<Time>0 135910</Time><Lat>2142085497.0 S</Lat><Long>1850.1294 E</Long><Speed>1.28</Speed><Bearing>0.35</Beariing>
+
+<Time>0 135911</Time><Lat>2142085497.0 S</Lat><Long>1850.1298 E</Long><Speed>1.34</Speed><Bearing>0.53</Beariing>
+
+<Time>0 135912</Time><Lat>2142085497.0 S</Lat><Long>1850.1300 E</Long><Speed>0.83</Speed><Bearing>0.33</Beariing>
+
+<Time>0 135913</Time><Lat>2142085497.0 S</Lat><Long>1850.1299 E</Long><Speed>1.05</Speed><Bearing>0.92</Beariing>
+
+<Time>0 135914</Time><Lat>2142085497.0 S</Lat><Long>1850.1299 E</Long><Speed>0.66</Speed><Bearing>0.01</Beariing>
+
+<Time>0 135915</Time><Lat>2142085497.0 S</Lat><Long>1850.1302 E</Long><Speed>0.69</Speed><Bearing>0.68</Beariing>
+
+<Time>0 135916</Time><Lat>2142085497.0 S</Lat><Long>1850.1306 E</Long><Speed>0.87</Speed><Bearing>0.61</Beariing>
+
+<Time>0 135917</Time><Lat>2142085497.0 S</Lat><Long>1850.1310 E</Long><Speed>1.23</Speed><Bearing>0.16</Beariing>
+
+<Time>0 135918</Time><Lat>2142085497.0 S</Lat><Long>1850.1313 E</Long><Speed>1.04</Speed><Bearing>0.98</Beariing>
+
+<Time>0 135919</Time><Lat>2142085497.0 S</Lat><Long>1850.1313 E</Long><Speed>0.97</Speed><Bearing>0.95</Beariing>
+
+<Time>0 135920</Time><Lat>2142085497.0 S</Lat><Long>1850.1312 E</Long><Speed>1.18</Speed><Bearing>0.17</Beariing>
+
+<Time>0 135921</Time><Lat>2142085497.0 S</Lat><Long>1850.1313 E</Long><Speed>0.58</Speed><Bearing>0.17</Beariing>
+
+<Time>0 135922</Time><Lat>2142085497.0 S</Lat><Long>1850.1314 E</Long><Speed>0.76</Speed><Bearing>0.89</Beariing>
+
+<Time>0 135923</Time><Lat>2142085497.0 S</Lat><Long>1850.1314 E</Long><Speed>0.72</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 135924</Time><Lat>2142085497.0 S</Lat><Long>1850.1312 E</Long><Speed>1.51</Speed><Bearing>0.33</Beariing>
+
+<Time>0 135925</Time><Lat>2142085497.0 S</Lat><Long>1850.1311 E</Long><Speed>0.94</Speed><Bearing>0.47</Beariing>
+
+<Time>0 135926</Time><Lat>2142085497.0 S</Lat><Long>1850.1310 E</Long><Speed>0.93</Speed><Bearing>0.82</Beariing>
+
+<Time>0 135927</Time><Lat>2142085497.0 S</Lat><Long>1850.1310 E</Long><Speed>0.52</Speed><Bearing>0.82</Beariing>
+
+<Time>0 135928</Time><Lat>2142085497.0 S</Lat><Long>1850.1309 E</Long><Speed>0.27</Speed><Bearing>0.82</Beariing>
+
+<Time>0 135929</Time><Lat>2142085497.0 S</Lat><Long>1850.1309 E</Long><Speed>0.28</Speed><Bearing>0.82</Beariing>
+
+<Time>0 135930</Time><Lat>2142085497.0 S</Lat><Long>1850.1309 E</Long><Speed>0.55</Speed><Bearing>0.82</Beariing>
+
+<Time>0 135931</Time><Lat>2142085497.0 S</Lat><Long>1850.1310 E</Long><Speed>0.65</Speed><Bearing>0.56</Beariing>
+
+<Time>0 135932</Time><Lat>2142085497.0 S</Lat><Long>1850.1310 E</Long><Speed>0.81</Speed><Bearing>0.65</Beariing>
+
+<Time>0 135933</Time><Lat>2142085497.0 S</Lat><Long>1850.1310 E</Long><Speed>0.58</Speed><Bearing>0.35</Beariing>
+
+<Time>0 135934</Time><Lat>2142085497.0 S</Lat><Long>1850.1310 E</Long><Speed>0.38</Speed><Bearing>0.35</Beariing>
+
+<Time>0 135935</Time><Lat>2142085497.0 S</Lat><Long>1850.1309 E</Long><Speed>0.39</Speed><Bearing>0.35</Beariing>
+
+<Time>0 135936</Time><Lat>2142085497.0 S</Lat><Long>1850.1308 E</Long><Speed>0.57</Speed><Bearing>0.35</Beariing>
+
+<Time>0 135937</Time><Lat>2142085497.0 S</Lat><Long>1850.1307 E</Long><Speed>1.05</Speed><Bearing>0.39</Beariing>
+
+<Time>0 135938</Time><Lat>2142085497.0 S</Lat><Long>1850.1307 E</Long><Speed>1.38</Speed><Bearing>0.52</Beariing>
+
+<Time>0 135939</Time><Lat>2142085497.0 S</Lat><Long>1850.1306 E</Long><Speed>1.44</Speed><Bearing>0.28</Beariing>
+
+<Time>0 135940</Time><Lat>2142085497.0 S</Lat><Long>1850.1305 E</Long><Speed>1.12</Speed><Bearing>0.92</Beariing>
+
+<Time>0 135941</Time><Lat>2142085497.0 S</Lat><Long>1850.1305 E</Long><Speed>0.36</Speed><Bearing>0.92</Beariing>
+
+<Time>0 135942</Time><Lat>2142085497.0 S</Lat><Long>1850.1306 E</Long><Speed>0.78</Speed><Bearing>0.74</Beariing>
+
+<Time>0 135943</Time><Lat>2142085497.0 S</Lat><Long>1850.1306 E</Long><Speed>0.75</Speed><Bearing>0.18</Beariing>
+
+<Time>0 135944</Time><Lat>2142085497.0 S</Lat><Long>1850.1305 E</Long><Speed>1.01</Speed><Bearing>0.56</Beariing>
+
+<Time>0 135945</Time><Lat>2142085497.0 S</Lat><Long>1850.1303 E</Long><Speed>1.30</Speed><Bearing>0.25</Beariing>
+
+<Time>0 135946</Time><Lat>2142085497.0 S</Lat><Long>1850.1302 E</Long><Speed>1.37</Speed><Bearing>0.22</Beariing>
+
+<Time>0 135947</Time><Lat>2142085497.0 S</Lat><Long>1850.1301 E</Long><Speed>1.06</Speed><Bearing>0.13</Beariing>
+
+<Time>0 135948</Time><Lat>2142085497.0 S</Lat><Long>1850.1301 E</Long><Speed>0.57</Speed><Bearing>0.13</Beariing>
+
+<Time>0 135949</Time><Lat>2142085497.0 S</Lat><Long>1850.1300 E</Long><Speed>0.52</Speed><Bearing>0.13</Beariing>
+
+<Time>0 135950</Time><Lat>2142085497.0 S</Lat><Long>1850.1300 E</Long><Speed>0.36</Speed><Bearing>0.13</Beariing>
+
+<Time>0 135951</Time><Lat>2142085497.0 S</Lat><Long>1850.1299 E</Long><Speed>1.15</Speed><Bearing>0.23</Beariing>
+
+<Time>0 135952</Time><Lat>2142085497.0 S</Lat><Long>1850.1297 E</Long><Speed>1.10</Speed><Bearing>0.25</Beariing>
+
+<Time>0 135953</Time><Lat>2142085497.0 S</Lat><Long>1850.1296 E</Long><Speed>1.07</Speed><Bearing>0.63</Beariing>
+
+<Time>0 135954</Time><Lat>2142085497.0 S</Lat><Long>1850.1296 E</Long><Speed>0.21</Speed><Bearing>0.63</Beariing>
+
+<Time>0 135955</Time><Lat>2142085497.0 S</Lat><Long>1850.1296 E</Long><Speed>0.37</Speed><Bearing>0.63</Beariing>
+
+<Time>0 135956</Time><Lat>2142085497.0 S</Lat><Long>1850.1294 E</Long><Speed>0.42</Speed><Bearing>0.63</Beariing>
+
+<Time>0 135957</Time><Lat>2142085497.0 S</Lat><Long>1850.1292 E</Long><Speed>0.49</Speed><Bearing>0.63</Beariing>
+
+<Time>0 135958</Time><Lat>2142085497.0 S</Lat><Long>1850.1291 E</Long><Speed>0.61</Speed><Bearing>0.93</Beariing>
+
+<Time>0 135959</Time><Lat>2142085497.0 S</Lat><Long>1850.1291 E</Long><Speed>0.56</Speed><Bearing>0.93</Beariing>
+
+<Time>0 140000</Time><Lat>2142085497.0 S</Lat><Long>1850.1291 E</Long><Speed>0.24</Speed><Bearing>0.93</Beariing>
+
+<Time>0 140001</Time><Lat>2142085497.0 S</Lat><Long>1850.1292 E</Long><Speed>0.18</Speed><Bearing>0.93</Beariing>
+
+<Time>0 140002</Time><Lat>2142085497.0 S</Lat><Long>1850.1292 E</Long><Speed>0.14</Speed><Bearing>0.93</Beariing>
+
+<Time>0 140003</Time><Lat>2142085497.0 S</Lat><Long>1850.1292 E</Long><Speed>0.08</Speed><Bearing>0.93</Beariing>
+
+<Time>0 140004</Time><Lat>2142085497.0 S</Lat><Long>1850.1292 E</Long><Speed>0.10</Speed><Bearing>0.93</Beariing>
+
+<Time>0 140005</Time><Lat>2142085497.0 S</Lat><Long>1850.1292 E</Long><Speed>0.20</Speed><Bearing>0.93</Beariing>
+
+<Time>0 140006</Time><Lat>2142085497.0 S</Lat><Long>1850.1291 E</Long><Speed>0.46</Speed><Bearing>0.93</Beariing>
+
+<Time>0 140007</Time><Lat>2142085497.0 S</Lat><Long>1850.1290 E</Long><Speed>0.32</Speed><Bearing>0.93</Beariing>
+
+<Time>0 140008</Time><Lat>2142085497.0 S</Lat><Long>1850.1289 E</Long><Speed>0.29</Speed><Bearing>0.93</Beariing>
+
+<Time>0 140009</Time><Lat>2142085497.0 S</Lat><Long>1850.1288 E</Long><Speed>0.34</Speed><Bearing>0.93</Beariing>
+
+<Time>0 140010</Time><Lat>2142085497.0 S</Lat><Long>1850.1287 E</Long><Speed>0.18</Speed><Bearing>0.93</Beariing>
+
+<Time>0 140011</Time><Lat>2142085497.0 S</Lat><Long>1850.1287 E</Long><Speed>0.14</Speed><Bearing>0.93</Beariing>
+
+<Time>0 140012</Time><Lat>2142085497.0 S</Lat><Long>1850.1287 E</Long><Speed>0.76</Speed><Bearing>0.97</Beariing>
+
+<Time>0 140013</Time><Lat>2142085497.0 S</Lat><Long>1850.1283 E</Long><Speed>0.79</Speed><Bearing>0.21</Beariing>
+
+<Time>0 140014</Time><Lat>2142085497.0 S</Lat><Long>1850.1283 E</Long><Speed>0.80</Speed><Bearing>0.52</Beariing>
+
+<Time>0 140015</Time><Lat>2142085497.0 S</Lat><Long>1850.1281 E</Long><Speed>1.04</Speed><Bearing>0.36</Beariing>
+
+<Time>0 140016</Time><Lat>2142085497.0 S</Lat><Long>1850.1278 E</Long><Speed>0.79</Speed><Bearing>0.90</Beariing>
+
+<Time>0 140017</Time><Lat>2142085497.0 S</Lat><Long>1850.1276 E</Long><Speed>0.86</Speed><Bearing>0.09</Beariing>
+
+<Time>0 140018</Time><Lat>2142085497.0 S</Lat><Long>1850.1274 E</Long><Speed>0.83</Speed><Bearing>0.96</Beariing>
+
+<Time>0 140019</Time><Lat>2142085497.0 S</Lat><Long>1850.1273 E</Long><Speed>0.63</Speed><Bearing>0.12</Beariing>
+
+<Time>0 140020</Time><Lat>2142085497.0 S</Lat><Long>1850.1270 E</Long><Speed>1.10</Speed><Bearing>0.77</Beariing>
+
+<Time>0 140021</Time><Lat>2142085497.0 S</Lat><Long>1850.1269 E</Long><Speed>1.06</Speed><Bearing>0.38</Beariing>
+
+<Time>0 140022</Time><Lat>2142085497.0 S</Lat><Long>1850.1269 E</Long><Speed>0.79</Speed><Bearing>0.52</Beariing>
+
+<Time>0 140023</Time><Lat>2142085497.0 S</Lat><Long>1850.1268 E</Long><Speed>0.97</Speed><Bearing>0.07</Beariing>
+
+<Time>0 140024</Time><Lat>2142085497.0 S</Lat><Long>1850.1269 E</Long><Speed>1.00</Speed><Bearing>0.21</Beariing>
+
+<Time>0 140025</Time><Lat>2142085497.0 S</Lat><Long>1850.1268 E</Long><Speed>0.67</Speed><Bearing>0.26</Beariing>
+
+<Time>0 140026</Time><Lat>2142085497.0 S</Lat><Long>1850.1268 E</Long><Speed>0.49</Speed><Bearing>0.26</Beariing>
+
+<Time>0 140027</Time><Lat>2142085497.0 S</Lat><Long>1850.1269 E</Long><Speed>0.21</Speed><Bearing>0.26</Beariing>
+
+<Time>0 140028</Time><Lat>2142085497.0 S</Lat><Long>1850.1269 E</Long><Speed>0.25</Speed><Bearing>0.26</Beariing>
+
+<Time>0 140029</Time><Lat>2142085497.0 S</Lat><Long>1850.1269 E</Long><Speed>0.73</Speed><Bearing>0.59</Beariing>
+
+<Time>0 140030</Time><Lat>2142085497.0 S</Lat><Long>1850.1270 E</Long><Speed>0.78</Speed><Bearing>0.72</Beariing>
+
+<Time>0 140031</Time><Lat>2142085497.0 S</Lat><Long>1850.1273 E</Long><Speed>1.21</Speed><Bearing>0.21</Beariing>
+
+<Time>0 140032</Time><Lat>2142085497.0 S</Lat><Long>1850.1275 E</Long><Speed>1.15</Speed><Bearing>0.99</Beariing>
+
+<Time>0 140033</Time><Lat>2142085497.0 S</Lat><Long>1850.1276 E</Long><Speed>1.19</Speed><Bearing>0.63</Beariing>
+
+<Time>0 140034</Time><Lat>2142085497.0 S</Lat><Long>1850.1278 E</Long><Speed>1.77</Speed><Bearing>0.28</Beariing>
+
+<Time>0 140035</Time><Lat>2142085497.0 S</Lat><Long>1850.1281 E</Long><Speed>1.78</Speed><Bearing>0.32</Beariing>
+
+<Time>0 140036</Time><Lat>2142085497.0 S</Lat><Long>1850.1282 E</Long><Speed>1.31</Speed><Bearing>0.68</Beariing>
+
+<Time>0 140037</Time><Lat>2142085497.0 S</Lat><Long>1850.1283 E</Long><Speed>1.29</Speed><Bearing>0.07</Beariing>
+
+<Time>0 140038</Time><Lat>2142085497.0 S</Lat><Long>1850.1284 E</Long><Speed>1.78</Speed><Bearing>0.89</Beariing>
+
+<Time>0 140039</Time><Lat>2142085497.0 S</Lat><Long>1850.1284 E</Long><Speed>1.79</Speed><Bearing>0.80</Beariing>
+
+<Time>0 140040</Time><Lat>2142085497.0 S</Lat><Long>1850.1285 E</Long><Speed>1.50</Speed><Bearing>0.86</Beariing>
+
+<Time>0 140041</Time><Lat>2142085497.0 S</Lat><Long>1850.1286 E</Long><Speed>1.46</Speed><Bearing>0.61</Beariing>
+
+<Time>0 140042</Time><Lat>2142085497.0 S</Lat><Long>1850.1289 E</Long><Speed>1.53</Speed><Bearing>0.81</Beariing>
+
+<Time>0 140043</Time><Lat>2142085497.0 S</Lat><Long>1850.1294 E</Long><Speed>2.16</Speed><Bearing>0.38</Beariing>
+
+<Time>0 140044</Time><Lat>2142085497.0 S</Lat><Long>1850.1294 E</Long><Speed>1.93</Speed><Bearing>0.79</Beariing>
+
+<Time>0 140045</Time><Lat>2142085497.0 S</Lat><Long>1850.1293 E</Long><Speed>1.49</Speed><Bearing>0.48</Beariing>
+
+<Time>0 140046</Time><Lat>2142085497.0 S</Lat><Long>1850.1294 E</Long><Speed>1.54</Speed><Bearing>0.81</Beariing>
+
+<Time>0 140047</Time><Lat>2142085497.0 S</Lat><Long>1850.1295 E</Long><Speed>1.52</Speed><Bearing>0.79</Beariing>
+
+<Time>0 140048</Time><Lat>2142085497.0 S</Lat><Long>1850.1295 E</Long><Speed>2.09</Speed><Bearing>0.75</Beariing>
+
+<Time>0 140049</Time><Lat>2142085497.0 S</Lat><Long>1850.1297 E</Long><Speed>2.08</Speed><Bearing>0.95</Beariing>
+
+<Time>0 140050</Time><Lat>2142085497.0 S</Lat><Long>1850.1297 E</Long><Speed>2.09</Speed><Bearing>0.45</Beariing>
+
+<Time>0 140051</Time><Lat>2142085497.0 S</Lat><Long>1850.1296 E</Long><Speed>1.79</Speed><Bearing>0.59</Beariing>
+
+<Time>0 140052</Time><Lat>2142085497.0 S</Lat><Long>1850.1297 E</Long><Speed>1.45</Speed><Bearing>0.99</Beariing>
+
+<Time>0 140053</Time><Lat>2142085497.0 S</Lat><Long>1850.1298 E</Long><Speed>1.68</Speed><Bearing>0.64</Beariing>
+
+<Time>0 140054</Time><Lat>2142085497.0 S</Lat><Long>1850.1298 E</Long><Speed>1.49</Speed><Bearing>0.35</Beariing>
+
+<Time>0 140055</Time><Lat>2142085497.0 S</Lat><Long>1850.1299 E</Long><Speed>1.04</Speed><Bearing>0.38</Beariing>
+
+<Time>0 140056</Time><Lat>2142085497.0 S</Lat><Long>1850.1299 E</Long><Speed>1.20</Speed><Bearing>0.75</Beariing>
+
+<Time>0 140057</Time><Lat>2142085497.0 S</Lat><Long>1850.1302 E</Long><Speed>1.62</Speed><Bearing>0.46</Beariing>
+
+<Time>0 140058</Time><Lat>2142085497.0 S</Lat><Long>1850.1306 E</Long><Speed>1.69</Speed><Bearing>0.79</Beariing>
+
+<Time>0 140059</Time><Lat>2142085497.0 S</Lat><Long>1850.1310 E</Long><Speed>2.10</Speed><Bearing>0.97</Beariing>
+
+<Time>0 140100</Time><Lat>2142085497.0 S</Lat><Long>1850.1314 E</Long><Speed>1.77</Speed><Bearing>0.39</Beariing>
+
+<Time>0 140101</Time><Lat>2142085497.0 S</Lat><Long>1850.1317 E</Long><Speed>1.79</Speed><Bearing>0.67</Beariing>
+
+<Time>0 140102</Time><Lat>2142085497.0 S</Lat><Long>1850.1320 E</Long><Speed>1.78</Speed><Bearing>0.93</Beariing>
+
+<Time>0 140103</Time><Lat>2142085497.0 S</Lat><Long>1850.1322 E</Long><Speed>2.21</Speed><Bearing>0.25</Beariing>
+
+<Time>0 140104</Time><Lat>2142085497.0 S</Lat><Long>1850.1325 E</Long><Speed>1.65</Speed><Bearing>0.89</Beariing>
+
+<Time>0 140105</Time><Lat>2142085497.0 S</Lat><Long>1850.1328 E</Long><Speed>1.64</Speed><Bearing>0.45</Beariing>
+
+<Time>0 140106</Time><Lat>2142085497.0 S</Lat><Long>1850.1329 E</Long><Speed>1.59</Speed><Bearing>0.60</Beariing>
+
+<Time>0 140107</Time><Lat>2142085497.0 S</Lat><Long>1850.1332 E</Long><Speed>1.53</Speed><Bearing>0.15</Beariing>
+
+<Time>0 140108</Time><Lat>2142085497.0 S</Lat><Long>1850.1333 E</Long><Speed>1.22</Speed><Bearing>0.33</Beariing>
+
+<Time>0 140109</Time><Lat>2142085497.0 S</Lat><Long>1850.1333 E</Long><Speed>1.53</Speed><Bearing>0.20</Beariing>
+
+<Time>0 140110</Time><Lat>2142085497.0 S</Lat><Long>1850.1336 E</Long><Speed>1.82</Speed><Bearing>0.05</Beariing>
+
+<Time>0 140111</Time><Lat>2142085497.0 S</Lat><Long>1850.1337 E</Long><Speed>2.02</Speed><Bearing>0.90</Beariing>
+
+<Time>0 140112</Time><Lat>2142085497.0 S</Lat><Long>1850.1339 E</Long><Speed>1.55</Speed><Bearing>0.75</Beariing>
+
+<Time>0 140113</Time><Lat>2142085497.0 S</Lat><Long>1850.1339 E</Long><Speed>0.97</Speed><Bearing>0.51</Beariing>
+
+<Time>0 140114</Time><Lat>2142085497.0 S</Lat><Long>1850.1340 E</Long><Speed>1.14</Speed><Bearing>0.52</Beariing>
+
+<Time>0 140115</Time><Lat>2142085497.0 S</Lat><Long>1850.1341 E</Long><Speed>1.57</Speed><Bearing>0.49</Beariing>
+
+<Time>0 140116</Time><Lat>2142085497.0 S</Lat><Long>1850.1341 E</Long><Speed>1.89</Speed><Bearing>0.06</Beariing>
+
+<Time>0 140117</Time><Lat>2142085497.0 S</Lat><Long>1850.1338 E</Long><Speed>2.27</Speed><Bearing>0.90</Beariing>
+
+<Time>0 140118</Time><Lat>2142085497.0 S</Lat><Long>1850.1338 E</Long><Speed>2.68</Speed><Bearing>0.29</Beariing>
+
+<Time>0 140119</Time><Lat>2142085497.0 S</Lat><Long>1850.1338 E</Long><Speed>2.93</Speed><Bearing>0.54</Beariing>
+
+<Time>0 140120</Time><Lat>2142085497.0 S</Lat><Long>1850.1337 E</Long><Speed>2.20</Speed><Bearing>0.40</Beariing>
+
+<Time>0 140121</Time><Lat>2142085497.0 S</Lat><Long>1850.1334 E</Long><Speed>1.80</Speed><Bearing>0.37</Beariing>
+
+<Time>0 140122</Time><Lat>2142085497.0 S</Lat><Long>1850.1331 E</Long><Speed>1.53</Speed><Bearing>0.78</Beariing>
+
+<Time>0 140123</Time><Lat>2142085497.0 S</Lat><Long>1850.1332 E</Long><Speed>1.57</Speed><Bearing>0.81</Beariing>
+
+<Time>0 140124</Time><Lat>2142085497.0 S</Lat><Long>1850.1334 E</Long><Speed>1.54</Speed><Bearing>0.45</Beariing>
+
+<Time>0 140125</Time><Lat>2142085497.0 S</Lat><Long>1850.1335 E</Long><Speed>2.76</Speed><Bearing>0.17</Beariing>
+
+<Time>0 140126</Time><Lat>2142085497.0 S</Lat><Long>1850.1335 E</Long><Speed>2.99</Speed><Bearing>0.38</Beariing>
+
+<Time>0 140127</Time><Lat>2142085497.0 S</Lat><Long>1850.1333 E</Long><Speed>2.29</Speed><Bearing>0.09</Beariing>
+
+<Time>0 140128</Time><Lat>2142085497.0 S</Lat><Long>1850.1332 E</Long><Speed>2.59</Speed><Bearing>0.43</Beariing>
+
+<Time>0 140129</Time><Lat>2142085497.0 S</Lat><Long>1850.1331 E</Long><Speed>3.05</Speed><Bearing>0.80</Beariing>
+
+<Time>0 140130</Time><Lat>2142085497.0 S</Lat><Long>1850.1331 E</Long><Speed>3.37</Speed><Bearing>0.33</Beariing>
+
+<Time>0 140131</Time><Lat>2142085497.0 S</Lat><Long>1850.1332 E</Long><Speed>3.59</Speed><Bearing>0.82</Beariing>
+
+<Time>0 140132</Time><Lat>2142085497.0 S</Lat><Long>1850.1332 E</Long><Speed>3.20</Speed><Bearing>0.14</Beariing>
+
+<Time>0 140133</Time><Lat>2142085497.0 S</Lat><Long>1850.1330 E</Long><Speed>2.15</Speed><Bearing>0.09</Beariing>
+
+<Time>0 140134</Time><Lat>2142085497.0 S</Lat><Long>1850.1332 E</Long><Speed>1.41</Speed><Bearing>0.55</Beariing>
+
+<Time>0 140135</Time><Lat>2142085497.0 S</Lat><Long>1850.1333 E</Long><Speed>1.34</Speed><Bearing>-0.00</Beariing>
+
+<Time>0 140136</Time><Lat>2142085497.0 S</Lat><Long>1850.1331 E</Long><Speed>1.11</Speed><Bearing>0.52</Beariing>
+
+<Time>0 140137</Time><Lat>2142085497.0 S</Lat><Long>1850.1334 E</Long><Speed>1.53</Speed><Bearing>0.05</Beariing>
+
+<Time>0 140138</Time><Lat>2142085497.0 S</Lat><Long>1850.1334 E</Long><Speed>1.92</Speed><Bearing>0.88</Beariing>
+
+<Time>0 140139</Time><Lat>2142085497.0 S</Lat><Long>1850.1334 E</Long><Speed>1.89</Speed><Bearing>0.42</Beariing>
+
+<Time>0 140140</Time><Lat>2142085497.0 S</Lat><Long>1850.1332 E</Long><Speed>1.45</Speed><Bearing>0.35</Beariing>
+
+<Time>0 140141</Time><Lat>2142085497.0 S</Lat><Long>1850.1329 E</Long><Speed>0.93</Speed><Bearing>0.48</Beariing>
+
+<Time>0 140142</Time><Lat>2142085497.0 S</Lat><Long>1850.1327 E</Long><Speed>0.90</Speed><Bearing>0.94</Beariing>
+
+<Time>0 140143</Time><Lat>2142085497.0 S</Lat><Long>1850.1326 E</Long><Speed>1.25</Speed><Bearing>0.79</Beariing>
+
+<Time>0 140144</Time><Lat>2142085497.0 S</Lat><Long>1850.1327 E</Long><Speed>2.28</Speed><Bearing>0.72</Beariing>
+
+<Time>0 140145</Time><Lat>2142085497.0 S</Lat><Long>1850.1327 E</Long><Speed>1.99</Speed><Bearing>0.28</Beariing>
+
+<Time>0 140146</Time><Lat>2142085497.0 S</Lat><Long>1850.1327 E</Long><Speed>1.68</Speed><Bearing>0.98</Beariing>
+
+<Time>0 140147</Time><Lat>2142085497.0 S</Lat><Long>1850.1327 E</Long><Speed>1.34</Speed><Bearing>0.53</Beariing>
+
+<Time>0 140148</Time><Lat>2142085497.0 S</Lat><Long>1850.1326 E</Long><Speed>1.56</Speed><Bearing>0.70</Beariing>
+
+<Time>0 140149</Time><Lat>2142085497.0 S</Lat><Long>1850.1324 E</Long><Speed>1.76</Speed><Bearing>0.34</Beariing>
+
+<Time>0 140150</Time><Lat>2142085497.0 S</Lat><Long>1850.1326 E</Long><Speed>1.79</Speed><Bearing>0.54</Beariing>
+
+<Time>0 140151</Time><Lat>2142085497.0 S</Lat><Long>1850.1325 E</Long><Speed>1.84</Speed><Bearing>0.18</Beariing>
+
+<Time>0 140152</Time><Lat>2142085497.0 S</Lat><Long>1850.1325 E</Long><Speed>2.20</Speed><Bearing>0.46</Beariing>
+
+<Time>0 140153</Time><Lat>2142085497.0 S</Lat><Long>1850.1324 E</Long><Speed>2.21</Speed><Bearing>0.53</Beariing>
+
+<Time>0 140154</Time><Lat>2142085497.0 S</Lat><Long>1850.1325 E</Long><Speed>2.23</Speed><Bearing>0.55</Beariing>
+
+<Time>0 140155</Time><Lat>2142085497.0 S</Lat><Long>1850.1324 E</Long><Speed>1.79</Speed><Bearing>0.83</Beariing>
+
+<Time>0 140156</Time><Lat>2142085497.0 S</Lat><Long>1850.1324 E</Long><Speed>1.81</Speed><Bearing>0.64</Beariing>
+
+<Time>0 140157</Time><Lat>2142085497.0 S</Lat><Long>1850.1327 E</Long><Speed>2.44</Speed><Bearing>0.80</Beariing>
+
+<Time>0 140158</Time><Lat>2142085497.0 S</Lat><Long>1850.1327 E</Long><Speed>1.64</Speed><Bearing>0.68</Beariing>
+
+<Time>0 140159</Time><Lat>2142085497.0 S</Lat><Long>1850.1325 E</Long><Speed>1.62</Speed><Bearing>0.13</Beariing>
+
+<Time>0 140200</Time><Lat>2142085497.0 S</Lat><Long>1850.1327 E</Long><Speed>1.92</Speed><Bearing>0.83</Beariing>
+
+<Time>0 140201</Time><Lat>2142085497.0 S</Lat><Long>1850.1324 E</Long><Speed>1.92</Speed><Bearing>0.97</Beariing>
+
+<Time>0 140202</Time><Lat>2142085497.0 S</Lat><Long>1850.1325 E</Long><Speed>1.88</Speed><Bearing>0.44</Beariing>
+
+<Time>0 140203</Time><Lat>2142085497.0 S</Lat><Long>1850.1325 E</Long><Speed>1.95</Speed><Bearing>0.70</Beariing>
+
+<Time>0 140204</Time><Lat>2142085497.0 S</Lat><Long>1850.1326 E</Long><Speed>1.67</Speed><Bearing>0.16</Beariing>
+
+<Time>0 140205</Time><Lat>2142085497.0 S</Lat><Long>1850.1328 E</Long><Speed>1.90</Speed><Bearing>0.46</Beariing>
+
+<Time>0 140206</Time><Lat>2142085497.0 S</Lat><Long>1850.1331 E</Long><Speed>1.68</Speed><Bearing>0.21</Beariing>
+
+<Time>0 140207</Time><Lat>2142085497.0 S</Lat><Long>1850.1332 E</Long><Speed>1.14</Speed><Bearing>0.26</Beariing>
+
+<Time>0 140208</Time><Lat>2142085497.0 S</Lat><Long>1850.1332 E</Long><Speed>0.66</Speed><Bearing>0.09</Beariing>
+
+<Time>0 140209</Time><Lat>2142085497.0 S</Lat><Long>1850.1330 E</Long><Speed>0.66</Speed><Bearing>0.77</Beariing>
+
+<Time>0 140210</Time><Lat>2142085497.0 S</Lat><Long>1850.1328 E</Long><Speed>0.64</Speed><Bearing>0.63</Beariing>
+
+<Time>0 140211</Time><Lat>2142085497.0 S</Lat><Long>1850.1325 E</Long><Speed>0.61</Speed><Bearing>0.63</Beariing>
+
+<Time>0 140212</Time><Lat>2142085497.0 S</Lat><Long>1850.1321 E</Long><Speed>0.65</Speed><Bearing>0.77</Beariing>
+
+<Time>0 140213</Time><Lat>2142085497.0 S</Lat><Long>1850.1320 E</Long><Speed>0.45</Speed><Bearing>0.77</Beariing>
+
+<Time>0 140214</Time><Lat>2142085497.0 S</Lat><Long>1850.1319 E</Long><Speed>0.79</Speed><Bearing>0.56</Beariing>
+
+<Time>0 140215</Time><Lat>2142085497.0 S</Lat><Long>1850.1317 E</Long><Speed>0.76</Speed><Bearing>0.82</Beariing>
+
+<Time>0 140216</Time><Lat>2142085497.0 S</Lat><Long>1850.1316 E</Long><Speed>0.76</Speed><Bearing>0.33</Beariing>
+
+<Time>0 140217</Time><Lat>2142085497.0 S</Lat><Long>1850.1315 E</Long><Speed>1.05</Speed><Bearing>0.43</Beariing>
+
+<Time>0 140218</Time><Lat>2142085497.0 S</Lat><Long>1850.1313 E</Long><Speed>1.38</Speed><Bearing>0.58</Beariing>
+
+<Time>0 140219</Time><Lat>2142085497.0 S</Lat><Long>1850.1312 E</Long><Speed>0.85</Speed><Bearing>0.16</Beariing>
+
+<Time>0 140220</Time><Lat>2142085497.0 S</Lat><Long>1850.1310 E</Long><Speed>0.53</Speed><Bearing>0.16</Beariing>
+
+<Time>0 140221</Time><Lat>2142085497.0 S</Lat><Long>1850.1309 E</Long><Speed>0.29</Speed><Bearing>0.16</Beariing>
+
+<Time>0 140222</Time><Lat>2142085497.0 S</Lat><Long>1850.1306 E</Long><Speed>1.63</Speed><Bearing>0.68</Beariing>
+
