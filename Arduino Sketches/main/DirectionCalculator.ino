@@ -32,7 +32,7 @@ void NextPoint(){
   points[targetIndex].passed = true;
   Serial.print("\nPoint passed\n");
   targetIndex ++;
-  if(targetIndex >=20 || points[targetIndex].orderPos >=0){
+  if(targetIndex >=20 || points[targetIndex].orderPos <=0){
     state = 3;
   }
 }

@@ -15,6 +15,8 @@
 
 %==== Math setup ====================================================
  \usepackage{amsmath}%............................ Advanced math (before fonts)
+ \usepackage{algorithm}
+ \usepackage[noend]{algpseudocode}
  %\usepackage{amssymb}%............................ AMS Symbol fonts
  \usepackage{siunitx}%............................	SI units
 
@@ -51,6 +53,7 @@
 
 %
 % Please insert user defined commands here
+\def\BState{\State\hskip-\ALG@thistlm}
 % and NOT in the document itself!
 %
 
@@ -59,10 +62,8 @@
 
 \title{Navigation and Control of an Unmanned Surface Vessel}
 
-\author{S.\ Bekker}
-       {Luke Kingwill\\
-           20725728}
 
+\author{}{L.E.V. \ Kingwill\\20725728}
 \subject{Mechatronic Project 488}
 
 

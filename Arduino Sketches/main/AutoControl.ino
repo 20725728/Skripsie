@@ -13,6 +13,7 @@ void navigate(){
     throttle_percentage = distance/(2*throttle_down_distance);
     if(distance < arrival_threshold){
       NextPoint();
+      return;
     }
   }else{
     throttle_percentage = 100;

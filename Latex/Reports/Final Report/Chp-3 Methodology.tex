@@ -10,7 +10,7 @@ The microcontroller that was chosen for this project is a Arduino DUE. An Arduin
 	\subsection{Engineering Requirements}
 	The prototype is a proof of concept that can be scaled up to a larger vessel and so a small vessel that can accommodate at least 2 people is required. This is preferred to a smaller vessel that cannot accommodate the weight of a person as the weight to power ratio of a small vessel would not be as representative and this could influence the steering capability of the vessel and therefore the control system.
 	Furthermore, a working vessel is going to require a large battery bank and this is easily represented in a larger vessel. The energy source can then be scaled up by adding cells in both parallel and series to create the required power supply for the working vessel.\par
-	The autonomous nature of the vessel means that the a electronic control system is required to control the vessel. Furthermore, there are several elements that are required to make up the system however, these are not integral to the autonomous nature of the system but integral to the system as a whole. All of these elements are listed in the table \ref{tab:3:elements} and will be further explained in the system description.\par
+	The autonomous nature of the vessel means that the a electronic control system is required to control the vessel. Furthermore, there are several elements that are required to make up the system however, these are not integral to the autonomous nature of the system but integral to the system as a whole. %All of these elements are listed in the table \ref{tab:3:elements} and will be further explained in the system description.\par
 \section{System Description}
 This section will give a broad overview of the system as a whole and describe the different sub-systems and their interactions. Several of these subsystems are outside the scope of the project but have been included to provide a foundation upon which the applicable detailed descriptions will build. \par
 \begin{figure}
@@ -41,7 +41,16 @@ This section will give a broad overview of the system as a whole and describe th
 		% remove comments when BOM is in place
 		purchased to be used. However, when these components arrived, they were much smaller than they had appeared and they had very small range of movement. An alternate solution was designed and consisted of two throttle arms that could each turn a shaft. This shaft was then mounted to a linear potentiometers which would provide the required analogue input from the throttle. The throttle is shown in figure \ref{fig:3:throttle}. An initial concept design was given to the electrical engineering department who then refined and manufactured the design. 
 		\par
+		\subsubsection{PCB}
+		
 	\subsection{Electronics}\par
+		\begin{figure}[!ht]
+			\begin{center}
+				\includegraphics[width = 0.95\linewidth]{figures/Wiring diagram.jpg}
+				\caption{Wiring Diagram for the System}
+				\label{fig:3:wiring}
+			\end{center}
+		\end{figure}
 		\subsubsection{Arduino Due}\par
 		\begin{figure}[!ht]
 			\begin{center}
@@ -69,61 +78,11 @@ This section will give a broad overview of the system as a whole and describe th
 		The GPS module used is a PmodGPS and it
 		%remove comments when the BOM is correctly added.
 		Initially a PmodGPS was used as the GPS module. However the PmodGPS has a built in antenna and there were signal strength issues. The GPS was slow at acquiring a GPS fix when the control box was closed. Therefore an alternate GPS module was sourced that has an external antenna that can be fed out of the control box and placed in a position where a strong signal can be received. Both GPS modules use UART to communicate the data to the microcontroller. The GPS modules send a string of characters along the UART connection and the microcontroller must then decode the the characters. The GPS module is used to return the current longitude, latitude, date and time, speed and heading. The UART is set-up to use a baud rate of 9600, 8 data bits, no parity and 1 stop bit.   
-		has two connectors J1, which has 6 pins and J2 which has 2 pins. J1 is used to power the GPS module as well as connect to the MCU using UART communication with a baud rate of 9600, 8 data bits, no parity and 1 stop bit. 
-		
+		has two connectors J1, which has 6 pins and J2 which has 2 pins. J1 is used to power the GPS module as well as connect to the MCU using UART communication with a baud rate of 9600, 8 data bits, no parity and 1 stop bit. 	
 		\subsubsection{ESC}
-		There are two ESC, one for each thruster and are submersible and therefore they are attached to the thrusters. The ESC has two inputs, the control input and the power input. Th power input can range between DC\SI{12}{\volt} and DC\SI{50}{\volt} and a maximum constant currennt of \SI{100}{\amp} and in this project the input is \SI{24}{\volt} supplied by the battery cells. The control input is a 5V signal that is used to control the speed of the thrusters. This is a PWM signal whose duty cycle determines the thrusters speed and direction. 
-		
-		\subsubsection{PWM Signal}
-		The thrusters are each controlled by a \SI{5}{\volt} PWM signal. There is limited information on the datasheet for the ESC and the signal boundaries, full forward, full reverse and neutral positions are described in the unconventional terms of the time that the signal is high. The values are shown in table \ref{tab:3:PWM}. Initially it was thought that the ESC operated at \SI{50}{\hertz}, however there was no response from the thruster at any duty cycle.\par
-		\begin{table}[!ht]
-			\begin{center}
-				\caption{ESC boundaries and PWM duty cycle at various frequencies.}
-				\label{tab:3:PWM}
-				\begin{tabular}{|l|c|c|c|c|}
-					\hline
-					\multirow{2}{*}{Position} & \multirow{2}{*}{Time (\SI{}{\micro\second})} & \multicolumn{3}{c|}{Duty Cycle @}\\
-					%\hline 
-					& & \multicolumn{1}{c}{\SI{50}{\hertz}} & \multicolumn{1}{c}{\SI{60}{\hertz}} & \multicolumn{1}{c|}{\SI{500}{\hertz}}\\
-					\hline
-					Full Forward & 2000 & \SI{10}{\percent} & \SI{12}{\percent} & \SI{100}{\percent}  \\
-					\hline
-					Neutral & 1500 & \SI{7.5}{\percent} & \SI{9}{\percent} & \SI{75}{\percent}  \\
-					\hline
-					Full Reverse & 1000 & \SI{5}{\percent} & \SI{6}{\percent} & \SI{50}{\percent}  \\
-					\hline
-				\end{tabular}
-			\end{center}
-		\end{table}
-		\vspace{0.4cm}
-		In order to be sure that the correct PWM signal was being sent through and to be able to quickly vary both the frequency and the duty cycle, a PWM signal generator IC was connected to ESC and trial and error was conducted to determine that the ESC began responding to a signal above \SI{60}{\hertz}. It was then decided to push the frequency up to the maximum of \SI{500}{\hertz} as this would offers the finest control because it has the maximum allowable duty cycle difference between the signal boundaries.\par
-		\vspace{0.4cm}
-		The Arduino libraries contain a function that can output a PWM wave, given the duty cycle and the pin to output on as a parameter however, the default frequency of the Arduino DUE PWM pins is \SI{1000}{\hertz}. Therefore, the frequency had to be manually changed by changing the timer settings driving the PWM signal.\par
-		\vspace{0.4cm}
-		The information needed to change the timer settings is available in the Arduino Datasheet. The process to configure the PWM outputs is as follows. First, the peripheral clocks for timer channels 6 and 7 were enabled. Secondly, the pins input output controller on peripheral A needed to be disabled and the pins switch to peripheral type B. Then came the configuration of the timer itself. The channel mode was set to waveform mode using clock 1 with the counter being incremented on the rising edge. Furthermore, the waveform was set to UP mode (signal being set high) being triggered when the counter reached the register C (RC) value and the signal being cleared when the counter reached the register A (RA) value. Once the timer is configured, the RA and RC values can be filled and the interrupt set to trigger when the counter reaches RC. Finally, the channel control register is set to perform a software trigger, reset the counter and start the clock. There is also a interrupt handler that needs to be added where in the status register is read. This is done because the flags in the status register are automatically reset when the status register is read, at the end of every period.\par
-		\vspace{0.4cm}
-		The signal is being cleared when the counter reaches RA and set high when the counter reaches RC and so RC can be equated to the period of the signal and RA to the time when the signal is high. Using this and that the clock is set to clock 1 which is the MCU clock (MCK) divided by 2, the RA and RC can be expressed in terms of MCK, frequency and duty cycle as shown in equations \ref{eq:3:RC} and \ref{eq:3:RA}. RC is kept constant throughout while RA is changed to change the duty cycle of the PWM signal sent to the ESC and therefore control the ESC and thruster.
-		\begin{equation}
-			RC = \frac{\frac{MCK}{2}}{Frequency}
-			\label{eq:3:RC}
-		\end{equation}
-		\begin{equation}
-			RA = RC \times Duty Cycle
-			\label{eq:3:RA}
-		\end{equation}
+		There are two ESC, one for each thruster and are submersible and therefore they are attached to the thrusters. The ESC has two inputs, the control input and the power input. Th power input can range between DC\SI{12}{\volt} and DC\SI{50}{\volt} and a maximum constant current of \SI{100}{\ampere} and in this project the input is \SI{24}{\volt} supplied by the battery cells. The control input is a 5V signal that is used to control the speed of the thrusters. This is a PWM signal whose duty cycle determines the thrusters speed and direction. 
 		\subsubsection{POT}
-		The POT has three pins as shown in figure \ref{fig:3:POTdraw}, high voltage, ground and the output. The high voltage and ground are connected to the connections on either side and the output is connected to the middle. The output is therefore a voltage in the range of $V_{CC}$ to GND. The Arduino DUE pins are \SI{3}{\volt} tolerant and so the $V_{CC}$ is driven by \SI{3}{\volt} signal. \par
-		\vspace{0.4cm}
-		\begin{figure}[ht]
-			\begin{center}
-				\includegraphics[width = 0.3\textwidth]{figures/POT.jpg}
-				\caption{Fundamental illustration of a linear potentiometer}
-				\label{fig:3:POTdraw}
-			\end{center}
-		\end{figure}
-		The output of the POT is connected to analogue pins on the MCU and so the function, \textit{analogRead()} can be used to convert the analogue voltage into digital value using the built in ADC. The ADC has a 10 bit resolution and so the digital value is an integer in the range 0 to 1024 and the smallest discernible voltage change is \SI{3}{\milli\volt}. However, the design of the throttle does not use the full \SI{300}{\degree} range and so the physical limits needed to be measured to calibrate the throttles. The measured limits and centre points for the two throttles are shown in table \ref{tab:3:POT}. The neutral position is described by two values so that there is a neutral range that could easily be achieved by the users input. \par
-		%\vspace{0.4cm}
-		\begin{table}[ht]
+			\begin{table}[ht]
 			\begin{center}
 				\caption{Measured physical limits and neutral range of the throttle POTs}
 				\label{tab:3:POT}
@@ -131,28 +90,126 @@ This section will give a broad overview of the system as a whole and describe th
 					\hline		
 					\textbf{Throttle Position} & \textbf{Left POT} & \textbf{Right POT} \\
 					\hline
-					Full Forward & 677 & 700\\
+					Full Forward & 655 & 720\\
 					\hline
-					\multirow{2}{*}{Neutral} &530 &540 \\
-					&490 &500  \\
+					\multirow{2}{*}{Neutral} &440 &505 \\
+					&485 &572  \\
 					\hline
-					Full Reverse & 321 & 340 \\
+					Full Reverse & 285 & 352 \\
 					\hline
 				\end{tabular}
 			\end{center}
 		\end{table}
-		Using table \ref{tab:3:PWM} and \ref{tab:3:POT} a relationship can be created to determine the RA value for a given throttle position. Because the forward operation is in the duty cycle range \SI{75}{\percent} to \SI{100}{\percent}, the analogue input from the POT needs to be linearly mapped to represent an equivalent duty cycle in this range. Equation \ref{eq:3:dutyF} shows how this is done for the forwards operation. The same logic can be used to determine the duty cycle for reverse as equation \ref{eq:3:dutyR} shows. However, neutral is a set value that is written to RA whenever the throttle is within the neutral range.
-		\begin{equation}
-			Duty Cycle_{Forward} = 100 - (100-75)(\frac{POT_{MAX} - POT_{Input}}{POT_{MAX} - POT_{Neutral}})
-			\label{eq:3:dutyF}
-		\end{equation}
-		\begin{equation}
-			Duty Cycle_{Reverse} = 75 - (75-50)(\frac{POT_{Neutral} - POT_{Input}}{POT_{Neutral} - POT_{MIN}})
-			\label{eq:3:dutyR}
-		\end{equation}
+		The POT is a standard \SI{10}{\kilo\ohm} potentiometer that has three pins as shown in figure \ref{fig:3:POTdraw}, high voltage, ground and the output. The high voltage and ground are connected to the connections on either side and the output is connected to the middle. As the shaft of the potentiometer is turned the resistance varies from from almost no resistance to the full \SI{10}{\kilo\ohm} which causes the voltage to vary from input to almost ground voltage.  \par
+		\vspace{0.4cm}
+		\begin{figure}[hb]
+			\begin{center}
+				\includegraphics[width = 0.25\textwidth]{figures/POT.jpg}
+				\caption{Fundamental illustration of a linear potentiometer}
+				\label{fig:3:POTdraw}
+			\end{center}
+		\end{figure}
+		The output is connected to analogue input pins on the microcontroller which uses an ADC, with a 10 bit resolution, to convert the signal to a value between 0 and 1024. However, the potentiometer has a \SI{300}{\degree} range and the throttle only has about a \SI{150}{\degree} range of motion and so the software corrects this after having determined the extends of the motion through trial. The extends are measured at the two extremes and the middle point and offers a neutral range buffer for ease of use of the throttle. The measured extends are listed in table \ref{tab:3:POT}.
+	\subsubsection{Switches and LEDs}
+	\begin{figure}
+		\begin{center}
+			\includegraphics[width=0.65\linewidth]{figures/BoxCircuit}
+			\caption{The wiring circuit inside of the control box.}
+			\label{fig:3:controlCircuit}
+		\end{center}
+	\end{figure}
+	The control box shown in figure \ref{fig:3:controlBox} is made up by 3 switches and 5 state display LEDs. Two of the switches are configured using pull down resistor configuration with the output of the pull down circuit connected to a digital input on the microcontroller. Whereas, the LEDs all use a simple LED circuits that are driven by the digital outputs of the microcontroller. The final switch is the power switch and it is wired to cutoff the \SI{5}{\volt} power supply to the microcontroller. The control box circuit is shown in figure \ref{fig:3:controlCircuit} and can also been seen in the overall wiring diagram of the system in figure \ref{fig:3:wiring}. A description of each switch and LED is given in table \ref{tab:3:controlBx}.
+	\begin{figure}[hb]
+		\begin{center}
+			\includegraphics[width = 0.85\textwidth]{figures/controlBox.jpg}
+			\caption{The control box with its 3 switches and 4 LEDs.}
+			\label{fig:3:controlBox}
+		\end{center}
+	\end{figure}
+		\begin{table}[ht]
+		\begin{center}
+			\caption{Description of the switches and LEDs on the control box.}
+			\label{tab:3:controlBx}
+			\begin{tabular}{|p{0.2\linewidth} | p{0.15\linewidth}|p{0.65\linewidth}|}
+				\hline
+				Component & Designation & Description \\
+				\hline
+				Power Switch & S1 & This switch is used to cutoff the power being supplied to the microcontroller. \\
+				\hline
+				Navigation Mode Switch & S2 & This switch allows the user to quickly switch between the manual navigation mode and the autonomous navigation mode. \\
+				\hline
+				Contingency Switch & S3 & This switch is not used and was included and wired in case a design development required another switch. \\
+				\hline
+				On LED & D1 & This LED indicates that the microcontroller is powered on. \\
+				\hline
+				Active LED & D2 & This LED blinks on and off during the operation of the program and indicates that the program is alive and active and there has not been a crash in the program. \\
+				\hline
+				GPS LED & D3 & This LED is turned on when GPS has a valid connection. \\
+				\hline 
+				M LED & D4 & This LED indicates that the system is in manual control mode. \\
+				\hline
+				A LED & D5 &  This LED indicates that the system is in autonomous navigation mode. \\
+				\hline
+			\end{tabular}
+		\end{center}
+	\end{table}
 	\subsection{Software}
+	\subsubsection{PWM Signal}
+	The thrusters are each controlled by a \SI{5}{\volt} PWM signal. There is limited information on the datasheet for the ESC and the signal boundaries, full forward, full reverse and neutral positions are described in the unconventional terms of the time that the signal is high. The values are shown in table \ref{tab:3:PWM}. Initially it was thought that the ESC operated at \SI{50}{\hertz}, however there was no response from the thruster at any duty cycle.\par
+	\begin{figure}[!hb]
+		\begin{center}
+			\includegraphics[width=0.31\linewidth]{figures/pwmGen.jpg}
+			\caption{The PWM signal generator used to ensure the ESC was working.}
+			\label{fig:3:PWMgen}
+		\end{center}
+	\end{figure}
+	\begin{table}[!ht]
+		\begin{center}
+			\caption{ESC boundaries and PWM duty cycle at various frequencies.}
+			\label{tab:3:PWM}
+			\begin{tabular}{|l|c|c|c|c|}
+				\hline
+				\multirow{2}{*}{Position} & \multirow{2}{*}{Time (\SI{}{\micro\second})} & \multicolumn{3}{c|}{Duty Cycle @}\\
+				%\hline 
+				& & \multicolumn{1}{c}{\SI{50}{\hertz}} & \multicolumn{1}{c}{\SI{60}{\hertz}} & \multicolumn{1}{c|}{\SI{500}{\hertz}}\\
+				\hline
+				Full Forward & 2000 & \SI{10}{\percent} & \SI{12}{\percent} & \SI{100}{\percent}  \\
+				\hline
+				Neutral & 1500 & \SI{7.5}{\percent} & \SI{9}{\percent} & \SI{75}{\percent}  \\
+				\hline
+				Full Reverse & 1000 & \SI{5}{\percent} & \SI{6}{\percent} & \SI{50}{\percent}  \\
+				\hline
+			\end{tabular}
+		\end{center}
+	\end{table}
+	\vspace{0.4cm}
+	In order to be sure that the correct PWM signal was being sent through and to be able to quickly vary both the frequency and the duty cycle, a PWM signal generator IC, shown in figure \ref{fig:3:PWMgen}, was connected to ESC and trial and error was conducted to determine that the ESC began responding to a signal above \SI{60}{\hertz}. It was then decided to push the frequency up to the maximum of \SI{500}{\hertz} as this would offers the finest control because it has the maximum allowable duty cycle difference between the signal boundaries.\par
+	\vspace{0.4cm}
+	The Arduino libraries contain a function that can output a PWM wave, given the duty cycle and the pin to output on as a parameter however, the default frequency of the Arduino DUE PWM pins is \SI{1000}{\hertz}. Therefore, the frequency had to be manually changed by changing the timer settings driving the PWM signal.\par
+	\vspace{0.4cm}
+	The information needed to change the timer settings is available in the Arduino Datasheet. The process to configure the PWM outputs is as follows. First, the peripheral clocks for timer channels 6 and 7 were enabled. Secondly, the pins input output controller on peripheral A needed to be disabled and the pins switch to peripheral type B. Then came the configuration of the timer itself. The channel mode was set to waveform mode using clock 1 with the counter being incremented on the rising edge. Furthermore, the waveform was set to UP mode (signal being set high) being triggered when the counter reached the register C (RC) value and the signal being cleared when the counter reached the register A (RA) value. Once the timer is configured, the RA and RC values can be filled and the interrupt set to trigger when the counter reaches RC. Finally, the channel control register is set to perform a software trigger, reset the counter and start the clock. There is also a interrupt handler that needs to be added where in the status register is read. This is done because the flags in the status register are automatically reset when the status register is read, at the end of every period.\par
+	\vspace{0.4cm}
+	The signal is being cleared when the counter reaches RA and set high when the counter reaches RC and so RC can be equated to the period of the signal and RA to the time when the signal is high. Using this and that the clock is set to clock 1 which is the MCU clock (MCK) divided by 2, the RA and RC can be expressed in terms of MCK, frequency and duty cycle as shown in equations \ref{eq:3:RC} and \ref{eq:3:RA}. RC is kept constant throughout while RA is changed to change the duty cycle of the PWM signal sent to the ESC and therefore control the ESC and thruster.
+	\begin{equation}
+		RC = \frac{\frac{MCK}{2}}{Frequency}
+		\label{eq:3:RC}
+	\end{equation}
+	\begin{equation}
+		RA = RC \times Duty Cycle
+		\label{eq:3:RA}
+	\end{equation}
+	\subsubsection{ADC}
+	As mentioned previously, the ADC is used to convert the analogue signal from the throttles potentiometers to a digital signal between 0 and 1024. Furthermore, using table \ref{tab:3:PWM} and \ref{tab:3:POT} a relationship can be created to determine the RA value for a given throttle position. Because the forward operation is in the duty cycle range \SI{75}{\percent} to \SI{100}{\percent}, the analogue input from the POT needs to be linearly mapped to represent an equivalent duty cycle in this range. Equation \ref{eq:3:dutyF} shows how this is done for the forwards operation. The same logic can be used to determine the duty cycle for reverse as equation \ref{eq:3:dutyR} shows. For neutral however, the RA value needs to exact and this is difficult to achieve from the throttle, therefore, a neutral range is used on the potentiometer whereby any value in the range will be seen as neutral and the neutral value will be written to the RA register.
+	\begin{equation}
+		Duty Cycle_{Forward} = 100 - (100-75)(\frac{POT_{MAX} - POT_{Input}}{POT_{MAX} - POT_{Neutral}})
+		\label{eq:3:dutyF}
+	\end{equation}
+	\begin{equation}
+		Duty Cycle_{Reverse} = 75 - (75-50)(\frac{POT_{Neutral} - POT_{Input}}{POT_{Neutral} - POT_{MIN}})
+		\label{eq:3:dutyR}
+	\end{equation}
 	\subsubsection{GPS}
-	 The GPS module transmits a series of 5 sentences containing various information. Each sentence begins with a '\$GP' and then the specific message ID. The data is then sent through comma separated and finally ends with a checksum and the end of line characters <CR><LF>. For this project the 'RMC' sentence is the only sentence of interest as it contains all the necessary information, longitude, latitude, speed over ground in knots and course over ground in degrees. An example of the 'RMC' sentence is shown below.\par
+	 The GPS module transmits a series of 5 sentences containing various information. Each sentence begins with a '\$GP' and then the specific message ID. The data is then sent through comma separated and finally ends with a checksum and the end of line characters <CR><LF>. For this project the 'RMC' sentence is the only sentence of interest as it contains all the necessary information, longitude, latitude and speed over ground in knots. An example of the 'RMC' sentence is shown below.\par
 	\vspace{0.2cm}
 	\par
 	\begin{center}
@@ -161,8 +218,12 @@ This section will give a broad overview of the system as a whole and describe th
 		\end{tabular}
 	\end{center}
 	\vspace{0.4cm}
-	The entire sentence is read by the MCU before it starts to pick out the specific data out of the string using the commas and full stops as the guide to what array position is what data. Each piece of data is then added to an instance of a GPS structure that can then be easily parsed to the navigation algorithm and easily analysed. The variables within the GPS structure are shown in table \ref{tab:3:GPSstruct}.
-	\begin{table}[!hb]
+	The entire sentence is read by the MCU before it starts to pick out the specific data out of the string using the commas and full stops as the guide to what array position is what data. The latitude and longitude are given in the format 'DDmm.mmmm' and must first be converted to decimal degrees as this is most easily used in calculations. The equation \ref{equ:3:degreeConv} shows this conversion. Each piece of data is then added to an instance of a GPS structure that can then be easily parsed to the navigation algorithm and analysed. The variables within the GPS structure are shown in table \ref{tab:3:GPSstruct}.
+	\begin{equation}
+		Decimal Degrees = Decimal + \frac{Minutes}{60}
+		\label{equ:3:degreeConv}
+	\end{equation}
+	\begin{table}[!ht]
 		\begin{center}
 			\caption{Variables and their types within the GPS structure.}
 			\label{tab:3:GPSstruct}
@@ -172,13 +233,9 @@ This section will give a broad overview of the system as a whole and describe th
 				\hline
 				UTC & int & Coordinated Universal Time in the format (hhmmss). \\
 				\hline
-				lat & int & The whole number portion of the latitude. \\
-				\hline
 				latDecimal & int & The decimal portion of the latitude. \\
 				\hline
 				n\_s & char & A character indicating North or South. \\
-				\hline
-				longi & int & The whole number portion of the longitude. \\
 				\hline 
 				longiDecimal & int & The decimal portion of the longitude. \\
 				\hline 
@@ -193,9 +250,172 @@ This section will give a broad overview of the system as a whole and describe th
 			\end{tabular}
 		\end{center}
 	\end{table}
-
 	\subsection{Control System}
-	The control system is the intended scope of the project and consists of a manual and automated control. For manual control, there is a two lever throttle system that is used to control the thrusters. In automated control, the control system uses a GPS and digital compass to navigate to prescribed points. At the centre of this control system is the PCB motherboard containing the MCU, GPS and connections to both the throttle and the thrusters. 
-\section{Control System}
-The control logic of the control system is all implemented through the software on the Arduino MCU. This section will go into detail on logic and how that logic is carried out in software as well as the electronics that are used. 
+	The control system is the scope of this project and the part of the project that should not require much alteration to scale the system up to a larger system. The control logic  is all implemented through the software on the microcontroller. This section will detail the control logic with the aid of flow diagrams and pseudo code. 
+		\subsubsection{State Machine}
+		\begin{algorithm}[!hb]
+			\caption{State Algorithm}
+			\label{alg:3:mainWhile}
+			\begin{algorithmic}[1]
+				\Require{Declare variables and initialize PWM, SPI, I\textsuperscript{2}C and UART}{}
+				\BState \emph{loop}:
+				\If{$\textit{manual control} = \textit{true}$}
+				\State $\textit{call updatePWM()}$
+				\State $\textit{call powerThruster()}$
+				\Else 
+				\State $\textit{call receivedGPSdata()}$
+				\If{$\textit{GPS data is valid}$}
+				\State $\textit{call navigate()}$
+				\Else
+				\State $\textit{Delay 1 second}$
+				\EndIf
+				\If{$\textit{Last point has been reached}$}
+				\State $\textit{Halt receiving GPS data}$
+				\EndIf
+				\EndIf
+				\State \textbf{goto} \emph{loop}.
+			\end{algorithmic}
+		\end{algorithm}
+	\begin{figure}[!ht]
+		\begin{center}
+			\includegraphics[width = 0.66\linewidth]{figures/statemachine.png}
+			\caption{Flow diagram of the main states in the system.}
+			\label{fig:3:stateMachine}
+		\end{center}
+	\end{figure}
+		The system makes use of a state machine to switch between tasks. There are four different states in which the system can be, waiting for valid GPS, manual navigation, autonomous navigation and halt. Figure \ref{fig:3:stateMachine} shows the relationship between these states. The algorithm shown is executed in the main while loop of the microcontroller and shows one cycle. The loop starts by checking the user input. The user can select to switch between the manual and autonomous operation at any point. However, if autonomous navigation is selected and the GPS data is valid, the system will only enter manual control once the cycle has been completed. The psuedo code for this loop is shown in algorithm \ref{alg:3:mainWhile}.
+		
+	
 %The source code that will be discussed can be seen in Appendix \ref{Code}
+
+
+\subsubsection{Manual Control}
+The manual control involves receiving an input from the user and translating this to correctly power the thrusters. As seen in algorithm \ref{alg:3:mainWhile}, the manual control involves the call of two functions, the first where most of the processing is done and the second is updating the RA register to produce the correct PWM signal. Firstly, the flow diagram of the first one, \emph{updatePWM()} is shown in figure \ref{fig:3:updatePWM}. This shows the process to read one sides input and calculate the required duty cycle for that sides thruster. This is carried out for both sides in each cycle. As mentioned, the second function \emph{powerThruster()} simply writes the required value to RA register for the appropriate duty cycle. The psuedo for both functions are shown in the algorthims \ref{alg:3:manualControl}.
+\begin{figure}
+	\begin{center}
+		\includegraphics[width = 0.55\linewidth]{figures/UpdatePWM.jpg}
+		\caption{Flow diagram of \emph{updatePWM()}}
+		\label{fig:3:updatePWM}
+	\end{center}
+\end{figure}
+\begin{algorithm}
+	\caption{Pseudo code for manual control}
+	\label{alg:3:manualControl}
+	\begin{algorithmic}[1]
+		\Procedure{updatePWM}{}
+		\State $\textit{analog} \gets \textit{analogRead(analogPin)}$
+		\If{$\textit{analog} > \textit{maximum threshold}$}
+		\State $\textit{duty cycle} \gets 95$;
+		\ElsIf{$\textit{analog}>\textit{neutral threshold}$}
+		\State $\textit{analog ratio} \gets \textit{ratio forward (equ. \ref{eq:3:dutyF}) as} \textbf{float} $
+		\State $\textit{difference} \gets (95 - 75) \times \textit{analog ratio as} \textbf{float}$
+		\State $\textit{duty cycle} \gets 95 - \textit{difference} $
+		\ElsIf{$\textit{analog} < \textit{minimum threshold} $}
+		\State $\textit{duty cycle} \gets 50$;
+		\ElsIf{$\textit{analog}<\textit{neutral threshold} $}
+		\State $\textit{analog ratio} \gets \textit{ratio reverse (equ. \ref{eq:3:dutyR})} \textit{as float} $
+		\State $\textit{difference} \gets (75 - 50) \times \textit{analog ratio as} \textbf{float}$
+		\State $\textit{duty cycle} \gets 75 - \textit{difference}$
+		\Else 
+		\State $\textit{duty cycle} \gets 75$;
+		\EndIf
+		\EndProcedure
+		\Procedure{powerThrusters}{}
+		\State $\textit{RA} \gets \textit{RC} \times \textit{duty cycle\SI{}{\percent}}$;
+		\EndProcedure
+	\end{algorithmic}
+\end{algorithm}
+\subsubsection{Receive GPS Data}
+The GPS data is received with the serial UART communication and is a string of characters as shown previously. In order to receive the correct data line, the microcontroller receives each line and then checks that it is the required line. If so, the line is processed and the struct is updated with the newest data. A few small tools were written to assist in this. They are all relatively simple and so their pseudo is unnecessary but a brief description follows for context.\par
+\textbf{findAllInstacesOf()}\par
+This function takes an integer array, a character array to search, a character to search for and the size of the character array to search as parameters. It returns the integer array with the index positions of the character searched for.\par
+\textbf{charToInteger()}\par
+This function takes a character array and a start and end index as integers. It returns an integer as it would be seen as the character string. For example, the character string '4862' would be returned as 4862 as an integer.\par
+\textbf{charToDecimals()}\par
+This function is similar to the integer version but it returns a float with the numbers as the decimals. For example a character string of '4862' would be returned as 0.4862.\par
+The overall process to received the GPS data and populate the struct is shown in the flow diagram of figure \ref{fig:3:recGPS}. The populating of the struct is just using the arrays of full stop and comma indexes to split up the character array into the necessary information. This is easily done as the string from the GPS has a standard form.
+\begin{algorithm}
+	\caption{Pseudo code for receiving GPS data}
+	\label{alg:3:receiveGPS}
+	\begin{algorithmic}[1]
+		\State $\textit{msgReceived} \gets \textit{false}$
+		\State $\textit{rxCnt} \gets 0$
+		\While{$!\textit{msgRecieved}$}
+		\While{$ \textit{rxByte} != 10$}
+		\State $\textit{rxByte} \gets \textit{SerialRead()}$
+		\If{$\textit{rxByte} != -1$}
+		\State $\textit{rxData(rxCnt)} \gets \textit{rxByte}$
+		\State $\textit{rxCnt} \gets \textit{rxCnt} + 1$ 
+		\EndIf
+		\EndWhile
+		\If{$\textit{rxData(3) = \textit{'R' AND rxData(4)} = \textit{'M' AND rxData(5)} = \textit{'C'}}$}
+		\State $\textit{call updateStructRMC(rxData, rxCnt)}$
+		\State $\textit{msgReceived} \gets \textit{true}$
+		\EndIf
+		\State $\textit{rxCnt} \gets 0$
+		\State $\textit{rxByte} \gets 0$
+		\EndWhile
+	\end{algorithmic}
+\end{algorithm}
+\begin{figure}
+	\begin{center}
+		\includegraphics[width = 0.6\linewidth]{figures/receiveGPS}
+		\caption{The flow diagram of receiving the GPS data.}
+		\label{fig:3:recGPS}
+	\end{center}
+\end{figure}
+\subsubsection{Autonomous Navigation}
+The autonomous navigation will only begin executing when valid GPS data has been received. Therefore there is no need to check the data when the navigation algorithm begins. The target points for the navigation are written into a text file prior to launching. The program reads these points into a struct at the start of operation to be ready for the autonomous navigation. The autonomous control calculates the distance and bearing to its destination and the error between its current bearing and its target bearing. If the distance and bearing error are above a set threshold, the system will move at full power using full steering. However, once it is within the distance threshold, it will begin to slow down proportional to how close it is. The amount of throttle as a percentage is determined by a ratio of the remaining distance and the distance threshold. Furthermore, once the distance is reduced below the arrival threshold, the point is marked as 'passed' and the system will begin navigating to the next point or half operation if there are no more points. Similarly for the steering, the amount of steering as a percentage is a ratio of the bearing error and the steering threshold. Finally the direction to steer is determined using an equation that accounts for the \SI{360}{\degree}/\SI{0}{\degree} turn over point. If the target bearing is anywhere within \SI{180}{\degree} to the right of the current bearing, it will turn right and visa versa. This logic and pseudo code can be seen in the flow diagram of figure \ref{fig:3:autoNav} and algorithm \ref{alg:3:autoNav}. In the pseudo code only the procedure for \emph{steerLeft()} is shown as the procedure for \emph{steerRight()} follows the exact same logic but the thruster sides are inverted. 
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=0.7\linewidth]{figures/autoNav.jpg}
+		\caption{Flow diagram of the autonomous navigation}
+		\label{fig:3:autoNav}
+	\end{center}
+\end{figure}
+\begin{algorithm}
+	\caption{Pseudo code for the autonomous navigation}
+	\label{alg:3:autoNav}
+	\begin{algorithmic}[1]
+		\Require{Read the target GPS points from SD card.}
+		\Procedure{navigate()}{}
+		\State $\textit{Calculate distance to target}$
+		\State $\textit{Calculate bearing to target}$
+		\State $\textit{Calculate the error between current and target bearing}$
+		\If{$\textit{distance} < \textit{distance threshold}$}
+		\State $\textit{throttle percentage} \gets \frac{\textit{distance}}{2 \times \textit{distance threshold}} $
+		\If{$\textit{distance} < \textit{arrival threshold}$}
+		\State $\textit{call NextPoint()}$
+		\State $\textbf{return}$
+		\EndIf
+		\Else 
+		\State $\textit{throttle percentage} \gets 95$
+		\EndIf
+		\If{$\textit{abs(bearing error)} < \textit{steering threshold}$}
+		\State $\textit{steering percentage} \gets \frac{\textit{abs(bearing error)}}{\textit{steering threshold}}$
+		\Else
+		\State $\textit{steering percentage} \gets 100$
+		\EndIf
+		\State $\textit{maxBearing} \gets \textit{max(bearing error, target bearing)}$
+		\State $\textit{minBearing} \gets \textit{min(bearing error, target bearing)}$
+		\If{$(\textit{maxBearing = target bearing}) \textit{XOR} (\textit{maxBearing} - \textit{minBearing}) >180 )$}
+		\State $\textit{call steerLeft()}$
+		\Else
+		\State $\textit{call steerRight()}$
+		\EndIf
+		\State $\textit{call powerThrusters()}$
+		\EndProcedure
+		\Procedure{NextPoint()}{}
+		\State $\textit{points(targetIndex).passed} \gets \textit{true}$
+		\State $\textit{targetIndex} \gets \textit{targetIndex} + 1$
+		\If{$\textit{points.targetIndex does not exists}$}
+		\State $\textit{state} \gets \textit{Halt navigation}$
+		\EndIf
+		\EndProcedure
+		\Procedure{steerLeft()}{}
+		\State $\textit{throttle difference} = 2 \times \textit{throttle percentage}$
+		\State $\textit{rightSide.duty Cycle} \gets 75 + (25 \times (\textit{throttle percentage}\SI{}{\percent}))$
+		\State $\textit{leftSide.duty Cycle} \gets \textit{rightSide.duty Cycle} - (25 \times ((\textit{throttle difference} \times (\textit{steering percentage}\SI{}{\percent}))/100))$
+		\EndProcedure
+	\end{algorithmic}
+\end{algorithm}

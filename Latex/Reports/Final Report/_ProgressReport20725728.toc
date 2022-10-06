@@ -28,16 +28,22 @@
 \contentsline {subsubsection}{Thrusters}{14}{}%
 \contentsline {subsubsection}{Power Supply}{14}{}%
 \contentsline {subsubsection}{Throttle}{15}{}%
+\contentsline {subsubsection}{PCB}{16}{}%
 \contentsline {subsection}{\numberline {3.3.2}Electronics}{16}{}%
 \contentsline {subsubsection}{Arduino Due}{16}{}%
 \contentsline {subsubsection}{SD Card Module}{17}{}%
-\contentsline {subsubsection}{GPS Module}{17}{}%
+\contentsline {subsubsection}{GPS Module}{18}{}%
 \contentsline {subsubsection}{ESC}{18}{}%
-\contentsline {subsubsection}{PWM Signal}{18}{}%
-\contentsline {subsubsection}{POT}{19}{}%
-\contentsline {subsection}{\numberline {3.3.3}Software}{21}{}%
-\contentsline {subsubsection}{GPS}{21}{}%
-\contentsline {subsection}{\numberline {3.3.4}Control System}{21}{}%
-\contentsline {section}{\numberline {3.4}Control System}{22}{}%
-\contentsline {chapter}{\numberline {4}Testing and Results}{23}{}%
-\contentsline {chapter}{List of References}{24}{}%
+\contentsline {subsubsection}{POT}{18}{}%
+\contentsline {subsubsection}{Switches and LEDs}{19}{}%
+\contentsline {subsection}{\numberline {3.3.3}Software}{20}{}%
+\contentsline {subsubsection}{PWM Signal}{20}{}%
+\contentsline {subsubsection}{ADC}{23}{}%
+\contentsline {subsubsection}{GPS}{23}{}%
+\contentsline {subsection}{\numberline {3.3.4}Control System}{24}{}%
+\contentsline {subsubsection}{State Machine}{24}{}%
+\contentsline {subsubsection}{Manual Control}{26}{}%
+\contentsline {subsubsection}{Receive GPS Data}{26}{}%
+\contentsline {subsubsection}{Autonomous Navigation}{28}{}%
+\contentsline {chapter}{\numberline {4}Testing and Results}{33}{}%
+\contentsline {chapter}{List of References}{34}{}%

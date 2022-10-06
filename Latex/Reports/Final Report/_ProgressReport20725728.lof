@@ -11,6 +11,14 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces The vessel, a spider 3.}}{14}{}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces The final throttle system with two POTs on either end.}}{15}{}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces The microcontroller used, an Arduino DUE}}{16}{}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Fundamental illustration of a linear potentiometer}}{20}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Wiring Diagram for the System}}{16}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces The microcontroller used, an Arduino DUE}}{17}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Fundamental illustration of a linear potentiometer}}{19}{}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces The wiring circuit inside of the control box.}}{20}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces The control box with its 3 switches and 4 LEDs.}}{20}{}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces The PWM signal generator used to ensure the ESC was working.}}{21}{}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Flow diagram of the main states in the system.}}{25}{}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Flow diagram of \emph {updatePWM()}}}{27}{}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces The flow diagram of receiving the GPS data.}}{29}{}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Flow diagram of the autonomous navigation}}{31}{}%
 \addvspace {10\p@ }
