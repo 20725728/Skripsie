@@ -1,44 +1,49 @@
+
 %==== Document Setup (usthesis)======================================
 \documentclass[report,                       %... Document type
-               12pt,oneside,openany,a4paper, %... Layout
-               a5block,                      %... A5 type block
-               afrikaans,english            %... English default language
-               ]{usthesis}
+				12pt,oneside,openany,a4paper, %... Layout
+				a5block,                      %... A5 type block
+				afrikaans,english            %... English default language
+				]{usthesis}
+				
 %
 % PLEASE read the USthesis documentation for the class options
 % and how to set line and paragraph spacing
 %
 
 %==== Language setup ================================================
- \usepackage[latin1]{inputenc}%................... Recognizes ê, ë, etc
- \usepackage{babel}%.............................. Language setup
+\usepackage[latin1]{inputenc}%................... Recognizes ê, ë, etc
+\usepackage{babel}%.............................. Language setup
 
 %==== Math setup ====================================================
- \usepackage{amsmath}%............................ Advanced math (before fonts)
- \usepackage{algorithm}
- \usepackage[noend]{algpseudocode}
- %\usepackage{amssymb}%............................ AMS Symbol fonts
- \usepackage{siunitx}%............................	SI units
+\usepackage{amsmath}%............................ Advanced math (before fonts)
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+%\usepackage{amssymb}%............................ AMS Symbol fonts
+\usepackage{siunitx}%............................	SI units
 
 %==== Font setup (default is Computer Modern) =======================
- \usepackage[T1]{fontenc}%........................ Type 1 fonts
- \usepackage{textcomp}%........................... Additional text character
- \usepackage{bm}%................................. Bold math symbols (after fonts)
+\usepackage[T1]{fontenc}%........................ Type 1 fonts
+\usepackage{textcomp}%........................... Additional text character
+\usepackage{bm}%................................. Bold math symbols (after fonts)
 
 %==== Ref's, Bib's and Nomencl ======================================
- \usepackage{usnomencl}%.......................... List of symbols (in usthesis pack)
- \usepackage{usbib}%.............................. Bibliography    (in usthesis pack)
-    \bibliographystyle{usmeg-a} 
-    \renewcommand\bibfont{\small}
+\usepackage{usnomencl}%.......................... List of symbols (in usthesis pack)
+\usepackage{usbib}%.............................. Bibliography    (in usthesis pack)
+\bibliographystyle{usmeg-a} 
+\renewcommand\bibfont{\small}
 
-    %% For usmeg-a, the bib is a list of references. If you
-    %% are using usmeg-n comment out the following lines
-    \addto{\captionsafrikaans}{\renewcommand{\bibname}{Lys van Verwysings}}
-    \addto{\captionsenglish}{\renewcommand{\bibname}{List of References}}
+%% For usmeg-a, the bib is a list of references. If you
+%% are using usmeg-n comment out the following lines
+\addto{\captionsafrikaans}{\renewcommand{\bibname}{Lys van Verwysings}}
+\addto{\captionsenglish}{\renewcommand{\bibname}{List of References}}
 
 %==== Graphics and Color ============================================
 \usepackage{graphicx}%........................... Graphicx loaded in usthesis
 \usepackage{color}%.............................. Color setup
+\usepackage{caption}
+\usepackage{subcaption}
+
 
 %==== Table editing ============================================
 \usepackage{multirow}
@@ -67,7 +72,7 @@
 \subject{Mechatronic Project 488}
 
 
-\ReportDescript{Progress Report}
+\ReportDescript{Final Report}
 
 \address{Department Mechanical and Mechatronic Engineering,\\
 	Stellenbosch University,\\
@@ -113,6 +118,7 @@
 
 \backmatter%=========================================================
 
-\bibliography{USbibsample}
+%\bibliography{USbibsample}
+\bibliography{bib}
 
 \end{document}

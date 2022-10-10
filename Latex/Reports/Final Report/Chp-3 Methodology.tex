@@ -1,7 +1,24 @@
 \chapter{Methodology and Design}
-This chapter will describe the methodology used in the project. The project is mostly software based and so that will be the focus. However, there is a physical element in that of the vessel and the electrical hardware. The mechanical design and fabrication of the thruster mounts is outside the scope of this project and so it will be described only in terms of how it interfaces with the electrical hardware.\par
+This chapter will describe the methodology used in the project. Firstly, it give a general description of the system and how the components relate to each other and where they are on the system. This broad overview is to create a point of reference so that in later sections the specific details of the system can be discussed without spending too much time on the broader aspects. A brief discussion on the software enviroment is also included to provided a justification for the use of the chosen enviroment. Finally, the chapter will go into the design of the system. The design will discuss the objectives and requirements and then move onto the specifics of the hardware, electronics, software and the control system. The focus of this project is the control system and so the hardware discussion will focus on how it is relevant and how it is integrated with the system. The electronics form integral parts to the control system and so they are discussed in further detail and finally the software and control system are the focus of the project and will be described in full.\par
+\begin{figure}[hb]
+	\begin{center}
+		\includegraphics[width = 0.7\linewidth]{figures/BoatLayout.jpg}
+		\caption{Broader System Diagram}
+		\label{fig:3:boatDiag}
+	\end{center}
+\end{figure}
+\section{System Description}
+This section will give a broad overview of the system as a whole and  provide a reference of how the individual elements fit together both in the broader system and the narrower control system. The broader system is shown in figure \ref{fig:3:boatDiag} and shows the vessel and the positions of the thrusters, batteries, control system throttle and mounting of the GPS antenna and compass. The control system refers to the 'motherboard', a PCB containing the microcontroller and other electronics including the GPS, SD module, logic level converter and the control box of switches and display LEDs. The wiring diagram of figure \ref{fig:3:wiring} shows the PCB as a grey dotted line. The control box is shown outside of the PCB as it its own housing but is affixed to the control system housing and is therefore considered part of the control system. Figure \ref{fig:3:wiring} also shows the wiring to the other elements that can be seen on the broader system diagram of figure \ref{fig:3:boatDiag}. \par
+\begin{figure}[ht]
+	\begin{center}
+		\includegraphics[width =\linewidth]{figures/Wiring diagram.jpg}
+		\caption{Wiring Diagram for the System}
+		\label{fig:3:wiring}
+	\end{center}
+\end{figure}
+
 \section{Software Environment}
-The microcontroller that was chosen for this project is a Arduino DUE. An Arduino microcontroller was chosen as there is a wide range of Arduino libraries available online, as well as several forums and code examples. Furthermore, the Arduino environment uses the C language. \par
+The microcontroller that was chosen for this project is a Arduino DUE. An Arduino microcontroller was chosen as there is a wide range of Arduino libraries available online, as well as several forums and code examples. Furthermore, the Arduino environment uses the C language which has been extensively covered through the course of the engineering degree. \par
 \section{System Design}
 	\subsection{Objective}
 	The system needs to be designed to be deployed for long periods of time between servicing. The future addition of power regeneration such as solar or wind can be used to improve the deployable range and period of the vessel but the energy storage must be designed to handle an extended period of 'dark time', any time when the power regeneration is negligible. \par
@@ -11,8 +28,6 @@ The microcontroller that was chosen for this project is a Arduino DUE. An Arduin
 	The prototype is a proof of concept that can be scaled up to a larger vessel and so a small vessel that can accommodate at least 2 people is required. This is preferred to a smaller vessel that cannot accommodate the weight of a person as the weight to power ratio of a small vessel would not be as representative and this could influence the steering capability of the vessel and therefore the control system.
 	Furthermore, a working vessel is going to require a large battery bank and this is easily represented in a larger vessel. The energy source can then be scaled up by adding cells in both parallel and series to create the required power supply for the working vessel.\par
 	The autonomous nature of the vessel means that the a electronic control system is required to control the vessel. Furthermore, there are several elements that are required to make up the system however, these are not integral to the autonomous nature of the system but integral to the system as a whole. %All of these elements are listed in the table \ref{tab:3:elements} and will be further explained in the system description.\par
-\section{System Description}
-This section will give a broad overview of the system as a whole and describe the different sub-systems and their interactions. Several of these subsystems are outside the scope of the project but have been included to provide a foundation upon which the applicable detailed descriptions will build. \par
 \begin{figure}
 	\begin{center}
 		\includegraphics[width = 0.65\textwidth]{figures/spider3.jpg}
@@ -44,13 +59,7 @@ This section will give a broad overview of the system as a whole and describe th
 		\subsubsection{PCB}
 		
 	\subsection{Electronics}\par
-		\begin{figure}[!ht]
-			\begin{center}
-				\includegraphics[width = 0.95\linewidth]{figures/Wiring diagram.jpg}
-				\caption{Wiring Diagram for the System}
-				\label{fig:3:wiring}
-			\end{center}
-		\end{figure}
+		
 		\subsubsection{Arduino Due}\par
 		\begin{figure}[!ht]
 			\begin{center}
@@ -67,6 +76,7 @@ This section will give a broad overview of the system as a whole and describe th
 			\item 4 analogue input pins.
 			\item 1 SPI connection.
 			\item 1 UART connection.
+			\item 1 I\textsuperscript{2}C connection.
 			\item \SI{256}{\kilo\byte} programmable flash memory.		
 		\end{enumerate}
 		Based on these requirements, the Arduino Uno was considered. It is the standard Arduino board used in projects and meets most of the requirements. However, the Arduino Uno has only one UART connection and although this does meet the minimum requirements it does not allow for any possible design alterations that might need a second UART connection. Finally, the Arduino only has \SI{32}{\kilo\byte} of programmable flash memory which does not meet the requirements.\par 
@@ -74,11 +84,19 @@ This section will give a broad overview of the system as a whole and describe th
 		\subsubsection{SD Card Module}
 		The SD card is used as an external storage device. Data can then be written to the SD card during operation and the data can be downloaded for analysis. The SD card module is a standard SD card module that is attached to the microcontroller as shown in the wiring diagram figure \ref{fig:3:wiring}. The SD card uses SPI communication and there are built in libraries that are available for use.
 		\subsubsection{GPS Module}
-		%Item \ref{BOM:GPS} in appendix \ref{BOM} is the GPS module used. It
-		The GPS module used is a PmodGPS and it
+		%Item \ref{BOM:GPS} in appendix \ref{BOM} is the GPS module used. It		The GPS module used is a PmodGPS and it
 		%remove comments when the BOM is correctly added.
 		Initially a PmodGPS was used as the GPS module. However the PmodGPS has a built in antenna and there were signal strength issues. The GPS was slow at acquiring a GPS fix when the control box was closed. Therefore an alternate GPS module was sourced that has an external antenna that can be fed out of the control box and placed in a position where a strong signal can be received. Both GPS modules use UART to communicate the data to the microcontroller. The GPS modules send a string of characters along the UART connection and the microcontroller must then decode the the characters. The GPS module is used to return the current longitude, latitude, date and time, speed and heading. The UART is set-up to use a baud rate of 9600, 8 data bits, no parity and 1 stop bit.   
 		has two connectors J1, which has 6 pins and J2 which has 2 pins. J1 is used to power the GPS module as well as connect to the MCU using UART communication with a baud rate of 9600, 8 data bits, no parity and 1 stop bit. 	
+		\subsubsection{Compass}
+		The digital compass used can be more accurately referred to as a magnetometer. The module used in this project, a  Pololu LSM303, is a combination magnetometer and accelerometer, however only the magnetometer is used. Pololu has a range of Arduino libraries including a compass library for the LSM303, shown in figure \ref{fig:3:compass}, which is used to calibrate the module and to get an accurate compass bearing. 
+		\begin{figure}[hb]
+			\begin{center}
+				\includegraphics[width = 0.5\textwidth]{figures/compass.jpg}
+				\caption{Pololu LSM303 AltIMU module.}
+				\label{fig:3:compass}
+			\end{center}
+		\end{figure}
 		\subsubsection{ESC}
 		There are two ESC, one for each thruster and are submersible and therefore they are attached to the thrusters. The ESC has two inputs, the control input and the power input. Th power input can range between DC\SI{12}{\volt} and DC\SI{50}{\volt} and a maximum constant current of \SI{100}{\ampere} and in this project the input is \SI{24}{\volt} supplied by the battery cells. The control input is a 5V signal that is used to control the speed of the thrusters. This is a PWM signal whose duty cycle determines the thrusters speed and direction. 
 		\subsubsection{POT}
@@ -126,33 +144,33 @@ This section will give a broad overview of the system as a whole and describe th
 			\label{fig:3:controlBox}
 		\end{center}
 	\end{figure}
-		\begin{table}[ht]
-		\begin{center}
-			\caption{Description of the switches and LEDs on the control box.}
-			\label{tab:3:controlBx}
-			\begin{tabular}{|p{0.2\linewidth} | p{0.15\linewidth}|p{0.65\linewidth}|}
-				\hline
-				Component & Designation & Description \\
-				\hline
-				Power Switch & S1 & This switch is used to cutoff the power being supplied to the microcontroller. \\
-				\hline
-				Navigation Mode Switch & S2 & This switch allows the user to quickly switch between the manual navigation mode and the autonomous navigation mode. \\
-				\hline
-				Contingency Switch & S3 & This switch is not used and was included and wired in case a design development required another switch. \\
-				\hline
-				On LED & D1 & This LED indicates that the microcontroller is powered on. \\
-				\hline
-				Active LED & D2 & This LED blinks on and off during the operation of the program and indicates that the program is alive and active and there has not been a crash in the program. \\
-				\hline
-				GPS LED & D3 & This LED is turned on when GPS has a valid connection. \\
-				\hline 
-				M LED & D4 & This LED indicates that the system is in manual control mode. \\
-				\hline
-				A LED & D5 &  This LED indicates that the system is in autonomous navigation mode. \\
-				\hline
-			\end{tabular}
-		\end{center}
-	\end{table}
+	\begin{table}[ht]
+	\begin{center}
+		\caption{Description of the switches and LEDs on the control box.}
+		\label{tab:3:controlBx}
+		\begin{tabular}{|p{0.2\linewidth} | p{0.15\linewidth}|p{0.65\linewidth}|}
+			\hline
+			Component & Designation & Description \\
+			\hline
+			Power Switch & S1 & This switch is used to cutoff the power being supplied to the microcontroller. \\
+			\hline
+			Navigation Mode Switch & S2 & This switch allows the user to quickly switch between the manual navigation mode and the autonomous navigation mode. \\
+			\hline
+			Contingency Switch & S3 & This switch is not used and was included and wired in case a design development required another switch. \\
+			\hline
+			On LED & D1 & This LED indicates that the microcontroller is powered on. \\
+			\hline
+			Active LED & D2 & This LED blinks on and off during the operation of the program and indicates that the program is alive and active and there has not been a crash in the program. \\
+			\hline
+			GPS LED & D3 & This LED is turned on when GPS has a valid connection. \\
+			\hline 
+			M LED & D4 & This LED indicates that the system is in manual control mode. \\
+			\hline
+			A LED & D5 &  This LED indicates that the system is in autonomous navigation mode. \\
+			\hline
+		\end{tabular}
+	\end{center}
+\end{table}
 	\subsection{Software}
 	\subsubsection{PWM Signal}
 	The thrusters are each controlled by a \SI{5}{\volt} PWM signal. There is limited information on the datasheet for the ESC and the signal boundaries, full forward, full reverse and neutral positions are described in the unconventional terms of the time that the signal is high. The values are shown in table \ref{tab:3:PWM}. Initially it was thought that the ESC operated at \SI{50}{\hertz}, however there was no response from the thruster at any duty cycle.\par
@@ -250,6 +268,8 @@ This section will give a broad overview of the system as a whole and describe th
 			\end{tabular}
 		\end{center}
 	\end{table}
+	\subsubsection{Compass}
+	
 	\subsection{Control System}
 	The control system is the scope of this project and the part of the project that should not require much alteration to scale the system up to a larger system. The control logic  is all implemented through the software on the microcontroller. This section will detail the control logic with the aid of flow diagrams and pseudo code. 
 		\subsubsection{State Machine}
