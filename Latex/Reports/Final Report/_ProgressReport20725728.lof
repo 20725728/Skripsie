@@ -11,18 +11,18 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Broader System Diagram\relax }}{13}{}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Wiring Diagram for the System\relax }}{14}{}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces The vessel, a spider 3.\relax }}{16}{}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces The final throttle system with two POTs on either end.\relax }}{18}{}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces The microcontroller used, an Arduino DUE\relax }}{18}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The vessel, a Spider 3.\relax }}{16}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Final throttle system with two potentiometers (POT) on either end.\relax }}{17}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces The microcontroller used: an Arduino DUE\relax }}{18}{}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Pololu LSM303 AltIMU module.\relax }}{20}{}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Fundamental illustration of a linear potentiometer\relax }}{21}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Simple illustration of a linear potentiometer\relax }}{22}{}%
 \contentsline {figure}{\numberline {3.8}{\ignorespaces The wiring circuit inside of the control box.\relax }}{22}{}%
 \contentsline {figure}{\numberline {3.9}{\ignorespaces The control box with its 3 switches and 4 LEDs.\relax }}{23}{}%
 \contentsline {figure}{\numberline {3.10}{\ignorespaces The PWM signal generator used to ensure the ESC was working.\relax }}{23}{}%
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Flow diagram of the main states in the system.\relax }}{28}{}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Flow diagram of \emph {updatePWM()}\relax }}{29}{}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces The flow diagram of receiving the GPS data.\relax }}{33}{}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Flow diagram of the autonomous navigation\relax }}{34}{}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Flow diagram of \emph {updatePWM().}\relax }}{29}{}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces The flow diagram of receiving the GPS data.\relax }}{32}{}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Flow diagram of the autonomous navigation\relax }}{33}{}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces The path used to compare the system GPS and the baseline GPS logger.\relax }}{36}{}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces The calculated bearing and compass bearing overlay.\relax }}{36}{}%
