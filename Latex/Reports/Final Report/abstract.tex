@@ -1,12 +1,5 @@
-%*** THE ABSTRACT PAGE ************************************
-
-\begin{Summary}{Abstract}
-	Die projek behels die ontwerp, bou en toets van 'n vibrasie
-	toetsbank. Die invloed wat 'n vibrasie het op die trekkrag wat op
-	'n ploeg uitgeoefen word moet gesimuleer word. Die toetsbank
-	simuleer so 'n situasie.
-	
-	Die toetsbank moet ook aanpasbaar wees, sodat ...
-\end{Summary}
-
-\endinput
+\chapter{Abstract}
+The aim of this project is to design and build a prototype control system for an unmanned surface vessel (USV). The system would make use of sensory equipment such as GPS and an electronic compass to aid in the navigation of the vessel. The vessel is designed to have an manual control mode to test the PWM signal used to power the thrusters, the power output of the thrusters and steering of the vessel. The autonomous control mode would navigate to given GPS coordinate points using the data from the external sensors. \par
+Much of the hardware is outside of the scope of the project and was sourced or made by the Stellenbosch Electrical Engineering workshop. The hardware is explained to add context of how the system as a whole operates.\par
+An Arduino microcontroller is used as the microcontroller due to its extensive libraries and user-friendly software environment. The data is retrieved from the sensors using mostly Arduino libraries and the control logic behind the novel control software is explained with the help of pseudo code and logic diagrams.\par
+Each individual system is isolated and tested before the overall system is tested. All systems performed well in their individual tests however, the thrusters were slightly underpowered for the weight of the vessel. When testing the final system the weather conditions were not ideal however, the system still performed well and navigated to all the prescribed points.

@@ -7,6 +7,10 @@ Reallocating 'name_of_file' (item size: 1) to 16 items.
 A level-1 auxiliary file: declaration.aux
 Reallocating 'name_of_file' (item size: 1) to 12 items.
 A level-1 auxiliary file: summary.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+A level-1 auxiliary file: ECSA.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: abstract.aux
 Reallocating 'name_of_file' (item size: 1) to 16 items.
 A level-1 auxiliary file: Chp-1-Intro.aux
 Reallocating 'name_of_file' (item size: 1) to 20 items.
@@ -24,7 +28,7 @@ Warning--empty author in HistGPSProgram
 Warning--empty journal in HistGPSProgram
 You've used 12 entries,
             3324 wiz_defined-function locations,
-            724 strings with 7228 characters,
+            726 strings with 7248 characters,
 and the built_in function-call counts, 6944 in all, are:
 = -- 552
 > -- 158

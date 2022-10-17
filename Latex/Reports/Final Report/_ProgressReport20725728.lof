@@ -1,6 +1,7 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Early GPS receivers were large, heavy devices. \cite {USAF1978}\relax }}{4}{}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Distance spheres around each satellite intersect at one point\relax }}{7}{}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces The differentiation between magnetic and true north\relax }}{8}{}%
@@ -34,3 +35,4 @@
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Map of Test 1.\relax }}{42}{}%
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Results of the PWM output displayed on an oscilloscope.\relax }}{45}{}%
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Map of Test 2.\relax }}{46}{}%
+\addvspace {10\p@ }
