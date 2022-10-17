@@ -19,7 +19,7 @@ In order to have a bearing to compare the compass reading with, the last two GPS
 \end{figure}
 As can be seen in figure \ref{fig:4:GPSMap}, the two sets of GPS data match each other very closely with only a few areas where the systems GPS moves away from the baseline GPS points. In order to quantify the accuracy of the GPS, the distance between the coinciding points of the baseline GPS and the system GPS was calculated and plotted on box and whisker chart of figure \ref{fig:4:GpsBxWh}. As you can see the GPS is accurate to within \SI{5}{\meter} with only a few outliers, making up less than \SI{4}{\percent} of the data, falling slightly outside the \SI{5}{\meter} mark.\par
 Similarly it can be seen on figure \ref{fig:4:bearingTest} that the systems compass bearing is closely following the calculated baseline bearing. Figure \ref{fig:4:bearingBxWh} shows a box and whisker plot of the error between the two bearings, with most of the data falling within a \SI{20}{\degree} range. There are more outliers than in the GPS test, however this is due to calculated bearing having several spikes. These spikes occur when the because the bearing is being calculated between GPS points that are often within 1m of each other and some accuracy can be lost. The noticeable spike of the system compass in figure \ref{fig:4:bearingTest} is not an error but caused by the bearing going around passed \SI{360}{\degree} to \SI{0}{\degree}.
- \begin{figure}
+ \begin{figure}[!hb]
  	\begin{center}
  		\begin{subfigure}{0.45\linewidth}
  			\includegraphics[width = \linewidth]{figures/distBxWh.jpg}
@@ -150,12 +150,24 @@ The full system tests were carried out on the Stellenbosch canoe dam as it is a 
 \subsection{Testing}
 The testing occurred in two phases, the manual test and the autonomous test. The manual test was carried out by using the throttle to manually control the vessel and ensure that the thrusters are responding correctly and that the system is fully operational. The GPS points that the boat would navigate to under autonomous control were chosen while doing the manual test to ensure that the vessel would not navigate into any of the obstacles on the dam such as buoys and pumps.\par
 Finally, for the autonomous test, the vessel was driven back to the starting position and the system was reset and autonomous navigation was selected. The vessel was still manned so that manual control could be taken at any point if it looked as though the vessel would collide with any obstacles. Once the vessel had navigated to its final point, manual control was selected to return the vessel to shore. 
+\begin{figure}[!hb]
+	\begin{center}
+		\includegraphics[width = 0.84\linewidth]{figures/graphMap.jpg}
+		\caption{Map of Test 1.}
+		\label{graph:4:Map}
+	\end{center}
+\end{figure}
+\vspace{0.8cm}
 \subsection{Results}
-Finally, after all the testing had been completed, the results could be analysed and assessed to determine the validity and performance of the control system. The results will be discussed with the aid of graphs draw from the data collected during the tests. The performance of the control system will be determined by how accurately it stays on the course to the target location and the validity of the system will be determined by if the vessel reached the target points. \par
-Looking at figure \ref{grph:4:distance}, which shows the distance to the target point over time, it can be seen that the vessel always gets to within the allowable distance of the target location. The system is working and navigates to all the given locations.\par
-However, having a valid system is only useful if the system is accurately navigating to these points and not simply randomly lucking onto the target. To determine the performance of the system we can look at figures \ref{grph:4:BearingError} and \ref{grph:4:2bearings}. \ref{grph:4:BearingError} shows the error or difference between the vessels bearing and the bearing it should be following to reach the target. In a perfect system, this graph should be a flat line along the x-axis with spikes after the point has been reached and the bearing to target has been reached. Figure \ref{grph:4:2bearings} would similarly, show the vessel bearing following the target bearing exactly with the only deviation being as a point reached where the target bearing drastically changes and the vessel bearing must work its way back to the target bearing.\par 
-Looking at the area between point 1 and 2 on \ref{grph:4:BearingError}, it can be seen that the graph is oscillating significantly around the x-axis with a heavier bias to the negative. This is not indicative of good performance, however when combining this with the plotted course in \ref{graph:4:Map} it can be seen that the vessel is making lots of small corrections but maintaining a relatively straight course to the target point.\par
-Staying with \ref{graph:4:Map}, it is clear that after point 2, it looses performance as it begins to do large unnecessary loops to reach the target. This can also be seen in figure \ref{grph:4:distance} that the vessel begins to get closer until it is passed it and gets further away before looping around and once again getting closer and reaching the target. However, \ref{grph:4:BearingError} and \ref{grph:4:2bearings} show that the vessel bearing is still oscillating around the target bearing as between points 1 and 2. This is due to the compass loosing calibration and having 'dead spots'. The compass was not returning an accurate bearing and the system thought it was on the correct course. Once it had looped around and out of the compass 'dead spot' and it began returning the correct bearing, and could accurately navigate to the target location. 
+After all the testing had been completed, the results could be analysed and assessed to determine the validity and performance of the control system. The results will be discussed with the aid of graphs draw from the data collected during the tests. The performance of the control system will be determined by how accurately it stays on the course to the target location and the validity of the system will be determined by if the vessel reached the target points. \par
+The initial autonomous test carried out was successful in that it navigated to the points after some time. However, there was a lot lacking as the navigation was very far off course for large portions of the test. Figure \ref{graph:4:Map} shows the route of the manual test and the first autonomous test, the manual test is also shown in Figure \ref{graph:4:Map2} as a reference point between the two autonomous tests. It can be seen in Figure \ref{graph:4:Map} that the vessel does navigate to the points but there are large unnecessary loops that the vessel travels. This points to the navigation system being valid but very inaccurate. Once the data could be analysed, it became apparent that the inaccuracy was caused by the compass having lost calibration. The data showed that even on the long looping path, the compass reading was within \SI{40}{\degree} of the target bearing which was clearly incorrect. It appears that the compass had accurate calibration in the approximate range of \SI{350}{\degree} to \SI{150}{\degree}. This is further backed up by how the vessel always followed a long loop until the point was within this range, at which point it would successfully navigate to the point. Due to the inaccuracy of the test and the underlying cause being a faulty sensor and not a flaw in the system, another test was planned.\par
+\vspace{0.6cm}
+The second autonomous test was conducted under less than ideal conditions with a steady wind blowing from the South East. However, even under these conditions the system performed well and navigated to within the acceptable distance of \SI{7}{\metre} of each point. Figure \ref{grph:4:distance} shows the distance to the targeted point as the time elapsed. It can clearly be seen that the vessel was a path of steadily decreasing the distance to the point until arrival. The only exception is just before arriving at point 5, the distance slightly increases. This was due to the vessel heading straight at a buoy. The vessel was pushed off against the buoy to avoid contact the system handled the disruption by correcting its course and navigating back to the target.\par 
+The disruption can further be seen in Figure \ref{grph:4:BearingError} with a large spike in the difference between the vessel bearing and the target bearing. This spike is corrected and the course is resumed. The other large spikes on Figure \ref{grph:4:BearingError} all correlate with the arrival at a point upon which the target is moved to the next point and a large error occurs before the system can turn itself and navigate to the next point. Another trend of Figure \ref{grph:4:BearingError} shows that the vessel settles around \SI{10}{\degree} off from the target bearing. This is not a large static error and could be tuned out in the control system, however more tests would need to be conducted to ensure that the static error is not caused by external factors such as the steady wind during the test. \par
+The steady error can also be seen in Figure \ref{grph:4:2bearings} where the vessels bearing is mostly just above the target bearing. However, Figure \ref{grph:4:2bearings} also clearly shows that the vessel reacts well to changes in the target bearing and tracks the target bearing closely with minimal overshoot. The sudden change of bearing between points 4 and 5 in Figure \ref{grph:4:2bearings} is due to the vessel turning across the \SI{360}{\degree}\\\SI{0}{\degree} turnover point. \par
+Another trend that can be seen across both Figures \ref{grph:4:BearingError} and \ref{grph:4:2bearings} is that the vessel has a large amount of oscillation and is often referred to as 'fish tailing'. The oscillations can be explained by the thrusters that were used. Even with the increase in voltage the thrusters were underpowered in comparison to the weight and shape of the vessel. This meant that the steering was slow to respond and the progressive steering implemented was not very noticeable. To further compound on the issue, it became apparent during the manual test that one thruster produced slightly more thrust than the other leading to a slight drift when both thruster were fully powered and also allowed the vessel to be more manoeuvrable when turning one direction as opposed to the other. However, given these oscillations when looking at the overall navigation map of Figure \ref{graph:4:Map2} the path of the vessel is relatively straight in the overall distance travelled. Figure \ref{graph:4:Map2} shows the effect the wind had with a small effect evident on the route between points 2,3 and 4 with the vessel into the wind. However, between points 5 and 6, when the vessel was travelling mostly with the wind, it had a large impact and blew the vessel off course and the system had to correct to finally reach point 6.\par
+Overall the system performed well with less than ideal weather conditions and underpowered and slightly uneven thrusters. Given these, the system still managed to navigate to within the prescribed allowable distance and maintain a relatively straight route between all points and not doing any unnecessary navigation. The system could easily be upgraded to a larger more appropriate vessel with the required thrust with little alterations.
+
 \begin{figure}
 	\begin{center}
 		\begin{subfigure}{0.8\linewidth}
@@ -165,22 +177,22 @@ Staying with \ref{graph:4:Map}, it is clear that after point 2, it looses perfor
 		\end{subfigure}
 		\begin{subfigure}{0.8\linewidth}
 			\includegraphics[width = \linewidth]{figures/graphDistance.jpg}
-			\caption{Distance to Target}
+			\caption{Distance to Target.}
 			\label{grph:4:distance}	
 		\end{subfigure}
 		\begin{subfigure}{0.8\linewidth}
 			\includegraphics[width = \linewidth]{figures/graphBearings.jpg}
-			\caption{Bearings Comparison}
+			\caption{Bearings Comparison.}
 			\label{grph:4:2bearings}	
 		\end{subfigure}
 		\caption{Results of the PWM output displayed on an oscilloscope.}
 		\label{fig:4:Results}
 	\end{center}
 \end{figure} 
-\begin{figure}
+\begin{figure}[hb]
 	\begin{center}
-		\includegraphics[width = 0.8\linewidth]{figures/graphMap.jpg}
-		\caption{map}
-		\label{graph:4:Map}
+		\includegraphics[height=0.8\linewidth, angle = 270]{figures/graphMap2.jpg}
+		\caption{Map of Test 2.}
+		\label{graph:4:Map2}
 	\end{center}
-\end{figure}
+\end{figure} 

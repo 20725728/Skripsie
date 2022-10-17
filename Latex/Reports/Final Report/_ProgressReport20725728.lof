@@ -12,8 +12,8 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Broader System Diagram\relax }}{13}{}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Wiring Diagram for the System\relax }}{14}{}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces The vessel, a Spider 3.\relax }}{16}{}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Final throttle system with two potentiometers (POT) on either end.\relax }}{17}{}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces The microcontroller used: an Arduino DUE\relax }}{18}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Final throttle system with two potentiometers (POT) on either end.\relax }}{18}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces The microcontroller used: an Arduino DUE\relax }}{19}{}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Pololu LSM303 AltIMU module.\relax }}{20}{}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Simple illustration of a linear potentiometer\relax }}{22}{}%
 \contentsline {figure}{\numberline {3.8}{\ignorespaces The wiring circuit inside of the control box.\relax }}{22}{}%
@@ -31,5 +31,6 @@
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Results of the PWM output displayed on an oscilloscope.\relax }}{39}{}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces The digital response of the throttle.\relax }}{39}{}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces The thruster in a bucket of water to test it without 'dry running'.\relax }}{40}{}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Results of the PWM output displayed on an oscilloscope.\relax }}{44}{}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces map\relax }}{45}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Map of Test 1.\relax }}{42}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Results of the PWM output displayed on an oscilloscope.\relax }}{45}{}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Map of Test 2.\relax }}{46}{}%

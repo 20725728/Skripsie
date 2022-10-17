@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.7.20)  16 OCT 2022 10:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.7.20)  17 OCT 2022 19:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -664,67 +664,67 @@ Package pdftex.def Info: figures/Wiring diagram.jpg  used on input line 14.
 <figures/spider3.jpg, id=114, 1284.8pt x 963.6pt>
 File: figures/spider3.jpg Graphic file (type jpg)
 <use figures/spider3.jpg>
-Package pdftex.def Info: figures/spider3.jpg  used on input line 33.
+Package pdftex.def Info: figures/spider3.jpg  used on input line 35.
 (pdftex.def)             Requested size: 274.29742pt x 205.71432pt.
  [15]
 [16 <./figures/spider3.jpg>]
 <figures/throttle.jpg, id=122, 1284.8pt x 963.6pt>
 File: figures/throttle.jpg Graphic file (type jpg)
 <use figures/throttle.jpg>
-Package pdftex.def Info: figures/throttle.jpg  used on input line 49.
+Package pdftex.def Info: figures/throttle.jpg  used on input line 51.
 (pdftex.def)             Requested size: 232.10129pt x 174.07275pt.
- [17 <./figures/throttle.jpg>]
+ [17]
 <figures/DUE.jpg, id=126, 144.54pt x 144.54pt>
 File: figures/DUE.jpg Graphic file (type jpg)
 <use figures/DUE.jpg>
-Package pdftex.def Info: figures/DUE.jpg  used on input line 62.
-(pdftex.def)             Requested size: 232.10129pt x 232.11339pt.
- [18 <./figures/DUE.jpg>] [19]
+Package pdftex.def Info: figures/DUE.jpg  used on input line 64.
+(pdftex.def)             Requested size: 202.5582pt x 202.56853pt.
+ [18 <./figures/throttle.jpg>] [19 <./figures/DUE.jpg>]
 <figures/compass.jpg, id=134, 466.25807pt x 373.00645pt>
 File: figures/compass.jpg Graphic file (type jpg)
 <use figures/compass.jpg>
-Package pdftex.def Info: figures/compass.jpg  used on input line 88.
-(pdftex.def)             Requested size: 211.0pt x 168.80185pt.
+Package pdftex.def Info: figures/compass.jpg  used on input line 90.
+(pdftex.def)             Requested size: 67.52155pt x 54.0134pt.
  [20 <./figures/compass.jpg>]
 <figures/POT.jpg, id=138, 606.265pt x 730.73pt>
 File: figures/POT.jpg Graphic file (type jpg)
 <use figures/POT.jpg>
-Package pdftex.def Info: figures/POT.jpg  used on input line 118.
+Package pdftex.def Info: figures/POT.jpg  used on input line 120.
 (pdftex.def)             Requested size: 105.5pt x 127.1549pt.
 <figures/BoxCircuit.jpg, id=139, 1549.79pt x 1017.8025pt>
 File: figures/BoxCircuit.jpg Graphic file (type jpg)
 <use figures/BoxCircuit.jpg>
-Package pdftex.def Info: figures/BoxCircuit.jpg  used on input line 127.
+Package pdftex.def Info: figures/BoxCircuit.jpg  used on input line 129.
 (pdftex.def)             Requested size: 274.29742pt x 180.13705pt.
  [21]
 <figures/controlBox.jpg, id=144, 1284.8pt x 722.7pt>
 File: figures/controlBox.jpg Graphic file (type jpg)
 <use figures/controlBox.jpg>
-Package pdftex.def Info: figures/controlBox.jpg  used on input line 135.
+Package pdftex.def Info: figures/controlBox.jpg  used on input line 137.
 (pdftex.def)             Requested size: 358.70258pt x 201.77016pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--150
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
 []|\T1/cmr/m/n/12 Navigation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--152
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 []|\T1/cmr/m/n/12 Calibration
  []
 
 
-Overfull \hbox (37.59354pt too wide) in paragraph at lines 144--165
+Overfull \hbox (37.59354pt too wide) in paragraph at lines 146--167
  [] 
  []
 
 <figures/pwmGen.jpg, id=145, 1282.7925pt x 545.03625pt>
 File: figures/pwmGen.jpg Graphic file (type jpg)
 <use figures/pwmGen.jpg>
-Package pdftex.def Info: figures/pwmGen.jpg  used on input line 171.
+Package pdftex.def Info: figures/pwmGen.jpg  used on input line 173.
 (pdftex.def)             Requested size: 130.81897pt x 55.57965pt.
 [22 <./figures/POT.jpg> <./figures/BoxCircuit.jpg>] [23 <./figures/controlBox.j
 pg> <./figures/pwmGen.jpg>] [24] [25]
-Overfull \hbox (48.84915pt too wide) in paragraph at lines 225--228
+Overfull \hbox (48.84915pt too wide) in paragraph at lines 227--230
  [] 
  []
 
@@ -732,26 +732,26 @@ Overfull \hbox (48.84915pt too wide) in paragraph at lines 225--228
 <figures/statemachine.png, id=163, 1854.93pt x 1797.71625pt>
 File: figures/statemachine.png Graphic file (type png)
 <use figures/statemachine.png>
-Package pdftex.def Info: figures/statemachine.png  used on input line 292.
+Package pdftex.def Info: figures/statemachine.png  used on input line 294.
 (pdftex.def)             Requested size: 278.52155pt x 269.9201pt.
  [27]
 <figures/UpdatePWM.jpg, id=168, 825.0825pt x 1708.3825pt>
 File: figures/UpdatePWM.jpg Graphic file (type jpg)
 <use figures/UpdatePWM.jpg>
-Package pdftex.def Info: figures/UpdatePWM.jpg  used on input line 307.
+Package pdftex.def Info: figures/UpdatePWM.jpg  used on input line 309.
 (pdftex.def)             Requested size: 232.10129pt x 480.55962pt.
  [28 <./figures/statemachine.png>] [29 <./figures/UpdatePWM.jpg>]
 <figures/receiveGPS.jpg, id=177, 805.0075pt x 1166.3575pt>
 File: figures/receiveGPS.jpg Graphic file (type jpg)
 <use figures/receiveGPS.jpg>
-Package pdftex.def Info: figures/receiveGPS.jpg  used on input line 373.
+Package pdftex.def Info: figures/receiveGPS.jpg  used on input line 375.
 (pdftex.def)             Requested size: 253.20258pt x 366.85284pt.
 
 [30]
 <figures/autoNav.jpg, id=182, 1226.5825pt x 2091.815pt>
 File: figures/autoNav.jpg Graphic file (type jpg)
 <use figures/autoNav.jpg>
-Package pdftex.def Info: figures/autoNav.jpg  used on input line 382.
+Package pdftex.def Info: figures/autoNav.jpg  used on input line 384.
 (pdftex.def)             Requested size: 295.39871pt x 503.76945pt.
 ) [31] [32 <./figures/receiveGPS.jpg>] [33 <./figures/autoNav.jpg>]
 [34]
@@ -825,34 +825,51 @@ Package pdftex.def Info: figures/thrusterBucket.jpg  used on input line 85.
 (pdftex.def)             Requested size: 189.89871pt x 210.25766pt.
  [38 <./figures/PWMtest.jpg>] [39 <./figures/PWMfoward.jpg> <./figures/PWMneutr
 al.jpg> <./figures/PWMreverse.jpg> <./figures/PWMboth.jpg> <./figures/graphThro
-ttle.jpg>] [40 <./figures/thrusterBucket.jpg>] [41] [42]
-<figures/graphBearingError.jpg, id=233, 595.023pt x 273.093pt>
-File: figures/graphBearingError.jpg Graphic file (type jpg)
-<use figures/graphBearingError.jpg>
-Package pdftex.def Info: figures/graphBearingError.jpg  used on input line 162.
-
-(pdftex.def)             Requested size: 337.60129pt x 154.94789pt.
-<figures/graphDistance.jpg, id=234, 589.767pt x 276.159pt>
-File: figures/graphDistance.jpg Graphic file (type jpg)
-<use figures/graphDistance.jpg>
-Package pdftex.def Info: figures/graphDistance.jpg  used on input line 167.
-(pdftex.def)             Requested size: 337.60129pt x 158.08226pt.
-<figures/graphBearings.jpg, id=235, 591.3pt x 292.365pt>
-File: figures/graphBearings.jpg Graphic file (type jpg)
-<use figures/graphBearings.jpg>
-Package pdftex.def Info: figures/graphBearings.jpg  used on input line 172.
-(pdftex.def)             Requested size: 337.60129pt x 166.92636pt.
-
-
-LaTeX Warning: Float too large for page by 12.50647pt on input line 179.
-
-<figures/graphMap.jpg, id=236, 605.097pt x 321.273pt>
+ttle.jpg>] [40 <./figures/thrusterBucket.jpg>]
+<figures/graphMap.jpg, id=227, 888.264pt x 421.794pt>
 File: figures/graphMap.jpg Graphic file (type jpg)
 <use figures/graphMap.jpg>
-Package pdftex.def Info: figures/graphMap.jpg  used on input line 182.
-(pdftex.def)             Requested size: 337.60129pt x 179.24493pt.
-) [43] [44 <./figures/graphBearingError.jpg> <./figures/graphDistance.jpg> <./f
-igures/graphBearings.jpg>] [45 <./figures/graphMap.jpg>]
+Package pdftex.def Info: figures/graphMap.jpg  used on input line 155.
+(pdftex.def)             Requested size: 354.47845pt x 168.322pt.
+ [41]
+
+LaTeX Warning: Text page 42 contains only floats.
+
+
+Overfull \vbox (11.62173pt too high) has occurred while \output is active []
+
+
+[42 <./figures/graphMap.jpg>] [43]
+<figures/graphBearingError.jpg, id=237, 589.329pt x 302.658pt>
+File: figures/graphBearingError.jpg Graphic file (type jpg)
+<use figures/graphBearingError.jpg>
+Package pdftex.def Info: figures/graphBearingError.jpg  used on input line 174.
+
+(pdftex.def)             Requested size: 337.60129pt x 173.38045pt.
+<figures/graphDistance.jpg, id=238, 631.377pt x 325.872pt>
+File: figures/graphDistance.jpg Graphic file (type jpg)
+<use figures/graphDistance.jpg>
+Package pdftex.def Info: figures/graphDistance.jpg  used on input line 179.
+(pdftex.def)             Requested size: 337.60129pt x 174.24283pt.
+<figures/graphBearings.jpg, id=239, 720.291pt x 362.445pt>
+File: figures/graphBearings.jpg Graphic file (type jpg)
+<use figures/graphBearings.jpg>
+Package pdftex.def Info: figures/graphBearings.jpg  used on input line 184.
+(pdftex.def)             Requested size: 337.60129pt x 169.87907pt.
+
+
+LaTeX Warning: Float too large for page by 50.0523pt on input line 191.
+
+<figures/graphMap2.jpg, id=240, 777.231pt x 421.794pt>
+File: figures/graphMap2.jpg Graphic file (type jpg)
+<use figures/graphMap2.jpg>
+Package pdftex.def Info: figures/graphMap2.jpg  used on input line 194.
+(pdftex.def)             Requested size: 622.10587pt x 337.60129pt.
+
+LaTeX Warning: Float too large for page by 72.10585pt on input line 198.
+
+) [44] [45 <./figures/graphBearingError.jpg> <./figures/graphDistance.jpg> <./f
+igures/graphBearings.jpg>] [46 <./figures/graphMap2.jpg>]
 (_ProgressReport20725728.bbl
 (C:\Users\Gurkin\AppData\Local\Programs\MiKTeX\tex/latex/stellenbosch\usbib.eng
 )
@@ -903,7 +920,7 @@ Overfull \hbox (31.16748pt too wide) in paragraph at lines 86--96
 articles/10.3389/fmars.2021.736984/full 
  []
 
-[46
+[47
 
 
 
@@ -914,14 +931,14 @@ Overfull \hbox (42.48422pt too wide) in paragraph at lines 98--101
 force.mil/News/Photos/igphoto/2000044571/ 
  []
 
-) [47] (_ProgressReport20725728.aux (declaration.aux) (summary.aux) (ECSA.aux)
+) [48] (_ProgressReport20725728.aux (declaration.aux) (summary.aux) (ECSA.aux)
 (Chp-1-Intro.aux) (Chp-2-LitReview.aux) (Chp-3-Methodology.aux)
 (Chp-4-Testing.aux)) ) 
 Here is how much of TeX's memory you used:
- 11852 strings out of 478338
- 256790 string characters out of 2836228
- 536545 words of memory out of 3000000
- 29982 multiletter control sequences out of 15000+600000
+ 11860 strings out of 478338
+ 256974 string characters out of 2836228
+ 536558 words of memory out of 3000000
+ 29989 multiletter control sequences out of 15000+600000
  502205 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,16n,77p,1868b,893s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -956,9 +973,9 @@ KTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Gurkin/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Gurkin/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Gurki
 n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on _ProgressReport20725728.pdf (56 pages, 5865943 bytes).
+Output written on _ProgressReport20725728.pdf (57 pages, 6406778 bytes).
 PDF statistics:
- 994 PDF objects out of 1000 (max. 8388607)
+ 1001 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 191 words of extra memory for PDF output out of 10000 (max. 10000000)
 

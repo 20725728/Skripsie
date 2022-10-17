@@ -25,25 +25,26 @@
 \contentsline {section}{\numberline {3.3}System Design}{15}{}%
 \contentsline {subsection}{\numberline {3.3.1}Objective}{15}{}%
 \contentsline {subsection}{\numberline {3.3.2}Engineering Requirements}{15}{}%
-\contentsline {subsection}{\numberline {3.3.3}Hardware}{16}{}%
+\contentsline {subsection}{\numberline {3.3.3}Differential Steering}{16}{}%
+\contentsline {subsection}{\numberline {3.3.4}Hardware}{16}{}%
 \contentsline {subsubsection}{Vessel}{16}{}%
-\contentsline {subsubsection}{Thrusters}{16}{}%
+\contentsline {subsubsection}{Thrusters}{17}{}%
 \contentsline {subsubsection}{Power Supply}{17}{}%
 \contentsline {subsubsection}{Throttle}{18}{}%
-\contentsline {subsection}{\numberline {3.3.4}Electronics}{18}{}%
+\contentsline {subsection}{\numberline {3.3.5}Electronics}{18}{}%
 \contentsline {subsubsection}{Arduino Due}{18}{}%
-\contentsline {subsubsection}{SD Card Module}{19}{}%
+\contentsline {subsubsection}{SD Card Module}{20}{}%
 \contentsline {subsubsection}{GPS Module}{20}{}%
 \contentsline {subsubsection}{Compass}{20}{}%
 \contentsline {subsubsection}{ESC}{21}{}%
 \contentsline {subsubsection}{POT}{21}{}%
 \contentsline {subsubsection}{Switches and LEDs}{22}{}%
-\contentsline {subsection}{\numberline {3.3.5}Software}{23}{}%
+\contentsline {subsection}{\numberline {3.3.6}Software}{23}{}%
 \contentsline {subsubsection}{PWM Signal}{23}{}%
 \contentsline {subsubsection}{Analogue to Digital Converter}{25}{}%
 \contentsline {subsubsection}{GPS}{26}{}%
 \contentsline {subsubsection}{Compass}{27}{}%
-\contentsline {subsection}{\numberline {3.3.6}Control System}{27}{}%
+\contentsline {subsection}{\numberline {3.3.7}Control System}{27}{}%
 \contentsline {subsubsection}{State Machine}{27}{}%
 \contentsline {subsubsection}{Manual Control}{28}{}%
 \contentsline {subsubsection}{Receiving GPS Data}{30}{}%
@@ -56,5 +57,5 @@
 \contentsline {section}{\numberline {4.5}USV}{40}{}%
 \contentsline {subsection}{\numberline {4.5.1}Set-up Procedure}{40}{}%
 \contentsline {subsection}{\numberline {4.5.2}Testing}{41}{}%
-\contentsline {subsection}{\numberline {4.5.3}Results}{41}{}%
-\contentsline {chapter}{List of References}{46}{}%
+\contentsline {subsection}{\numberline {4.5.3}Results}{43}{}%
+\contentsline {chapter}{List of References}{47}{}%
