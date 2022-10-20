@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{20}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -36,6 +36,15 @@
 \newblock {A brief History of GPS}.
 \newline\bblurlpre\url{https://aerospace.org/article/brief-history-gps}
 
+\bibitem[{\citenamefont{Alger}(1910)}]{Alger1910}
+\bibnamefont{Alger}, \bibfnamefont{P.R.} (1910).
+\newblock \emph{{United States Naval Institute Proceedings}}.
+\newblock The Lord Baltimore Press.
+
+\bibitem[{\citenamefont{Association}(2017)}]{Association2017}
+\bibnamefont{Association}, \bibfnamefont{S.} (2017).
+\newblock {Part1 Physical Layer Simplified Specification Ver9.00.pdf}.
+
 \bibitem[{\citenamefont{Christ} \protect\BIBand{}
   \citenamefont{Wernli}(2014)}]{Christ2014}
 \bibnamefont{Christ}, \bibfnamefont{R.D.} \protect\BIBand{}
@@ -43,6 +52,11 @@
 \newblock {Power and Telemetry}.
 \newblock \capitalize\bblin{}: \emph{The ROV Manual}, \bblpp{} 141--161.
   Elsevier.
+
+\bibitem[{\citenamefont{Corporation}(2015)}]{Corporation2015}
+\bibnamefont{Corporation}, \bibfnamefont{A.} (2015).
+\newblock {SAM3X / SAM3A Series}.
+\newblock \emph{Atmel Corporation}.
 
 \bibitem[{\citenamefont{{(Federal Aviation
   Administration)}}()}]{FederalAviationAdministration}
@@ -94,9 +108,35 @@
 \newblock \emph{Frontiers in Marine Science}.
 \newline\bblurlpre\url{https://www.frontiersin.org/articles/10.3389/fmars.2021.736984/full}
 
+\bibitem[{\citenamefont{Pololu}(2016)}]{Pololu2016}
+\bibnamefont{Pololu} (2016).
+\newblock {LSM303-Arduino}.
+\newline\bblurlpre\url{https://github.com/pololu/lsm303-arduino}
+
+\bibitem[{\citenamefont{Robot}()}]{Robot}
+\bibnamefont{Robot}, \bibfnamefont{D.} ().
+\newblock {SKU TEL0132 Specifications}.
+
+\bibitem[{\citenamefont{STMicroelectronics}(2015)}]{STMicroelectronics2015}
+\bibnamefont{STMicroelectronics} (2015).
+\newblock {iNEMO LSM6DS33 Datasheet}.
+\newblock , \bblno{} October, \bblpp{} 1--77.
+
 \bibitem[{\citenamefont{(USAF)}(1978)}]{USAF1978}
 \bibnamefont{(USAF)} (1978).
 \newblock {GPS Early User Equipment 2}.
 \newline\bblurlpre\url{https://www.losangeles.spaceforce.mil/News/Photos/igphoto/2000044571/}
+
+\bibitem[{\citenamefont{{Van Brummelen}}(2013)}]{VanBrummelen2013}
+\bibnamefont{{Van Brummelen}}, \bibfnamefont{G.} (2013).
+\newblock \emph{{Heavenly Mathematics: The Forgotten Art of Spherical
+  Trigonometry}}.
+\newblock Princeton University Press.
+\newblock ISBN 978-0-691-14892-2.
+
+\bibitem[{\citenamefont{Veness}(2002)}]{Veness2002}
+\bibnamefont{Veness}, \bibfnamefont{C.} (2002).
+\newblock {Movable Type Scripts}.
+\newline\bblurlpre\url{https://www.movable-type.co.uk/scripts/latlong.html}
 
 \end{thebibliography}

@@ -2,37 +2,41 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Early GPS receivers were large, heavy devices. \cite {USAF1978}\relax }}{4}{}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Distance spheres around each satellite intersect at one point\relax }}{7}{}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces The differentiation between magnetic and true north\relax }}{8}{}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Duty Cycle of PWM Signal\relax }}{9}{}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces The relation between the time the signal is high and the signal period.\relax }}{10}{}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces A digital signal and its three zones.\relax }}{11}{}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Analogue signal\relax }}{12}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Broader System Diagram\relax }}{13}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Wiring Diagram for the System\relax }}{14}{}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces The vessel, a Spider 3.\relax }}{16}{}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Final throttle system with two potentiometers (POT) on either end.\relax }}{18}{}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces The microcontroller used: an Arduino DUE\relax }}{19}{}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Pololu LSM303 AltIMU module.\relax }}{20}{}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Simple illustration of a linear potentiometer\relax }}{22}{}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces The wiring circuit inside of the control box.\relax }}{22}{}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces The control box with its 3 switches and 4 LEDs.\relax }}{23}{}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces The PWM signal generator used to ensure the ESC was working.\relax }}{23}{}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Flow diagram of the main states in the system.\relax }}{28}{}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Flow diagram of \emph {updatePWM().}\relax }}{29}{}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces The flow diagram of receiving the GPS data.\relax }}{32}{}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Flow diagram of the autonomous navigation\relax }}{33}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Early GPS receivers were large, heavy devices. \cite {USAF1978}\relax }}{4}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Distance spheres around each satellite intersect at one point\relax }}{7}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The differentiation between magnetic and true north\relax }}{8}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Duty Cycle of PWM Signal\relax }}{9}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces The relation between the time the signal is high and the signal period.\relax }}{10}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces A digital signal and its three zones.\relax }}{11}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Analogue signal\relax }}{12}{figure.caption.19}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces The path used to compare the system GPS and the baseline GPS logger.\relax }}{36}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces The calculated bearing and compass bearing overlay.\relax }}{36}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Box and Whisker Graphs Of Distance and Bearing Between the System and the Baseline.\relax }}{37}{}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Wiring diagram for the PWM oscilloscope test.\relax }}{38}{}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Results of the PWM output displayed on an oscilloscope.\relax }}{39}{}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces The digital response of the throttle.\relax }}{39}{}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces The thruster in a bucket of water to test it without 'dry running'.\relax }}{40}{}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Map of Test 1.\relax }}{42}{}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Results of the PWM output displayed on an oscilloscope.\relax }}{45}{}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Map of Test 2.\relax }}{46}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Broader System Diagram\relax }}{13}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Wiring Diagram for the System\relax }}{14}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The vessel, a Spider 3.\relax }}{16}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Final throttle system with two potentiometers (POT) on either end.\relax }}{18}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces The microcontroller used: an Arduino DUE\relax }}{19}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Pololu LSM303 AltIMU module.\relax }}{20}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Simple illustration of a linear potentiometer\relax }}{22}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces The wiring circuit inside of the control box.\relax }}{22}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces The control box with its 3 switches and 4 LEDs.\relax }}{23}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces The PWM signal generator used to ensure the ESC was working.\relax }}{23}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Flow diagram of the main states in the system.\relax }}{28}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Flow diagram of \emph {updatePWM().}\relax }}{29}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces The flow diagram of receiving the GPS data.\relax }}{31}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Flow diagram of the autonomous navigation\relax }}{33}{figure.caption.56}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The path used to compare the system GPS and the baseline GPS logger.\relax }}{36}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The calculated bearing and compass bearing overlay.\relax }}{36}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Box and Whisker Graphs Of Distance and Bearing Between the System and the Baseline.\relax }}{37}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Wiring diagram for the PWM oscilloscope test.\relax }}{38}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Results of the PWM output displayed on an oscilloscope.\relax }}{39}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces The digital response of the throttle.\relax }}{39}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces The thruster in a bucket of water to test it without 'dry running'.\relax }}{40}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Map of Test 1.\relax }}{42}{figure.caption.66}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Results of the PWM output displayed on an oscilloscope.\relax }}{45}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Map of Test 2.\relax }}{46}{figure.caption.68}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -11,6 +11,8 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 A level-1 auxiliary file: ECSA.aux
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+A level-1 auxiliary file: nomenkl.aux
 Reallocating 'name_of_file' (item size: 1) to 16 items.
 A level-1 auxiliary file: Chp-1-Intro.aux
 Reallocating 'name_of_file' (item size: 1) to 20 items.
@@ -19,52 +21,62 @@ Reallocating 'name_of_file' (item size: 1) to 22 items.
 A level-1 auxiliary file: Chp-3-Methodology.aux
 Reallocating 'name_of_file' (item size: 1) to 18 items.
 A level-1 auxiliary file: Chp-4-Testing.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: conclusion.aux
 Reallocating 'name_of_file' (item size: 1) to 4 items.
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+A level-1 auxiliary file: App-A.aux
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+A level-1 auxiliary file: App-B.aux
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+A level-1 auxiliary file: App-C.aux
 Database file #1: bib.bib
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Warning--to sort, need author or key in HistGPSProgram
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Warning--empty author in HistGPSProgram
 Warning--empty journal in HistGPSProgram
-You've used 12 entries,
+Warning--empty journal in STMicroelectronics2015
+Warning--there's a number but no volume in STMicroelectronics2015
+You've used 20 entries,
             3324 wiz_defined-function locations,
-            726 strings with 7248 characters,
-and the built_in function-call counts, 6944 in all, are:
-= -- 552
-> -- 158
-< -- 12
-+ -- 63
-- -- 51
-* -- 554
-:= -- 968
-add.period$ -- 29
-call.type$ -- 12
-change.case$ -- 77
-chr.to.int$ -- 12
-cite$ -- 17
-duplicate$ -- 649
-empty$ -- 652
-format.name$ -- 102
-if$ -- 1387
+            774 strings with 8086 characters,
+and the built_in function-call counts, 11035 in all, are:
+= -- 870
+> -- 238
+< -- 22
++ -- 95
+- -- 75
+* -- 845
+:= -- 1570
+add.period$ -- 50
+call.type$ -- 20
+change.case$ -- 123
+chr.to.int$ -- 20
+cite$ -- 27
+duplicate$ -- 1038
+empty$ -- 1054
+format.name$ -- 150
+if$ -- 2207
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 79
-newline$ -- 83
-num.names$ -- 44
-pop$ -- 233
+missing$ -- 132
+newline$ -- 122
+num.names$ -- 76
+pop$ -- 373
 preamble$ -- 1
-purify$ -- 65
+purify$ -- 105
 quote$ -- 0
-skip$ -- 218
+skip$ -- 362
 stack$ -- 0
-substring$ -- 350
-swap$ -- 233
-text.length$ -- 2
+substring$ -- 543
+swap$ -- 369
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 108
-warning$ -- 3
-while$ -- 68
+type$ -- 174
+warning$ -- 5
+while$ -- 111
 width$ -- 0
-write$ -- 160
-(There were 3 warnings)
+write$ -- 252
+(There were 5 warnings)
