@@ -256,7 +256,8 @@ void navigate(){
 		throttle_percentage = 95;
 	}
 	if(abs(bearing_error) < full_steer_angle){
-		steering_percentage = ((float)abs(bearing_error)/(float)full_steer_angle) * 100;
+		steering_percentage = 
+		((float)abs(bearing_error)/(float)full_steer_angle) * 100;
 	}else{
 		steering_percentage = 100;
 	}

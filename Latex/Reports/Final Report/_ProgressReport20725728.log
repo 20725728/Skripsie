@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.7.20)  20 OCT 2022 12:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.7.20)  21 OCT 2022 08:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -600,9 +600,9 @@ File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count333
 \l__pdf_internal_box=\box73
 ) (_ProgressReport20725728.aux (declaration.aux) (summary.aux)
-(ECSA.aux) (abstract.aux) (nomenkl.aux) (Chp-1-Intro.aux) (Chp-2-LitReview.aux)
-(Chp-3-Methodology.aux) (Chp-4-Testing.aux) (conclusion.aux) (App-A.aux)
-(App-B.aux) (App-C.aux))
+(ECSA.aux) (abstract.aux) (ack.aux) (nomenkl.aux) (Chp-1-Intro.aux)
+(Chp-2-LitReview.aux) (Chp-3-Methodology.aux) (Chp-4-Testing.aux)
+(conclusion.aux) (App-A.aux) (App-B.aux) (App-C.aux))
 \openout1 = `_ProgressReport20725728.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
@@ -624,8 +624,8 @@ LaTeX Font Info:    ... okay on input line 94.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
 Package hyperref Info: Link coloring OFF on input line 94.
- (_ProgressReport20725728.out)
-(_ProgressReport20725728.out)
+
+(_ProgressReport20725728.out) (_ProgressReport20725728.out)
 \@outlinefile=\write3
 \openout3 = `_ProgressReport20725728.out'.
 
@@ -674,7 +674,7 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count340
-<USlogo-top.pdf, id=207, 560.0925pt x 183.68625pt>
+<USlogo-top.pdf, id=211, 560.0925pt x 183.68625pt>
 File: USlogo-top.pdf Graphic file (type pdf)
 <use USlogo-top.pdf>
 Package pdftex.def Info: USlogo-top.pdf  used on input line 98.
@@ -752,7 +752,15 @@ Underfull \hbox (badness 1389) in paragraph at lines 35--36
 
 
 
-] (_ProgressReport20725728.toc [5
+]
+\openout2 = `ack.aux'.
+
+ (ack.tex) [5
+
+
+
+
+] (_ProgressReport20725728.toc [6
 
 
 
@@ -760,24 +768,24 @@ Underfull \hbox (badness 1389) in paragraph at lines 35--36
 \tf@toc=\write4
 \openout4 = `_ProgressReport20725728.toc'.
 
- [6]
-(_ProgressReport20725728.lof [7
+
+[7] (_ProgressReport20725728.lof [8
 
 ])
 \tf@lof=\write5
 \openout5 = `_ProgressReport20725728.lof'.
 
- [8] (_ProgressReport20725728.lot)
+ [9] (_ProgressReport20725728.lot)
 \tf@lot=\write6
 \openout6 = `_ProgressReport20725728.lot'.
 
- [9
+
+[10
 
 ]
 \openout2 = `nomenkl.aux'.
 
-
-(nomenkl.tex) [10
+ (nomenkl.tex) [11
 
 
 ]
@@ -802,36 +810,36 @@ Chapter 2.
 
 
 ]
-<figures/historyGPS.jpg, id=439, 456.0237pt x 369.66106pt>
+<figures/historyGPS.jpg, id=448, 456.0237pt x 369.66106pt>
 File: figures/historyGPS.jpg Graphic file (type jpg)
 <use figures/historyGPS.jpg>
 Package pdftex.def Info: figures/historyGPS.jpg  used on input line 10.
 (pdftex.def)             Requested size: 274.29742pt x 222.35677pt.
  [4 <./figures/historyGPS.jpg>] [5]
-<figures/GPStriangle.png, id=469, 602.25pt x 602.25pt>
+<figures/GPStriangle.png, id=478, 602.25pt x 602.25pt>
 File: figures/GPStriangle.png Graphic file (type png)
 <use figures/GPStriangle.png>
 Package pdftex.def Info: figures/GPStriangle.png  used on input line 35.
 (pdftex.def)             Requested size: 211.0pt x 211.00201pt.
  [6] [7 <./figures/GPStriangle.png>]
-<figures/tiltedDipole.jpg, id=491, 302.63063pt x 216.05719pt>
+<figures/tiltedDipole.jpg, id=501, 302.63063pt x 216.05719pt>
 File: figures/tiltedDipole.jpg Graphic file (type jpg)
 <use figures/tiltedDipole.jpg>
 Package pdftex.def Info: figures/tiltedDipole.jpg  used on input line 48.
 (pdftex.def)             Requested size: 274.29742pt x 195.831pt.
-<figures/PWM.jpg, id=495, 353.82187pt x 379.4175pt>
+<figures/PWM.jpg, id=505, 353.82187pt x 379.4175pt>
 File: figures/PWM.jpg Graphic file (type jpg)
 <use figures/PWM.jpg>
 Package pdftex.def Info: figures/PWM.jpg  used on input line 57.
 (pdftex.def)             Requested size: 211.0pt x 226.26857pt.
 
 [8 <./figures/tiltedDipole.jpg>] [9 <./figures/PWM.jpg>]
-<figures/PulseWideWave.jpg, id=513, 293.59688pt x 219.82124pt>
+<figures/PulseWideWave.jpg, id=522, 293.59688pt x 219.82124pt>
 File: figures/PulseWideWave.jpg Graphic file (type jpg)
 <use figures/PulseWideWave.jpg>
 Package pdftex.def Info: figures/PulseWideWave.jpg  used on input line 76.
 (pdftex.def)             Requested size: 274.29742pt x 205.3708pt.
-<figures/DigitalSignal.jpg, id=514, 398.23781pt x 199.49532pt>
+<figures/DigitalSignal.jpg, id=523, 398.23781pt x 199.49532pt>
 File: figures/DigitalSignal.jpg Graphic file (type jpg)
 <use figures/DigitalSignal.jpg>
 Package pdftex.def Info: figures/DigitalSignal.jpg  used on input line 84.
@@ -845,7 +853,7 @@ Missing character: There is no Â in font cmr12!
 LaTeX Warning: Command \^ invalid in math mode on input line 93.
 
 Missing character: There is no Â in font cmr12!
-<figures/AnalogSignal.jpg, id=522, 398.23781pt x 199.49532pt>
+<figures/AnalogSignal.jpg, id=531, 398.23781pt x 199.49532pt>
 File: figures/AnalogSignal.jpg Graphic file (type jpg)
 <use figures/AnalogSignal.jpg>
 Package pdftex.def Info: figures/AnalogSignal.jpg  used on input line 96.
@@ -856,7 +864,7 @@ Package pdftex.def Info: figures/AnalogSignal.jpg  used on input line 96.
 
 (Chp-3-Methodology.tex
 Chapter 3.
-<figures/BoatLayout.jpg, id=534, 1086.0575pt x 542.025pt>
+<figures/BoatLayout.jpg, id=543, 1086.0575pt x 542.025pt>
 File: figures/BoatLayout.jpg Graphic file (type jpg)
 <use figures/BoatLayout.jpg>
 Package pdftex.def Info: figures/BoatLayout.jpg  used on input line 5.
@@ -867,49 +875,49 @@ Package pdftex.def Info: figures/BoatLayout.jpg  used on input line 5.
 
 
  <./figures/BoatLayout.jpg>]
-<figures/Wiring diagram.jpg, id=543, 1712.3975pt x 987.69pt>
+<figures/Wiring diagram.jpg, id=553, 1712.3975pt x 987.69pt>
 File: figures/Wiring diagram.jpg Graphic file (type jpg)
 <use figures/Wiring diagram.jpg>
 Package pdftex.def Info: figures/Wiring diagram.jpg  used on input line 14.
 (pdftex.def)             Requested size: 422.0pt x 243.3953pt.
  [14 <./figures/Wiring diagram.jpg>]
-<figures/spider3.jpg, id=549, 1284.8pt x 963.6pt>
+<figures/spider3.jpg, id=558, 1284.8pt x 963.6pt>
 File: figures/spider3.jpg Graphic file (type jpg)
 <use figures/spider3.jpg>
 Package pdftex.def Info: figures/spider3.jpg  used on input line 35.
 (pdftex.def)             Requested size: 274.29742pt x 205.71432pt.
  [15]
 [16 <./figures/spider3.jpg>]
-<figures/throttle.jpg, id=560, 1284.8pt x 963.6pt>
+<figures/throttle.jpg, id=569, 1284.8pt x 963.6pt>
 File: figures/throttle.jpg Graphic file (type jpg)
 <use figures/throttle.jpg>
 Package pdftex.def Info: figures/throttle.jpg  used on input line 51.
 (pdftex.def)             Requested size: 232.10129pt x 174.07275pt.
  [17]
-<figures/DUE.jpg, id=568, 144.54pt x 144.54pt>
+<figures/DUE.jpg, id=577, 144.54pt x 144.54pt>
 File: figures/DUE.jpg Graphic file (type jpg)
 <use figures/DUE.jpg>
 Package pdftex.def Info: figures/DUE.jpg  used on input line 64.
 (pdftex.def)             Requested size: 202.5582pt x 202.56853pt.
  [18 <./figures/throttle.jpg>] [19 <./figures/DUE.jpg>]
-<figures/compass.jpg, id=598, 466.25807pt x 373.00645pt>
+<figures/compass.jpg, id=608, 466.25807pt x 373.00645pt>
 File: figures/compass.jpg Graphic file (type jpg)
 <use figures/compass.jpg>
 Package pdftex.def Info: figures/compass.jpg  used on input line 90.
 (pdftex.def)             Requested size: 67.52155pt x 54.0134pt.
  [20 <./figures/compass.jpg>]
-<figures/POT.jpg, id=612, 606.265pt x 730.73pt>
+<figures/POT.jpg, id=621, 606.265pt x 730.73pt>
 File: figures/POT.jpg Graphic file (type jpg)
 <use figures/POT.jpg>
 Package pdftex.def Info: figures/POT.jpg  used on input line 120.
 (pdftex.def)             Requested size: 105.5pt x 127.1549pt.
-<figures/BoxCircuit.jpg, id=614, 1549.79pt x 1017.8025pt>
+<figures/BoxCircuit.jpg, id=623, 1549.79pt x 1017.8025pt>
 File: figures/BoxCircuit.jpg Graphic file (type jpg)
 <use figures/BoxCircuit.jpg>
 Package pdftex.def Info: figures/BoxCircuit.jpg  used on input line 129.
 (pdftex.def)             Requested size: 274.29742pt x 180.13705pt.
  [21]
-<figures/controlBox.jpg, id=626, 1284.8pt x 722.7pt>
+<figures/controlBox.jpg, id=635, 1284.8pt x 722.7pt>
 File: figures/controlBox.jpg Graphic file (type jpg)
 <use figures/controlBox.jpg>
 Package pdftex.def Info: figures/controlBox.jpg  used on input line 137.
@@ -929,7 +937,7 @@ Overfull \hbox (37.59354pt too wide) in paragraph at lines 146--167
  [] 
  []
 
-<figures/pwmGen.jpg, id=627, 1282.7925pt x 545.03625pt>
+<figures/pwmGen.jpg, id=636, 1282.7925pt x 545.03625pt>
 File: figures/pwmGen.jpg Graphic file (type jpg)
 <use figures/pwmGen.jpg>
 Package pdftex.def Info: figures/pwmGen.jpg  used on input line 173.
@@ -943,26 +951,26 @@ Overfull \hbox (48.84915pt too wide) in paragraph at lines 227--230
 [26]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 270.
-<figures/statemachine.png, id=673, 1854.93pt x 1797.71625pt>
+<figures/statemachine.png, id=682, 1854.93pt x 1797.71625pt>
 File: figures/statemachine.png Graphic file (type png)
 <use figures/statemachine.png>
 Package pdftex.def Info: figures/statemachine.png  used on input line 294.
 (pdftex.def)             Requested size: 278.52155pt x 269.9201pt.
  [27]
-<figures/UpdatePWM.jpg, id=688, 825.0825pt x 1708.3825pt>
+<figures/UpdatePWM.jpg, id=697, 825.0825pt x 1708.3825pt>
 File: figures/UpdatePWM.jpg Graphic file (type jpg)
 <use figures/UpdatePWM.jpg>
 Package pdftex.def Info: figures/UpdatePWM.jpg  used on input line 309.
 (pdftex.def)             Requested size: 232.10129pt x 480.55962pt.
  [28 <./figures/statemachine.png>] [29 <./figures/UpdatePWM.jpg>]
-<figures/receiveGPS.jpg, id=709, 805.0075pt x 1166.3575pt>
+<figures/receiveGPS.jpg, id=718, 805.0075pt x 1166.3575pt>
 File: figures/receiveGPS.jpg Graphic file (type jpg)
 <use figures/receiveGPS.jpg>
 Package pdftex.def Info: figures/receiveGPS.jpg  used on input line 375.
 (pdftex.def)             Requested size: 147.70258pt x 213.99304pt.
 
 [30] [31 <./figures/receiveGPS.jpg>]
-<figures/autoNav.jpg, id=731, 1226.5825pt x 2091.815pt>
+<figures/autoNav.jpg, id=741, 1226.5825pt x 2091.815pt>
 File: figures/autoNav.jpg Graphic file (type jpg)
 <use figures/autoNav.jpg>
 Package pdftex.def Info: figures/autoNav.jpg  used on input line 397.
@@ -973,23 +981,23 @@ Package pdftex.def Info: figures/autoNav.jpg  used on input line 397.
 
  (Chp-4-Testing.tex
 Chapter 4.
-<figures/graphGPSMap.jpg, id=755, 600.06pt x 340.545pt>
+<figures/graphGPSMap.jpg, id=764, 600.06pt x 340.545pt>
 File: figures/graphGPSMap.jpg Graphic file (type jpg)
 <use figures/graphGPSMap.jpg>
 Package pdftex.def Info: figures/graphGPSMap.jpg  used on input line 7.
 (pdftex.def)             Requested size: 337.60129pt x 191.60284pt.
-<figures/graphBearingManual.jpg, id=757, 624.15pt x 320.397pt>
+<figures/graphBearingManual.jpg, id=766, 624.15pt x 320.397pt>
 File: figures/graphBearingManual.jpg Graphic file (type jpg)
 <use figures/graphBearingManual.jpg>
 Package pdftex.def Info: figures/graphBearingManual.jpg  used on input line 15.
 
 (pdftex.def)             Requested size: 337.60129pt x 173.30513pt.
-<figures/distBxWh.jpg, id=763, 311.199pt x 376.68pt>
+<figures/distBxWh.jpg, id=772, 311.199pt x 376.68pt>
 File: figures/distBxWh.jpg Graphic file (type jpg)
 <use figures/distBxWh.jpg>
 Package pdftex.def Info: figures/distBxWh.jpg  used on input line 25.
 (pdftex.def)             Requested size: 189.89871pt x 229.86067pt.
-<figures/bearingBxWh.jpg, id=764, 329.814pt x 376.68pt>
+<figures/bearingBxWh.jpg, id=773, 329.814pt x 376.68pt>
 File: figures/bearingBxWh.jpg Graphic file (type jpg)
 <use figures/bearingBxWh.jpg>
 Package pdftex.def Info: figures/bearingBxWh.jpg  used on input line 30.
@@ -1000,39 +1008,39 @@ Package pdftex.def Info: figures/bearingBxWh.jpg  used on input line 30.
 
 
 ] [36 <./figures/graphGPSMap.jpg> <./figures/graphBearingManual.jpg>]
-<figures/PWMtest.jpg, id=774, 1065.9825pt x 523.9575pt>
+<figures/PWMtest.jpg, id=783, 1065.9825pt x 523.9575pt>
 File: figures/PWMtest.jpg Graphic file (type jpg)
 <use figures/PWMtest.jpg>
 Package pdftex.def Info: figures/PWMtest.jpg  used on input line 41.
 (pdftex.def)             Requested size: 253.20258pt x 124.44919pt.
 
 [37 <./figures/distBxWh.jpg> <./figures/bearingBxWh.jpg>]
-<figures/PWMfoward.jpg, id=783, 1284.8pt x 735.74875pt>
+<figures/PWMfoward.jpg, id=793, 1284.8pt x 735.74875pt>
 File: figures/PWMfoward.jpg Graphic file (type jpg)
 <use figures/PWMfoward.jpg>
 Package pdftex.def Info: figures/PWMfoward.jpg  used on input line 51.
 (pdftex.def)             Requested size: 198.34052pt x 113.57957pt.
-<figures/PWMneutral.jpg, id=784, 1284.8pt x 705.63625pt>
+<figures/PWMneutral.jpg, id=794, 1284.8pt x 705.63625pt>
 File: figures/PWMneutral.jpg Graphic file (type jpg)
 <use figures/PWMneutral.jpg>
 Package pdftex.def Info: figures/PWMneutral.jpg  used on input line 56.
 (pdftex.def)             Requested size: 198.34052pt x 108.93103pt.
-<figures/PWMreverse.jpg, id=785, 1284.8pt x 709.65125pt>
+<figures/PWMreverse.jpg, id=795, 1284.8pt x 709.65125pt>
 File: figures/PWMreverse.jpg Graphic file (type jpg)
 <use figures/PWMreverse.jpg>
 Package pdftex.def Info: figures/PWMreverse.jpg  used on input line 61.
 (pdftex.def)             Requested size: 198.34052pt x 109.55084pt.
-<figures/PWMboth.jpg, id=786, 1284.8pt x 712.6625pt>
+<figures/PWMboth.jpg, id=796, 1284.8pt x 712.6625pt>
 File: figures/PWMboth.jpg Graphic file (type jpg)
 <use figures/PWMboth.jpg>
 Package pdftex.def Info: figures/PWMboth.jpg  used on input line 66.
 (pdftex.def)             Requested size: 198.34052pt x 110.01569pt.
-<figures/graphThrottle.jpg, id=787, 764.967pt x 360.474pt>
+<figures/graphThrottle.jpg, id=797, 764.967pt x 360.474pt>
 File: figures/graphThrottle.jpg Graphic file (type jpg)
 <use figures/graphThrottle.jpg>
 Package pdftex.def Info: figures/graphThrottle.jpg  used on input line 77.
 (pdftex.def)             Requested size: 337.60129pt x 159.08757pt.
-<figures/thrusterBucket.jpg, id=792, 1160.335pt x 1284.8pt>
+<figures/thrusterBucket.jpg, id=802, 1160.335pt x 1284.8pt>
 File: figures/thrusterBucket.jpg Graphic file (type jpg)
 <use figures/thrusterBucket.jpg>
 Package pdftex.def Info: figures/thrusterBucket.jpg  used on input line 85.
@@ -1040,7 +1048,7 @@ Package pdftex.def Info: figures/thrusterBucket.jpg  used on input line 85.
  [38 <./figures/PWMtest.jpg>] [39 <./figures/PWMfoward.jpg> <./figures/PWMneutr
 al.jpg> <./figures/PWMreverse.jpg> <./figures/PWMboth.jpg> <./figures/graphThro
 ttle.jpg>] [40 <./figures/thrusterBucket.jpg>]
-<figures/graphMap.jpg, id=809, 888.264pt x 421.794pt>
+<figures/graphMap.jpg, id=818, 888.264pt x 421.794pt>
 File: figures/graphMap.jpg Graphic file (type jpg)
 <use figures/graphMap.jpg>
 Package pdftex.def Info: figures/graphMap.jpg  used on input line 155.
@@ -1054,18 +1062,18 @@ Overfull \vbox (11.62173pt too high) has occurred while \output is active []
 
 
 [42 <./figures/graphMap.jpg>] [43]
-<figures/graphBearingError.jpg, id=836, 589.329pt x 302.658pt>
+<figures/graphBearingError.jpg, id=846, 589.329pt x 302.658pt>
 File: figures/graphBearingError.jpg Graphic file (type jpg)
 <use figures/graphBearingError.jpg>
 Package pdftex.def Info: figures/graphBearingError.jpg  used on input line 174.
 
 (pdftex.def)             Requested size: 337.60129pt x 173.38045pt.
-<figures/graphDistance.jpg, id=837, 631.377pt x 325.872pt>
+<figures/graphDistance.jpg, id=847, 631.377pt x 325.872pt>
 File: figures/graphDistance.jpg Graphic file (type jpg)
 <use figures/graphDistance.jpg>
 Package pdftex.def Info: figures/graphDistance.jpg  used on input line 179.
 (pdftex.def)             Requested size: 337.60129pt x 174.24283pt.
-<figures/graphBearings.jpg, id=838, 720.291pt x 362.445pt>
+<figures/graphBearings.jpg, id=848, 720.291pt x 362.445pt>
 File: figures/graphBearings.jpg Graphic file (type jpg)
 <use figures/graphBearings.jpg>
 Package pdftex.def Info: figures/graphBearings.jpg  used on input line 184.
@@ -1076,7 +1084,7 @@ LaTeX Warning: Float too large for page by 50.0523pt on input line 191.
 
 [44] [45 <./figures/graphBearingError.jpg> <./figures/graphDistance.jpg> <./fig
 ures/graphBearings.jpg>]
-<figures/graphMap2.jpg, id=848, 777.231pt x 421.794pt>
+<figures/graphMap2.jpg, id=857, 777.231pt x 421.794pt>
 File: figures/graphMap2.jpg Graphic file (type jpg)
 <use figures/graphMap2.jpg>
 Package pdftex.def Info: figures/graphMap2.jpg  used on input line 195.
@@ -1216,11 +1224,14 @@ Overfull \hbox (2.01065pt too wide) in paragraph at lines 44--44
 []|\T1/cmr/bx/n/10.95 238500| 
  []
 
+<figures/Schedule.png, id=907, 904.1278pt x 538.26094pt>
+File: figures/Schedule.png Graphic file (type png)
+<use figures/Schedule.png>
+Package pdftex.def Info: figures/Schedule.png  used on input line 51.
+(pdftex.def)             Requested size: 592.0pt x 352.43619pt.
 [52
 
-]) [53
-
-]
+] [53 <./figures/Schedule.png>])
 \openout2 = `App-B.aux'.
 
  (App-B.tex
@@ -1358,6 +1369,7 @@ LaTeX Warning: Float too large for page by 45.99977pt on input line 38.
 
 
 
+
 ] [55]
 \openout2 = `App-C.aux'.
 
@@ -1381,27 +1393,22 @@ nput line 7.
 
 
 
-] [57] [58] [59] [60] [61]
-Overfull \hbox (94.00763pt too wide) in paragraph at lines 259--260
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[62]) [63] (_ProgressReport20725728.aux (declaration.aux) (summary.aux)
-(ECSA.aux) (abstract.aux) (nomenkl.aux) (Chp-1-Intro.aux) (Chp-2-LitReview.aux)
-(Chp-3-Methodology.aux) (Chp-4-Testing.aux) (conclusion.aux) (App-A.aux)
-(App-B.aux) (App-C.aux))
+] [57] [58] [59] [60] [61] [62]) [63] (_ProgressReport20725728.aux
+(declaration.aux) (summary.aux) (ECSA.aux) (abstract.aux) (ack.aux)
+(nomenkl.aux) (Chp-1-Intro.aux) (Chp-2-LitReview.aux) (Chp-3-Methodology.aux)
+(Chp-4-Testing.aux) (conclusion.aux) (App-A.aux) (App-B.aux) (App-C.aux))
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `_ProgressReport20725728.out' has not changed
 .
-(rerunfilecheck)             Checksum: 1B9EF1C199C1AFC1EDE74C5425742B69;6205.
+(rerunfilecheck)             Checksum: 128C8732627A7B1B4CC9C14E7F4ED884;6330.
  ) 
 Here is how much of TeX's memory you used:
- 21058 strings out of 478338
- 399696 string characters out of 2836228
- 871583 words of memory out of 3000000
- 38503 multiletter control sequences out of 15000+600000
+ 21097 strings out of 478338
+ 400627 string characters out of 2836228
+ 871321 words of memory out of 3000000
+ 38531 multiletter control sequences out of 15000+600000
  505739 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,16n,77p,1441b,2507s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1439,9 +1446,9 @@ iKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Gurkin/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Gurkin/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Gurk
 in/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on _ProgressReport20725728.pdf (74 pages, 6621242 bytes).
+Output written on _ProgressReport20725728.pdf (75 pages, 6742941 bytes).
 PDF statistics:
- 2234 PDF objects out of 2487 (max. 8388607)
- 528 named destinations out of 1000 (max. 500000)
- 599 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2248 PDF objects out of 2487 (max. 8388607)
+ 531 named destinations out of 1000 (max. 500000)
+ 612 words of extra memory for PDF output out of 10000 (max. 10000000)
 

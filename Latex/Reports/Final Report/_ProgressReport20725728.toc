@@ -3,10 +3,11 @@
 \contentsline {chapter}{Executive Summary}{ii}{section*.2}%
 \contentsline {chapter}{ECSA Exit Level Outcomes}{iii}{section*.3}%
 \contentsline {chapter}{Abstract}{iv}{chapter*.4}%
-\contentsline {chapter}{Contents}{v}{section*.6}%
-\contentsline {chapter}{List of Figures}{vii}{section*.8}%
-\contentsline {chapter}{List of Tables}{ix}{section*.10}%
-\contentsline {chapter}{Nomenclature}{x}{chapter*.11}%
+\contentsline {chapter}{Acknowledgements}{v}{chapter*.5}%
+\contentsline {chapter}{Contents}{vi}{section*.7}%
+\contentsline {chapter}{List of Figures}{viii}{section*.9}%
+\contentsline {chapter}{List of Tables}{x}{section*.11}%
+\contentsline {chapter}{Nomenclature}{xi}{chapter*.12}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Objectives}{1}{section.1.2}%
@@ -29,28 +30,28 @@
 \contentsline {subsection}{\numberline {3.3.2}Engineering Requirements}{15}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Differential Steering}{16}{subsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.3.4}Hardware}{16}{subsection.3.3.4}%
-\contentsline {subsubsection}{Vessel}{16}{section*.23}%
-\contentsline {subsubsection}{Thrusters}{17}{section*.24}%
-\contentsline {subsubsection}{Power Supply}{17}{section*.25}%
-\contentsline {subsubsection}{Throttle}{18}{section*.27}%
+\contentsline {subsubsection}{Vessel}{16}{section*.24}%
+\contentsline {subsubsection}{Thrusters}{17}{section*.25}%
+\contentsline {subsubsection}{Power Supply}{17}{section*.26}%
+\contentsline {subsubsection}{Throttle}{18}{section*.28}%
 \contentsline {subsection}{\numberline {3.3.5}Electronics}{18}{subsection.3.3.5}%
-\contentsline {subsubsection}{Arduino Due}{18}{section*.28}%
-\contentsline {subsubsection}{SD Card Module}{20}{section*.30}%
-\contentsline {subsubsection}{GPS Module}{20}{section*.31}%
-\contentsline {subsubsection}{Compass}{20}{section*.32}%
-\contentsline {subsubsection}{ESC}{21}{section*.34}%
-\contentsline {subsubsection}{POT}{21}{section*.35}%
-\contentsline {subsubsection}{Switches and LEDs}{22}{section*.38}%
+\contentsline {subsubsection}{Arduino Due}{18}{section*.29}%
+\contentsline {subsubsection}{SD Card Module}{20}{section*.31}%
+\contentsline {subsubsection}{GPS Module}{20}{section*.32}%
+\contentsline {subsubsection}{Compass}{20}{section*.33}%
+\contentsline {subsubsection}{ESC}{21}{section*.35}%
+\contentsline {subsubsection}{POT}{21}{section*.36}%
+\contentsline {subsubsection}{Switches and LEDs}{22}{section*.39}%
 \contentsline {subsection}{\numberline {3.3.6}Software}{23}{subsection.3.3.6}%
-\contentsline {subsubsection}{PWM Signal}{23}{section*.42}%
-\contentsline {subsubsection}{Analogue to Digital Converter}{25}{section*.45}%
-\contentsline {subsubsection}{GPS}{26}{section*.46}%
-\contentsline {subsubsection}{Compass}{27}{section*.48}%
+\contentsline {subsubsection}{PWM Signal}{23}{section*.43}%
+\contentsline {subsubsection}{Analogue to Digital Converter}{25}{section*.46}%
+\contentsline {subsubsection}{GPS}{26}{section*.47}%
+\contentsline {subsubsection}{Compass}{27}{section*.49}%
 \contentsline {subsection}{\numberline {3.3.7}Control System}{27}{subsection.3.3.7}%
-\contentsline {subsubsection}{State Machine}{27}{section*.49}%
-\contentsline {subsubsection}{Manual Control}{28}{section*.51}%
-\contentsline {subsubsection}{Receiving GPS Data}{30}{section*.53}%
-\contentsline {subsubsection}{Autonomous Navigation}{32}{section*.55}%
+\contentsline {subsubsection}{State Machine}{27}{section*.50}%
+\contentsline {subsubsection}{Manual Control}{28}{section*.52}%
+\contentsline {subsubsection}{Receiving GPS Data}{30}{section*.54}%
+\contentsline {subsubsection}{Autonomous Navigation}{32}{section*.56}%
 \contentsline {chapter}{\numberline {4}Testing and Results}{35}{chapter.4}%
 \contentsline {section}{\numberline {4.1}GPS and Compass}{35}{section.4.1}%
 \contentsline {section}{\numberline {4.2}PWM Output}{37}{section.4.2}%
@@ -63,7 +64,7 @@
 \contentsline {chapter}{\numberline {5}Conclusion}{47}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Achieved}{47}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Future Development}{47}{section.5.2}%
-\contentsline {chapter}{List of References}{49}{section*.70}%
+\contentsline {chapter}{List of References}{49}{section*.71}%
 \contentsline {chapter}{\numberline {A}Techno-Economic Analysis}{51}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Budget}{52}{section.A.1}%
 \contentsline {section}{\numberline {A.2}Schedule}{53}{section.A.2}%
